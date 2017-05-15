@@ -1,0 +1,218 @@
+<?xml version='1.0' encoding='iso-8859-1'?>
+<!-- Vistalytics - iFile Suite version 6.233 -->
+<link:linkbase xmlns="http://www.xbrl.org/2003/linkbase"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd"
+		xmlns:fil="http://www.momentousentertaingroupinc.com/20161231"
+		xmlns:link="http://www.xbrl.org/2003/linkbase"
+		xmlns:xlink="http://www.w3.org/1999/xlink"
+		xmlns:xbrldt="http://xbrl.org/2005/xbrldt"
+		xmlns:xbrli="http://www.xbrl.org/2003/instance">
+	<link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/all" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#all"/>
+	<link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#hypercube-dimension"/>
+	<link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/dimension-default" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#dimension-default"/>
+	<link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#dimension-domain"/>
+	<link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#domain-member"/>
+	<link:roleRef roleURI="http://www.momentousentertaingroupinc.com/20161231/role/idr_DocumentDocumentAndEntityInformation" xlink:type="simple" xlink:href="mmeg-20161231.xsd#idr_DocumentDocumentAndEntityInformation"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.momentousentertaingroupinc.com/20161231/role/idr_DocumentDocumentAndEntityInformation">
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_StatementTable' xlink:label='us-gaap_StatementTable'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_StatementClassOfStockAxis' xlink:label='us-gaap_StatementClassOfStockAxis'/>
+		<link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/hypercube-dimension' xlink:from='us-gaap_StatementTable' xlink:to='us-gaap_StatementClassOfStockAxis' use='optional' order='1.0' xbrldt:contextElement='segment'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_ClassOfStockDomain' xlink:label='us-gaap_ClassOfStockDomain'/>
+		<link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/dimension-domain' xlink:from='us-gaap_StatementClassOfStockAxis' xlink:to='us-gaap_ClassOfStockDomain' use='optional' order='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_ClassOfStockDomain' xlink:label='us-gaap_ClassOfStockDomain_1'/>
+		<link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/dimension-default' xlink:from='us-gaap_StatementClassOfStockAxis' xlink:to='us-gaap_ClassOfStockDomain_1' use='optional' order='1.0' xbrldt:contextElement='segment'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_SeriesAPreferredStockMember' xlink:label='us-gaap_SeriesAPreferredStockMember'/>
+		<link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/domain-member' xlink:from='us-gaap_ClassOfStockDomain' xlink:to='us-gaap_SeriesAPreferredStockMember' use='optional' order='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_SeriesBPreferredStockMember' xlink:label='us-gaap_SeriesBPreferredStockMember'/>
+		<link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/domain-member' xlink:from='us-gaap_ClassOfStockDomain' xlink:to='us-gaap_SeriesBPreferredStockMember' use='optional' order='2.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_CommonStockMember' xlink:label='us-gaap_CommonStockMember'/>
+		<link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/domain-member' xlink:from='us-gaap_ClassOfStockDomain' xlink:to='us-gaap_CommonStockMember' use='optional' order='3.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_StatementLineItems' xlink:label='us-gaap_StatementLineItems'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.sec.gov/dei/2014/dei-2014-01-31.xsd#dei_EntityRegistrantName' xlink:label='dei_EntityRegistrantName'/>
+		<link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/domain-member' xlink:from='us-gaap_StatementLineItems' xlink:to='dei_EntityRegistrantName' use='optional' order='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.sec.gov/dei/2014/dei-2014-01-31.xsd#dei_TradingSymbol' xlink:label='dei_TradingSymbol'/>
+		<link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/domain-member' xlink:from='us-gaap_StatementLineItems' xlink:to='dei_TradingSymbol' use='optional' order='2.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.sec.gov/dei/2014/dei-2014-01-31.xsd#dei_DocumentType' xlink:label='dei_DocumentType'/>
+		<link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/domain-member' xlink:from='us-gaap_StatementLineItems' xlink:to='dei_DocumentType' use='optional' order='3.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.sec.gov/dei/2014/dei-2014-01-31.xsd#dei_DocumentPeriodEndDate' xlink:label='dei_DocumentPeriodEndDate'/>
+		<link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/domain-member' xlink:from='us-gaap_StatementLineItems' xlink:to='dei_DocumentPeriodEndDate' use='optional' order='4.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.sec.gov/dei/2014/dei-2014-01-31.xsd#dei_AmendmentFlag' xlink:label='dei_AmendmentFlag'/>
+		<link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/domain-member' xlink:from='us-gaap_StatementLineItems' xlink:to='dei_AmendmentFlag' use='optional' order='5.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.sec.gov/dei/2014/dei-2014-01-31.xsd#dei_EntityCentralIndexKey' xlink:label='dei_EntityCentralIndexKey'/>
+		<link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/domain-member' xlink:from='us-gaap_StatementLineItems' xlink:to='dei_EntityCentralIndexKey' use='optional' order='6.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.sec.gov/dei/2014/dei-2014-01-31.xsd#dei_CurrentFiscalYearEndDate' xlink:label='dei_CurrentFiscalYearEndDate'/>
+		<link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/domain-member' xlink:from='us-gaap_StatementLineItems' xlink:to='dei_CurrentFiscalYearEndDate' use='optional' order='7.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.sec.gov/dei/2014/dei-2014-01-31.xsd#dei_EntityCommonStockSharesOutstanding' xlink:label='dei_EntityCommonStockSharesOutstanding'/>
+		<link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/domain-member' xlink:from='us-gaap_StatementLineItems' xlink:to='dei_EntityCommonStockSharesOutstanding' use='optional' order='8.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.sec.gov/dei/2014/dei-2014-01-31.xsd#dei_EntityPublicFloat' xlink:label='dei_EntityPublicFloat'/>
+		<link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/domain-member' xlink:from='us-gaap_StatementLineItems' xlink:to='dei_EntityPublicFloat' use='optional' order='9.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.sec.gov/dei/2014/dei-2014-01-31.xsd#dei_EntityFilerCategory' xlink:label='dei_EntityFilerCategory'/>
+		<link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/domain-member' xlink:from='us-gaap_StatementLineItems' xlink:to='dei_EntityFilerCategory' use='optional' order='10.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.sec.gov/dei/2014/dei-2014-01-31.xsd#dei_EntityCurrentReportingStatus' xlink:label='dei_EntityCurrentReportingStatus'/>
+		<link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/domain-member' xlink:from='us-gaap_StatementLineItems' xlink:to='dei_EntityCurrentReportingStatus' use='optional' order='11.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.sec.gov/dei/2014/dei-2014-01-31.xsd#dei_EntityVoluntaryFilers' xlink:label='dei_EntityVoluntaryFilers'/>
+		<link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/domain-member' xlink:from='us-gaap_StatementLineItems' xlink:to='dei_EntityVoluntaryFilers' use='optional' order='12.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.sec.gov/dei/2014/dei-2014-01-31.xsd#dei_EntityWellKnownSeasonedIssuer' xlink:label='dei_EntityWellKnownSeasonedIssuer'/>
+		<link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/domain-member' xlink:from='us-gaap_StatementLineItems' xlink:to='dei_EntityWellKnownSeasonedIssuer' use='optional' order='13.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.sec.gov/dei/2014/dei-2014-01-31.xsd#dei_DocumentFiscalYearFocus' xlink:label='dei_DocumentFiscalYearFocus'/>
+		<link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/domain-member' xlink:from='us-gaap_StatementLineItems' xlink:to='dei_DocumentFiscalYearFocus' use='optional' order='14.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.sec.gov/dei/2014/dei-2014-01-31.xsd#dei_DocumentFiscalPeriodFocus' xlink:label='dei_DocumentFiscalPeriodFocus'/>
+		<link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/domain-member' xlink:from='us-gaap_StatementLineItems' xlink:to='dei_DocumentFiscalPeriodFocus' use='optional' order='15.0'/>
+		<link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/all' xlink:from='us-gaap_StatementLineItems' xlink:to='us-gaap_StatementTable' order='0.5' xbrldt:closed='true' xbrldt:contextElement='segment' use='optional'/>
+	</link:definitionLink>
+	<link:roleRef roleURI="http://www.momentousentertaingroupinc.com/20161231/role/idr_BALANCESHEETS" xlink:type="simple" xlink:href="mmeg-20161231.xsd#idr_BALANCESHEETS"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.momentousentertaingroupinc.com/20161231/role/idr_BALANCESHEETS"/>
+	<link:roleRef roleURI="http://www.momentousentertaingroupinc.com/20161231/role/idr_BALANCESHEETSPARENTHETICALS" xlink:type="simple" xlink:href="mmeg-20161231.xsd#idr_BALANCESHEETSPARENTHETICALS"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.momentousentertaingroupinc.com/20161231/role/idr_BALANCESHEETSPARENTHETICALS"/>
+	<link:roleRef roleURI="http://www.momentousentertaingroupinc.com/20161231/role/idr_STATEMENTSOFOPERATIONS" xlink:type="simple" xlink:href="mmeg-20161231.xsd#idr_STATEMENTSOFOPERATIONS"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.momentousentertaingroupinc.com/20161231/role/idr_STATEMENTSOFOPERATIONS"/>
+	<link:roleRef roleURI="http://www.momentousentertaingroupinc.com/20161231/role/idr_STATEMENTOFSTOCKHOLDERDEFICIT" xlink:type="simple" xlink:href="mmeg-20161231.xsd#idr_STATEMENTOFSTOCKHOLDERDEFICIT"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.momentousentertaingroupinc.com/20161231/role/idr_STATEMENTOFSTOCKHOLDERDEFICIT">
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_StatementTable' xlink:label='us-gaap_StatementTable'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_StatementEquityComponentsAxis' xlink:label='us-gaap_StatementEquityComponentsAxis'/>
+		<link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/hypercube-dimension' xlink:from='us-gaap_StatementTable' xlink:to='us-gaap_StatementEquityComponentsAxis' use='optional' order='1.0' xbrldt:contextElement='segment'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_EquityComponentDomain' xlink:label='us-gaap_EquityComponentDomain'/>
+		<link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/dimension-domain' xlink:from='us-gaap_StatementEquityComponentsAxis' xlink:to='us-gaap_EquityComponentDomain' use='optional' order='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_EquityComponentDomain' xlink:label='us-gaap_EquityComponentDomain_1'/>
+		<link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/dimension-default' xlink:from='us-gaap_StatementEquityComponentsAxis' xlink:to='us-gaap_EquityComponentDomain_1' use='optional' order='1.0' xbrldt:contextElement='segment'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_PreferredStockMember' xlink:label='us-gaap_PreferredStockMember'/>
+		<link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/domain-member' xlink:from='us-gaap_EquityComponentDomain' xlink:to='us-gaap_PreferredStockMember' use='optional' order='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_CapitalUnitsMember' xlink:label='us-gaap_CapitalUnitsMember'/>
+		<link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/domain-member' xlink:from='us-gaap_EquityComponentDomain' xlink:to='us-gaap_CapitalUnitsMember' use='optional' order='2.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_AdditionalPaidInCapitalMember' xlink:label='us-gaap_AdditionalPaidInCapitalMember'/>
+		<link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/domain-member' xlink:from='us-gaap_EquityComponentDomain' xlink:to='us-gaap_AdditionalPaidInCapitalMember' use='optional' order='3.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_RetainedEarningsMember' xlink:label='us-gaap_RetainedEarningsMember'/>
+		<link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/domain-member' xlink:from='us-gaap_EquityComponentDomain' xlink:to='us-gaap_RetainedEarningsMember' use='optional' order='4.0'/>
+		<link:loc xlink:type='locator' xlink:href='mmeg-20161231.xsd#fil_PreferredStockAmountMember' xlink:label='fil_PreferredStockAmountMember'/>
+		<link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/domain-member' xlink:from='us-gaap_EquityComponentDomain' xlink:to='fil_PreferredStockAmountMember' use='optional' order='5.0'/>
+		<link:loc xlink:type='locator' xlink:href='mmeg-20161231.xsd#fil_CommonStockAmountMember' xlink:label='fil_CommonStockAmountMember'/>
+		<link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/domain-member' xlink:from='us-gaap_EquityComponentDomain' xlink:to='fil_CommonStockAmountMember' use='optional' order='6.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_StatementLineItems' xlink:label='us-gaap_StatementLineItems'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_SharesOutstanding' xlink:label='us-gaap_SharesOutstanding'/>
+		<link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/domain-member' xlink:from='us-gaap_StatementLineItems' xlink:to='us-gaap_SharesOutstanding' use='optional' order='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='mmeg-20161231.xsd#fil_Balance' xlink:label='fil_Balance'/>
+		<link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/domain-member' xlink:from='us-gaap_StatementLineItems' xlink:to='fil_Balance' use='optional' order='2.0'/>
+		<link:loc xlink:type='locator' xlink:href='mmeg-20161231.xsd#fil_Balance1' xlink:label='fil_Balance1'/>
+		<link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/domain-member' xlink:from='us-gaap_StatementLineItems' xlink:to='fil_Balance1' use='optional' order='3.0'/>
+		<link:loc xlink:type='locator' xlink:href='mmeg-20161231.xsd#fil_IssuanceOfPreferredStockAToPresidentForServices' xlink:label='fil_IssuanceOfPreferredStockAToPresidentForServices'/>
+		<link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/domain-member' xlink:from='us-gaap_StatementLineItems' xlink:to='fil_IssuanceOfPreferredStockAToPresidentForServices' use='optional' order='4.0'/>
+		<link:loc xlink:type='locator' xlink:href='mmeg-20161231.xsd#fil_IssuanceOfSharesToVicePresidentForServices' xlink:label='fil_IssuanceOfSharesToVicePresidentForServices'/>
+		<link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/domain-member' xlink:from='us-gaap_StatementLineItems' xlink:to='fil_IssuanceOfSharesToVicePresidentForServices' use='optional' order='5.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_StockIssuedDuringPeriodSharesConversionOfConvertibleSecurities' xlink:label='us-gaap_StockIssuedDuringPeriodSharesConversionOfConvertibleSecurities'/>
+		<link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/domain-member' xlink:from='us-gaap_StatementLineItems' xlink:to='us-gaap_StockIssuedDuringPeriodSharesConversionOfConvertibleSecurities' use='optional' order='6.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_StockIssuedDuringPeriodSharesIssuedForServices' xlink:label='us-gaap_StockIssuedDuringPeriodSharesIssuedForServices'/>
+		<link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/domain-member' xlink:from='us-gaap_StatementLineItems' xlink:to='us-gaap_StockIssuedDuringPeriodSharesIssuedForServices' use='optional' order='7.0'/>
+		<link:loc xlink:type='locator' xlink:href='mmeg-20161231.xsd#fil_NetLoss' xlink:label='fil_NetLoss'/>
+		<link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/domain-member' xlink:from='us-gaap_StatementLineItems' xlink:to='fil_NetLoss' use='optional' order='8.0'/>
+		<link:loc xlink:type='locator' xlink:href='mmeg-20161231.xsd#fil_IssuanceOfPreferredStockBToPresidentAndOfficersForServices' xlink:label='fil_IssuanceOfPreferredStockBToPresidentAndOfficersForServices'/>
+		<link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/domain-member' xlink:from='us-gaap_StatementLineItems' xlink:to='fil_IssuanceOfPreferredStockBToPresidentAndOfficersForServices' use='optional' order='9.0'/>
+		<link:loc xlink:type='locator' xlink:href='mmeg-20161231.xsd#fil_IssuanceOfSharesUponConversionOfDebt' xlink:label='fil_IssuanceOfSharesUponConversionOfDebt'/>
+		<link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/domain-member' xlink:from='us-gaap_StatementLineItems' xlink:to='fil_IssuanceOfSharesUponConversionOfDebt' use='optional' order='10.0'/>
+		<link:loc xlink:type='locator' xlink:href='mmeg-20161231.xsd#fil_IssuanceOfSharesForServices' xlink:label='fil_IssuanceOfSharesForServices'/>
+		<link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/domain-member' xlink:from='us-gaap_StatementLineItems' xlink:to='fil_IssuanceOfSharesForServices' use='optional' order='11.0'/>
+		<link:loc xlink:type='locator' xlink:href='mmeg-20161231.xsd#fil_CancellationOfCommonSharesConversionOfCommonToPreferred' xlink:label='fil_CancellationOfCommonSharesConversionOfCommonToPreferred'/>
+		<link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/domain-member' xlink:from='us-gaap_StatementLineItems' xlink:to='fil_CancellationOfCommonSharesConversionOfCommonToPreferred' use='optional' order='12.0'/>
+		<link:loc xlink:type='locator' xlink:href='mmeg-20161231.xsd#fil_IssuanceOfWarrantShares' xlink:label='fil_IssuanceOfWarrantShares'/>
+		<link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/domain-member' xlink:from='us-gaap_StatementLineItems' xlink:to='fil_IssuanceOfWarrantShares' use='optional' order='13.0'/>
+		<link:loc xlink:type='locator' xlink:href='mmeg-20161231.xsd#fil_NetLoss1' xlink:label='fil_NetLoss1'/>
+		<link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/domain-member' xlink:from='us-gaap_StatementLineItems' xlink:to='fil_NetLoss1' use='optional' order='14.0'/>
+		<link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/all' xlink:from='us-gaap_StatementLineItems' xlink:to='us-gaap_StatementTable' order='0.5' xbrldt:closed='true' xbrldt:contextElement='segment' use='optional'/>
+	</link:definitionLink>
+	<link:roleRef roleURI="http://www.momentousentertaingroupinc.com/20161231/role/idr_STATEMENTSOFCASHFLOWS" xlink:type="simple" xlink:href="mmeg-20161231.xsd#idr_STATEMENTSOFCASHFLOWS"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.momentousentertaingroupinc.com/20161231/role/idr_STATEMENTSOFCASHFLOWS"/>
+	<link:roleRef roleURI="http://www.momentousentertaingroupinc.com/20161231/role/idr_DisclosureORGANIZATIONBASISOFACCOUNTINGANDSIGNIFICANTACCOUNTINGPOLICIES" xlink:type="simple" xlink:href="mmeg-20161231.xsd#idr_DisclosureORGANIZATIONBASISOFACCOUNTINGANDSIGNIFICANTACCOUNTINGPOLICIES"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.momentousentertaingroupinc.com/20161231/role/idr_DisclosureORGANIZATIONBASISOFACCOUNTINGANDSIGNIFICANTACCOUNTINGPOLICIES"/>
+	<link:roleRef roleURI="http://www.momentousentertaingroupinc.com/20161231/role/idr_DisclosureSUMMARYOFSIGNIFICANTACCOUNTINGPOLICIES" xlink:type="simple" xlink:href="mmeg-20161231.xsd#idr_DisclosureSUMMARYOFSIGNIFICANTACCOUNTINGPOLICIES"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.momentousentertaingroupinc.com/20161231/role/idr_DisclosureSUMMARYOFSIGNIFICANTACCOUNTINGPOLICIES"/>
+	<link:roleRef roleURI="http://www.momentousentertaingroupinc.com/20161231/role/idr_DisclosureGOINGCONCERN" xlink:type="simple" xlink:href="mmeg-20161231.xsd#idr_DisclosureGOINGCONCERN"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.momentousentertaingroupinc.com/20161231/role/idr_DisclosureGOINGCONCERN"/>
+	<link:roleRef roleURI="http://www.momentousentertaingroupinc.com/20161231/role/idr_DisclosurePREPAIDACQUISITIONCOSTS" xlink:type="simple" xlink:href="mmeg-20161231.xsd#idr_DisclosurePREPAIDACQUISITIONCOSTS"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.momentousentertaingroupinc.com/20161231/role/idr_DisclosurePREPAIDACQUISITIONCOSTS"/>
+	<link:roleRef roleURI="http://www.momentousentertaingroupinc.com/20161231/role/idr_DisclosureINVENTORIES" xlink:type="simple" xlink:href="mmeg-20161231.xsd#idr_DisclosureINVENTORIES"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.momentousentertaingroupinc.com/20161231/role/idr_DisclosureINVENTORIES"/>
+	<link:roleRef roleURI="http://www.momentousentertaingroupinc.com/20161231/role/idr_DisclosureDEFERREDPRODUCTIONCOSTS" xlink:type="simple" xlink:href="mmeg-20161231.xsd#idr_DisclosureDEFERREDPRODUCTIONCOSTS"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.momentousentertaingroupinc.com/20161231/role/idr_DisclosureDEFERREDPRODUCTIONCOSTS"/>
+	<link:roleRef roleURI="http://www.momentousentertaingroupinc.com/20161231/role/idr_DisclosureMARKETINGEXPENSES" xlink:type="simple" xlink:href="mmeg-20161231.xsd#idr_DisclosureMARKETINGEXPENSES"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.momentousentertaingroupinc.com/20161231/role/idr_DisclosureMARKETINGEXPENSES"/>
+	<link:roleRef roleURI="http://www.momentousentertaingroupinc.com/20161231/role/idr_DisclosureACCOUNTSPAYABLEANDACCRUEDEXPENSES" xlink:type="simple" xlink:href="mmeg-20161231.xsd#idr_DisclosureACCOUNTSPAYABLEANDACCRUEDEXPENSES"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.momentousentertaingroupinc.com/20161231/role/idr_DisclosureACCOUNTSPAYABLEANDACCRUEDEXPENSES"/>
+	<link:roleRef roleURI="http://www.momentousentertaingroupinc.com/20161231/role/idr_DisclosureCONVERTIBLEDEBT" xlink:type="simple" xlink:href="mmeg-20161231.xsd#idr_DisclosureCONVERTIBLEDEBT"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.momentousentertaingroupinc.com/20161231/role/idr_DisclosureCONVERTIBLEDEBT"/>
+	<link:roleRef roleURI="http://www.momentousentertaingroupinc.com/20161231/role/idr_DisclosureLOANS" xlink:type="simple" xlink:href="mmeg-20161231.xsd#idr_DisclosureLOANS"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.momentousentertaingroupinc.com/20161231/role/idr_DisclosureLOANS"/>
+	<link:roleRef roleURI="http://www.momentousentertaingroupinc.com/20161231/role/idr_DisclosureDEMANDLOANSFROMPRESIDENT" xlink:type="simple" xlink:href="mmeg-20161231.xsd#idr_DisclosureDEMANDLOANSFROMPRESIDENT"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.momentousentertaingroupinc.com/20161231/role/idr_DisclosureDEMANDLOANSFROMPRESIDENT"/>
+	<link:roleRef roleURI="http://www.momentousentertaingroupinc.com/20161231/role/idr_DisclosureSHARECAPITAL" xlink:type="simple" xlink:href="mmeg-20161231.xsd#idr_DisclosureSHARECAPITAL"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.momentousentertaingroupinc.com/20161231/role/idr_DisclosureSHARECAPITAL"/>
+	<link:roleRef roleURI="http://www.momentousentertaingroupinc.com/20161231/role/idr_DisclosureINCOMETAXES" xlink:type="simple" xlink:href="mmeg-20161231.xsd#idr_DisclosureINCOMETAXES"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.momentousentertaingroupinc.com/20161231/role/idr_DisclosureINCOMETAXES"/>
+	<link:roleRef roleURI="http://www.momentousentertaingroupinc.com/20161231/role/idr_DisclosureRELATEDPARTYTRANSACTIONS" xlink:type="simple" xlink:href="mmeg-20161231.xsd#idr_DisclosureRELATEDPARTYTRANSACTIONS"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.momentousentertaingroupinc.com/20161231/role/idr_DisclosureRELATEDPARTYTRANSACTIONS"/>
+	<link:roleRef roleURI="http://www.momentousentertaingroupinc.com/20161231/role/idr_DisclosureSUBSEQUENTEVENTS" xlink:type="simple" xlink:href="mmeg-20161231.xsd#idr_DisclosureSUBSEQUENTEVENTS"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.momentousentertaingroupinc.com/20161231/role/idr_DisclosureSUBSEQUENTEVENTS"/>
+	<link:roleRef roleURI="http://www.momentousentertaingroupinc.com/20161231/role/idr_DisclosureSIGNIFICANTACCOUNTINGPOLICIESPOLICIES" xlink:type="simple" xlink:href="mmeg-20161231.xsd#idr_DisclosureSIGNIFICANTACCOUNTINGPOLICIESPOLICIES"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.momentousentertaingroupinc.com/20161231/role/idr_DisclosureSIGNIFICANTACCOUNTINGPOLICIESPOLICIES"/>
+	<link:roleRef roleURI="http://www.momentousentertaingroupinc.com/20161231/role/idr_DisclosureCONVERTIBLEDEBTTables" xlink:type="simple" xlink:href="mmeg-20161231.xsd#idr_DisclosureCONVERTIBLEDEBTTables"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.momentousentertaingroupinc.com/20161231/role/idr_DisclosureCONVERTIBLEDEBTTables"/>
+	<link:roleRef roleURI="http://www.momentousentertaingroupinc.com/20161231/role/idr_DisclosureSCHEDULEOFSHARECAPITALTables" xlink:type="simple" xlink:href="mmeg-20161231.xsd#idr_DisclosureSCHEDULEOFSHARECAPITALTables"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.momentousentertaingroupinc.com/20161231/role/idr_DisclosureSCHEDULEOFSHARECAPITALTables"/>
+	<link:roleRef roleURI="http://www.momentousentertaingroupinc.com/20161231/role/idr_DisclosureSCHEDULEOFINCOMETAXESTables" xlink:type="simple" xlink:href="mmeg-20161231.xsd#idr_DisclosureSCHEDULEOFINCOMETAXESTables"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.momentousentertaingroupinc.com/20161231/role/idr_DisclosureSCHEDULEOFINCOMETAXESTables"/>
+	<link:roleRef roleURI="http://www.momentousentertaingroupinc.com/20161231/role/idr_DisclosureSUBSEQUENTEVENTSTables" xlink:type="simple" xlink:href="mmeg-20161231.xsd#idr_DisclosureSUBSEQUENTEVENTSTables"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.momentousentertaingroupinc.com/20161231/role/idr_DisclosureSUBSEQUENTEVENTSTables"/>
+	<link:roleRef roleURI="http://www.momentousentertaingroupinc.com/20161231/role/idr_PREPAIDACQUISITIONCOSTSDetails" xlink:type="simple" xlink:href="mmeg-20161231.xsd#idr_PREPAIDACQUISITIONCOSTSDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.momentousentertaingroupinc.com/20161231/role/idr_PREPAIDACQUISITIONCOSTSDetails"/>
+	<link:roleRef roleURI="http://www.momentousentertaingroupinc.com/20161231/role/idr_INVENTORIESDetails" xlink:type="simple" xlink:href="mmeg-20161231.xsd#idr_INVENTORIESDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.momentousentertaingroupinc.com/20161231/role/idr_INVENTORIESDetails"/>
+	<link:roleRef roleURI="http://www.momentousentertaingroupinc.com/20161231/role/idr_DEFERREDPRODUCTIONCOSTSDetails" xlink:type="simple" xlink:href="mmeg-20161231.xsd#idr_DEFERREDPRODUCTIONCOSTSDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.momentousentertaingroupinc.com/20161231/role/idr_DEFERREDPRODUCTIONCOSTSDetails"/>
+	<link:roleRef roleURI="http://www.momentousentertaingroupinc.com/20161231/role/idr_MARKETINGEXPENSESDetails" xlink:type="simple" xlink:href="mmeg-20161231.xsd#idr_MARKETINGEXPENSESDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.momentousentertaingroupinc.com/20161231/role/idr_MARKETINGEXPENSESDetails"/>
+	<link:roleRef roleURI="http://www.momentousentertaingroupinc.com/20161231/role/idr_ACCOUNTSPAYABLEANDACCRUEDEXPENSESDetails" xlink:type="simple" xlink:href="mmeg-20161231.xsd#idr_ACCOUNTSPAYABLEANDACCRUEDEXPENSESDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.momentousentertaingroupinc.com/20161231/role/idr_ACCOUNTSPAYABLEANDACCRUEDEXPENSESDetails"/>
+	<link:roleRef roleURI="http://www.momentousentertaingroupinc.com/20161231/role/idr_SHORTTERMCONVERTIBLEDEBTDetails" xlink:type="simple" xlink:href="mmeg-20161231.xsd#idr_SHORTTERMCONVERTIBLEDEBTDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.momentousentertaingroupinc.com/20161231/role/idr_SHORTTERMCONVERTIBLEDEBTDetails"/>
+	<link:roleRef roleURI="http://www.momentousentertaingroupinc.com/20161231/role/idr_SHORTTERMCONVERTIBLEDEBTPARENTHETICALSDetails" xlink:type="simple" xlink:href="mmeg-20161231.xsd#idr_SHORTTERMCONVERTIBLEDEBTPARENTHETICALSDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.momentousentertaingroupinc.com/20161231/role/idr_SHORTTERMCONVERTIBLEDEBTPARENTHETICALSDetails"/>
+	<link:roleRef roleURI="http://www.momentousentertaingroupinc.com/20161231/role/idr_LOANSDetails" xlink:type="simple" xlink:href="mmeg-20161231.xsd#idr_LOANSDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.momentousentertaingroupinc.com/20161231/role/idr_LOANSDetails"/>
+	<link:roleRef roleURI="http://www.momentousentertaingroupinc.com/20161231/role/idr_DEMANDLOANSFROMPRESIDENTTRANSACTIONSDetails" xlink:type="simple" xlink:href="mmeg-20161231.xsd#idr_DEMANDLOANSFROMPRESIDENTTRANSACTIONSDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.momentousentertaingroupinc.com/20161231/role/idr_DEMANDLOANSFROMPRESIDENTTRANSACTIONSDetails"/>
+	<link:roleRef roleURI="http://www.momentousentertaingroupinc.com/20161231/role/idr_CONVERTIBLEPROMISSORYNOTEAGREEMENTWITHADARBAYSLLCNarrativeDetails" xlink:type="simple" xlink:href="mmeg-20161231.xsd#idr_CONVERTIBLEPROMISSORYNOTEAGREEMENTWITHADARBAYSLLCNarrativeDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.momentousentertaingroupinc.com/20161231/role/idr_CONVERTIBLEPROMISSORYNOTEAGREEMENTWITHADARBAYSLLCNarrativeDetails"/>
+	<link:roleRef roleURI="http://www.momentousentertaingroupinc.com/20161231/role/idr_CONVERTIBLEPROMISSORYNOTEADARBAYSLLCDetails" xlink:type="simple" xlink:href="mmeg-20161231.xsd#idr_CONVERTIBLEPROMISSORYNOTEADARBAYSLLCDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.momentousentertaingroupinc.com/20161231/role/idr_CONVERTIBLEPROMISSORYNOTEADARBAYSLLCDetails"/>
+	<link:roleRef roleURI="http://www.momentousentertaingroupinc.com/20161231/role/idr_LGCAPITALFUNDINGLLCNarrativeDetails" xlink:type="simple" xlink:href="mmeg-20161231.xsd#idr_LGCAPITALFUNDINGLLCNarrativeDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.momentousentertaingroupinc.com/20161231/role/idr_LGCAPITALFUNDINGLLCNarrativeDetails"/>
+	<link:roleRef roleURI="http://www.momentousentertaingroupinc.com/20161231/role/idr_QUARUMHOLDINGSLLCNarrativeDetails" xlink:type="simple" xlink:href="mmeg-20161231.xsd#idr_QUARUMHOLDINGSLLCNarrativeDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.momentousentertaingroupinc.com/20161231/role/idr_QUARUMHOLDINGSLLCNarrativeDetails"/>
+	<link:roleRef roleURI="http://www.momentousentertaingroupinc.com/20161231/role/idr_TYPENEXCOINVESTMENTLLCNarrativeDetails" xlink:type="simple" xlink:href="mmeg-20161231.xsd#idr_TYPENEXCOINVESTMENTLLCNarrativeDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.momentousentertaingroupinc.com/20161231/role/idr_TYPENEXCOINVESTMENTLLCNarrativeDetails"/>
+	<link:roleRef roleURI="http://www.momentousentertaingroupinc.com/20161231/role/idr_EQUITYTRANSACTIONSDetails" xlink:type="simple" xlink:href="mmeg-20161231.xsd#idr_EQUITYTRANSACTIONSDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.momentousentertaingroupinc.com/20161231/role/idr_EQUITYTRANSACTIONSDetails"/>
+	<link:roleRef roleURI="http://www.momentousentertaingroupinc.com/20161231/role/idr_ADVISORYAGREEMENTWITHPOSNERMCLANELLCDetails" xlink:type="simple" xlink:href="mmeg-20161231.xsd#idr_ADVISORYAGREEMENTWITHPOSNERMCLANELLCDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.momentousentertaingroupinc.com/20161231/role/idr_ADVISORYAGREEMENTWITHPOSNERMCLANELLCDetails"/>
+	<link:roleRef roleURI="http://www.momentousentertaingroupinc.com/20161231/role/idr_COMPANYCONVERTEDSHARESOFCOMMONSTOCKDURINGTHEFOLLOWINGDATESDetails" xlink:type="simple" xlink:href="mmeg-20161231.xsd#idr_COMPANYCONVERTEDSHARESOFCOMMONSTOCKDURINGTHEFOLLOWINGDATESDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.momentousentertaingroupinc.com/20161231/role/idr_COMPANYCONVERTEDSHARESOFCOMMONSTOCKDURINGTHEFOLLOWINGDATESDetails"/>
+	<link:roleRef roleURI="http://www.momentousentertaingroupinc.com/20161231/role/idr_LOSSCARRYFORWARDEXPIRESACCORDINGTOTHEFOLLOWINGSCHEDULEDetails" xlink:type="simple" xlink:href="mmeg-20161231.xsd#idr_LOSSCARRYFORWARDEXPIRESACCORDINGTOTHEFOLLOWINGSCHEDULEDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.momentousentertaingroupinc.com/20161231/role/idr_LOSSCARRYFORWARDEXPIRESACCORDINGTOTHEFOLLOWINGSCHEDULEDetails"/>
+	<link:roleRef roleURI="http://www.momentousentertaingroupinc.com/20161231/role/idr_INCOMETAXPROVISIONDetails" xlink:type="simple" xlink:href="mmeg-20161231.xsd#idr_INCOMETAXPROVISIONDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.momentousentertaingroupinc.com/20161231/role/idr_INCOMETAXPROVISIONDetails"/>
+	<link:roleRef roleURI="http://www.momentousentertaingroupinc.com/20161231/role/idr_RELATEDPARTYTRANSACTIONSDetails" xlink:type="simple" xlink:href="mmeg-20161231.xsd#idr_RELATEDPARTYTRANSACTIONSDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.momentousentertaingroupinc.com/20161231/role/idr_RELATEDPARTYTRANSACTIONSDetails"/>
+	<link:roleRef roleURI="http://www.momentousentertaingroupinc.com/20161231/role/idr_SUBSEQUENTEVENTSCONVERSIONOFDEBTTOEQUITYDetails" xlink:type="simple" xlink:href="mmeg-20161231.xsd#idr_SUBSEQUENTEVENTSCONVERSIONOFDEBTTOEQUITYDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.momentousentertaingroupinc.com/20161231/role/idr_SUBSEQUENTEVENTSCONVERSIONOFDEBTTOEQUITYDetails"/>
+	<link:roleRef roleURI="http://www.momentousentertaingroupinc.com/20161231/role/idr_SUBSEQUENTEVENTSCONVERTIBLENOTESPAYABLEANDWARRANTSDetails" xlink:type="simple" xlink:href="mmeg-20161231.xsd#idr_SUBSEQUENTEVENTSCONVERTIBLENOTESPAYABLEANDWARRANTSDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.momentousentertaingroupinc.com/20161231/role/idr_SUBSEQUENTEVENTSCONVERTIBLENOTESPAYABLEANDWARRANTSDetails"/>
+	<link:roleRef roleURI="http://www.momentousentertaingroupinc.com/20161231/role/idr_SUBSEQUENTEVENTSPOOLWORKSGERMANYLTDDetails" xlink:type="simple" xlink:href="mmeg-20161231.xsd#idr_SUBSEQUENTEVENTSPOOLWORKSGERMANYLTDDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.momentousentertaingroupinc.com/20161231/role/idr_SUBSEQUENTEVENTSPOOLWORKSGERMANYLTDDetails"/>
+	<link:roleRef roleURI="http://www.momentousentertaingroupinc.com/20161231/role/idr_PURCHASEOFTHEVZNETWORKHOLDINGSINCALLOCATIONOFPURCHASEPRICEDetails" xlink:type="simple" xlink:href="mmeg-20161231.xsd#idr_PURCHASEOFTHEVZNETWORKHOLDINGSINCALLOCATIONOFPURCHASEPRICEDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.momentousentertaingroupinc.com/20161231/role/idr_PURCHASEOFTHEVZNETWORKHOLDINGSINCALLOCATIONOFPURCHASEPRICEDetails"/>
+	<link:roleRef roleURI="http://www.momentousentertaingroupinc.com/20161231/role/idr_SUBSEQUENTEVENTSPURCHASEOFTHECHIMERAGAMEASSETSDetails" xlink:type="simple" xlink:href="mmeg-20161231.xsd#idr_SUBSEQUENTEVENTSPURCHASEOFTHECHIMERAGAMEASSETSDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.momentousentertaingroupinc.com/20161231/role/idr_SUBSEQUENTEVENTSPURCHASEOFTHECHIMERAGAMEASSETSDetails"/>
+	<link:roleRef roleURI="http://www.momentousentertaingroupinc.com/20161231/role/idr_PURCHASEOFTHECHIMERAGAMEASSETSALLOCATIONOFPURCHASEPRICEDetails" xlink:type="simple" xlink:href="mmeg-20161231.xsd#idr_PURCHASEOFTHECHIMERAGAMEASSETSALLOCATIONOFPURCHASEPRICEDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.momentousentertaingroupinc.com/20161231/role/idr_PURCHASEOFTHECHIMERAGAMEASSETSALLOCATIONOFPURCHASEPRICEDetails"/>
+	<link:roleRef roleURI="http://www.momentousentertaingroupinc.com/20161231/role/idr_SUBSEQUENTEVENTS2017NONSTATUTORYSTOCKOPTIONPLANDetails" xlink:type="simple" xlink:href="mmeg-20161231.xsd#idr_SUBSEQUENTEVENTS2017NONSTATUTORYSTOCKOPTIONPLANDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.momentousentertaingroupinc.com/20161231/role/idr_SUBSEQUENTEVENTS2017NONSTATUTORYSTOCKOPTIONPLANDetails"/>
+</link:linkbase>

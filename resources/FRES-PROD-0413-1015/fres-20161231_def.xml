@@ -1,0 +1,210 @@
+<?xml version='1.0' encoding='iso-8859-1'?>
+<!-- Vistalytics - iFile Suite version 6.233 -->
+<link:linkbase xmlns="http://www.xbrl.org/2003/linkbase"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd"
+		xmlns:fil="http://www.freshmedicals.com/20161231"
+		xmlns:link="http://www.xbrl.org/2003/linkbase"
+		xmlns:xlink="http://www.w3.org/1999/xlink"
+		xmlns:xbrldt="http://xbrl.org/2005/xbrldt"
+		xmlns:xbrli="http://www.xbrl.org/2003/instance">
+	<link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/all" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#all"/>
+	<link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#hypercube-dimension"/>
+	<link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/dimension-default" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#dimension-default"/>
+	<link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#dimension-domain"/>
+	<link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#domain-member"/>
+	<link:roleRef roleURI="http://www.freshmedicals.com/20161231/role/idr_DocumentDocumentAndEntityInformation" xlink:type="simple" xlink:href="fres-20161231.xsd#idr_DocumentDocumentAndEntityInformation"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.freshmedicals.com/20161231/role/idr_DocumentDocumentAndEntityInformation"/>
+	<link:roleRef roleURI="http://www.freshmedicals.com/20161231/role/idr_ConsolidatedBalanceSheets" xlink:type="simple" xlink:href="fres-20161231.xsd#idr_ConsolidatedBalanceSheets"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.freshmedicals.com/20161231/role/idr_ConsolidatedBalanceSheets"/>
+	<link:roleRef roleURI="http://www.freshmedicals.com/20161231/role/idr_ConsolidatedBalanceSheetsParentheticals" xlink:type="simple" xlink:href="fres-20161231.xsd#idr_ConsolidatedBalanceSheetsParentheticals"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.freshmedicals.com/20161231/role/idr_ConsolidatedBalanceSheetsParentheticals"/>
+	<link:roleRef roleURI="http://www.freshmedicals.com/20161231/role/idr_ConsolidatedStatementsOfOperations" xlink:type="simple" xlink:href="fres-20161231.xsd#idr_ConsolidatedStatementsOfOperations"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.freshmedicals.com/20161231/role/idr_ConsolidatedStatementsOfOperations"/>
+	<link:roleRef roleURI="http://www.freshmedicals.com/20161231/role/idr_ConsolidatedStatementsOfStockholdersDeficit" xlink:type="simple" xlink:href="fres-20161231.xsd#idr_ConsolidatedStatementsOfStockholdersDeficit"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.freshmedicals.com/20161231/role/idr_ConsolidatedStatementsOfStockholdersDeficit">
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_StatementTable' xlink:label='us-gaap_StatementTable'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_StatementEquityComponentsAxis' xlink:label='us-gaap_StatementEquityComponentsAxis'/>
+		<link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/hypercube-dimension' xlink:from='us-gaap_StatementTable' xlink:to='us-gaap_StatementEquityComponentsAxis' use='optional' order='1.0' xbrldt:contextElement='segment'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_EquityComponentDomain' xlink:label='us-gaap_EquityComponentDomain'/>
+		<link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/dimension-domain' xlink:from='us-gaap_StatementEquityComponentsAxis' xlink:to='us-gaap_EquityComponentDomain' use='optional' order='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_EquityComponentDomain' xlink:label='us-gaap_EquityComponentDomain_1'/>
+		<link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/dimension-default' xlink:from='us-gaap_StatementEquityComponentsAxis' xlink:to='us-gaap_EquityComponentDomain_1' use='optional' order='1.0' xbrldt:contextElement='segment'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_CommonStockMember' xlink:label='us-gaap_CommonStockMember'/>
+		<link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/domain-member' xlink:from='us-gaap_EquityComponentDomain' xlink:to='us-gaap_CommonStockMember' use='optional' order='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_CapitalUnitsMember' xlink:label='us-gaap_CapitalUnitsMember'/>
+		<link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/domain-member' xlink:from='us-gaap_EquityComponentDomain' xlink:to='us-gaap_CapitalUnitsMember' use='optional' order='2.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_AdditionalPaidInCapitalMember' xlink:label='us-gaap_AdditionalPaidInCapitalMember'/>
+		<link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/domain-member' xlink:from='us-gaap_EquityComponentDomain' xlink:to='us-gaap_AdditionalPaidInCapitalMember' use='optional' order='3.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_RetainedEarningsMember' xlink:label='us-gaap_RetainedEarningsMember'/>
+		<link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/domain-member' xlink:from='us-gaap_EquityComponentDomain' xlink:to='us-gaap_RetainedEarningsMember' use='optional' order='4.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_ParentMember' xlink:label='us-gaap_ParentMember'/>
+		<link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/domain-member' xlink:from='us-gaap_EquityComponentDomain' xlink:to='us-gaap_ParentMember' use='optional' order='5.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_StatementLineItems' xlink:label='us-gaap_StatementLineItems'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_SharesOutstanding' xlink:label='us-gaap_SharesOutstanding'/>
+		<link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/domain-member' xlink:from='us-gaap_StatementLineItems' xlink:to='us-gaap_SharesOutstanding' use='optional' order='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='fres-20161231.xsd#fil_Balance' xlink:label='fil_Balance'/>
+		<link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/domain-member' xlink:from='us-gaap_StatementLineItems' xlink:to='fil_Balance' use='optional' order='2.0'/>
+		<link:loc xlink:type='locator' xlink:href='fres-20161231.xsd#fil_Balance1' xlink:label='fil_Balance1'/>
+		<link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/domain-member' xlink:from='us-gaap_StatementLineItems' xlink:to='fil_Balance1' use='optional' order='3.0'/>
+		<link:loc xlink:type='locator' xlink:href='fres-20161231.xsd#fil_StockBasedCompensation' xlink:label='fil_StockBasedCompensation'/>
+		<link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/domain-member' xlink:from='us-gaap_StatementLineItems' xlink:to='fil_StockBasedCompensation' use='optional' order='4.0'/>
+		<link:loc xlink:type='locator' xlink:href='fres-20161231.xsd#fil_CommonStockIssuedForCash' xlink:label='fil_CommonStockIssuedForCash'/>
+		<link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/domain-member' xlink:from='us-gaap_StatementLineItems' xlink:to='fil_CommonStockIssuedForCash' use='optional' order='5.0'/>
+		<link:loc xlink:type='locator' xlink:href='fres-20161231.xsd#fil_CommonStockIssuedForCash1' xlink:label='fil_CommonStockIssuedForCash1'/>
+		<link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/domain-member' xlink:from='us-gaap_StatementLineItems' xlink:to='fil_CommonStockIssuedForCash1' use='optional' order='6.0'/>
+		<link:loc xlink:type='locator' xlink:href='fres-20161231.xsd#fil_CommonStockIssuedPursuantToBillOfSaleAndPatentAssignmentAgreements' xlink:label='fil_CommonStockIssuedPursuantToBillOfSaleAndPatentAssignmentAgreements'/>
+		<link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/domain-member' xlink:from='us-gaap_StatementLineItems' xlink:to='fil_CommonStockIssuedPursuantToBillOfSaleAndPatentAssignmentAgreements' use='optional' order='7.0'/>
+		<link:loc xlink:type='locator' xlink:href='fres-20161231.xsd#fil_CommonStockIssuedForConversionOfNoteAndAccruedInterest' xlink:label='fil_CommonStockIssuedForConversionOfNoteAndAccruedInterest'/>
+		<link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/domain-member' xlink:from='us-gaap_StatementLineItems' xlink:to='fil_CommonStockIssuedForConversionOfNoteAndAccruedInterest' use='optional' order='8.0'/>
+		<link:loc xlink:type='locator' xlink:href='fres-20161231.xsd#fil_IssuanceOfWarrantsUnderConsultingAgreement' xlink:label='fil_IssuanceOfWarrantsUnderConsultingAgreement'/>
+		<link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/domain-member' xlink:from='us-gaap_StatementLineItems' xlink:to='fil_IssuanceOfWarrantsUnderConsultingAgreement' use='optional' order='9.0'/>
+		<link:loc xlink:type='locator' xlink:href='fres-20161231.xsd#fil_CommonStockIssuedForServices' xlink:label='fil_CommonStockIssuedForServices'/>
+		<link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/domain-member' xlink:from='us-gaap_StatementLineItems' xlink:to='fil_CommonStockIssuedForServices' use='optional' order='10.0'/>
+		<link:loc xlink:type='locator' xlink:href='fres-20161231.xsd#fil_NetLoss' xlink:label='fil_NetLoss'/>
+		<link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/domain-member' xlink:from='us-gaap_StatementLineItems' xlink:to='fil_NetLoss' use='optional' order='11.0'/>
+		<link:loc xlink:type='locator' xlink:href='fres-20161231.xsd#fil_StockBasedCompensation1' xlink:label='fil_StockBasedCompensation1'/>
+		<link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/domain-member' xlink:from='us-gaap_StatementLineItems' xlink:to='fil_StockBasedCompensation1' use='optional' order='12.0'/>
+		<link:loc xlink:type='locator' xlink:href='fres-20161231.xsd#fil_CommonStockIssuedForCashAndWarrantsNetOfOfferingCosts' xlink:label='fil_CommonStockIssuedForCashAndWarrantsNetOfOfferingCosts'/>
+		<link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/domain-member' xlink:from='us-gaap_StatementLineItems' xlink:to='fil_CommonStockIssuedForCashAndWarrantsNetOfOfferingCosts' use='optional' order='13.0'/>
+		<link:loc xlink:type='locator' xlink:href='fres-20161231.xsd#fil_CommonStockIssuedUponConversionOfDebtAndAccruedInterest' xlink:label='fil_CommonStockIssuedUponConversionOfDebtAndAccruedInterest'/>
+		<link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/domain-member' xlink:from='us-gaap_StatementLineItems' xlink:to='fil_CommonStockIssuedUponConversionOfDebtAndAccruedInterest' use='optional' order='14.0'/>
+		<link:loc xlink:type='locator' xlink:href='fres-20161231.xsd#fil_CommonStockIssuedToPlacementAgent' xlink:label='fil_CommonStockIssuedToPlacementAgent'/>
+		<link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/domain-member' xlink:from='us-gaap_StatementLineItems' xlink:to='fil_CommonStockIssuedToPlacementAgent' use='optional' order='15.0'/>
+		<link:loc xlink:type='locator' xlink:href='fres-20161231.xsd#fil_CommonStockIssuedForService' xlink:label='fil_CommonStockIssuedForService'/>
+		<link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/domain-member' xlink:from='us-gaap_StatementLineItems' xlink:to='fil_CommonStockIssuedForService' use='optional' order='16.0'/>
+		<link:loc xlink:type='locator' xlink:href='fres-20161231.xsd#fil_NetLoss1' xlink:label='fil_NetLoss1'/>
+		<link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/domain-member' xlink:from='us-gaap_StatementLineItems' xlink:to='fil_NetLoss1' use='optional' order='17.0'/>
+		<link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/all' xlink:from='us-gaap_StatementLineItems' xlink:to='us-gaap_StatementTable' order='0.5' xbrldt:closed='true' xbrldt:contextElement='segment' use='optional'/>
+	</link:definitionLink>
+	<link:roleRef roleURI="http://www.freshmedicals.com/20161231/role/idr_ConsolidatedStatementsOfCashFlows" xlink:type="simple" xlink:href="fres-20161231.xsd#idr_ConsolidatedStatementsOfCashFlows"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.freshmedicals.com/20161231/role/idr_ConsolidatedStatementsOfCashFlows"/>
+	<link:roleRef roleURI="http://www.freshmedicals.com/20161231/role/idr_DisclosureOrganizationAndSummaryOfSignificantAccountingPolicies" xlink:type="simple" xlink:href="fres-20161231.xsd#idr_DisclosureOrganizationAndSummaryOfSignificantAccountingPolicies"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.freshmedicals.com/20161231/role/idr_DisclosureOrganizationAndSummaryOfSignificantAccountingPolicies"/>
+	<link:roleRef roleURI="http://www.freshmedicals.com/20161231/role/idr_DisclosureInventory" xlink:type="simple" xlink:href="fres-20161231.xsd#idr_DisclosureInventory"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.freshmedicals.com/20161231/role/idr_DisclosureInventory"/>
+	<link:roleRef roleURI="http://www.freshmedicals.com/20161231/role/idr_DisclosurePropertyAndEquipment" xlink:type="simple" xlink:href="fres-20161231.xsd#idr_DisclosurePropertyAndEquipment"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.freshmedicals.com/20161231/role/idr_DisclosurePropertyAndEquipment"/>
+	<link:roleRef roleURI="http://www.freshmedicals.com/20161231/role/idr_DisclosureAccruedLiabilities" xlink:type="simple" xlink:href="fres-20161231.xsd#idr_DisclosureAccruedLiabilities"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.freshmedicals.com/20161231/role/idr_DisclosureAccruedLiabilities"/>
+	<link:roleRef roleURI="http://www.freshmedicals.com/20161231/role/idr_DisclosureLongTermDebt" xlink:type="simple" xlink:href="fres-20161231.xsd#idr_DisclosureLongTermDebt"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.freshmedicals.com/20161231/role/idr_DisclosureLongTermDebt"/>
+	<link:roleRef roleURI="http://www.freshmedicals.com/20161231/role/idr_DisclosurePreferredStock" xlink:type="simple" xlink:href="fres-20161231.xsd#idr_DisclosurePreferredStock"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.freshmedicals.com/20161231/role/idr_DisclosurePreferredStock"/>
+	<link:roleRef roleURI="http://www.freshmedicals.com/20161231/role/idr_DisclosureCommonStock" xlink:type="simple" xlink:href="fres-20161231.xsd#idr_DisclosureCommonStock"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.freshmedicals.com/20161231/role/idr_DisclosureCommonStock"/>
+	<link:roleRef roleURI="http://www.freshmedicals.com/20161231/role/idr_DisclosureCommonStockWarrants" xlink:type="simple" xlink:href="fres-20161231.xsd#idr_DisclosureCommonStockWarrants"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.freshmedicals.com/20161231/role/idr_DisclosureCommonStockWarrants"/>
+	<link:roleRef roleURI="http://www.freshmedicals.com/20161231/role/idr_DisclosureIntangibleAssets" xlink:type="simple" xlink:href="fres-20161231.xsd#idr_DisclosureIntangibleAssets"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.freshmedicals.com/20161231/role/idr_DisclosureIntangibleAssets"/>
+	<link:roleRef roleURI="http://www.freshmedicals.com/20161231/role/idr_DisclosureCommitmentAndContingencies" xlink:type="simple" xlink:href="fres-20161231.xsd#idr_DisclosureCommitmentAndContingencies"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.freshmedicals.com/20161231/role/idr_DisclosureCommitmentAndContingencies"/>
+	<link:roleRef roleURI="http://www.freshmedicals.com/20161231/role/idr_DisclosureIncomeTaxes" xlink:type="simple" xlink:href="fres-20161231.xsd#idr_DisclosureIncomeTaxes"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.freshmedicals.com/20161231/role/idr_DisclosureIncomeTaxes"/>
+	<link:roleRef roleURI="http://www.freshmedicals.com/20161231/role/idr_DisclosureOtherRelatedPartyTransactions" xlink:type="simple" xlink:href="fres-20161231.xsd#idr_DisclosureOtherRelatedPartyTransactions"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.freshmedicals.com/20161231/role/idr_DisclosureOtherRelatedPartyTransactions"/>
+	<link:roleRef roleURI="http://www.freshmedicals.com/20161231/role/idr_DisclosureSubsequentEvents" xlink:type="simple" xlink:href="fres-20161231.xsd#idr_DisclosureSubsequentEvents"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.freshmedicals.com/20161231/role/idr_DisclosureSubsequentEvents"/>
+	<link:roleRef roleURI="http://www.freshmedicals.com/20161231/role/idr_DisclosureOrganizationAndSummaryOfSignificantAccountingPoliciesPolicies" xlink:type="simple" xlink:href="fres-20161231.xsd#idr_DisclosureOrganizationAndSummaryOfSignificantAccountingPoliciesPolicies"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.freshmedicals.com/20161231/role/idr_DisclosureOrganizationAndSummaryOfSignificantAccountingPoliciesPolicies"/>
+	<link:roleRef roleURI="http://www.freshmedicals.com/20161231/role/idr_DisclosureBasicAndDilutedLossPerShareTables" xlink:type="simple" xlink:href="fres-20161231.xsd#idr_DisclosureBasicAndDilutedLossPerShareTables"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.freshmedicals.com/20161231/role/idr_DisclosureBasicAndDilutedLossPerShareTables"/>
+	<link:roleRef roleURI="http://www.freshmedicals.com/20161231/role/idr_DisclosureInventoryTables" xlink:type="simple" xlink:href="fres-20161231.xsd#idr_DisclosureInventoryTables"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.freshmedicals.com/20161231/role/idr_DisclosureInventoryTables"/>
+	<link:roleRef roleURI="http://www.freshmedicals.com/20161231/role/idr_DisclosurePropertyAndEquipmentTables" xlink:type="simple" xlink:href="fres-20161231.xsd#idr_DisclosurePropertyAndEquipmentTables"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.freshmedicals.com/20161231/role/idr_DisclosurePropertyAndEquipmentTables"/>
+	<link:roleRef roleURI="http://www.freshmedicals.com/20161231/role/idr_DisclosureAccruedLiabilitiesTables" xlink:type="simple" xlink:href="fres-20161231.xsd#idr_DisclosureAccruedLiabilitiesTables"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.freshmedicals.com/20161231/role/idr_DisclosureAccruedLiabilitiesTables"/>
+	<link:roleRef roleURI="http://www.freshmedicals.com/20161231/role/idr_DisclosureScheduleOfLongTermDebtTables" xlink:type="simple" xlink:href="fres-20161231.xsd#idr_DisclosureScheduleOfLongTermDebtTables"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.freshmedicals.com/20161231/role/idr_DisclosureScheduleOfLongTermDebtTables"/>
+	<link:roleRef roleURI="http://www.freshmedicals.com/20161231/role/idr_DisclosureCommonStockTables" xlink:type="simple" xlink:href="fres-20161231.xsd#idr_DisclosureCommonStockTables"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.freshmedicals.com/20161231/role/idr_DisclosureCommonStockTables"/>
+	<link:roleRef roleURI="http://www.freshmedicals.com/20161231/role/idr_DisclosureWarrantsTables" xlink:type="simple" xlink:href="fres-20161231.xsd#idr_DisclosureWarrantsTables"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.freshmedicals.com/20161231/role/idr_DisclosureWarrantsTables"/>
+	<link:roleRef roleURI="http://www.freshmedicals.com/20161231/role/idr_DisclosureIncomeTaxesTables" xlink:type="simple" xlink:href="fres-20161231.xsd#idr_DisclosureIncomeTaxesTables"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.freshmedicals.com/20161231/role/idr_DisclosureIncomeTaxesTables"/>
+	<link:roleRef roleURI="http://www.freshmedicals.com/20161231/role/idr_GoingConcernDetails" xlink:type="simple" xlink:href="fres-20161231.xsd#idr_GoingConcernDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.freshmedicals.com/20161231/role/idr_GoingConcernDetails"/>
+	<link:roleRef roleURI="http://www.freshmedicals.com/20161231/role/idr_TradeReceivablesAndCreditPoliciesDetails" xlink:type="simple" xlink:href="fres-20161231.xsd#idr_TradeReceivablesAndCreditPoliciesDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.freshmedicals.com/20161231/role/idr_TradeReceivablesAndCreditPoliciesDetails"/>
+	<link:roleRef roleURI="http://www.freshmedicals.com/20161231/role/idr_BasicAndDilutedLossPerShareDetails" xlink:type="simple" xlink:href="fres-20161231.xsd#idr_BasicAndDilutedLossPerShareDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.freshmedicals.com/20161231/role/idr_BasicAndDilutedLossPerShareDetails"/>
+	<link:roleRef roleURI="http://www.freshmedicals.com/20161231/role/idr_ForeignCurrencyPolicyDetails" xlink:type="simple" xlink:href="fres-20161231.xsd#idr_ForeignCurrencyPolicyDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.freshmedicals.com/20161231/role/idr_ForeignCurrencyPolicyDetails"/>
+	<link:roleRef roleURI="http://www.freshmedicals.com/20161231/role/idr_InventoryConsistsOfTheFollowingDetails" xlink:type="simple" xlink:href="fres-20161231.xsd#idr_InventoryConsistsOfTheFollowingDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.freshmedicals.com/20161231/role/idr_InventoryConsistsOfTheFollowingDetails"/>
+	<link:roleRef roleURI="http://www.freshmedicals.com/20161231/role/idr_InventoryWrittenOffDetails" xlink:type="simple" xlink:href="fres-20161231.xsd#idr_InventoryWrittenOffDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.freshmedicals.com/20161231/role/idr_InventoryWrittenOffDetails"/>
+	<link:roleRef roleURI="http://www.freshmedicals.com/20161231/role/idr_PropertyAndEquipmentConsistsOfTheFollowingDetails" xlink:type="simple" xlink:href="fres-20161231.xsd#idr_PropertyAndEquipmentConsistsOfTheFollowingDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.freshmedicals.com/20161231/role/idr_PropertyAndEquipmentConsistsOfTheFollowingDetails"/>
+	<link:roleRef roleURI="http://www.freshmedicals.com/20161231/role/idr_PropertyAndEquipmentLifeDetails" xlink:type="simple" xlink:href="fres-20161231.xsd#idr_PropertyAndEquipmentLifeDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.freshmedicals.com/20161231/role/idr_PropertyAndEquipmentLifeDetails"/>
+	<link:roleRef roleURI="http://www.freshmedicals.com/20161231/role/idr_TheTotalCostForTheServicesAndExpensesDetails" xlink:type="simple" xlink:href="fres-20161231.xsd#idr_TheTotalCostForTheServicesAndExpensesDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.freshmedicals.com/20161231/role/idr_TheTotalCostForTheServicesAndExpensesDetails"/>
+	<link:roleRef roleURI="http://www.freshmedicals.com/20161231/role/idr_DepreciationExpenseDetails" xlink:type="simple" xlink:href="fres-20161231.xsd#idr_DepreciationExpenseDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.freshmedicals.com/20161231/role/idr_DepreciationExpenseDetails"/>
+	<link:roleRef roleURI="http://www.freshmedicals.com/20161231/role/idr_AccruedLiabilitiesConsistedOfTheFollowingDetails" xlink:type="simple" xlink:href="fres-20161231.xsd#idr_AccruedLiabilitiesConsistedOfTheFollowingDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.freshmedicals.com/20161231/role/idr_AccruedLiabilitiesConsistedOfTheFollowingDetails"/>
+	<link:roleRef roleURI="http://www.freshmedicals.com/20161231/role/idr_SummaryOfShortAndLongTermDebtDetails" xlink:type="simple" xlink:href="fres-20161231.xsd#idr_SummaryOfShortAndLongTermDebtDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.freshmedicals.com/20161231/role/idr_SummaryOfShortAndLongTermDebtDetails"/>
+	<link:roleRef roleURI="http://www.freshmedicals.com/20161231/role/idr_ShortAndLongTermDebtParentheticalsDetails" xlink:type="simple" xlink:href="fres-20161231.xsd#idr_ShortAndLongTermDebtParentheticalsDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.freshmedicals.com/20161231/role/idr_ShortAndLongTermDebtParentheticalsDetails"/>
+	<link:roleRef roleURI="http://www.freshmedicals.com/20161231/role/idr_MaturitiesOnLongTermDebtDetails" xlink:type="simple" xlink:href="fres-20161231.xsd#idr_MaturitiesOnLongTermDebtDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.freshmedicals.com/20161231/role/idr_MaturitiesOnLongTermDebtDetails"/>
+	<link:roleRef roleURI="http://www.freshmedicals.com/20161231/role/idr_NotePayableSecuredByTheAssetsOfTheCompanyDetails" xlink:type="simple" xlink:href="fres-20161231.xsd#idr_NotePayableSecuredByTheAssetsOfTheCompanyDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.freshmedicals.com/20161231/role/idr_NotePayableSecuredByTheAssetsOfTheCompanyDetails"/>
+	<link:roleRef roleURI="http://www.freshmedicals.com/20161231/role/idr_ConvertibleDebenturesDetails" xlink:type="simple" xlink:href="fres-20161231.xsd#idr_ConvertibleDebenturesDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.freshmedicals.com/20161231/role/idr_ConvertibleDebenturesDetails"/>
+	<link:roleRef roleURI="http://www.freshmedicals.com/20161231/role/idr_ConvertibleNotesPayableDetails" xlink:type="simple" xlink:href="fres-20161231.xsd#idr_ConvertibleNotesPayableDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.freshmedicals.com/20161231/role/idr_ConvertibleNotesPayableDetails"/>
+	<link:roleRef roleURI="http://www.freshmedicals.com/20161231/role/idr_NotePayableToARelativeOfAnExecutiveOfficerDetails" xlink:type="simple" xlink:href="fres-20161231.xsd#idr_NotePayableToARelativeOfAnExecutiveOfficerDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.freshmedicals.com/20161231/role/idr_NotePayableToARelativeOfAnExecutiveOfficerDetails"/>
+	<link:roleRef roleURI="http://www.freshmedicals.com/20161231/role/idr_OtherConvertibleNotesDetails" xlink:type="simple" xlink:href="fres-20161231.xsd#idr_OtherConvertibleNotesDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.freshmedicals.com/20161231/role/idr_OtherConvertibleNotesDetails"/>
+	<link:roleRef roleURI="http://www.freshmedicals.com/20161231/role/idr_OtherNotesPayableDetails" xlink:type="simple" xlink:href="fres-20161231.xsd#idr_OtherNotesPayableDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.freshmedicals.com/20161231/role/idr_OtherNotesPayableDetails"/>
+	<link:roleRef roleURI="http://www.freshmedicals.com/20161231/role/idr_RelatedPartyNotesPayableDetails" xlink:type="simple" xlink:href="fres-20161231.xsd#idr_RelatedPartyNotesPayableDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.freshmedicals.com/20161231/role/idr_RelatedPartyNotesPayableDetails"/>
+	<link:roleRef roleURI="http://www.freshmedicals.com/20161231/role/idr_PreferredStockTransactionsDetails" xlink:type="simple" xlink:href="fres-20161231.xsd#idr_PreferredStockTransactionsDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.freshmedicals.com/20161231/role/idr_PreferredStockTransactionsDetails"/>
+	<link:roleRef roleURI="http://www.freshmedicals.com/20161231/role/idr_CommonStockIssuedForCashDetails" xlink:type="simple" xlink:href="fres-20161231.xsd#idr_CommonStockIssuedForCashDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.freshmedicals.com/20161231/role/idr_CommonStockIssuedForCashDetails"/>
+	<link:roleRef roleURI="http://www.freshmedicals.com/20161231/role/idr_PrivatePlacementMemorandumDetails" xlink:type="simple" xlink:href="fres-20161231.xsd#idr_PrivatePlacementMemorandumDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.freshmedicals.com/20161231/role/idr_PrivatePlacementMemorandumDetails"/>
+	<link:roleRef roleURI="http://www.freshmedicals.com/20161231/role/idr_CommonStockIssuedForConversionOfDebtDetails" xlink:type="simple" xlink:href="fres-20161231.xsd#idr_CommonStockIssuedForConversionOfDebtDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.freshmedicals.com/20161231/role/idr_CommonStockIssuedForConversionOfDebtDetails"/>
+	<link:roleRef roleURI="http://www.freshmedicals.com/20161231/role/idr_IssuedPursuantToBillOfSaleAndPatentAssignmentAgreementDetails" xlink:type="simple" xlink:href="fres-20161231.xsd#idr_IssuedPursuantToBillOfSaleAndPatentAssignmentAgreementDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.freshmedicals.com/20161231/role/idr_IssuedPursuantToBillOfSaleAndPatentAssignmentAgreementDetails"/>
+	<link:roleRef roleURI="http://www.freshmedicals.com/20161231/role/idr_CommonStockIssuedForServicesDetails" xlink:type="simple" xlink:href="fres-20161231.xsd#idr_CommonStockIssuedForServicesDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.freshmedicals.com/20161231/role/idr_CommonStockIssuedForServicesDetails"/>
+	<link:roleRef roleURI="http://www.freshmedicals.com/20161231/role/idr_TotalStockBasedCompensationExpenseDetails" xlink:type="simple" xlink:href="fres-20161231.xsd#idr_TotalStockBasedCompensationExpenseDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.freshmedicals.com/20161231/role/idr_TotalStockBasedCompensationExpenseDetails"/>
+	<link:roleRef roleURI="http://www.freshmedicals.com/20161231/role/idr_SummaryOfTheStatusOfTheCompanySRestrictedCommonStockGrantsDetails" xlink:type="simple" xlink:href="fres-20161231.xsd#idr_SummaryOfTheStatusOfTheCompanySRestrictedCommonStockGrantsDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.freshmedicals.com/20161231/role/idr_SummaryOfTheStatusOfTheCompanySRestrictedCommonStockGrantsDetails"/>
+	<link:roleRef roleURI="http://www.freshmedicals.com/20161231/role/idr_FairValueOfWarrantWasEstimatedUsingTheBlackScholesOptionPricingModelDetails" xlink:type="simple" xlink:href="fres-20161231.xsd#idr_FairValueOfWarrantWasEstimatedUsingTheBlackScholesOptionPricingModelDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.freshmedicals.com/20161231/role/idr_FairValueOfWarrantWasEstimatedUsingTheBlackScholesOptionPricingModelDetails"/>
+	<link:roleRef roleURI="http://www.freshmedicals.com/20161231/role/idr_BlackScholesOptionPricingModelAssumptionsDetails" xlink:type="simple" xlink:href="fres-20161231.xsd#idr_BlackScholesOptionPricingModelAssumptionsDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.freshmedicals.com/20161231/role/idr_BlackScholesOptionPricingModelAssumptionsDetails"/>
+	<link:roleRef roleURI="http://www.freshmedicals.com/20161231/role/idr_CommonStockWarrantsDetails" xlink:type="simple" xlink:href="fres-20161231.xsd#idr_CommonStockWarrantsDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.freshmedicals.com/20161231/role/idr_CommonStockWarrantsDetails"/>
+	<link:roleRef roleURI="http://www.freshmedicals.com/20161231/role/idr_SummaryOfWarrantActivityDuringThePeriodDetails" xlink:type="simple" xlink:href="fres-20161231.xsd#idr_SummaryOfWarrantActivityDuringThePeriodDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.freshmedicals.com/20161231/role/idr_SummaryOfWarrantActivityDuringThePeriodDetails"/>
+	<link:roleRef roleURI="http://www.freshmedicals.com/20161231/role/idr_IntangibleAssetsDetails" xlink:type="simple" xlink:href="fres-20161231.xsd#idr_IntangibleAssetsDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.freshmedicals.com/20161231/role/idr_IntangibleAssetsDetails"/>
+	<link:roleRef roleURI="http://www.freshmedicals.com/20161231/role/idr_IntangibleAssetsAmortizationExpenseDetails" xlink:type="simple" xlink:href="fres-20161231.xsd#idr_IntangibleAssetsAmortizationExpenseDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.freshmedicals.com/20161231/role/idr_IntangibleAssetsAmortizationExpenseDetails"/>
+	<link:roleRef roleURI="http://www.freshmedicals.com/20161231/role/idr_ConsultingRepresentationAgreementDetails" xlink:type="simple" xlink:href="fres-20161231.xsd#idr_ConsultingRepresentationAgreementDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.freshmedicals.com/20161231/role/idr_ConsultingRepresentationAgreementDetails"/>
+	<link:roleRef roleURI="http://www.freshmedicals.com/20161231/role/idr_LeaseAgreementDetails" xlink:type="simple" xlink:href="fres-20161231.xsd#idr_LeaseAgreementDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.freshmedicals.com/20161231/role/idr_LeaseAgreementDetails"/>
+	<link:roleRef roleURI="http://www.freshmedicals.com/20161231/role/idr_LicenseAgreementDetails" xlink:type="simple" xlink:href="fres-20161231.xsd#idr_LicenseAgreementDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.freshmedicals.com/20161231/role/idr_LicenseAgreementDetails"/>
+	<link:roleRef roleURI="http://www.freshmedicals.com/20161231/role/idr_DeferredTaxAssetsAndLiabilitiesDetails" xlink:type="simple" xlink:href="fres-20161231.xsd#idr_DeferredTaxAssetsAndLiabilitiesDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.freshmedicals.com/20161231/role/idr_DeferredTaxAssetsAndLiabilitiesDetails"/>
+	<link:roleRef roleURI="http://www.freshmedicals.com/20161231/role/idr_IncomeTaxBenefitDetails" xlink:type="simple" xlink:href="fres-20161231.xsd#idr_IncomeTaxBenefitDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.freshmedicals.com/20161231/role/idr_IncomeTaxBenefitDetails"/>
+	<link:roleRef roleURI="http://www.freshmedicals.com/20161231/role/idr_OtherRelatedPartyTransactionsDetails" xlink:type="simple" xlink:href="fres-20161231.xsd#idr_OtherRelatedPartyTransactionsDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.freshmedicals.com/20161231/role/idr_OtherRelatedPartyTransactionsDetails"/>
+	<link:roleRef roleURI="http://www.freshmedicals.com/20161231/role/idr_SubsequentTransactionsDetails" xlink:type="simple" xlink:href="fres-20161231.xsd#idr_SubsequentTransactionsDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.freshmedicals.com/20161231/role/idr_SubsequentTransactionsDetails"/>
+</link:linkbase>

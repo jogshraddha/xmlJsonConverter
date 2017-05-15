@@ -1,0 +1,255 @@
+<?xml version='1.0' encoding='iso-8859-1'?>
+<!-- Vistalytics - iFile Suite version 6.233 -->
+<schema xmlns='http://www.w3.org/2001/XMLSchema' xmlns:us-gaap='http://fasb.org/us-gaap/2016-01-31' xmlns:xbrldt='http://xbrl.org/2005/xbrldt' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:dei='http://xbrl.sec.gov/dei/2014-01-31' xmlns:fil='http://www.alphaenergyinc.com/20161231' targetNamespace='http://www.alphaenergyinc.com/20161231' xmlns:num='http://www.xbrl.org/dtr/type/numeric' xmlns:link='http://www.xbrl.org/2003/linkbase' attributeFormDefault='unqualified' elementFormDefault='qualified' xmlns:xbrli='http://www.xbrl.org/2003/instance'>
+	<annotation>
+		<appinfo>
+			<link:linkbaseRef xlink:type="simple" xlink:href="alpha-20161231_pre.xml" xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+			<link:linkbaseRef xlink:type="simple" xlink:href="alpha-20161231_def.xml" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+			<link:linkbaseRef xlink:type="simple" xlink:href="alpha-20161231_lab.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+			<link:linkbaseRef xlink:type="simple" xlink:href="alpha-20161231_cal.xml" xlink:role="http://www.xbrl.org/2003/role/calculationLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+			<link:roleType roleURI="http://www.alphaenergyinc.com/20161231/role/idr_DisclosureSTOCK" id="idr_DisclosureSTOCK">
+				<link:definition>000100 - Disclosure - STOCK</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.alphaenergyinc.com/20161231/role/idr_DisclosureScheduleOfStockWarrantsTables" id="idr_DisclosureScheduleOfStockWarrantsTables">
+				<link:definition>000160 - Disclosure - Schedule of Stock Warrants (Tables)</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.alphaenergyinc.com/20161231/role/idr_RELATEDPARTYTRANSACTIONSDETAILS" id="idr_RELATEDPARTYTRANSACTIONSDETAILS">
+				<link:definition>000220 - Statement - RELATED PARTY TRANSACTIONS (DETAILS)</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.alphaenergyinc.com/20161231/role/idr_CapitalStockDetails" id="idr_CapitalStockDetails">
+				<link:definition>000171 - Statement - Capital Stock (Details)</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.alphaenergyinc.com/20161231/role/idr_DisclosureINCOMETAXES" id="idr_DisclosureINCOMETAXES">
+				<link:definition>000090 - Disclosure - INCOME TAXES</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.alphaenergyinc.com/20161231/role/idr_STATEMENTSOFCASHFLOWS" id="idr_STATEMENTSOFCASHFLOWS">
+				<link:definition>000060 - Statement - STATEMENTS OF CASH FLOWS</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.alphaenergyinc.com/20161231/role/idr_STATEMENTOFCHANGESINSTOCKHOLDERSEQUITY" id="idr_STATEMENTOFCHANGESINSTOCKHOLDERSEQUITY">
+				<link:definition>000050 - Statement - STATEMENT OF CHANGES IN STOCKHOLDERS&apos; EQUITY</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.alphaenergyinc.com/20161231/role/idr_DisclosureScheduleOfIncomeTaxesDiffersFromTheAmountComputedByApplyingTheStatutoryFederalIncomeTaxRateTables" id="idr_DisclosureScheduleOfIncomeTaxesDiffersFromTheAmountComputedByApplyingTheStatutoryFederalIncomeTaxRateTables">
+				<link:definition>000150 - Disclosure - Schedule of income taxes differs from the amount computed by applying the statutory federal income tax rate (Tables)</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.alphaenergyinc.com/20161231/role/idr_THEPROVISIONFORINCOMETAXESDETAILS" id="idr_THEPROVISIONFORINCOMETAXESDETAILS">
+				<link:definition>000180 - Statement - THE PROVISION FOR INCOME TAXES (DETAILS)</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.alphaenergyinc.com/20161231/role/idr_DUETORELATEDPARTIESDETAILS" id="idr_DUETORELATEDPARTIESDETAILS">
+				<link:definition>000230 - Statement - DUE TO RELATED PARTIES (DETAILS)</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.alphaenergyinc.com/20161231/role/idr_STATEMENTSOFOPERATIONS" id="idr_STATEMENTSOFOPERATIONS">
+				<link:definition>000040 - Statement - STATEMENTS OF OPERATIONS</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.alphaenergyinc.com/20161231/role/idr_BALANCESHEETS" id="idr_BALANCESHEETS">
+				<link:definition>000020 - Statement - BALANCE SHEETS</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.alphaenergyinc.com/20161231/role/idr_CHANGESINTHENETDEFERREDTAXASSETSDETAILS" id="idr_CHANGESINTHENETDEFERREDTAXASSETSDETAILS">
+				<link:definition>000190 - Statement - CHANGES IN THE NET DEFERRED TAX ASSETS (DETAILS)</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.alphaenergyinc.com/20161231/role/idr_SUBSEQUENTEVENTSDETAILS" id="idr_SUBSEQUENTEVENTSDETAILS">
+				<link:definition>000260 - Statement - SUBSEQUENT EVENTS (DETAILS)</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.alphaenergyinc.com/20161231/role/idr_DisclosureSUMMARYOFSIGNIFICANTACCOUNTINGPOLICIES" id="idr_DisclosureSUMMARYOFSIGNIFICANTACCOUNTINGPOLICIES">
+				<link:definition>000070 - Disclosure - SUMMARY OF SIGNIFICANT ACCOUNTING POLICIES</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.alphaenergyinc.com/20161231/role/idr_OUSTANDINGANDEXERCISABLEOPTIONSDETAILS" id="idr_OUSTANDINGANDEXERCISABLEOPTIONSDETAILS">
+				<link:definition>000250 - Statement - OUSTANDING AND EXERCISABLE OPTIONS (DETAILS)</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.alphaenergyinc.com/20161231/role/idr_DisclosureRELATEDPARTYTRANSATIONS" id="idr_DisclosureRELATEDPARTYTRANSATIONS">
+				<link:definition>000120 - Disclosure - RELATED PARTY TRANSATIONS</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.alphaenergyinc.com/20161231/role/idr_DisclosureGOINGCONCERN" id="idr_DisclosureGOINGCONCERN">
+				<link:definition>000080 - Disclosure - GOING CONCERN</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.alphaenergyinc.com/20161231/role/idr_DisclosureSUBSEQUENTEVENTS" id="idr_DisclosureSUBSEQUENTEVENTS">
+				<link:definition>000130 - Disclosure - SUBSEQUENT EVENTS</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.alphaenergyinc.com/20161231/role/idr_DocumentDocumentAndEntityInformation" id="idr_DocumentDocumentAndEntityInformation">
+				<link:definition>000010 - Document - Document and Entity Information</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.alphaenergyinc.com/20161231/role/idr_SIGNIFICANTACCOUNTINGPOLICIESDetails" id="idr_SIGNIFICANTACCOUNTINGPOLICIESDetails">
+				<link:definition>000170 - Statement - SIGNIFICANT ACCOUNTING POLICIES (Details)</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.alphaenergyinc.com/20161231/role/idr_STOCKDETAILS" id="idr_STOCKDETAILS">
+				<link:definition>000210 - Statement - STOCK (DETAILS)</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.alphaenergyinc.com/20161231/role/idr_STOCKWARRANTSDETAILS" id="idr_STOCKWARRANTSDETAILS">
+				<link:definition>000240 - Statement - STOCK WARRANTS (DETAILS)</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.alphaenergyinc.com/20161231/role/idr_DisclosureSUMMARYOFSIGNIFICANTACCOUNTINGPOLICIESPolicies" id="idr_DisclosureSUMMARYOFSIGNIFICANTACCOUNTINGPOLICIESPolicies">
+				<link:definition>000140 - Disclosure - SUMMARY OF SIGNIFICANT ACCOUNTING POLICIES (Policies)</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.alphaenergyinc.com/20161231/role/idr_DisclosureSTOCKWARRANTS" id="idr_DisclosureSTOCKWARRANTS">
+				<link:definition>000110 - Disclosure - STOCK WARRANTS</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.alphaenergyinc.com/20161231/role/idr_BALANCESHEETSPARENTHETICALS" id="idr_BALANCESHEETSPARENTHETICALS">
+				<link:definition>000030 - Statement - BALANCE SHEETS PARENTHETICALS</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.alphaenergyinc.com/20161231/role/idr_ARECONCILIATIONOFINCOMETAXESCOMPUTEDATTHESTATUTORYRATEDETAILS" id="idr_ARECONCILIATIONOFINCOMETAXESCOMPUTEDATTHESTATUTORYRATEDETAILS">
+				<link:definition>000200 - Statement - A RECONCILIATION OF INCOME TAXES COMPUTED AT THE STATUTORY RATE (DETAILS)</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+		</appinfo>
+	</annotation>
+	<import schemaLocation='http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd' namespace='http://www.xbrl.org/2003/instance'/>
+	<import schemaLocation='http://www.xbrl.org/dtr/type/numeric-2009-12-16.xsd' namespace='http://www.xbrl.org/dtr/type/numeric'/>
+	<import schemaLocation='http://www.xbrl.org/dtr/type/nonNumeric-2009-12-16.xsd' namespace='http://www.xbrl.org/dtr/type/non-numeric'/>
+	<import schemaLocation='http://www.xbrl.org/2005/xbrldt-2005.xsd' namespace='http://xbrl.org/2005/xbrldt'/>
+	<import namespace='http://fasb.org/us-gaap/2016-01-31' schemaLocation='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd' />
+	<import namespace='http://xbrl.sec.gov/dei/2014-01-31' schemaLocation='http://xbrl.sec.gov/dei/2014/dei-2014-01-31.xsd' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_DocumentAndEntityInformationAbstract' name='DocumentAndEntityInformationAbstract' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_RelatedPartyDisclosuresAbstract' name='RelatedPartyDisclosuresAbstract' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_GoingConcernAbstract' name='GoingConcernAbstract' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_SubsequentEventsAbstract1' name='SubsequentEventsAbstract1' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_SubsequentEventsDetailsAbstract' name='SubsequentEventsDetailsAbstract' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_AccountingPoliciesAbstract1' name='AccountingPoliciesAbstract1' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_EquityAbstract1' name='EquityAbstract1' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_CompensationRelatedCostsRetirementBenefitsAbstract' name='CompensationRelatedCostsRetirementBenefitsAbstract' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_IncomeTaxesAbstract' name='IncomeTaxesAbstract' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_ScheduleOfIncomeTaxesDiffersFromTheAmountComputedByApplyingTheStatutoryFederalIncomeTaxRateTablesAbstract' name='ScheduleOfIncomeTaxesDiffersFromTheAmountComputedByApplyingTheStatutoryFederalIncomeTaxRateTablesAbstract' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_CompensationRelatedCostsShareBasedPaymentsAbstract' name='CompensationRelatedCostsShareBasedPaymentsAbstract' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_TheProvisionForIncomeTaxesDetailsAbstract' name='TheProvisionForIncomeTaxesDetailsAbstract' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_ChangesInTheNetDeferredTaxAssetsDetailsAbstract' name='ChangesInTheNetDeferredTaxAssetsDetailsAbstract' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_NetDeferredTaxAsset' name='NetDeferredTaxAsset' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_AReconciliationOfIncomeTaxesComputedAtTheStatutoryRateDetailsAbstract' name='AReconciliationOfIncomeTaxesComputedAtTheStatutoryRateDetailsAbstract' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_TaxAtStatutoryRate3963' name='TaxAtStatutoryRate3963' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_IncreaseInValuationAllowance' name='IncreaseInValuationAllowance' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_NetDeferredTaxAsset1' name='NetDeferredTaxAsset1' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_StockDetailsAbstract' name='StockDetailsAbstract' />
+	<element nillable='true' type='xbrli:sharesItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_CompanyIsAuthorizedToIssueSharesOfPreferredStock' name='CompanyIsAuthorizedToIssueSharesOfPreferredStock' />
+	<element nillable='true' type='num:perShareItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_CompanyIsAuthorizedToIssueSharesOfPreferredStockParValue' name='CompanyIsAuthorizedToIssueSharesOfPreferredStockParValue' />
+	<element nillable='true' type='xbrli:sharesItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_CompanyIsAuthorizedToIssueSharesOfCommonStock' name='CompanyIsAuthorizedToIssueSharesOfCommonStock' />
+	<element nillable='true' type='num:perShareItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_CompanyIsAuthorizedToIssueSharesOfCommonStockParValue' name='CompanyIsAuthorizedToIssueSharesOfCommonStockParValue' />
+	<element nillable='true' type='xbrli:sharesItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_CommonSharesForTheAcquisitionOfAnOilAndGasLease' name='CommonSharesForTheAcquisitionOfAnOilAndGasLease' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' xbrli:balance='debit' id='fil_CommonSharesForTheAcquisitionOfAnOilAndGasLeaseValuedAt' name='CommonSharesForTheAcquisitionOfAnOilAndGasLeaseValuedAt' />
+	<element nillable='true' type='xbrli:sharesItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_CommonSharesIssuedAndOutstandingPriorToForwardSplit' name='CommonSharesIssuedAndOutstandingPriorToForwardSplit' />
+	<element nillable='true' type='xbrli:sharesItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_CommonSharesIssuedAndOutstandingAfterToForwardSplit' name='CommonSharesIssuedAndOutstandingAfterToForwardSplit' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_RelatedPartyTransactionsDetailsAbstract' name='RelatedPartyTransactionsDetailsAbstract' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' xbrli:balance='debit' id='fil_CompanyReceivedAdvancesFromRelatedPartiesTotaling' name='CompanyReceivedAdvancesFromRelatedPartiesTotaling' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_DueToRelatedPartiesDetailsAbstract' name='DueToRelatedPartiesDetailsAbstract' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_DueToRelatedParties' name='DueToRelatedParties' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_StockWarrantsDetailsAbstract' name='StockWarrantsDetailsAbstract' />
+	<element nillable='true' type='xbrli:sharesItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' id='fil_SharesOutstanding1' name='SharesOutstanding1' />
+	<element nillable='true' type='xbrli:sharesItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' id='fil_SharesGranted' name='SharesGranted' />
+	<element nillable='true' type='num:perShareItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' id='fil_WeightedAverageExercisePricePerShareGranted' name='WeightedAverageExercisePricePerShareGranted' />
+	<element nillable='true' type='num:perShareItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' id='fil_WeightedAverageExercisePricePerShareOutstanding1' name='WeightedAverageExercisePricePerShareOutstanding1' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_OustandingAndExercisableOptionsDetailsAbstract' name='OustandingAndExercisableOptionsDetailsAbstract' />
+	<element nillable='true' type='xbrli:pureItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' id='fil_WeightedAverageRemainingContractualLifeOfOptionsOutstandingInYears' name='WeightedAverageRemainingContractualLifeOfOptionsOutstandingInYears' />
+	<element nillable='true' type='num:perShareItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' id='fil_ExercisePriceOfTheseOptions' name='ExercisePriceOfTheseOptions' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_IntrinsicValueOfTheOptions' name='IntrinsicValueOfTheOptions' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_ChangesInStockholdersEquityAbstract' name='ChangesInStockholdersEquityAbstract' />
+	<element nillable='true' type='xbrli:sharesItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' id='fil_Balance' name='Balance' />
+	<element nillable='true' type='xbrli:sharesItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' id='fil_Balance1' name='Balance1' />
+	<element nillable='true' type='xbrli:pureItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_CompanyEffectedA2ForwardCommonStockSplitFor1' name='CompanyEffectedA2ForwardCommonStockSplitFor1' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' xbrli:balance='debit' id='fil_ImpairmentLoss' name='ImpairmentLoss' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' xbrli:balance='debit' id='fil_IssuanceOfCommonStockForOilAndGasLease' name='IssuanceOfCommonStockForOilAndGasLease' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' xbrli:balance='debit' id='fil_PaymentOfExpensesByRelatedPartyOnBehalfOfTheCompany' name='PaymentOfExpensesByRelatedPartyOnBehalfOfTheCompany' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_OilAndNaturalGasPropertiesDetailsAbstract' name='OilAndNaturalGasPropertiesDetailsAbstract' />
+	<element nillable='true' type='xbrli:sharesItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_CompanyIssuedSharesOfCommonStockInExchangeForAnUnprovedLease' name='CompanyIssuedSharesOfCommonStockInExchangeForAnUnprovedLease' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' xbrli:balance='debit' id='fil_AnUnprovedLeaseAmount' name='AnUnprovedLeaseAmount' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' xbrli:balance='debit' id='fil_ProvedLeaseAmount' name='ProvedLeaseAmount' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_ImpairmentDetailsAbstract' name='ImpairmentDetailsAbstract' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' xbrli:balance='credit' id='fil_TheCompanyRecordedAnImpairmentLoss' name='TheCompanyRecordedAnImpairmentLoss' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_CapitalStockDetailsAbstract' name='CapitalStockDetailsAbstract' />
+	<element nillable='true' type='xbrli:sharesItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' id='fil_SharesOfPreferredStockIssuedAndOutstanding' name='SharesOfPreferredStockIssuedAndOutstanding' />
+	<element nillable='true' type='xbrli:sharesItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' id='fil_AuthorizedSharesOfCommonStock' name='AuthorizedSharesOfCommonStock' />
+	<element nillable='true' type='num:perShareItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' id='fil_SharesOfCommonStockParValue' name='SharesOfCommonStockParValue' />
+	<element nillable='true' type='xbrli:sharesItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' id='fil_SharesOfPreferredStock' name='SharesOfPreferredStock' />
+	<element nillable='true' type='num:perShareItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' id='fil_SharesOfPreferredStockParValue' name='SharesOfPreferredStockParValue' />
+	<element nillable='true' type='num:percentItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_IncomeTaxProvisionAtTheStateStatutoryRate1' name='IncomeTaxProvisionAtTheStateStatutoryRate1' />
+	<element nillable='true' type='num:percentItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_EffectOnOperatingLossCarryForward1' name='EffectOnOperatingLossCarryForward1' />
+	<element nillable='true' type='num:percentItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_TotalProvisionForIncomeTaxes' name='TotalProvisionForIncomeTaxes' />
+	<element nillable='true' type='xbrli:sharesItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' id='fil_SharesExercised' name='SharesExercised' />
+	<element nillable='true' type='xbrli:sharesItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' id='fil_SharesForfeited' name='SharesForfeited' />
+	<element nillable='true' type='xbrli:sharesItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' id='fil_SharesExpired' name='SharesExpired' />
+	<element nillable='true' type='num:perShareItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' id='fil_WeightedAverageExercisePricePerShareExercised' name='WeightedAverageExercisePricePerShareExercised' />
+	<element nillable='true' type='num:perShareItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' id='fil_WeightedAverageExercisePricePerShareForfeited' name='WeightedAverageExercisePricePerShareForfeited' />
+	<element nillable='true' type='num:perShareItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' id='fil_WeightedAverageExercisePricePerShareExpired' name='WeightedAverageExercisePricePerShareExpired' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='credit' id='fil_CompanyExecutedAPromissoryNote' name='CompanyExecutedAPromissoryNote' />
+	<element nillable='true' type='num:percentItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' id='fil_TheNoteBearsSimpleInterestAtARateOf' name='TheNoteBearsSimpleInterestAtARateOf' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='credit' id='fil_CompanyMadeTotalRepaymentsToArrowConsultingARelatedPartyOnNotesPayableRelatedParty' name='CompanyMadeTotalRepaymentsToArrowConsultingARelatedPartyOnNotesPayableRelatedParty' />
+	<element nillable='true' type='xbrli:sharesItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_CommonStockIssuedForOilAndGasLease1' name='CommonStockIssuedForOilAndGasLease1' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' xbrli:balance='credit' id='fil_NetLoss3' name='NetLoss3' />
+	<element nillable='true' type='xbrli:sharesItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_CommonStockIssuedForOilAndGasLease2' name='CommonStockIssuedForOilAndGasLease2' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' xbrli:balance='credit' id='fil_NetLoss4' name='NetLoss4' />
+</schema>
