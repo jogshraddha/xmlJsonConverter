@@ -1,8 +1,11 @@
 package com.project.xmlJsonConverter;
 import java.io.File;
+import java.util.List;
 
 import com.project.utils.ConversionUtil;
 import com.project.utils.JsonWriter;
+
+import org.apache.commons.io.FileUtils;
 
 /**
  * Hello world!
@@ -13,9 +16,11 @@ public class App {
 		final String dir = App.class.getClassLoader().getResource("ALPH-PROD-0413-1022").getPath();
 		File directory = new File(dir);
 		String extension = ".json";
+		String[] extensions = new String[] { "xml"};
 		JsonWriter jsonWriter = new JsonWriter();
-		File[] list = directory.listFiles();
-		for (File file : list) {
+		List<File> files = (List<File>) FileUtils.listFiles(directory, extensions, true);
+		for (File file : files) {
+			System.out.println(file.getName());
 			String jsonString = new ConversionUtil().convertToJson(file);
 			StringBuilder jsonPathBuilder = new StringBuilder();
 			jsonPathBuilder.append(dir).append(File.separator).append(file.getName().split("\\.")[0]).append(extension);

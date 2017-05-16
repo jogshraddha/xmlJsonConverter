@@ -25,7 +25,7 @@ public class ConversionUtil {
 			String xml = IOUtils.toString(inputStream);
 			JSONObject xmlJSONObj = XML.toJSONObject(xml);
 			jsonPrettyPrintString = xmlJSONObj.toString(PRETTY_PRINT_INDENT_FACTOR);
-			System.out.println(jsonPrettyPrintString);
+///			System.out.println(jsonPrettyPrintString);
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
