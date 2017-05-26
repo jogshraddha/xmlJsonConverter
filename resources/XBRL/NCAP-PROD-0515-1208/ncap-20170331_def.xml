@@ -1,0 +1,126 @@
+<?xml version='1.0' encoding='iso-8859-1'?>
+<!-- Vistalytics - iFile Suite version 6.233 -->
+<link:linkbase xmlns="http://www.xbrl.org/2003/linkbase"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd"
+		xmlns:fil="http://www.nsc.com/20170331"
+		xmlns:link="http://www.xbrl.org/2003/linkbase"
+		xmlns:xlink="http://www.w3.org/1999/xlink"
+		xmlns:xbrldt="http://xbrl.org/2005/xbrldt"
+		xmlns:xbrli="http://www.xbrl.org/2003/instance">
+	<link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/all" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#all"/>
+	<link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#hypercube-dimension"/>
+	<link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/dimension-default" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#dimension-default"/>
+	<link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#dimension-domain"/>
+	<link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#domain-member"/>
+	<link:roleRef roleURI="http://www.nsc.com/20170331/role/idr_DocumentDocumentAndEntityInformation" xlink:type="simple" xlink:href="ncap-20170331.xsd#idr_DocumentDocumentAndEntityInformation"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.nsc.com/20170331/role/idr_DocumentDocumentAndEntityInformation"/>
+	<link:roleRef roleURI="http://www.nsc.com/20170331/role/idr_BALANCESHEETSUnaudited" xlink:type="simple" xlink:href="ncap-20170331.xsd#idr_BALANCESHEETSUnaudited"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.nsc.com/20170331/role/idr_BALANCESHEETSUnaudited"/>
+	<link:roleRef roleURI="http://www.nsc.com/20170331/role/idr_BALANCESHEETSPARENTHETICALS" xlink:type="simple" xlink:href="ncap-20170331.xsd#idr_BALANCESHEETSPARENTHETICALS"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.nsc.com/20170331/role/idr_BALANCESHEETSPARENTHETICALS"/>
+	<link:roleRef roleURI="http://www.nsc.com/20170331/role/idr_STATEMENTSOFOPERATIONSUnaudited" xlink:type="simple" xlink:href="ncap-20170331.xsd#idr_STATEMENTSOFOPERATIONSUnaudited"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.nsc.com/20170331/role/idr_STATEMENTSOFOPERATIONSUnaudited"/>
+	<link:roleRef roleURI="http://www.nsc.com/20170331/role/idr_STATEMENTSOFCASHFLOWSUnaudited" xlink:type="simple" xlink:href="ncap-20170331.xsd#idr_STATEMENTSOFCASHFLOWSUnaudited"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.nsc.com/20170331/role/idr_STATEMENTSOFCASHFLOWSUnaudited"/>
+	<link:roleRef roleURI="http://www.nsc.com/20170331/role/idr_DisclosureORGANIZATIONANDBASISOFPRESENTATION" xlink:type="simple" xlink:href="ncap-20170331.xsd#idr_DisclosureORGANIZATIONANDBASISOFPRESENTATION"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.nsc.com/20170331/role/idr_DisclosureORGANIZATIONANDBASISOFPRESENTATION"/>
+	<link:roleRef roleURI="http://www.nsc.com/20170331/role/idr_DisclosureLIQUIDITYGOINGCONCERN" xlink:type="simple" xlink:href="ncap-20170331.xsd#idr_DisclosureLIQUIDITYGOINGCONCERN"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.nsc.com/20170331/role/idr_DisclosureLIQUIDITYGOINGCONCERN"/>
+	<link:roleRef roleURI="http://www.nsc.com/20170331/role/idr_DisclosureRECENTACCOUNTINGPRONOUNCEMENTS" xlink:type="simple" xlink:href="ncap-20170331.xsd#idr_DisclosureRECENTACCOUNTINGPRONOUNCEMENTS"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.nsc.com/20170331/role/idr_DisclosureRECENTACCOUNTINGPRONOUNCEMENTS"/>
+	<link:roleRef roleURI="http://www.nsc.com/20170331/role/idr_DisclosureINVESTMENTINJOINTVENTURE" xlink:type="simple" xlink:href="ncap-20170331.xsd#idr_DisclosureINVESTMENTINJOINTVENTURE"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.nsc.com/20170331/role/idr_DisclosureINVESTMENTINJOINTVENTURE"/>
+	<link:roleRef roleURI="http://www.nsc.com/20170331/role/idr_DisclosureSECURITIES" xlink:type="simple" xlink:href="ncap-20170331.xsd#idr_DisclosureSECURITIES"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.nsc.com/20170331/role/idr_DisclosureSECURITIES"/>
+	<link:roleRef roleURI="http://www.nsc.com/20170331/role/idr_DisclosureWEBDEVELOPMENTCOSTSANDDOMAINNAMESASSETS" xlink:type="simple" xlink:href="ncap-20170331.xsd#idr_DisclosureWEBDEVELOPMENTCOSTSANDDOMAINNAMESASSETS"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.nsc.com/20170331/role/idr_DisclosureWEBDEVELOPMENTCOSTSANDDOMAINNAMESASSETS"/>
+	<link:roleRef roleURI="http://www.nsc.com/20170331/role/idr_DisclosurePROPERTYANDEQUIPMENT" xlink:type="simple" xlink:href="ncap-20170331.xsd#idr_DisclosurePROPERTYANDEQUIPMENT"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.nsc.com/20170331/role/idr_DisclosurePROPERTYANDEQUIPMENT"/>
+	<link:roleRef roleURI="http://www.nsc.com/20170331/role/idr_DisclosureACCOUNTSPAYABLEANDACCRUEDEXPENSESRELATEDPARTY" xlink:type="simple" xlink:href="ncap-20170331.xsd#idr_DisclosureACCOUNTSPAYABLEANDACCRUEDEXPENSESRELATEDPARTY"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.nsc.com/20170331/role/idr_DisclosureACCOUNTSPAYABLEANDACCRUEDEXPENSESRELATEDPARTY"/>
+	<link:roleRef roleURI="http://www.nsc.com/20170331/role/idr_DisclosureNOTESPAYABLERELATEDPARTY" xlink:type="simple" xlink:href="ncap-20170331.xsd#idr_DisclosureNOTESPAYABLERELATEDPARTY"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.nsc.com/20170331/role/idr_DisclosureNOTESPAYABLERELATEDPARTY"/>
+	<link:roleRef roleURI="http://www.nsc.com/20170331/role/idr_DisclosureNOTESPAYABLE" xlink:type="simple" xlink:href="ncap-20170331.xsd#idr_DisclosureNOTESPAYABLE"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.nsc.com/20170331/role/idr_DisclosureNOTESPAYABLE"/>
+	<link:roleRef roleURI="http://www.nsc.com/20170331/role/idr_DisclosureEQUITY" xlink:type="simple" xlink:href="ncap-20170331.xsd#idr_DisclosureEQUITY"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.nsc.com/20170331/role/idr_DisclosureEQUITY"/>
+	<link:roleRef roleURI="http://www.nsc.com/20170331/role/idr_DisclosureSTOCKWARRANTS" xlink:type="simple" xlink:href="ncap-20170331.xsd#idr_DisclosureSTOCKWARRANTS"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.nsc.com/20170331/role/idr_DisclosureSTOCKWARRANTS"/>
+	<link:roleRef roleURI="http://www.nsc.com/20170331/role/idr_DisclosureEARNINGSLOSSPERSHARE" xlink:type="simple" xlink:href="ncap-20170331.xsd#idr_DisclosureEARNINGSLOSSPERSHARE"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.nsc.com/20170331/role/idr_DisclosureEARNINGSLOSSPERSHARE"/>
+	<link:roleRef roleURI="http://www.nsc.com/20170331/role/idr_DisclosureRELATEDPARTYTRANSACTIONS" xlink:type="simple" xlink:href="ncap-20170331.xsd#idr_DisclosureRELATEDPARTYTRANSACTIONS"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.nsc.com/20170331/role/idr_DisclosureRELATEDPARTYTRANSACTIONS"/>
+	<link:roleRef roleURI="http://www.nsc.com/20170331/role/idr_DisclosureCOMMITMENTSANDCONTINGENCIES" xlink:type="simple" xlink:href="ncap-20170331.xsd#idr_DisclosureCOMMITMENTSANDCONTINGENCIES"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.nsc.com/20170331/role/idr_DisclosureCOMMITMENTSANDCONTINGENCIES"/>
+	<link:roleRef roleURI="http://www.nsc.com/20170331/role/idr_DisclosureREVISIONOFPRIORPERIODFINANCIALSTATEMENTS" xlink:type="simple" xlink:href="ncap-20170331.xsd#idr_DisclosureREVISIONOFPRIORPERIODFINANCIALSTATEMENTS"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.nsc.com/20170331/role/idr_DisclosureREVISIONOFPRIORPERIODFINANCIALSTATEMENTS"/>
+	<link:roleRef roleURI="http://www.nsc.com/20170331/role/idr_DisclosureSUBSEQUENTEVENTS" xlink:type="simple" xlink:href="ncap-20170331.xsd#idr_DisclosureSUBSEQUENTEVENTS"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.nsc.com/20170331/role/idr_DisclosureSUBSEQUENTEVENTS"/>
+	<link:roleRef roleURI="http://www.nsc.com/20170331/role/idr_DisclosureINVESTMENTINJOINTVENTURETables" xlink:type="simple" xlink:href="ncap-20170331.xsd#idr_DisclosureINVESTMENTINJOINTVENTURETables"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.nsc.com/20170331/role/idr_DisclosureINVESTMENTINJOINTVENTURETables"/>
+	<link:roleRef roleURI="http://www.nsc.com/20170331/role/idr_DisclosureWEBDEVELOPMENTCOSTSANDDOMAINNAMESASSETSTables" xlink:type="simple" xlink:href="ncap-20170331.xsd#idr_DisclosureWEBDEVELOPMENTCOSTSANDDOMAINNAMESASSETSTables"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.nsc.com/20170331/role/idr_DisclosureWEBDEVELOPMENTCOSTSANDDOMAINNAMESASSETSTables"/>
+	<link:roleRef roleURI="http://www.nsc.com/20170331/role/idr_DisclosurePROPERTYANDEQUIPMENTTables" xlink:type="simple" xlink:href="ncap-20170331.xsd#idr_DisclosurePROPERTYANDEQUIPMENTTables"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.nsc.com/20170331/role/idr_DisclosurePROPERTYANDEQUIPMENTTables"/>
+	<link:roleRef roleURI="http://www.nsc.com/20170331/role/idr_DisclosureACCOUNTSPAYABLEANDACCRUEDEXPENSESRELATEDPARTYTables" xlink:type="simple" xlink:href="ncap-20170331.xsd#idr_DisclosureACCOUNTSPAYABLEANDACCRUEDEXPENSESRELATEDPARTYTables"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.nsc.com/20170331/role/idr_DisclosureACCOUNTSPAYABLEANDACCRUEDEXPENSESRELATEDPARTYTables"/>
+	<link:roleRef roleURI="http://www.nsc.com/20170331/role/idr_DisclosureNOTESPAYABLERELATEDPARTYTables" xlink:type="simple" xlink:href="ncap-20170331.xsd#idr_DisclosureNOTESPAYABLERELATEDPARTYTables"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.nsc.com/20170331/role/idr_DisclosureNOTESPAYABLERELATEDPARTYTables"/>
+	<link:roleRef roleURI="http://www.nsc.com/20170331/role/idr_DisclosureNOTESPAYABLETables" xlink:type="simple" xlink:href="ncap-20170331.xsd#idr_DisclosureNOTESPAYABLETables"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.nsc.com/20170331/role/idr_DisclosureNOTESPAYABLETables"/>
+	<link:roleRef roleURI="http://www.nsc.com/20170331/role/idr_DisclosureSTOCKWARRANTSTables" xlink:type="simple" xlink:href="ncap-20170331.xsd#idr_DisclosureSTOCKWARRANTSTables"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.nsc.com/20170331/role/idr_DisclosureSTOCKWARRANTSTables"/>
+	<link:roleRef roleURI="http://www.nsc.com/20170331/role/idr_DisclosureNETLOSSPERSHARETables" xlink:type="simple" xlink:href="ncap-20170331.xsd#idr_DisclosureNETLOSSPERSHARETables"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.nsc.com/20170331/role/idr_DisclosureNETLOSSPERSHARETables"/>
+	<link:roleRef roleURI="http://www.nsc.com/20170331/role/idr_DisclosureSCHEDULEOFPRIORPERIODFINANCIALSTATEMENTSTABLES" xlink:type="simple" xlink:href="ncap-20170331.xsd#idr_DisclosureSCHEDULEOFPRIORPERIODFINANCIALSTATEMENTSTABLES"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.nsc.com/20170331/role/idr_DisclosureSCHEDULEOFPRIORPERIODFINANCIALSTATEMENTSTABLES"/>
+	<link:roleRef roleURI="http://www.nsc.com/20170331/role/idr_ORGANIZATIONANDBASISOFPRESENTATIONDetails" xlink:type="simple" xlink:href="ncap-20170331.xsd#idr_ORGANIZATIONANDBASISOFPRESENTATIONDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.nsc.com/20170331/role/idr_ORGANIZATIONANDBASISOFPRESENTATIONDetails"/>
+	<link:roleRef roleURI="http://www.nsc.com/20170331/role/idr_LIQUIDITYGOINGCONCERNDetails" xlink:type="simple" xlink:href="ncap-20170331.xsd#idr_LIQUIDITYGOINGCONCERNDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.nsc.com/20170331/role/idr_LIQUIDITYGOINGCONCERNDetails"/>
+	<link:roleRef roleURI="http://www.nsc.com/20170331/role/idr_INVESTMENTINJOINTVENTUREDetails" xlink:type="simple" xlink:href="ncap-20170331.xsd#idr_INVESTMENTINJOINTVENTUREDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.nsc.com/20170331/role/idr_INVESTMENTINJOINTVENTUREDetails"/>
+	<link:roleRef roleURI="http://www.nsc.com/20170331/role/idr_INVESTMENTINJOINTVENTURENARRATIVEDetails" xlink:type="simple" xlink:href="ncap-20170331.xsd#idr_INVESTMENTINJOINTVENTURENARRATIVEDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.nsc.com/20170331/role/idr_INVESTMENTINJOINTVENTURENARRATIVEDetails"/>
+	<link:roleRef roleURI="http://www.nsc.com/20170331/role/idr_SummaryRevenueInformationOnTheJointVentureDetails" xlink:type="simple" xlink:href="ncap-20170331.xsd#idr_SummaryRevenueInformationOnTheJointVentureDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.nsc.com/20170331/role/idr_SummaryRevenueInformationOnTheJointVentureDetails"/>
+	<link:roleRef roleURI="http://www.nsc.com/20170331/role/idr_SECURITIESDetails" xlink:type="simple" xlink:href="ncap-20170331.xsd#idr_SECURITIESDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.nsc.com/20170331/role/idr_SECURITIESDetails"/>
+	<link:roleRef roleURI="http://www.nsc.com/20170331/role/idr_WEBDEVELOPMENTCOSTSDetails" xlink:type="simple" xlink:href="ncap-20170331.xsd#idr_WEBDEVELOPMENTCOSTSDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.nsc.com/20170331/role/idr_WEBDEVELOPMENTCOSTSDetails"/>
+	<link:roleRef roleURI="http://www.nsc.com/20170331/role/idr_WebDevelopmentCostsNarrativeDetails" xlink:type="simple" xlink:href="ncap-20170331.xsd#idr_WebDevelopmentCostsNarrativeDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.nsc.com/20170331/role/idr_WebDevelopmentCostsNarrativeDetails"/>
+	<link:roleRef roleURI="http://www.nsc.com/20170331/role/idr_PROPERTYANDEQUIPMENTDetails" xlink:type="simple" xlink:href="ncap-20170331.xsd#idr_PROPERTYANDEQUIPMENTDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.nsc.com/20170331/role/idr_PROPERTYANDEQUIPMENTDetails"/>
+	<link:roleRef roleURI="http://www.nsc.com/20170331/role/idr_PROPERTYANDEQUIPMENTDepreciationExpenseDetails" xlink:type="simple" xlink:href="ncap-20170331.xsd#idr_PROPERTYANDEQUIPMENTDepreciationExpenseDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.nsc.com/20170331/role/idr_PROPERTYANDEQUIPMENTDepreciationExpenseDetails"/>
+	<link:roleRef roleURI="http://www.nsc.com/20170331/role/idr_ACCOUNTSPAYABLEANDACCRUEDEXPENSESRELATEDPARTYDetails" xlink:type="simple" xlink:href="ncap-20170331.xsd#idr_ACCOUNTSPAYABLEANDACCRUEDEXPENSESRELATEDPARTYDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.nsc.com/20170331/role/idr_ACCOUNTSPAYABLEANDACCRUEDEXPENSESRELATEDPARTYDetails"/>
+	<link:roleRef roleURI="http://www.nsc.com/20170331/role/idr_NOTESPAYABLERELATEDPARTYDetails" xlink:type="simple" xlink:href="ncap-20170331.xsd#idr_NOTESPAYABLERELATEDPARTYDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.nsc.com/20170331/role/idr_NOTESPAYABLERELATEDPARTYDetails"/>
+	<link:roleRef roleURI="http://www.nsc.com/20170331/role/idr_NotesPayableNarrativeDetails" xlink:type="simple" xlink:href="ncap-20170331.xsd#idr_NotesPayableNarrativeDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.nsc.com/20170331/role/idr_NotesPayableNarrativeDetails"/>
+	<link:roleRef roleURI="http://www.nsc.com/20170331/role/idr_NOTESPAYABLEDetails" xlink:type="simple" xlink:href="ncap-20170331.xsd#idr_NOTESPAYABLEDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.nsc.com/20170331/role/idr_NOTESPAYABLEDetails"/>
+	<link:roleRef roleURI="http://www.nsc.com/20170331/role/idr_DilutiveSharesAssociatedWithConvertibleNotesDetails" xlink:type="simple" xlink:href="ncap-20170331.xsd#idr_DilutiveSharesAssociatedWithConvertibleNotesDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.nsc.com/20170331/role/idr_DilutiveSharesAssociatedWithConvertibleNotesDetails"/>
+	<link:roleRef roleURI="http://www.nsc.com/20170331/role/idr_CompanySNotesAndConvertibleNotesPayableDetails" xlink:type="simple" xlink:href="ncap-20170331.xsd#idr_CompanySNotesAndConvertibleNotesPayableDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.nsc.com/20170331/role/idr_CompanySNotesAndConvertibleNotesPayableDetails"/>
+	<link:roleRef roleURI="http://www.nsc.com/20170331/role/idr_EQUITYDetails" xlink:type="simple" xlink:href="ncap-20170331.xsd#idr_EQUITYDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.nsc.com/20170331/role/idr_EQUITYDetails"/>
+	<link:roleRef roleURI="http://www.nsc.com/20170331/role/idr_SUMMARYOFWARRANTACTIVITYDetails" xlink:type="simple" xlink:href="ncap-20170331.xsd#idr_SUMMARYOFWARRANTACTIVITYDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.nsc.com/20170331/role/idr_SUMMARYOFWARRANTACTIVITYDetails"/>
+	<link:roleRef roleURI="http://www.nsc.com/20170331/role/idr_WARRANTSDetails" xlink:type="simple" xlink:href="ncap-20170331.xsd#idr_WARRANTSDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.nsc.com/20170331/role/idr_WARRANTSDetails"/>
+	<link:roleRef roleURI="http://www.nsc.com/20170331/role/idr_EARNINGSLOSSPERSHAREDetails" xlink:type="simple" xlink:href="ncap-20170331.xsd#idr_EARNINGSLOSSPERSHAREDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.nsc.com/20170331/role/idr_EARNINGSLOSSPERSHAREDetails"/>
+	<link:roleRef roleURI="http://www.nsc.com/20170331/role/idr_RELATEDPARTYTRANSACTIONSDetails" xlink:type="simple" xlink:href="ncap-20170331.xsd#idr_RELATEDPARTYTRANSACTIONSDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.nsc.com/20170331/role/idr_RELATEDPARTYTRANSACTIONSDetails"/>
+	<link:roleRef roleURI="http://www.nsc.com/20170331/role/idr_RelatedPartyPayablesDetails" xlink:type="simple" xlink:href="ncap-20170331.xsd#idr_RelatedPartyPayablesDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.nsc.com/20170331/role/idr_RelatedPartyPayablesDetails"/>
+	<link:roleRef roleURI="http://www.nsc.com/20170331/role/idr_COMMITMENTSANDCONTINGENCIESDetails" xlink:type="simple" xlink:href="ncap-20170331.xsd#idr_COMMITMENTSANDCONTINGENCIESDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.nsc.com/20170331/role/idr_COMMITMENTSANDCONTINGENCIESDetails"/>
+	<link:roleRef roleURI="http://www.nsc.com/20170331/role/idr_SUBSEQUENTEVENTSDetails" xlink:type="simple" xlink:href="ncap-20170331.xsd#idr_SUBSEQUENTEVENTSDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.nsc.com/20170331/role/idr_SUBSEQUENTEVENTSDetails"/>
+</link:linkbase>

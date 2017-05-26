@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='iso-8859-1'?>
+<!-- Vistalytics - iFile Suite version 6.233 -->
+<link:linkbase xmlns="http://www.xbrl.org/2003/linkbase"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd"
+		xmlns:fil="http://www.cubescapeinc.com/20170331"
+		xmlns:link="http://www.xbrl.org/2003/linkbase"
+		xmlns:xlink="http://www.w3.org/1999/xlink"
+		xmlns:xbrldt="http://xbrl.org/2005/xbrldt"
+		xmlns:xbrli="http://www.xbrl.org/2003/instance">
+	<link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/all" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#all"/>
+	<link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#hypercube-dimension"/>
+	<link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/dimension-default" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#dimension-default"/>
+	<link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#dimension-domain"/>
+	<link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#domain-member"/>
+	<link:roleRef roleURI="http://www.cubescapeinc.com/20170331/role/idr_DocumentDocumentAndEntityInformation" xlink:type="simple" xlink:href="cscp-20170331.xsd#idr_DocumentDocumentAndEntityInformation"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.cubescapeinc.com/20170331/role/idr_DocumentDocumentAndEntityInformation"/>
+	<link:roleRef roleURI="http://www.cubescapeinc.com/20170331/role/idr_BALANCESHEETS" xlink:type="simple" xlink:href="cscp-20170331.xsd#idr_BALANCESHEETS"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.cubescapeinc.com/20170331/role/idr_BALANCESHEETS"/>
+	<link:roleRef roleURI="http://www.cubescapeinc.com/20170331/role/idr_BALANCESHEETSPARENTHETICALS" xlink:type="simple" xlink:href="cscp-20170331.xsd#idr_BALANCESHEETSPARENTHETICALS"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.cubescapeinc.com/20170331/role/idr_BALANCESHEETSPARENTHETICALS"/>
+	<link:roleRef roleURI="http://www.cubescapeinc.com/20170331/role/idr_STATEMENTSOFOPERATIONSUNAUDITED" xlink:type="simple" xlink:href="cscp-20170331.xsd#idr_STATEMENTSOFOPERATIONSUNAUDITED"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.cubescapeinc.com/20170331/role/idr_STATEMENTSOFOPERATIONSUNAUDITED"/>
+	<link:roleRef roleURI="http://www.cubescapeinc.com/20170331/role/idr_STATEMENTOFCASHFLOWSUNAUDITED" xlink:type="simple" xlink:href="cscp-20170331.xsd#idr_STATEMENTOFCASHFLOWSUNAUDITED"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.cubescapeinc.com/20170331/role/idr_STATEMENTOFCASHFLOWSUNAUDITED"/>
+	<link:roleRef roleURI="http://www.cubescapeinc.com/20170331/role/idr_DisclosureSUMMARYOFSIGNIFICANTACCOUNTINGPOLICIES" xlink:type="simple" xlink:href="cscp-20170331.xsd#idr_DisclosureSUMMARYOFSIGNIFICANTACCOUNTINGPOLICIES"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.cubescapeinc.com/20170331/role/idr_DisclosureSUMMARYOFSIGNIFICANTACCOUNTINGPOLICIES"/>
+	<link:roleRef roleURI="http://www.cubescapeinc.com/20170331/role/idr_DisclosureGOINGCONCERN" xlink:type="simple" xlink:href="cscp-20170331.xsd#idr_DisclosureGOINGCONCERN"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.cubescapeinc.com/20170331/role/idr_DisclosureGOINGCONCERN"/>
+	<link:roleRef roleURI="http://www.cubescapeinc.com/20170331/role/idr_DisclosureINTANGIBLEASSETS" xlink:type="simple" xlink:href="cscp-20170331.xsd#idr_DisclosureINTANGIBLEASSETS"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.cubescapeinc.com/20170331/role/idr_DisclosureINTANGIBLEASSETS"/>
+	<link:roleRef roleURI="http://www.cubescapeinc.com/20170331/role/idr_DisclosurePROPERTYANDEQUIPMENT" xlink:type="simple" xlink:href="cscp-20170331.xsd#idr_DisclosurePROPERTYANDEQUIPMENT"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.cubescapeinc.com/20170331/role/idr_DisclosurePROPERTYANDEQUIPMENT"/>
+	<link:roleRef roleURI="http://www.cubescapeinc.com/20170331/role/idr_DisclosureRELATEDPARTYNOTEPAYABLEANDRELATEDPARTYTRANSACTIONS" xlink:type="simple" xlink:href="cscp-20170331.xsd#idr_DisclosureRELATEDPARTYNOTEPAYABLEANDRELATEDPARTYTRANSACTIONS"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.cubescapeinc.com/20170331/role/idr_DisclosureRELATEDPARTYNOTEPAYABLEANDRELATEDPARTYTRANSACTIONS"/>
+	<link:roleRef roleURI="http://www.cubescapeinc.com/20170331/role/idr_DisclosureCONVERTIBLEDEBENTURERELATEDPARTY" xlink:type="simple" xlink:href="cscp-20170331.xsd#idr_DisclosureCONVERTIBLEDEBENTURERELATEDPARTY"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.cubescapeinc.com/20170331/role/idr_DisclosureCONVERTIBLEDEBENTURERELATEDPARTY"/>
+	<link:roleRef roleURI="http://www.cubescapeinc.com/20170331/role/idr_DisclosureEMBEDDEDDERIVATIVESFINANCIALINSTRUMENTS" xlink:type="simple" xlink:href="cscp-20170331.xsd#idr_DisclosureEMBEDDEDDERIVATIVESFINANCIALINSTRUMENTS"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.cubescapeinc.com/20170331/role/idr_DisclosureEMBEDDEDDERIVATIVESFINANCIALINSTRUMENTS"/>
+	<link:roleRef roleURI="http://www.cubescapeinc.com/20170331/role/idr_DisclosureINCOMETAXES" xlink:type="simple" xlink:href="cscp-20170331.xsd#idr_DisclosureINCOMETAXES"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.cubescapeinc.com/20170331/role/idr_DisclosureINCOMETAXES"/>
+	<link:roleRef roleURI="http://www.cubescapeinc.com/20170331/role/idr_DisclosureSHARECAPITAL" xlink:type="simple" xlink:href="cscp-20170331.xsd#idr_DisclosureSHARECAPITAL"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.cubescapeinc.com/20170331/role/idr_DisclosureSHARECAPITAL"/>
+	<link:roleRef roleURI="http://www.cubescapeinc.com/20170331/role/idr_DisclosureWARRANTSANDOPTIONS" xlink:type="simple" xlink:href="cscp-20170331.xsd#idr_DisclosureWARRANTSANDOPTIONS"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.cubescapeinc.com/20170331/role/idr_DisclosureWARRANTSANDOPTIONS"/>
+	<link:roleRef roleURI="http://www.cubescapeinc.com/20170331/role/idr_DisclosureSUBSEQUENTEVENTS" xlink:type="simple" xlink:href="cscp-20170331.xsd#idr_DisclosureSUBSEQUENTEVENTS"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.cubescapeinc.com/20170331/role/idr_DisclosureSUBSEQUENTEVENTS"/>
+	<link:roleRef roleURI="http://www.cubescapeinc.com/20170331/role/idr_DisclosureACCOUNTINGPOLICIESPolicies" xlink:type="simple" xlink:href="cscp-20170331.xsd#idr_DisclosureACCOUNTINGPOLICIESPolicies"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.cubescapeinc.com/20170331/role/idr_DisclosureACCOUNTINGPOLICIESPolicies"/>
+	<link:roleRef roleURI="http://www.cubescapeinc.com/20170331/role/idr_DisclosureSCHEDULEOFINTANGIBLEASSETSTables" xlink:type="simple" xlink:href="cscp-20170331.xsd#idr_DisclosureSCHEDULEOFINTANGIBLEASSETSTables"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.cubescapeinc.com/20170331/role/idr_DisclosureSCHEDULEOFINTANGIBLEASSETSTables"/>
+	<link:roleRef roleURI="http://www.cubescapeinc.com/20170331/role/idr_DisclosureSCHEDULEOFPROPERTYANDEQUIPMENTTables" xlink:type="simple" xlink:href="cscp-20170331.xsd#idr_DisclosureSCHEDULEOFPROPERTYANDEQUIPMENTTables"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.cubescapeinc.com/20170331/role/idr_DisclosureSCHEDULEOFPROPERTYANDEQUIPMENTTables"/>
+	<link:roleRef roleURI="http://www.cubescapeinc.com/20170331/role/idr_DisclosureSCHEDULEOFINCOMETAXEXPENSEBENEFITTables" xlink:type="simple" xlink:href="cscp-20170331.xsd#idr_DisclosureSCHEDULEOFINCOMETAXEXPENSEBENEFITTables"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.cubescapeinc.com/20170331/role/idr_DisclosureSCHEDULEOFINCOMETAXEXPENSEBENEFITTables"/>
+	<link:roleRef roleURI="http://www.cubescapeinc.com/20170331/role/idr_DisclosureSCHEDULEOFWARRANTSANDOPTIONSTables" xlink:type="simple" xlink:href="cscp-20170331.xsd#idr_DisclosureSCHEDULEOFWARRANTSANDOPTIONSTables"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.cubescapeinc.com/20170331/role/idr_DisclosureSCHEDULEOFWARRANTSANDOPTIONSTables"/>
+	<link:roleRef roleURI="http://www.cubescapeinc.com/20170331/role/idr_SIGNIFICANTACCOUNTINGPOLICIESDetails" xlink:type="simple" xlink:href="cscp-20170331.xsd#idr_SIGNIFICANTACCOUNTINGPOLICIESDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.cubescapeinc.com/20170331/role/idr_SIGNIFICANTACCOUNTINGPOLICIESDetails"/>
+	<link:roleRef roleURI="http://www.cubescapeinc.com/20170331/role/idr_GOINGCONCERNDetails" xlink:type="simple" xlink:href="cscp-20170331.xsd#idr_GOINGCONCERNDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.cubescapeinc.com/20170331/role/idr_GOINGCONCERNDetails"/>
+	<link:roleRef roleURI="http://www.cubescapeinc.com/20170331/role/idr_INTANGIBLEASSETSDetails" xlink:type="simple" xlink:href="cscp-20170331.xsd#idr_INTANGIBLEASSETSDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.cubescapeinc.com/20170331/role/idr_INTANGIBLEASSETSDetails"/>
+	<link:roleRef roleURI="http://www.cubescapeinc.com/20170331/role/idr_INTANGIBLEASSETSAMORTIZATIONEXPENSEDetails" xlink:type="simple" xlink:href="cscp-20170331.xsd#idr_INTANGIBLEASSETSAMORTIZATIONEXPENSEDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.cubescapeinc.com/20170331/role/idr_INTANGIBLEASSETSAMORTIZATIONEXPENSEDetails"/>
+	<link:roleRef roleURI="http://www.cubescapeinc.com/20170331/role/idr_PROPERTYANDEQUIPMENTDetails" xlink:type="simple" xlink:href="cscp-20170331.xsd#idr_PROPERTYANDEQUIPMENTDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.cubescapeinc.com/20170331/role/idr_PROPERTYANDEQUIPMENTDetails"/>
+	<link:roleRef roleURI="http://www.cubescapeinc.com/20170331/role/idr_PROPERTYANDEQUIPMENTDEPRECIATIONEXPENSEDetails" xlink:type="simple" xlink:href="cscp-20170331.xsd#idr_PROPERTYANDEQUIPMENTDEPRECIATIONEXPENSEDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.cubescapeinc.com/20170331/role/idr_PROPERTYANDEQUIPMENTDEPRECIATIONEXPENSEDetails"/>
+	<link:roleRef roleURI="http://www.cubescapeinc.com/20170331/role/idr_RELATEDPARTYNOTEPAYABLEANDRELATEDPARTYTRANSACTIONSDetails" xlink:type="simple" xlink:href="cscp-20170331.xsd#idr_RELATEDPARTYNOTEPAYABLEANDRELATEDPARTYTRANSACTIONSDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.cubescapeinc.com/20170331/role/idr_RELATEDPARTYNOTEPAYABLEANDRELATEDPARTYTRANSACTIONSDetails"/>
+	<link:roleRef roleURI="http://www.cubescapeinc.com/20170331/role/idr_CONVERTIBLEDEBENTURERELATEDPARTYDetails" xlink:type="simple" xlink:href="cscp-20170331.xsd#idr_CONVERTIBLEDEBENTURERELATEDPARTYDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.cubescapeinc.com/20170331/role/idr_CONVERTIBLEDEBENTURERELATEDPARTYDetails"/>
+	<link:roleRef roleURI="http://www.cubescapeinc.com/20170331/role/idr_EMBEDDEDDERIVATIVESFINANCIALINSTRUMENTSDetails" xlink:type="simple" xlink:href="cscp-20170331.xsd#idr_EMBEDDEDDERIVATIVESFINANCIALINSTRUMENTSDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.cubescapeinc.com/20170331/role/idr_EMBEDDEDDERIVATIVESFINANCIALINSTRUMENTSDetails"/>
+	<link:roleRef roleURI="http://www.cubescapeinc.com/20170331/role/idr_INCOMETAXESNarrativeDetails" xlink:type="simple" xlink:href="cscp-20170331.xsd#idr_INCOMETAXESNarrativeDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.cubescapeinc.com/20170331/role/idr_INCOMETAXESNarrativeDetails"/>
+	<link:roleRef roleURI="http://www.cubescapeinc.com/20170331/role/idr_COMPONENTSOFNETDEFERREDTAXASSETSDetails" xlink:type="simple" xlink:href="cscp-20170331.xsd#idr_COMPONENTSOFNETDEFERREDTAXASSETSDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.cubescapeinc.com/20170331/role/idr_COMPONENTSOFNETDEFERREDTAXASSETSDetails"/>
+	<link:roleRef roleURI="http://www.cubescapeinc.com/20170331/role/idr_RECONCILIATIONBETWEENSTATUTORYRATEANDTHEEFFECTIVETAXRATEDetails" xlink:type="simple" xlink:href="cscp-20170331.xsd#idr_RECONCILIATIONBETWEENSTATUTORYRATEANDTHEEFFECTIVETAXRATEDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.cubescapeinc.com/20170331/role/idr_RECONCILIATIONBETWEENSTATUTORYRATEANDTHEEFFECTIVETAXRATEDetails"/>
+	<link:roleRef roleURI="http://www.cubescapeinc.com/20170331/role/idr_SHARECAPITALDetails" xlink:type="simple" xlink:href="cscp-20170331.xsd#idr_SHARECAPITALDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.cubescapeinc.com/20170331/role/idr_SHARECAPITALDetails"/>
+	<link:roleRef roleURI="http://www.cubescapeinc.com/20170331/role/idr_WARRANTSANDOPTIONSDetails" xlink:type="simple" xlink:href="cscp-20170331.xsd#idr_WARRANTSANDOPTIONSDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.cubescapeinc.com/20170331/role/idr_WARRANTSANDOPTIONSDetails"/>
+	<link:roleRef roleURI="http://www.cubescapeinc.com/20170331/role/idr_EXPECTEDVOLATILITYDetails" xlink:type="simple" xlink:href="cscp-20170331.xsd#idr_EXPECTEDVOLATILITYDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.cubescapeinc.com/20170331/role/idr_EXPECTEDVOLATILITYDetails"/>
+	<link:roleRef roleURI="http://www.cubescapeinc.com/20170331/role/idr_STOCKPURCHASEWARRANTACTIVITIESDetails" xlink:type="simple" xlink:href="cscp-20170331.xsd#idr_STOCKPURCHASEWARRANTACTIVITIESDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.cubescapeinc.com/20170331/role/idr_STOCKPURCHASEWARRANTACTIVITIESDetails"/>
+	<link:roleRef roleURI="http://www.cubescapeinc.com/20170331/role/idr_SUBSEQUENTEVENTSDetails" xlink:type="simple" xlink:href="cscp-20170331.xsd#idr_SUBSEQUENTEVENTSDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.cubescapeinc.com/20170331/role/idr_SUBSEQUENTEVENTSDetails"/>
+</link:linkbase>

@@ -1,0 +1,138 @@
+<?xml version='1.0' encoding='iso-8859-1'?>
+<!-- Vistalytics - iFile Suite version 6.233 -->
+<link:linkbase xmlns="http://www.xbrl.org/2003/linkbase"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd"
+		xmlns:fil="http://www.aximbiotechnologies.com/20170331"
+		xmlns:link="http://www.xbrl.org/2003/linkbase"
+		xmlns:xlink="http://www.w3.org/1999/xlink"
+		xmlns:xbrldt="http://xbrl.org/2005/xbrldt"
+		xmlns:xbrli="http://www.xbrl.org/2003/instance">
+	<link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/all" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#all"/>
+	<link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#hypercube-dimension"/>
+	<link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/dimension-default" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#dimension-default"/>
+	<link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#dimension-domain"/>
+	<link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#domain-member"/>
+	<link:roleRef roleURI="http://www.aximbiotechnologies.com/20170331/role/idr_DocumentDocumentAndEntityInformation" xlink:type="simple" xlink:href="axim-20170331.xsd#idr_DocumentDocumentAndEntityInformation"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.aximbiotechnologies.com/20170331/role/idr_DocumentDocumentAndEntityInformation"/>
+	<link:roleRef roleURI="http://www.aximbiotechnologies.com/20170331/role/idr_CondensedConsolidatedBalanceSheets" xlink:type="simple" xlink:href="axim-20170331.xsd#idr_CondensedConsolidatedBalanceSheets"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.aximbiotechnologies.com/20170331/role/idr_CondensedConsolidatedBalanceSheets"/>
+	<link:roleRef roleURI="http://www.aximbiotechnologies.com/20170331/role/idr_CondensedConsolidatedBalanceSheetsParentheticals" xlink:type="simple" xlink:href="axim-20170331.xsd#idr_CondensedConsolidatedBalanceSheetsParentheticals"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.aximbiotechnologies.com/20170331/role/idr_CondensedConsolidatedBalanceSheetsParentheticals"/>
+	<link:roleRef roleURI="http://www.aximbiotechnologies.com/20170331/role/idr_CondensedConsolidatedStatementOfOperationsUnaudited" xlink:type="simple" xlink:href="axim-20170331.xsd#idr_CondensedConsolidatedStatementOfOperationsUnaudited"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.aximbiotechnologies.com/20170331/role/idr_CondensedConsolidatedStatementOfOperationsUnaudited"/>
+	<link:roleRef roleURI="http://www.aximbiotechnologies.com/20170331/role/idr_CondensedConsolidatedStatementsOfCashFlowsUnaudited" xlink:type="simple" xlink:href="axim-20170331.xsd#idr_CondensedConsolidatedStatementsOfCashFlowsUnaudited"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.aximbiotechnologies.com/20170331/role/idr_CondensedConsolidatedStatementsOfCashFlowsUnaudited"/>
+	<link:roleRef roleURI="http://www.aximbiotechnologies.com/20170331/role/idr_CondensedConsolidatedStatementOfStockholdersDeficitUnaudited" xlink:type="simple" xlink:href="axim-20170331.xsd#idr_CondensedConsolidatedStatementOfStockholdersDeficitUnaudited"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.aximbiotechnologies.com/20170331/role/idr_CondensedConsolidatedStatementOfStockholdersDeficitUnaudited">
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_StatementTable' xlink:label='us-gaap_StatementTable'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_StatementEquityComponentsAxis' xlink:label='us-gaap_StatementEquityComponentsAxis'/>
+		<link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/hypercube-dimension' xlink:from='us-gaap_StatementTable' xlink:to='us-gaap_StatementEquityComponentsAxis' use='optional' order='1.0' xbrldt:contextElement='segment'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_EquityComponentDomain' xlink:label='us-gaap_EquityComponentDomain'/>
+		<link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/dimension-domain' xlink:from='us-gaap_StatementEquityComponentsAxis' xlink:to='us-gaap_EquityComponentDomain' use='optional' order='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_EquityComponentDomain' xlink:label='us-gaap_EquityComponentDomain_1'/>
+		<link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/dimension-default' xlink:from='us-gaap_StatementEquityComponentsAxis' xlink:to='us-gaap_EquityComponentDomain_1' use='optional' order='1.0' xbrldt:contextElement='segment'/>
+		<link:loc xlink:type='locator' xlink:href='axim-20170331.xsd#fil_SeriesBConvertiblePreferredStockSharesMember' xlink:label='fil_SeriesBConvertiblePreferredStockSharesMember'/>
+		<link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/domain-member' xlink:from='us-gaap_EquityComponentDomain' xlink:to='fil_SeriesBConvertiblePreferredStockSharesMember' use='optional' order='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='axim-20170331.xsd#fil_SeriesCConvertiblePreferredStockSharesMember' xlink:label='fil_SeriesCConvertiblePreferredStockSharesMember'/>
+		<link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/domain-member' xlink:from='us-gaap_EquityComponentDomain' xlink:to='fil_SeriesCConvertiblePreferredStockSharesMember' use='optional' order='2.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_CommonStockMember' xlink:label='us-gaap_CommonStockMember'/>
+		<link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/domain-member' xlink:from='us-gaap_EquityComponentDomain' xlink:to='us-gaap_CommonStockMember' use='optional' order='3.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_CapitalUnitsMember' xlink:label='us-gaap_CapitalUnitsMember'/>
+		<link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/domain-member' xlink:from='us-gaap_EquityComponentDomain' xlink:to='us-gaap_CapitalUnitsMember' use='optional' order='4.0'/>
+		<link:loc xlink:type='locator' xlink:href='axim-20170331.xsd#fil_CommonStockToBeIssuedMember' xlink:label='fil_CommonStockToBeIssuedMember'/>
+		<link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/domain-member' xlink:from='us-gaap_EquityComponentDomain' xlink:to='fil_CommonStockToBeIssuedMember' use='optional' order='5.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_AdditionalPaidInCapitalMember' xlink:label='us-gaap_AdditionalPaidInCapitalMember'/>
+		<link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/domain-member' xlink:from='us-gaap_EquityComponentDomain' xlink:to='us-gaap_AdditionalPaidInCapitalMember' use='optional' order='6.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_RetainedEarningsMember' xlink:label='us-gaap_RetainedEarningsMember'/>
+		<link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/domain-member' xlink:from='us-gaap_EquityComponentDomain' xlink:to='us-gaap_RetainedEarningsMember' use='optional' order='7.0'/>
+		<link:loc xlink:type='locator' xlink:href='axim-20170331.xsd#fil_SeriesBConvertiblePreferredStockAmountMember' xlink:label='fil_SeriesBConvertiblePreferredStockAmountMember'/>
+		<link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/domain-member' xlink:from='us-gaap_EquityComponentDomain' xlink:to='fil_SeriesBConvertiblePreferredStockAmountMember' use='optional' order='8.0'/>
+		<link:loc xlink:type='locator' xlink:href='axim-20170331.xsd#fil_SeriesCConvertiblePreferredStockAmountMember' xlink:label='fil_SeriesCConvertiblePreferredStockAmountMember'/>
+		<link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/domain-member' xlink:from='us-gaap_EquityComponentDomain' xlink:to='fil_SeriesCConvertiblePreferredStockAmountMember' use='optional' order='9.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_StatementLineItems' xlink:label='us-gaap_StatementLineItems'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_SharesOutstanding' xlink:label='us-gaap_SharesOutstanding'/>
+		<link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/domain-member' xlink:from='us-gaap_StatementLineItems' xlink:to='us-gaap_SharesOutstanding' use='optional' order='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='axim-20170331.xsd#fil_Balance' xlink:label='fil_Balance'/>
+		<link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/domain-member' xlink:from='us-gaap_StatementLineItems' xlink:to='fil_Balance' use='optional' order='2.0'/>
+		<link:loc xlink:type='locator' xlink:href='axim-20170331.xsd#fil_CommonStockIssuedAgainstCommonStockToBeIssued1' xlink:label='fil_CommonStockIssuedAgainstCommonStockToBeIssued1'/>
+		<link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/domain-member' xlink:from='us-gaap_StatementLineItems' xlink:to='fil_CommonStockIssuedAgainstCommonStockToBeIssued1' use='optional' order='3.0'/>
+		<link:loc xlink:type='locator' xlink:href='axim-20170331.xsd#fil_NetLoss' xlink:label='fil_NetLoss'/>
+		<link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/domain-member' xlink:from='us-gaap_StatementLineItems' xlink:to='fil_NetLoss' use='optional' order='4.0'/>
+		<link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/all' xlink:from='us-gaap_StatementLineItems' xlink:to='us-gaap_StatementTable' order='0.5' xbrldt:closed='true' xbrldt:contextElement='segment' use='optional'/>
+	</link:definitionLink>
+	<link:roleRef roleURI="http://www.aximbiotechnologies.com/20170331/role/idr_DisclosureORGANIZATION" xlink:type="simple" xlink:href="axim-20170331.xsd#idr_DisclosureORGANIZATION"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.aximbiotechnologies.com/20170331/role/idr_DisclosureORGANIZATION"/>
+	<link:roleRef roleURI="http://www.aximbiotechnologies.com/20170331/role/idr_DisclosureBASISOFPRESENTATION" xlink:type="simple" xlink:href="axim-20170331.xsd#idr_DisclosureBASISOFPRESENTATION"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.aximbiotechnologies.com/20170331/role/idr_DisclosureBASISOFPRESENTATION"/>
+	<link:roleRef roleURI="http://www.aximbiotechnologies.com/20170331/role/idr_DisclosureSIGNIFICANTACCOUNTINGPOLICIES" xlink:type="simple" xlink:href="axim-20170331.xsd#idr_DisclosureSIGNIFICANTACCOUNTINGPOLICIES"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.aximbiotechnologies.com/20170331/role/idr_DisclosureSIGNIFICANTACCOUNTINGPOLICIES"/>
+	<link:roleRef roleURI="http://www.aximbiotechnologies.com/20170331/role/idr_DisclosurePREPAIDEXPENSES" xlink:type="simple" xlink:href="axim-20170331.xsd#idr_DisclosurePREPAIDEXPENSES"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.aximbiotechnologies.com/20170331/role/idr_DisclosurePREPAIDEXPENSES"/>
+	<link:roleRef roleURI="http://www.aximbiotechnologies.com/20170331/role/idr_DisclosureRESERVATIONFEEDEPOSIT" xlink:type="simple" xlink:href="axim-20170331.xsd#idr_DisclosureRESERVATIONFEEDEPOSIT"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.aximbiotechnologies.com/20170331/role/idr_DisclosureRESERVATIONFEEDEPOSIT"/>
+	<link:roleRef roleURI="http://www.aximbiotechnologies.com/20170331/role/idr_DisclosurePROMISSORYNOTERELATEDPARTY" xlink:type="simple" xlink:href="axim-20170331.xsd#idr_DisclosurePROMISSORYNOTERELATEDPARTY"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.aximbiotechnologies.com/20170331/role/idr_DisclosurePROMISSORYNOTERELATEDPARTY"/>
+	<link:roleRef roleURI="http://www.aximbiotechnologies.com/20170331/role/idr_DisclosureRELATEDPARTYTRANSACTIONS" xlink:type="simple" xlink:href="axim-20170331.xsd#idr_DisclosureRELATEDPARTYTRANSACTIONS"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.aximbiotechnologies.com/20170331/role/idr_DisclosureRELATEDPARTYTRANSACTIONS"/>
+	<link:roleRef roleURI="http://www.aximbiotechnologies.com/20170331/role/idr_DisclosureDUETOFIRSTINSURANCEFUNDING" xlink:type="simple" xlink:href="axim-20170331.xsd#idr_DisclosureDUETOFIRSTINSURANCEFUNDING"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.aximbiotechnologies.com/20170331/role/idr_DisclosureDUETOFIRSTINSURANCEFUNDING"/>
+	<link:roleRef roleURI="http://www.aximbiotechnologies.com/20170331/role/idr_DisclosureCONVERTIBLENOTEPAYABLE" xlink:type="simple" xlink:href="axim-20170331.xsd#idr_DisclosureCONVERTIBLENOTEPAYABLE"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.aximbiotechnologies.com/20170331/role/idr_DisclosureCONVERTIBLENOTEPAYABLE"/>
+	<link:roleRef roleURI="http://www.aximbiotechnologies.com/20170331/role/idr_DisclosureSTOCKINCENTIVEPLAN" xlink:type="simple" xlink:href="axim-20170331.xsd#idr_DisclosureSTOCKINCENTIVEPLAN"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.aximbiotechnologies.com/20170331/role/idr_DisclosureSTOCKINCENTIVEPLAN"/>
+	<link:roleRef roleURI="http://www.aximbiotechnologies.com/20170331/role/idr_DisclosureSTOCKHOLDERSDEFICIT" xlink:type="simple" xlink:href="axim-20170331.xsd#idr_DisclosureSTOCKHOLDERSDEFICIT"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.aximbiotechnologies.com/20170331/role/idr_DisclosureSTOCKHOLDERSDEFICIT"/>
+	<link:roleRef roleURI="http://www.aximbiotechnologies.com/20170331/role/idr_DisclosureCOMMITMENTANDCONTINGENCIES" xlink:type="simple" xlink:href="axim-20170331.xsd#idr_DisclosureCOMMITMENTANDCONTINGENCIES"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.aximbiotechnologies.com/20170331/role/idr_DisclosureCOMMITMENTANDCONTINGENCIES"/>
+	<link:roleRef roleURI="http://www.aximbiotechnologies.com/20170331/role/idr_DisclosureGOINGCONCERN" xlink:type="simple" xlink:href="axim-20170331.xsd#idr_DisclosureGOINGCONCERN"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.aximbiotechnologies.com/20170331/role/idr_DisclosureGOINGCONCERN"/>
+	<link:roleRef roleURI="http://www.aximbiotechnologies.com/20170331/role/idr_DisclosureSUBSEQUENTEVENTS" xlink:type="simple" xlink:href="axim-20170331.xsd#idr_DisclosureSUBSEQUENTEVENTS"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.aximbiotechnologies.com/20170331/role/idr_DisclosureSUBSEQUENTEVENTS"/>
+	<link:roleRef roleURI="http://www.aximbiotechnologies.com/20170331/role/idr_DisclosureAccountingPoliciesPolicies" xlink:type="simple" xlink:href="axim-20170331.xsd#idr_DisclosureAccountingPoliciesPolicies"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.aximbiotechnologies.com/20170331/role/idr_DisclosureAccountingPoliciesPolicies"/>
+	<link:roleRef roleURI="http://www.aximbiotechnologies.com/20170331/role/idr_DisclosureScheduleOfPrepaidExpensesTables" xlink:type="simple" xlink:href="axim-20170331.xsd#idr_DisclosureScheduleOfPrepaidExpensesTables"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.aximbiotechnologies.com/20170331/role/idr_DisclosureScheduleOfPrepaidExpensesTables"/>
+	<link:roleRef roleURI="http://www.aximbiotechnologies.com/20170331/role/idr_DisclosureScheduleOfSummaryOfPromissoryNotesPayableTables" xlink:type="simple" xlink:href="axim-20170331.xsd#idr_DisclosureScheduleOfSummaryOfPromissoryNotesPayableTables"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.aximbiotechnologies.com/20170331/role/idr_DisclosureScheduleOfSummaryOfPromissoryNotesPayableTables"/>
+	<link:roleRef roleURI="http://www.aximbiotechnologies.com/20170331/role/idr_DisclosureScheduleOfConvertibleNotesPaybleTables" xlink:type="simple" xlink:href="axim-20170331.xsd#idr_DisclosureScheduleOfConvertibleNotesPaybleTables"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.aximbiotechnologies.com/20170331/role/idr_DisclosureScheduleOfConvertibleNotesPaybleTables"/>
+	<link:roleRef roleURI="http://www.aximbiotechnologies.com/20170331/role/idr_OrganizationDetails" xlink:type="simple" xlink:href="axim-20170331.xsd#idr_OrganizationDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.aximbiotechnologies.com/20170331/role/idr_OrganizationDetails"/>
+	<link:roleRef roleURI="http://www.aximbiotechnologies.com/20170331/role/idr_SignificantAccountingPoliciesDetails" xlink:type="simple" xlink:href="axim-20170331.xsd#idr_SignificantAccountingPoliciesDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.aximbiotechnologies.com/20170331/role/idr_SignificantAccountingPoliciesDetails"/>
+	<link:roleRef roleURI="http://www.aximbiotechnologies.com/20170331/role/idr_PrepaidExpensesDetails" xlink:type="simple" xlink:href="axim-20170331.xsd#idr_PrepaidExpensesDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.aximbiotechnologies.com/20170331/role/idr_PrepaidExpensesDetails"/>
+	<link:roleRef roleURI="http://www.aximbiotechnologies.com/20170331/role/idr_PrepaidExpensesAmortizationDetails" xlink:type="simple" xlink:href="axim-20170331.xsd#idr_PrepaidExpensesAmortizationDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.aximbiotechnologies.com/20170331/role/idr_PrepaidExpensesAmortizationDetails"/>
+	<link:roleRef roleURI="http://www.aximbiotechnologies.com/20170331/role/idr_ReservationFeeDepositDetails" xlink:type="simple" xlink:href="axim-20170331.xsd#idr_ReservationFeeDepositDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.aximbiotechnologies.com/20170331/role/idr_ReservationFeeDepositDetails"/>
+	<link:roleRef roleURI="http://www.aximbiotechnologies.com/20170331/role/idr_RelatedPartyPromissoryNoteDetails" xlink:type="simple" xlink:href="axim-20170331.xsd#idr_RelatedPartyPromissoryNoteDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.aximbiotechnologies.com/20170331/role/idr_RelatedPartyPromissoryNoteDetails"/>
+	<link:roleRef roleURI="http://www.aximbiotechnologies.com/20170331/role/idr_PromissorNoteRelatedPartyInterestExpenseDetails" xlink:type="simple" xlink:href="axim-20170331.xsd#idr_PromissorNoteRelatedPartyInterestExpenseDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.aximbiotechnologies.com/20170331/role/idr_PromissorNoteRelatedPartyInterestExpenseDetails"/>
+	<link:roleRef roleURI="http://www.aximbiotechnologies.com/20170331/role/idr_RelatedPartyTransactionsDetails" xlink:type="simple" xlink:href="axim-20170331.xsd#idr_RelatedPartyTransactionsDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.aximbiotechnologies.com/20170331/role/idr_RelatedPartyTransactionsDetails"/>
+	<link:roleRef roleURI="http://www.aximbiotechnologies.com/20170331/role/idr_DueToFirstInsuranceFundingDetails" xlink:type="simple" xlink:href="axim-20170331.xsd#idr_DueToFirstInsuranceFundingDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.aximbiotechnologies.com/20170331/role/idr_DueToFirstInsuranceFundingDetails"/>
+	<link:roleRef roleURI="http://www.aximbiotechnologies.com/20170331/role/idr_SummarizesConvertibleNotePayableShareholderDetails" xlink:type="simple" xlink:href="axim-20170331.xsd#idr_SummarizesConvertibleNotePayableShareholderDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.aximbiotechnologies.com/20170331/role/idr_SummarizesConvertibleNotePayableShareholderDetails"/>
+	<link:roleRef roleURI="http://www.aximbiotechnologies.com/20170331/role/idr_ConvertibleNotesPayableDetails" xlink:type="simple" xlink:href="axim-20170331.xsd#idr_ConvertibleNotesPayableDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.aximbiotechnologies.com/20170331/role/idr_ConvertibleNotesPayableDetails"/>
+	<link:roleRef roleURI="http://www.aximbiotechnologies.com/20170331/role/idr_SummarizesConvertibleNotePayableDetails" xlink:type="simple" xlink:href="axim-20170331.xsd#idr_SummarizesConvertibleNotePayableDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.aximbiotechnologies.com/20170331/role/idr_SummarizesConvertibleNotePayableDetails"/>
+	<link:roleRef roleURI="http://www.aximbiotechnologies.com/20170331/role/idr_StockIncentivePlanDetails" xlink:type="simple" xlink:href="axim-20170331.xsd#idr_StockIncentivePlanDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.aximbiotechnologies.com/20170331/role/idr_StockIncentivePlanDetails"/>
+	<link:roleRef roleURI="http://www.aximbiotechnologies.com/20170331/role/idr_PreferredStockDetails" xlink:type="simple" xlink:href="axim-20170331.xsd#idr_PreferredStockDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.aximbiotechnologies.com/20170331/role/idr_PreferredStockDetails"/>
+	<link:roleRef roleURI="http://www.aximbiotechnologies.com/20170331/role/idr_CommonStockDetails" xlink:type="simple" xlink:href="axim-20170331.xsd#idr_CommonStockDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.aximbiotechnologies.com/20170331/role/idr_CommonStockDetails"/>
+	<link:roleRef roleURI="http://www.aximbiotechnologies.com/20170331/role/idr_CommonStockEmploymentAgreementCEODetails" xlink:type="simple" xlink:href="axim-20170331.xsd#idr_CommonStockEmploymentAgreementCEODetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.aximbiotechnologies.com/20170331/role/idr_CommonStockEmploymentAgreementCEODetails"/>
+	<link:roleRef roleURI="http://www.aximbiotechnologies.com/20170331/role/idr_CommitmentsAndContingenciesDetails" xlink:type="simple" xlink:href="axim-20170331.xsd#idr_CommitmentsAndContingenciesDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.aximbiotechnologies.com/20170331/role/idr_CommitmentsAndContingenciesDetails"/>
+	<link:roleRef roleURI="http://www.aximbiotechnologies.com/20170331/role/idr_OperatingLeaseDetails" xlink:type="simple" xlink:href="axim-20170331.xsd#idr_OperatingLeaseDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.aximbiotechnologies.com/20170331/role/idr_OperatingLeaseDetails"/>
+	<link:roleRef roleURI="http://www.aximbiotechnologies.com/20170331/role/idr_GoingConcernDetails" xlink:type="simple" xlink:href="axim-20170331.xsd#idr_GoingConcernDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.aximbiotechnologies.com/20170331/role/idr_GoingConcernDetails"/>
+</link:linkbase>

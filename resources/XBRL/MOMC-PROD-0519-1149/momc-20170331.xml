@@ -1,0 +1,250 @@
+<?xml version='1.0' encoding='iso-8859-1'?>
+<!-- Vistalytics - iFile Suite version 6.233 -->
+<xbrl xmlns='http://www.xbrl.org/2003/instance' xmlns:us-gaap='http://fasb.org/us-gaap/2016-01-31' xmlns:xbrldi='http://xbrl.org/2006/xbrldi' xmlns:dei='http://xbrl.sec.gov/dei/2014-01-31' xmlns:fil='http://www.momsonline.com/20170331' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:utr='http://www.xbrl.org/2009/utr' xmlns:num='http://www.xbrl.org/dtr/type/numeric' xmlns:link='http://www.xbrl.org/2003/linkbase' xmlns:iso4217='http://www.xbrl.org/2003/iso4217' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xbrli='http://www.xbrl.org/2003/instance'>
+	<link:schemaRef xlink:type='simple' xlink:href='momc-20170331.xsd' />
+	<us-gaap:CommonStockParOrStatedValuePerShare decimals='INF' contextRef='E17Q1' unitRef='UsdPerShare'>0.001</us-gaap:CommonStockParOrStatedValuePerShare>
+	<us-gaap:CommonStockParOrStatedValuePerShare decimals='INF' contextRef='E16' unitRef='UsdPerShare'>0.001</us-gaap:CommonStockParOrStatedValuePerShare>
+	<us-gaap:CommonStockSharesAuthorized decimals='INF' contextRef='E17Q1' unitRef='Shares'>75000000</us-gaap:CommonStockSharesAuthorized>
+	<us-gaap:CommonStockSharesAuthorized decimals='INF' contextRef='E16' unitRef='Shares'>75000000</us-gaap:CommonStockSharesAuthorized>
+	<us-gaap:CommonStockSharesIssued decimals='INF' contextRef='E17Q1' unitRef='Shares'>4760673</us-gaap:CommonStockSharesIssued>
+	<us-gaap:CommonStockSharesIssued decimals='INF' contextRef='E16' unitRef='Shares'>4755673</us-gaap:CommonStockSharesIssued>
+	<us-gaap:CommonStockSharesOutstanding decimals='INF' contextRef='E17Q1' unitRef='Shares'>4760673</us-gaap:CommonStockSharesOutstanding>
+	<us-gaap:CommonStockSharesOutstanding decimals='INF' contextRef='E16' unitRef='Shares'>4755673</us-gaap:CommonStockSharesOutstanding>
+	<fil:PlatformLease decimals='INF' contextRef='Y17Q1' unitRef='USD'>12500</fil:PlatformLease>
+	<fil:PlatformLease decimals='INF' contextRef='Y16Q1' unitRef='USD'>12500</fil:PlatformLease>
+	<fil:WebsiteMaintenance decimals='INF' contextRef='Y17Q1' unitRef='USD'>20805</fil:WebsiteMaintenance>
+	<fil:WebsiteMaintenance decimals='INF' contextRef='Y16Q1' unitRef='USD'>17482</fil:WebsiteMaintenance>
+	<us-gaap:LegalFees decimals='INF' contextRef='Y17Q1' unitRef='USD'>16572</us-gaap:LegalFees>
+	<us-gaap:LegalFees decimals='INF' contextRef='Y16Q1' unitRef='USD'>9495</us-gaap:LegalFees>
+	<us-gaap:SellingGeneralAndAdministrativeExpense decimals='INF' contextRef='Y17Q1' unitRef='USD'>35417</us-gaap:SellingGeneralAndAdministrativeExpense>
+	<us-gaap:SellingGeneralAndAdministrativeExpense decimals='INF' contextRef='Y16Q1' unitRef='USD'>24053</us-gaap:SellingGeneralAndAdministrativeExpense>
+	<us-gaap:OperatingExpenses decimals='INF' contextRef='Y17Q1' unitRef='USD'>92501</us-gaap:OperatingExpenses>
+	<us-gaap:OperatingExpenses decimals='INF' contextRef='Y16Q1' unitRef='USD'>70737</us-gaap:OperatingExpenses>
+	<us-gaap:OperatingIncomeLoss decimals='INF' contextRef='Y17Q1' unitRef='USD'>-92501</us-gaap:OperatingIncomeLoss>
+	<us-gaap:OperatingIncomeLoss decimals='INF' contextRef='Y16Q1' unitRef='USD'>-70737</us-gaap:OperatingIncomeLoss>
+	<us-gaap:InterestExpense decimals='INF' contextRef='Y17Q1' unitRef='USD'>-41</us-gaap:InterestExpense>
+	<us-gaap:InterestExpense decimals='INF' contextRef='Y16Q1' unitRef='USD'>-471</us-gaap:InterestExpense>
+	<us-gaap:OtherIncome decimals='INF' contextRef='Y17Q1' unitRef='USD'>-41</us-gaap:OtherIncome>
+	<us-gaap:OtherIncome decimals='INF' contextRef='Y16Q1' unitRef='USD'>-471</us-gaap:OtherIncome>
+	<us-gaap:EarningsPerShareBasicAndDiluted decimals='INF' contextRef='Y17Q1' unitRef='UsdPerShare'>-0.02</us-gaap:EarningsPerShareBasicAndDiluted>
+	<us-gaap:EarningsPerShareBasicAndDiluted decimals='INF' contextRef='Y16Q1' unitRef='UsdPerShare'>-0.02</us-gaap:EarningsPerShareBasicAndDiluted>
+	<us-gaap:WeightedAverageNumberOfShareOutstandingBasicAndDiluted decimals='INF' contextRef='Y17Q1' unitRef='Shares'>4757500</us-gaap:WeightedAverageNumberOfShareOutstandingBasicAndDiluted>
+	<us-gaap:WeightedAverageNumberOfShareOutstandingBasicAndDiluted decimals='INF' contextRef='Y16Q1' unitRef='Shares'>4417940</us-gaap:WeightedAverageNumberOfShareOutstandingBasicAndDiluted>
+	<us-gaap:NetIncomeLoss decimals='INF' contextRef='Y17Q1' unitRef='USD'>-92542</us-gaap:NetIncomeLoss>
+	<us-gaap:NetIncomeLoss decimals='INF' contextRef='Y16Q1' unitRef='USD'>-71208</us-gaap:NetIncomeLoss>
+	<fil:DeferredStockCompensation2 decimals='INF' contextRef='Y17Q1' unitRef='USD'>13750</fil:DeferredStockCompensation2>
+	<fil:DeferredStockCompensation2 decimals='INF' contextRef='Y16Q1' unitRef='USD'>3123</fil:DeferredStockCompensation2>
+	<us-gaap:ShareBasedCompensation decimals='INF' contextRef='Y17Q1' unitRef='USD'>5000</us-gaap:ShareBasedCompensation>
+	<us-gaap:ShareBasedCompensation decimals='INF' contextRef='Y16Q1' unitRef='USD'>0</us-gaap:ShareBasedCompensation>
+	<fil:ExpensesPaidByRelatedParty2 decimals='INF' contextRef='Y17Q1' unitRef='USD'>0</fil:ExpensesPaidByRelatedParty2>
+	<fil:ExpensesPaidByRelatedParty2 decimals='INF' contextRef='Y16Q1' unitRef='USD'>5919</fil:ExpensesPaidByRelatedParty2>
+	<us-gaap:IncreaseDecreaseInAccountsPayable decimals='INF' contextRef='Y17Q1' unitRef='USD'>12347</us-gaap:IncreaseDecreaseInAccountsPayable>
+	<us-gaap:IncreaseDecreaseInAccountsPayable decimals='INF' contextRef='Y16Q1' unitRef='USD'>-6756</us-gaap:IncreaseDecreaseInAccountsPayable>
+	<us-gaap:IncreaseDecreaseInDueToRelatedPartiesCurrent decimals='INF' contextRef='Y17Q1' unitRef='USD'>4625</us-gaap:IncreaseDecreaseInDueToRelatedPartiesCurrent>
+	<us-gaap:IncreaseDecreaseInDueToRelatedPartiesCurrent decimals='INF' contextRef='Y16Q1' unitRef='USD'>11250</us-gaap:IncreaseDecreaseInDueToRelatedPartiesCurrent>
+	<us-gaap:NetCashProvidedByUsedInOperatingActivities decimals='INF' contextRef='Y17Q1' unitRef='USD'>-49613</us-gaap:NetCashProvidedByUsedInOperatingActivities>
+	<us-gaap:NetCashProvidedByUsedInOperatingActivities decimals='INF' contextRef='Y16Q1' unitRef='USD'>-50465</us-gaap:NetCashProvidedByUsedInOperatingActivities>
+	<us-gaap:ProceedsFromIssuanceOrSaleOfEquity decimals='INF' contextRef='Y17Q1' unitRef='USD'>0</us-gaap:ProceedsFromIssuanceOrSaleOfEquity>
+	<us-gaap:ProceedsFromIssuanceOrSaleOfEquity decimals='INF' contextRef='Y16Q1' unitRef='USD'>118150</us-gaap:ProceedsFromIssuanceOrSaleOfEquity>
+	<fil:ExpensesPaidBackToRelatedParty1 decimals='INF' contextRef='Y17Q1' unitRef='USD'>-3903</fil:ExpensesPaidBackToRelatedParty1>
+	<fil:ExpensesPaidBackToRelatedParty1 decimals='INF' contextRef='Y16Q1' unitRef='USD'>0</fil:ExpensesPaidBackToRelatedParty1>
+	<us-gaap:ProceedsFromRelatedPartyDebt decimals='INF' contextRef='Y17Q1' unitRef='USD'>0</us-gaap:ProceedsFromRelatedPartyDebt>
+	<us-gaap:ProceedsFromRelatedPartyDebt decimals='INF' contextRef='Y16Q1' unitRef='USD'>8992</us-gaap:ProceedsFromRelatedPartyDebt>
+	<us-gaap:NetCashProvidedByUsedInFinancingActivities decimals='INF' contextRef='Y17Q1' unitRef='USD'>-3903</us-gaap:NetCashProvidedByUsedInFinancingActivities>
+	<us-gaap:NetCashProvidedByUsedInFinancingActivities decimals='INF' contextRef='Y16Q1' unitRef='USD'>127142</us-gaap:NetCashProvidedByUsedInFinancingActivities>
+	<us-gaap:CashAndCashEquivalentsPeriodIncreaseDecrease decimals='INF' contextRef='Y17Q1' unitRef='USD'>-53516</us-gaap:CashAndCashEquivalentsPeriodIncreaseDecrease>
+	<us-gaap:CashAndCashEquivalentsPeriodIncreaseDecrease decimals='INF' contextRef='Y16Q1' unitRef='USD'>76677</us-gaap:CashAndCashEquivalentsPeriodIncreaseDecrease>
+	<us-gaap:CashAndCashEquivalentsAtCarryingValue decimals='INF' contextRef='E16' unitRef='USD'>115648</us-gaap:CashAndCashEquivalentsAtCarryingValue>
+	<us-gaap:CashAndCashEquivalentsAtCarryingValue decimals='INF' contextRef='E17Q1' unitRef='USD'>62132</us-gaap:CashAndCashEquivalentsAtCarryingValue>
+	<us-gaap:CashAndCashEquivalentsAtCarryingValue decimals='INF' contextRef='E16Q1' unitRef='USD'>79661</us-gaap:CashAndCashEquivalentsAtCarryingValue>
+	<us-gaap:InterestPaid decimals='INF' contextRef='Y17Q1' unitRef='USD'>0</us-gaap:InterestPaid>
+	<us-gaap:InterestPaid decimals='INF' contextRef='Y16Q1' unitRef='USD'>471</us-gaap:InterestPaid>
+	<us-gaap:IncomeTaxesPaidNet decimals='INF' contextRef='Y17Q1' unitRef='USD'>0</us-gaap:IncomeTaxesPaidNet>
+	<us-gaap:IncomeTaxesPaidNet decimals='INF' contextRef='Y16Q1' unitRef='USD'>0</us-gaap:IncomeTaxesPaidNet>
+	<us-gaap:Cash decimals='INF' contextRef='E17Q1' unitRef='USD'>62132</us-gaap:Cash>
+	<us-gaap:Cash decimals='INF' contextRef='E16' unitRef='USD'>115648</us-gaap:Cash>
+	<us-gaap:AssetsCurrent decimals='INF' contextRef='E17Q1' unitRef='USD'>62132</us-gaap:AssetsCurrent>
+	<us-gaap:AssetsCurrent decimals='INF' contextRef='E16' unitRef='USD'>115648</us-gaap:AssetsCurrent>
+	<us-gaap:CapitalizedComputerSoftwareGross decimals='INF' contextRef='E17Q1' unitRef='USD'>86486</us-gaap:CapitalizedComputerSoftwareGross>
+	<us-gaap:CapitalizedComputerSoftwareGross decimals='INF' contextRef='E16' unitRef='USD'>86486</us-gaap:CapitalizedComputerSoftwareGross>
+	<us-gaap:CapitalizedComputerSoftwareAccumulatedAmortization decimals='INF' contextRef='E17Q1' unitRef='USD'>-64865</us-gaap:CapitalizedComputerSoftwareAccumulatedAmortization>
+	<us-gaap:CapitalizedComputerSoftwareAccumulatedAmortization decimals='INF' contextRef='E16' unitRef='USD'>-57657</us-gaap:CapitalizedComputerSoftwareAccumulatedAmortization>
+	<us-gaap:CapitalizedComputerSoftwareNet decimals='INF' contextRef='E17Q1' unitRef='USD'>21621</us-gaap:CapitalizedComputerSoftwareNet>
+	<us-gaap:CapitalizedComputerSoftwareNet decimals='INF' contextRef='E16' unitRef='USD'>28829</us-gaap:CapitalizedComputerSoftwareNet>
+	<us-gaap:Assets decimals='INF' contextRef='E17Q1' unitRef='USD'>83753</us-gaap:Assets>
+	<us-gaap:Assets decimals='INF' contextRef='E16' unitRef='USD'>144477</us-gaap:Assets>
+	<us-gaap:AccountsPayableCurrent decimals='INF' contextRef='E17Q1' unitRef='USD'>15405</us-gaap:AccountsPayableCurrent>
+	<us-gaap:AccountsPayableCurrent decimals='INF' contextRef='E16' unitRef='USD'>3059</us-gaap:AccountsPayableCurrent>
+	<us-gaap:DueToRelatedPartiesCurrent decimals='INF' contextRef='E17Q1' unitRef='USD'>90658</us-gaap:DueToRelatedPartiesCurrent>
+	<us-gaap:DueToRelatedPartiesCurrent decimals='INF' contextRef='E16' unitRef='USD'>86033</us-gaap:DueToRelatedPartiesCurrent>
+	<fil:DueToParent decimals='INF' contextRef='E17Q1' unitRef='USD'>157985</fil:DueToParent>
+	<fil:DueToParent decimals='INF' contextRef='E16' unitRef='USD'>161888</fil:DueToParent>
+	<us-gaap:LiabilitiesCurrent decimals='INF' contextRef='E17Q1' unitRef='USD'>264048</us-gaap:LiabilitiesCurrent>
+	<us-gaap:LiabilitiesCurrent decimals='INF' contextRef='E16' unitRef='USD'>250980</us-gaap:LiabilitiesCurrent>
+	<us-gaap:CommonStockValue decimals='INF' contextRef='E17Q1' unitRef='USD'>4760</us-gaap:CommonStockValue>
+	<us-gaap:CommonStockValue decimals='INF' contextRef='E16' unitRef='USD'>4755</us-gaap:CommonStockValue>
+	<us-gaap:AdditionalPaidInCapital decimals='INF' contextRef='E17Q1' unitRef='USD'>928147</us-gaap:AdditionalPaidInCapital>
+	<us-gaap:AdditionalPaidInCapital decimals='INF' contextRef='E16' unitRef='USD'>909402</us-gaap:AdditionalPaidInCapital>
+	<us-gaap:RetainedEarningsAccumulatedDeficit decimals='INF' contextRef='E17Q1' unitRef='USD'>-1113202</us-gaap:RetainedEarningsAccumulatedDeficit>
+	<us-gaap:RetainedEarningsAccumulatedDeficit decimals='INF' contextRef='E16' unitRef='USD'>-1020660</us-gaap:RetainedEarningsAccumulatedDeficit>
+	<us-gaap:StockholdersEquity decimals='INF' contextRef='E17Q1' unitRef='USD'>-180295</us-gaap:StockholdersEquity>
+	<us-gaap:StockholdersEquity decimals='INF' contextRef='E16' unitRef='USD'>-106503</us-gaap:StockholdersEquity>
+	<us-gaap:LiabilitiesAndStockholdersEquity decimals='INF' contextRef='E17Q1' unitRef='USD'>83753</us-gaap:LiabilitiesAndStockholdersEquity>
+	<us-gaap:LiabilitiesAndStockholdersEquity decimals='INF' contextRef='E16' unitRef='USD'>144477</us-gaap:LiabilitiesAndStockholdersEquity>
+	<us-gaap:BasisOfAccounting contextRef='Y17Q1'>&lt;!--egx--&gt;&lt;p style=&apos;margin:0in 0in 0pt&apos;&gt;&lt;b&gt;&lt;font lang=&quot;EN-US&quot;&gt;NOTE 1: BASIS OF PRESENTATION&lt;/font&gt;&lt;/b&gt;&lt;/p&gt; &lt;p style=&apos;margin:0in 0in 0pt&apos;&gt;&amp;nbsp;&lt;/p&gt; &lt;p style=&apos;margin:0in 0in 0pt&apos;&gt;&lt;font lang=&quot;EN-US&quot;&gt;Basis of Presentation&lt;/font&gt;&lt;/p&gt; &lt;p style=&apos;margin:0in 0in 0pt&apos;&gt;&amp;nbsp;&lt;/p&gt; &lt;p style=&apos;margin:0in 0in 0pt&apos;&gt;&lt;font lang=&quot;EN-US&quot;&gt;The unaudited interim financial statements of Moms Online, Inc. (the &amp;#147;Company&amp;#148;) have been prepared in accordance with accounting principles generally accepted in the United States (&amp;#147;U.S. GAAP&amp;#148;) for interim financial information in accordance with Securities and Exchange Commission (SEC) Regulation S-X rule 8-03. Accordingly, they do not include all of the information and footnotes required by U.S. GAAP for complete financial statements. In the opinion of management, the unaudited interim financial statements have been prepared on the same basis as the annual financial statements and reflect all adjustments, which include only normal recurring adjustments, necessary to present fairly the financial position and the results of operations and cash flows for the interim periods presented herein. The financial data and other information disclosed in these notes to the interim financial statements related to the period are unaudited. The results for the three month periods ended March 31, 2017 are not necessarily indicative of the results to be expected for any subsequent quarters or for the entire year ending December 31, 2017. These financial statements should be read in conjunction with the financial statements of the Company for the year ended December 31, 2016.&lt;/font&gt;&lt;/p&gt; &lt;p style=&apos;margin:0in 0in 0pt&apos;&gt;&amp;nbsp;&lt;/p&gt;</us-gaap:BasisOfAccounting>
+	<us-gaap:SubstantialDoubtAboutGoingConcernTextBlock contextRef='Y17Q1'>&lt;!--egx--&gt;&lt;p style=&apos;margin:0in 0in 0pt&apos;&gt;&lt;b&gt;&lt;font lang=&quot;EN-US&quot;&gt;NOTE 2: GOING CONCERN AND CONTINGENCIES&lt;/font&gt;&lt;/b&gt;&lt;/p&gt; &lt;p style=&apos;margin:0in 0in 0pt&apos;&gt;&amp;nbsp;&lt;/p&gt; &lt;p style=&apos;margin:0in 0in 0pt&apos;&gt;&lt;font lang=&quot;EN-US&quot;&gt;Going Concern&lt;/font&gt;&lt;/p&gt; &lt;p style=&apos;margin:0in 0in 0pt&apos;&gt;&amp;nbsp;&lt;/p&gt; &lt;p style=&apos;margin:0in 0in 0pt&apos;&gt;&lt;font lang=&quot;EN-US&quot;&gt;As shown in the accompanying financial statements, we have incurred losses in each year since inception and have a working capital deficit and an accumulated deficit of $1,113,202 as of March 31, 2017. These conditions raise substantial doubt as to our ability to continue as a going concern. In response to these conditions, we may raise additional capital through the sale of equity securities, through an offering of debt securities or through borrowings from financial institutions or individuals. The financial statements do not include any adjustments that might be necessary if we are unable to continue as a going concern. &lt;/font&gt;&lt;/p&gt; &lt;p style=&apos;margin:0in 0in 0pt&apos;&gt;&amp;nbsp;&lt;/p&gt; &lt;p style=&apos;margin:0in 0in 0pt&apos;&gt;&lt;font lang=&quot;EN-US&quot;&gt;Repayment of investment from Sister Corp&lt;/font&gt;&lt;/p&gt; &lt;p style=&apos;margin:0in 0in 0pt&apos;&gt;&amp;nbsp;&lt;/p&gt; &lt;p style=&apos;margin:0in 0in 0pt&apos;&gt;&lt;font lang=&quot;EN-US&quot;&gt;There is an informal agreement between Social Quotient, Inc. (&amp;#147;SQI&amp;#148;), the company&amp;#146;s affiliate (sister corp.) and the Company that calls for the company to give recognition to SQI for the equity contributed to the company &amp;#147;from inception to the future date in which the company might be engaged in a merger or change in control&amp;#148;. The amount of consideration contingently due from the company was $95,224 at March 31, 2017 and December 31, 2016. This contingent liability amount can be satisfied in cash (minimum), or currently $.02 per share; debt; or equity conversion in the event of a merger or transaction in which there is a change in Control.&lt;/font&gt;&lt;/p&gt; &lt;p style=&apos;margin:0in 0in 0pt&apos;&gt;&amp;nbsp;&lt;/p&gt;</us-gaap:SubstantialDoubtAboutGoingConcernTextBlock>
+	<us-gaap:RelatedPartyTransactionsDisclosureTextBlock contextRef='Y17Q1'>&lt;!--egx--&gt;&lt;p style=&apos;margin:0in 0in 0pt&apos;&gt;&lt;b&gt;&lt;font lang=&quot;EN-US&quot;&gt;NOTE 3: RELATED PARTY TRANSACTIONS AND RELATIONSHIPS&lt;/font&gt;&lt;/b&gt;&lt;/p&gt; &lt;p style=&apos;margin:0in 0in 0pt&apos;&gt;&amp;nbsp;&lt;/p&gt; &lt;p style=&apos;margin:0in 0in 0pt&apos;&gt;&lt;font lang=&quot;EN-US&quot;&gt;All directors of the company are related parties. IceLounge Media, Inc. &amp;#147;ILMI&amp;#148; funded 100% of the development of the&amp;nbsp;&lt;i&gt;Momscorner.com&lt;/i&gt;&amp;nbsp;website prior to December 31, 2013. ILMI spun off the website to the Company. All amounts due to related parties were converted to stock in 2013 by prior agreement. The stock fair value was determined to be $0.5168 per share, based on the fair values of the website and the anticipated public filing.&lt;/font&gt;&lt;/p&gt; &lt;p style=&apos;margin:0in 0in 0pt&apos;&gt;&amp;nbsp;&lt;/p&gt; &lt;p style=&apos;margin:0in 0in 0pt&apos;&gt;&lt;font lang=&quot;EN-US&quot;&gt;During the three months ended March 31, 2016, ILMI paid certain net expenses for and on behalf of the Company of $8,992, which were accounted for as amounts due to parent and are due on demand. During the three months ended March 31, 2017, the Company paid back $3,903.&lt;/font&gt;&lt;/p&gt; &lt;p style=&apos;margin:0in 0in 0pt&apos;&gt;&amp;nbsp;&lt;/p&gt; &lt;p style=&apos;margin:0in 0in 0pt&apos;&gt;&lt;font lang=&quot;EN-US&quot;&gt;In addition, Social Quotient Inc. paid $nil and $5,919 of expenses, respectively, for and in behalf of the Company, for the three months ended March 31, 2017 and 2016, respectively&amp;#151;which were accounted for as paid in capital.&lt;/font&gt;&lt;/p&gt; &lt;p style=&apos;margin:0in 0in 0pt&apos;&gt;&amp;nbsp;&lt;/p&gt; &lt;p style=&apos;margin:0in 0in 0pt&apos;&gt;&lt;font lang=&quot;EN-US&quot; style=&apos;background:white&apos;&gt;On June 6, 2016 the Board of Directors of ILMI agreed to transfer from its own holdings of the company&amp;#146;s common stock, 25,000 shares to a company shareholder because he was the first to invest in all three of the ILMI family of companies.&lt;/font&gt;&lt;/p&gt; &lt;p style=&apos;margin:0in 0in 0pt&apos;&gt;&amp;nbsp;&lt;/p&gt; &lt;p style=&apos;margin:0in 0in 0pt&apos;&gt;&lt;font lang=&quot;EN-US&quot;&gt;The Company licenses its technology platform from ILMI, under an Agreement which calls for an automatic 12 month renewal each year on October 1, and a monthly lease payment of $4,167. The company accrued $12,500 for platform lease expense for each of the three month periods ended March 31, 2017 and 2016.&lt;/font&gt;&lt;/p&gt; &lt;p style=&apos;margin:0in 0in 0pt&apos;&gt;&amp;nbsp;&lt;/p&gt; &lt;p style=&apos;margin:0in 0in 0pt&apos;&gt;&lt;font lang=&quot;EN-US&quot;&gt;WB Capital, a related party with common principal ownership, provides Merger &amp;amp; Acquisition and project management services to the Company as a consultant. There is no written agreement governing the relationship. The Company accrued $2,500 a month for these services. Due to the Company&amp;#146;s lack of available cash, the amounts were not paid during either of the three months ended March 31, 2017 or March 31, 2016. The Company owed WB Capital $67,500 as of March 31, 2017.&lt;/font&gt;&lt;/p&gt; &lt;p style=&apos;margin:0in 0in 0pt&apos;&gt;&amp;nbsp;&lt;/p&gt; &lt;p style=&apos;margin:0in 0in 0pt&apos;&gt;&lt;font lang=&quot;EN-US&quot;&gt;Scott E. Lybbert, prior CFO, provided accounting and reporting services to the Company as a consultant. There was no written agreement governing the relationship. For the three months ended March 31, 2016, the Company accrued $3,750, for Lybbert&amp;#146;s services (no amounts were accrued for the three months ended March 31, 2017). During the three months ended March 31, 2017, the Company paid back $4,000. Mr. Lybbert passed away in February 2017. As of March 31, 2017, $19,708 was owed to Mr. Lybbert&amp;#146;s estate.&lt;/font&gt;&lt;/p&gt; &lt;p style=&apos;margin:0in 0in 0pt&apos;&gt;&amp;nbsp;&lt;/p&gt;</us-gaap:RelatedPartyTransactionsDisclosureTextBlock>
+	<us-gaap:IntangibleAssetsDisclosureTextBlock contextRef='Y17Q1'>&lt;!--egx--&gt;&lt;p style=&apos;margin:0in 0in 0pt&apos;&gt;&lt;b&gt;&lt;font lang=&quot;EN-US&quot;&gt;NOTE 4: WEBSITE AND INTANGIBLE ASSETS&lt;/font&gt;&lt;/b&gt;&lt;/p&gt; &lt;p style=&apos;margin:0in 0in 0pt&apos;&gt;&amp;nbsp;&lt;/p&gt; &lt;p style=&apos;margin:0in 0in 0pt&apos;&gt;&lt;font lang=&quot;EN-US&quot;&gt;Since inception, most of the Company&amp;#146;s resources have been focused on creating its business model and related website.&amp;nbsp;Certain costs incurred in development of our website were capitalized with a total of $17,831 allocated to our website development in 2013. In 2014, the Company enhanced its website with mobile-enabled features and functionality. Consequently, $68,655 additional costs were capitalized to the website in 2014. No additional amounts have been capitalized since 2014. The Company began amortizing its capitalized website costs of $86,486 on January 1, 2015, over its estimated useful life of three years. The Company recognized amortization expense of $7,207 and $7,207, for the three months ended March 31, 2017 and 2016, respectively.&lt;/font&gt;&lt;/p&gt; &lt;p style=&apos;margin:0in 0in 0pt&apos;&gt;&amp;nbsp;&lt;/p&gt;</us-gaap:IntangibleAssetsDisclosureTextBlock>
+	<us-gaap:StockholdersEquityNoteDisclosureTextBlock contextRef='Y17Q1'>&lt;!--egx--&gt;&lt;p style=&apos;margin:0in 0in 0pt&apos;&gt;&lt;b&gt;&lt;font lang=&quot;EN-US&quot;&gt;NOTE 5: EQUITY&lt;/font&gt;&lt;/b&gt;&lt;/p&gt; &lt;p style=&apos;margin:0in 0in 0pt&apos;&gt;&amp;nbsp;&lt;/p&gt; &lt;p style=&apos;margin:0in 0in 0pt&apos;&gt;&lt;font lang=&quot;EN-US&quot;&gt;Common stock&lt;/font&gt;&lt;/p&gt; &lt;p style=&apos;margin:0in 0in 0pt&apos;&gt;&amp;nbsp;&lt;/p&gt; &lt;p style=&apos;margin:0in 0in 0pt&apos;&gt;&lt;font lang=&quot;EN-US&quot;&gt;The authorized capital stock of the Company consists of 75,000,000 shares of Common stock, par value $.001 per share, of which 4,760,673 were outstanding as of March 31, 2017.&lt;/font&gt;&lt;/p&gt; &lt;p style=&apos;margin:0in 0in 0pt&apos;&gt;&amp;nbsp;&lt;/p&gt; &lt;p style=&apos;margin:0in 0in 0pt&apos;&gt;&lt;font lang=&quot;EN-US&quot;&gt;The holders of Common Stock are entitled to one vote per share on each matter submitted to a vote at any meeting of shareholders. Shares of Common Stock do not carry cumulative voting rights and, therefore, a majority of the shares of outstanding Common Stock will be able to elect the entire board of directors and, if they do so, minority shareholders would not be able to elect any persons to the board of directors. Moms Online&amp;#146;s bylaws provide that a majority of the issued and outstanding shares of Moms Online constitutes a quorum for shareholders&amp;#146; meetings.&lt;/font&gt;&lt;/p&gt; &lt;p style=&apos;margin:0in 0in 0pt&apos;&gt;&amp;nbsp;&lt;/p&gt; &lt;p style=&apos;margin:0in 0in 0pt&apos;&gt;&lt;font lang=&quot;EN-US&quot;&gt;Shareholders of Moms Online have no preemptive rights to acquire additional shares of Common Stock or other securities. The Common Stock is not subject to redemption and carries no subscription or conversion rights. In the event of liquidation of Moms Online, the shares of Common Stock are entitled to share equally in corporate assets after satisfaction of all liabilities.&lt;/font&gt;&lt;/p&gt; &lt;p style=&apos;margin:0in 0in 0pt&apos;&gt;&amp;nbsp;&lt;/p&gt; &lt;p style=&apos;margin:0in 0in 0pt&apos;&gt;&lt;font lang=&quot;EN-US&quot;&gt;Holders of Common Stock are entitled to receive such dividends, as the board of directors may from time to time declare out of funds legally available for the payment of dividends. Moms Online seeks growth and expansion of its business through the reinvestment of profits, if any, and does not anticipate that we will pay dividends in the foreseeable future.&lt;/font&gt;&lt;/p&gt; &lt;p style=&apos;margin:0in 0in 0pt&apos;&gt;&amp;nbsp;&lt;/p&gt; &lt;p style=&apos;margin:0in 0in 0pt&apos;&gt;&lt;font lang=&quot;EN-US&quot;&gt;During the three months ended March 31, 2017, the company recognized $6,250 of deferred stock compensation to recognize one quarter of a four year stock compensation agreement calling for the payment of 100,000 shares. These shares have not been issued yet due to a yet unfulfilled vesting clause, and are accounted for as a deferred compensation component of paid in capital. The company also recognized $5,000 of deferred stock compensation to recognize one quarter of a two year stock compensation agreement calling for the payment of 40,000 shares. These shares have not been issued yet due to a yet unfulfilled vesting clause, and are accounted for as a deferred compensation component of paid in capital. The company also recognized $2,500 of deferred stock compensation to recognize one quarter of a two year stock compensation agreement calling for the payment of 20,000 shares. These shares have not been issued yet due to a yet unfulfilled vesting clause, and are accounted for as a deferred compensation component of paid in capital.&lt;/font&gt;&lt;/p&gt; &lt;p style=&apos;margin:0in 0in 0pt&apos;&gt;&amp;nbsp;&lt;/p&gt; &lt;p style=&apos;margin:0in 0in 0pt&apos;&gt;&lt;font lang=&quot;EN-US&quot;&gt;On February 14, 2017, the Company issued 5,000 restricted shares to a third party contractor, for services. The Company recorded professional fees expense of $5,000 for these shares. The related agreement specifies 40,000 shares will be issued over a two year period, upon completion of certain milestones.&lt;/font&gt;&lt;/p&gt; &lt;p style=&apos;margin:0in 0in 12pt&apos;&gt;&amp;nbsp;&lt;/p&gt;</us-gaap:StockholdersEquityNoteDisclosureTextBlock>
+	<fil:WorkingCapitalDeficit decimals='INF' contextRef='E17Q1' unitRef='USD'>1113202</fil:WorkingCapitalDeficit>
+	<fil:AmountOfConsiderationContingentlyDueFromTheCompany decimals='INF' contextRef='E17Q1' unitRef='USD'>95224</fil:AmountOfConsiderationContingentlyDueFromTheCompany>
+	<fil:AmountOfConsiderationContingentlyDueFromTheCompany decimals='INF' contextRef='E16' unitRef='USD'>103996</fil:AmountOfConsiderationContingentlyDueFromTheCompany>
+	<fil:ContingentLiabilityAmountCanBeSatisfiedInCashMinimum decimals='INF' contextRef='E17Q1' unitRef='UsdPerShare'>0.02</fil:ContingentLiabilityAmountCanBeSatisfiedInCashMinimum>
+	<fil:ContingentLiabilityAmountCanBeSatisfiedInCashMinimum decimals='INF' contextRef='E16' unitRef='UsdPerShare'>0.02</fil:ContingentLiabilityAmountCanBeSatisfiedInCashMinimum>
+	<fil:IlmiPaidCertainNetExpenses decimals='INF' contextRef='Y17Q1' unitRef='USD'>3903</fil:IlmiPaidCertainNetExpenses>
+	<fil:IlmiPaidCertainNetExpenses decimals='INF' contextRef='Y16Q1' unitRef='USD'>8992</fil:IlmiPaidCertainNetExpenses>
+	<fil:SocialQuotientIncTheCompanySAffiliateSisterCorpPaidOfExpenses decimals='INF' contextRef='Y17Q1' unitRef='USD'>0</fil:SocialQuotientIncTheCompanySAffiliateSisterCorpPaidOfExpenses>
+	<fil:SocialQuotientIncTheCompanySAffiliateSisterCorpPaidOfExpenses decimals='INF' contextRef='Y16Q1' unitRef='USD'>5919</fil:SocialQuotientIncTheCompanySAffiliateSisterCorpPaidOfExpenses>
+	<fil:MonthlyLeasePayment decimals='INF' contextRef='Y17Q1' unitRef='USD'>4167</fil:MonthlyLeasePayment>
+	<fil:ImliAgreedToTransferFromItsOwnHoldingsOfTheCompanySCommonStockSharesToACompanyShareholder decimals='INF' contextRef='I160606' unitRef='Shares'>25000</fil:ImliAgreedToTransferFromItsOwnHoldingsOfTheCompanySCommonStockSharesToACompanyShareholder>
+	<fil:AccruedPlatformLeaseExpense decimals='INF' contextRef='Y17Q1' unitRef='USD'>12500</fil:AccruedPlatformLeaseExpense>
+	<fil:AccruedPlatformLeaseExpense decimals='INF' contextRef='Y16Q1' unitRef='USD'>12500</fil:AccruedPlatformLeaseExpense>
+	<fil:AccruedMergerAmpAcquisitionAndProjectManagementServices decimals='INF' contextRef='Y17Q1' unitRef='USD'>2500</fil:AccruedMergerAmpAcquisitionAndProjectManagementServices>
+	<fil:AccruedMergerAmpAcquisitionAndProjectManagementServices decimals='INF' contextRef='Y16Q1' unitRef='USD'>2500</fil:AccruedMergerAmpAcquisitionAndProjectManagementServices>
+	<fil:DueToWbCapital decimals='INF' contextRef='E17Q1' unitRef='USD'>67500</fil:DueToWbCapital>
+	<fil:AccruedForLybbertSServices decimals='INF' contextRef='Y17Q1' unitRef='USD'>0</fil:AccruedForLybbertSServices>
+	<fil:AccruedForLybbertSServices decimals='INF' contextRef='Y16Q1' unitRef='USD'>3750</fil:AccruedForLybbertSServices>
+	<fil:CompanyPaidMrLybbert decimals='INF' contextRef='Y17Q1' unitRef='USD'>4000</fil:CompanyPaidMrLybbert>
+	<fil:CompanyPaidMrLybbert decimals='INF' contextRef='Y16Q1' unitRef='USD'>8458</fil:CompanyPaidMrLybbert>
+	<fil:OwedToMrLybbert decimals='INF' contextRef='E17Q1' unitRef='USD'>19708</fil:OwedToMrLybbert>
+	<fil:AuthorizedSharesOfCommonStock decimals='INF' contextRef='E17Q1' unitRef='Shares'>75000000</fil:AuthorizedSharesOfCommonStock>
+	<fil:CommonStockParValue decimals='INF' contextRef='E17Q1' unitRef='UsdPerShare'>0.001</fil:CommonStockParValue>
+	<fil:CommonStockSharesOutstanding1 decimals='INF' contextRef='E17Q1' unitRef='Shares'>4760673</fil:CommonStockSharesOutstanding1>
+	<fil:RecognizedDeferredStockCompensation decimals='INF' contextRef='E17Q1' unitRef='USD'>6250</fil:RecognizedDeferredStockCompensation>
+	<fil:StockCompensationAgreementCallingForThePaymentOfShares decimals='INF' contextRef='E17Q1' unitRef='Shares'>100000</fil:StockCompensationAgreementCallingForThePaymentOfShares>
+	<fil:TwoYearStockCompensationAgreementCallingForThePaymentOfShares decimals='INF' contextRef='E17Q1' unitRef='Shares'>40000</fil:TwoYearStockCompensationAgreementCallingForThePaymentOfShares>
+	<fil:DeferredStockCompensationToRecognizeOneQuarterOfATwoYearStockCompensationAgreementCallingForThePayment decimals='INF' contextRef='E17Q1' unitRef='USD'>2500</fil:DeferredStockCompensationToRecognizeOneQuarterOfATwoYearStockCompensationAgreementCallingForThePayment>
+	<fil:DeferredStockCompensationAgreementCallingForThePaymentShares decimals='INF' contextRef='E17Q1' unitRef='Shares'>20000</fil:DeferredStockCompensationAgreementCallingForThePaymentShares>
+	<fil:IssuedRestrictedSharesToAThirdPartyContractorForServices decimals='INF' contextRef='I170214' unitRef='Shares'>5000</fil:IssuedRestrictedSharesToAThirdPartyContractorForServices>
+	<fil:ProfessionalFeesExpense decimals='INF' contextRef='I170214' unitRef='USD'>5000</fil:ProfessionalFeesExpense>
+	<fil:SharesWillBeIssuedOverATwoYearPeriodUponCompletionOfCertainMilestones decimals='INF' contextRef='I170214' unitRef='Shares'>40000</fil:SharesWillBeIssuedOverATwoYearPeriodUponCompletionOfCertainMilestones>
+	<fil:CapitalizedWebsiteDevelopmentCosts decimals='INF' contextRef='E13' unitRef='USD'>17831</fil:CapitalizedWebsiteDevelopmentCosts>
+	<fil:CapitalizedAdditionalWebsiteDevelopmentCosts decimals='INF' contextRef='E14' unitRef='USD'>68655</fil:CapitalizedAdditionalWebsiteDevelopmentCosts>
+	<us-gaap:AdjustmentForAmortization decimals='INF' contextRef='Y17Q1' unitRef='USD'>7207</us-gaap:AdjustmentForAmortization>
+	<us-gaap:AdjustmentForAmortization decimals='INF' contextRef='Y16Q1' unitRef='USD'>7207</us-gaap:AdjustmentForAmortization>
+	<fil:AmortizationCapitalizedWebsiteCostsOnJanuary12015 decimals='INF' contextRef='Y17Q1' unitRef='USD'>86486</fil:AmortizationCapitalizedWebsiteCostsOnJanuary12015>
+	<fil:AmortizationExpense decimals='INF' contextRef='Y17Q1' unitRef='USD'>7207</fil:AmortizationExpense>
+	<fil:AmortizationExpense decimals='INF' contextRef='Y16Q1' unitRef='USD'>7207</fil:AmortizationExpense>
+	<dei:DocumentType contextRef='Y17Q1'>10-Q</dei:DocumentType>
+	<dei:DocumentPeriodEndDate contextRef='Y17Q1'>2017-03-31</dei:DocumentPeriodEndDate>
+	<dei:AmendmentFlag contextRef='Y17Q1'>false</dei:AmendmentFlag>
+	<dei:EntityRegistrantName contextRef='Y17Q1'>Moms Online, Inc.</dei:EntityRegistrantName>
+	<dei:EntityCentralIndexKey contextRef='Y17Q1'>0001619174</dei:EntityCentralIndexKey>
+	<dei:TradingSymbol contextRef='Y17Q1'>momc</dei:TradingSymbol>
+	<dei:CurrentFiscalYearEndDate contextRef='Y17Q1'>--12-31</dei:CurrentFiscalYearEndDate>
+	<dei:EntityCommonStockSharesOutstanding decimals='INF' contextRef='I170519' unitRef='Shares'>4760673</dei:EntityCommonStockSharesOutstanding>
+	<dei:EntityFilerCategory contextRef='Y17Q1'>Smaller Reporting Company</dei:EntityFilerCategory>
+	<dei:EntityCurrentReportingStatus contextRef='Y17Q1'>Yes</dei:EntityCurrentReportingStatus>
+	<dei:EntityVoluntaryFilers contextRef='Y17Q1'>No</dei:EntityVoluntaryFilers>
+	<dei:EntityWellKnownSeasonedIssuer contextRef='Y17Q1'>No</dei:EntityWellKnownSeasonedIssuer>
+	<dei:DocumentFiscalYearFocus contextRef='Y17Q1'>2017</dei:DocumentFiscalYearFocus>
+	<dei:DocumentFiscalPeriodFocus contextRef='Y17Q1'>Q1</dei:DocumentFiscalPeriodFocus>
+	<context id='Y17Q1'>
+		<entity>
+			<identifier scheme='http://www.sec.gov/CIK'>0001619174</identifier>
+		</entity>
+		<period>
+			<startDate>2017-01-01</startDate>
+			<endDate>2017-03-31</endDate>
+		</period>
+	</context>
+	<context id='E17Q1'>
+		<entity>
+			<identifier scheme='http://www.sec.gov/CIK'>0001619174</identifier>
+		</entity>
+		<period>
+			<instant>2017-03-31</instant>
+		</period>
+	</context>
+	<context id='E16'>
+		<entity>
+			<identifier scheme='http://www.sec.gov/CIK'>0001619174</identifier>
+		</entity>
+		<period>
+			<instant>2016-12-31</instant>
+		</period>
+	</context>
+	<context id='Y16Q1'>
+		<entity>
+			<identifier scheme='http://www.sec.gov/CIK'>0001619174</identifier>
+		</entity>
+		<period>
+			<startDate>2016-01-01</startDate>
+			<endDate>2016-03-31</endDate>
+		</period>
+	</context>
+	<context id='E16Q1'>
+		<entity>
+			<identifier scheme='http://www.sec.gov/CIK'>0001619174</identifier>
+		</entity>
+		<period>
+			<instant>2016-03-31</instant>
+		</period>
+	</context>
+	<context id='I160606'>
+		<entity>
+			<identifier scheme='http://www.sec.gov/CIK'>0001619174</identifier>
+		</entity>
+		<period>
+			<instant>2016-06-06</instant>
+		</period>
+	</context>
+	<context id='I170519'>
+		<entity>
+			<identifier scheme='http://www.sec.gov/CIK'>0001619174</identifier>
+		</entity>
+		<period>
+			<instant>2017-05-19</instant>
+		</period>
+	</context>
+	<context id='I170214'>
+		<entity>
+			<identifier scheme='http://www.sec.gov/CIK'>0001619174</identifier>
+		</entity>
+		<period>
+			<instant>2017-02-14</instant>
+		</period>
+	</context>
+	<context id='E13'>
+		<entity>
+			<identifier scheme='http://www.sec.gov/CIK'>0001619174</identifier>
+		</entity>
+		<period>
+			<instant>2013-12-31</instant>
+		</period>
+	</context>
+	<context id='E14'>
+		<entity>
+			<identifier scheme='http://www.sec.gov/CIK'>0001619174</identifier>
+		</entity>
+		<period>
+			<instant>2014-12-31</instant>
+		</period>
+	</context>
+	<unit id='USD'>
+		<measure>iso4217:USD</measure>
+	</unit>
+	<unit id='Shares'>
+		<measure>shares</measure>
+	</unit>
+	<unit id='UsdPerShare'>
+		<divide>
+			<unitNumerator>
+				<measure>iso4217:USD</measure>
+			</unitNumerator>
+			<unitDenominator>
+				<measure>shares</measure>
+			</unitDenominator>
+		</divide>
+	</unit>
+</xbrl>

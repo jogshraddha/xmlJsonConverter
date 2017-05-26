@@ -1,0 +1,152 @@
+<?xml version='1.0' encoding='iso-8859-1'?>
+<!-- Vistalytics - iFile Suite version 6.233 -->
+<link:linkbase xmlns="http://www.xbrl.org/2003/linkbase"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd"
+		xmlns:fil="http://www.hciviocare.com/20170331"
+		xmlns:link="http://www.xbrl.org/2003/linkbase"
+		xmlns:xlink="http://www.w3.org/1999/xlink"
+		xmlns:xbrldt="http://xbrl.org/2005/xbrldt"
+		xmlns:xbrli="http://www.xbrl.org/2003/instance">
+	<link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/all" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#all"/>
+	<link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#hypercube-dimension"/>
+	<link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/dimension-default" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#dimension-default"/>
+	<link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#dimension-domain"/>
+	<link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#domain-member"/>
+	<link:roleRef roleURI="http://www.hciviocare.com/20170331/role/idr_DocumentDocumentAndEntityInformation" xlink:type="simple" xlink:href="vica-20170331.xsd#idr_DocumentDocumentAndEntityInformation"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.hciviocare.com/20170331/role/idr_DocumentDocumentAndEntityInformation"/>
+	<link:roleRef roleURI="http://www.hciviocare.com/20170331/role/idr_CONSOLIDATEDBALANCESHEETS" xlink:type="simple" xlink:href="vica-20170331.xsd#idr_CONSOLIDATEDBALANCESHEETS"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.hciviocare.com/20170331/role/idr_CONSOLIDATEDBALANCESHEETS"/>
+	<link:roleRef roleURI="http://www.hciviocare.com/20170331/role/idr_CONSOLIDATEDBALANCESHEETSPARENTHETICALS" xlink:type="simple" xlink:href="vica-20170331.xsd#idr_CONSOLIDATEDBALANCESHEETSPARENTHETICALS"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.hciviocare.com/20170331/role/idr_CONSOLIDATEDBALANCESHEETSPARENTHETICALS"/>
+	<link:roleRef roleURI="http://www.hciviocare.com/20170331/role/idr_CONSOLIDATEDSTATEMENTSOFOPERATIONSANDCOMPREHENSIVELOSSUnaudited" xlink:type="simple" xlink:href="vica-20170331.xsd#idr_CONSOLIDATEDSTATEMENTSOFOPERATIONSANDCOMPREHENSIVELOSSUnaudited"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.hciviocare.com/20170331/role/idr_CONSOLIDATEDSTATEMENTSOFOPERATIONSANDCOMPREHENSIVELOSSUnaudited"/>
+	<link:roleRef roleURI="http://www.hciviocare.com/20170331/role/idr_CONSOLIDATEDSTATEMENTSOFCASHFLOWSUnaudited" xlink:type="simple" xlink:href="vica-20170331.xsd#idr_CONSOLIDATEDSTATEMENTSOFCASHFLOWSUnaudited"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.hciviocare.com/20170331/role/idr_CONSOLIDATEDSTATEMENTSOFCASHFLOWSUnaudited"/>
+	<link:roleRef roleURI="http://www.hciviocare.com/20170331/role/idr_DisclosureORGANIZATIONANDBUSINESSBACKGROUND" xlink:type="simple" xlink:href="vica-20170331.xsd#idr_DisclosureORGANIZATIONANDBUSINESSBACKGROUND"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.hciviocare.com/20170331/role/idr_DisclosureORGANIZATIONANDBUSINESSBACKGROUND"/>
+	<link:roleRef roleURI="http://www.hciviocare.com/20170331/role/idr_DisclosureGOINGCONCERN" xlink:type="simple" xlink:href="vica-20170331.xsd#idr_DisclosureGOINGCONCERN"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.hciviocare.com/20170331/role/idr_DisclosureGOINGCONCERN"/>
+	<link:roleRef roleURI="http://www.hciviocare.com/20170331/role/idr_DisclosureCONTROLBYPRINCIPALSTOCKHOLDEROFFICER" xlink:type="simple" xlink:href="vica-20170331.xsd#idr_DisclosureCONTROLBYPRINCIPALSTOCKHOLDEROFFICER"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.hciviocare.com/20170331/role/idr_DisclosureCONTROLBYPRINCIPALSTOCKHOLDEROFFICER"/>
+	<link:roleRef roleURI="http://www.hciviocare.com/20170331/role/idr_DisclosureSUMMARYOFSIGNIFICANTACCOUNTINGPOLICIES" xlink:type="simple" xlink:href="vica-20170331.xsd#idr_DisclosureSUMMARYOFSIGNIFICANTACCOUNTINGPOLICIES"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.hciviocare.com/20170331/role/idr_DisclosureSUMMARYOFSIGNIFICANTACCOUNTINGPOLICIES"/>
+	<link:roleRef roleURI="http://www.hciviocare.com/20170331/role/idr_DisclosurePREPAIDEXPENSES" xlink:type="simple" xlink:href="vica-20170331.xsd#idr_DisclosurePREPAIDEXPENSES"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.hciviocare.com/20170331/role/idr_DisclosurePREPAIDEXPENSES"/>
+	<link:roleRef roleURI="http://www.hciviocare.com/20170331/role/idr_DisclosurePROPERTYANDEQUIPMENT" xlink:type="simple" xlink:href="vica-20170331.xsd#idr_DisclosurePROPERTYANDEQUIPMENT"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.hciviocare.com/20170331/role/idr_DisclosurePROPERTYANDEQUIPMENT"/>
+	<link:roleRef roleURI="http://www.hciviocare.com/20170331/role/idr_DisclosureOFFICELEASE" xlink:type="simple" xlink:href="vica-20170331.xsd#idr_DisclosureOFFICELEASE"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.hciviocare.com/20170331/role/idr_DisclosureOFFICELEASE"/>
+	<link:roleRef roleURI="http://www.hciviocare.com/20170331/role/idr_DisclosureLOAN" xlink:type="simple" xlink:href="vica-20170331.xsd#idr_DisclosureLOAN"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.hciviocare.com/20170331/role/idr_DisclosureLOAN"/>
+	<link:roleRef roleURI="http://www.hciviocare.com/20170331/role/idr_DisclosureCOMMITMENTS" xlink:type="simple" xlink:href="vica-20170331.xsd#idr_DisclosureCOMMITMENTS"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.hciviocare.com/20170331/role/idr_DisclosureCOMMITMENTS"/>
+	<link:roleRef roleURI="http://www.hciviocare.com/20170331/role/idr_DisclosureRELATEDPARTYTRANSACTIONS" xlink:type="simple" xlink:href="vica-20170331.xsd#idr_DisclosureRELATEDPARTYTRANSACTIONS"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.hciviocare.com/20170331/role/idr_DisclosureRELATEDPARTYTRANSACTIONS"/>
+	<link:roleRef roleURI="http://www.hciviocare.com/20170331/role/idr_DisclosureCAPITALSTOCK" xlink:type="simple" xlink:href="vica-20170331.xsd#idr_DisclosureCAPITALSTOCK"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.hciviocare.com/20170331/role/idr_DisclosureCAPITALSTOCK"/>
+	<link:roleRef roleURI="http://www.hciviocare.com/20170331/role/idr_DisclosureSTOCKOPTIONS" xlink:type="simple" xlink:href="vica-20170331.xsd#idr_DisclosureSTOCKOPTIONS"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.hciviocare.com/20170331/role/idr_DisclosureSTOCKOPTIONS"/>
+	<link:roleRef roleURI="http://www.hciviocare.com/20170331/role/idr_DisclosurePROVISIONFORINCOMETAXES" xlink:type="simple" xlink:href="vica-20170331.xsd#idr_DisclosurePROVISIONFORINCOMETAXES"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.hciviocare.com/20170331/role/idr_DisclosurePROVISIONFORINCOMETAXES"/>
+	<link:roleRef roleURI="http://www.hciviocare.com/20170331/role/idr_DisclosureSEGMENTREPORTING" xlink:type="simple" xlink:href="vica-20170331.xsd#idr_DisclosureSEGMENTREPORTING"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.hciviocare.com/20170331/role/idr_DisclosureSEGMENTREPORTING"/>
+	<link:roleRef roleURI="http://www.hciviocare.com/20170331/role/idr_DisclosureSUBSEQUENTEVENTS" xlink:type="simple" xlink:href="vica-20170331.xsd#idr_DisclosureSUBSEQUENTEVENTS"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.hciviocare.com/20170331/role/idr_DisclosureSUBSEQUENTEVENTS"/>
+	<link:roleRef roleURI="http://www.hciviocare.com/20170331/role/idr_DisclosureSIGNIFICANTACCOUNTINGPOLICIESPolicies" xlink:type="simple" xlink:href="vica-20170331.xsd#idr_DisclosureSIGNIFICANTACCOUNTINGPOLICIESPolicies"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.hciviocare.com/20170331/role/idr_DisclosureSIGNIFICANTACCOUNTINGPOLICIESPolicies"/>
+	<link:roleRef roleURI="http://www.hciviocare.com/20170331/role/idr_DisclosureSCHEDULEOFPREPAIDEXPENSESTables" xlink:type="simple" xlink:href="vica-20170331.xsd#idr_DisclosureSCHEDULEOFPREPAIDEXPENSESTables"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.hciviocare.com/20170331/role/idr_DisclosureSCHEDULEOFPREPAIDEXPENSESTables"/>
+	<link:roleRef roleURI="http://www.hciviocare.com/20170331/role/idr_DisclosureSCHEDULEOFPROPERTYANDEQUIPMENTTables" xlink:type="simple" xlink:href="vica-20170331.xsd#idr_DisclosureSCHEDULEOFPROPERTYANDEQUIPMENTTables"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.hciviocare.com/20170331/role/idr_DisclosureSCHEDULEOFPROPERTYANDEQUIPMENTTables"/>
+	<link:roleRef roleURI="http://www.hciviocare.com/20170331/role/idr_DisclosureSCHEDULEOFOFFICELEASETables" xlink:type="simple" xlink:href="vica-20170331.xsd#idr_DisclosureSCHEDULEOFOFFICELEASETables"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.hciviocare.com/20170331/role/idr_DisclosureSCHEDULEOFOFFICELEASETables"/>
+	<link:roleRef roleURI="http://www.hciviocare.com/20170331/role/idr_DisclosureSCHEDULEOFRELATEDPARTYTRANSACTIONSTables" xlink:type="simple" xlink:href="vica-20170331.xsd#idr_DisclosureSCHEDULEOFRELATEDPARTYTRANSACTIONSTables"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.hciviocare.com/20170331/role/idr_DisclosureSCHEDULEOFRELATEDPARTYTRANSACTIONSTables"/>
+	<link:roleRef roleURI="http://www.hciviocare.com/20170331/role/idr_DisclosureSTOCKOPTIONSTables" xlink:type="simple" xlink:href="vica-20170331.xsd#idr_DisclosureSTOCKOPTIONSTables"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.hciviocare.com/20170331/role/idr_DisclosureSTOCKOPTIONSTables"/>
+	<link:roleRef roleURI="http://www.hciviocare.com/20170331/role/idr_DisclosurePROVISIONFORINCOMETAXESTables" xlink:type="simple" xlink:href="vica-20170331.xsd#idr_DisclosurePROVISIONFORINCOMETAXESTables"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.hciviocare.com/20170331/role/idr_DisclosurePROVISIONFORINCOMETAXESTables"/>
+	<link:roleRef roleURI="http://www.hciviocare.com/20170331/role/idr_DisclosureSCHEDULEOFSEGMENTREPORTINGTables" xlink:type="simple" xlink:href="vica-20170331.xsd#idr_DisclosureSCHEDULEOFSEGMENTREPORTINGTables"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.hciviocare.com/20170331/role/idr_DisclosureSCHEDULEOFSEGMENTREPORTINGTables"/>
+	<link:roleRef roleURI="http://www.hciviocare.com/20170331/role/idr_OrganizationAndBusinessBackgroundDetails" xlink:type="simple" xlink:href="vica-20170331.xsd#idr_OrganizationAndBusinessBackgroundDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.hciviocare.com/20170331/role/idr_OrganizationAndBusinessBackgroundDetails"/>
+	<link:roleRef roleURI="http://www.hciviocare.com/20170331/role/idr_GoingConcernDetails" xlink:type="simple" xlink:href="vica-20170331.xsd#idr_GoingConcernDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.hciviocare.com/20170331/role/idr_GoingConcernDetails"/>
+	<link:roleRef roleURI="http://www.hciviocare.com/20170331/role/idr_SummaryOfSignificantAccountingPoliciesDetails" xlink:type="simple" xlink:href="vica-20170331.xsd#idr_SummaryOfSignificantAccountingPoliciesDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.hciviocare.com/20170331/role/idr_SummaryOfSignificantAccountingPoliciesDetails"/>
+	<link:roleRef roleURI="http://www.hciviocare.com/20170331/role/idr_PrepaidExpensesDetails" xlink:type="simple" xlink:href="vica-20170331.xsd#idr_PrepaidExpensesDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.hciviocare.com/20170331/role/idr_PrepaidExpensesDetails"/>
+	<link:roleRef roleURI="http://www.hciviocare.com/20170331/role/idr_LeaseholdImprovementDetails" xlink:type="simple" xlink:href="vica-20170331.xsd#idr_LeaseholdImprovementDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.hciviocare.com/20170331/role/idr_LeaseholdImprovementDetails"/>
+	<link:roleRef roleURI="http://www.hciviocare.com/20170331/role/idr_OfficeFurnitureDetails" xlink:type="simple" xlink:href="vica-20170331.xsd#idr_OfficeFurnitureDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.hciviocare.com/20170331/role/idr_OfficeFurnitureDetails"/>
+	<link:roleRef roleURI="http://www.hciviocare.com/20170331/role/idr_ComputerEquipmentDetails" xlink:type="simple" xlink:href="vica-20170331.xsd#idr_ComputerEquipmentDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.hciviocare.com/20170331/role/idr_ComputerEquipmentDetails"/>
+	<link:roleRef roleURI="http://www.hciviocare.com/20170331/role/idr_VehiclesDetails" xlink:type="simple" xlink:href="vica-20170331.xsd#idr_VehiclesDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.hciviocare.com/20170331/role/idr_VehiclesDetails"/>
+	<link:roleRef roleURI="http://www.hciviocare.com/20170331/role/idr_PlantMachineDetails" xlink:type="simple" xlink:href="vica-20170331.xsd#idr_PlantMachineDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.hciviocare.com/20170331/role/idr_PlantMachineDetails"/>
+	<link:roleRef roleURI="http://www.hciviocare.com/20170331/role/idr_LabEquipmentDetails" xlink:type="simple" xlink:href="vica-20170331.xsd#idr_LabEquipmentDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.hciviocare.com/20170331/role/idr_LabEquipmentDetails"/>
+	<link:roleRef roleURI="http://www.hciviocare.com/20170331/role/idr_PropertyAndEquipmentDetails" xlink:type="simple" xlink:href="vica-20170331.xsd#idr_PropertyAndEquipmentDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.hciviocare.com/20170331/role/idr_PropertyAndEquipmentDetails"/>
+	<link:roleRef roleURI="http://www.hciviocare.com/20170331/role/idr_PropertyAndEquipmentDetailsTextual" xlink:type="simple" xlink:href="vica-20170331.xsd#idr_PropertyAndEquipmentDetailsTextual"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.hciviocare.com/20170331/role/idr_PropertyAndEquipmentDetailsTextual"/>
+	<link:roleRef roleURI="http://www.hciviocare.com/20170331/role/idr_OfficeLeaseDetailsTextual" xlink:type="simple" xlink:href="vica-20170331.xsd#idr_OfficeLeaseDetailsTextual"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.hciviocare.com/20170331/role/idr_OfficeLeaseDetailsTextual"/>
+	<link:roleRef roleURI="http://www.hciviocare.com/20170331/role/idr_SummaryOfBalanceOwingToLessorDetails" xlink:type="simple" xlink:href="vica-20170331.xsd#idr_SummaryOfBalanceOwingToLessorDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.hciviocare.com/20170331/role/idr_SummaryOfBalanceOwingToLessorDetails"/>
+	<link:roleRef roleURI="http://www.hciviocare.com/20170331/role/idr_PrepaidExpenseRelatingToOfficeLeasesDetails" xlink:type="simple" xlink:href="vica-20170331.xsd#idr_PrepaidExpenseRelatingToOfficeLeasesDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.hciviocare.com/20170331/role/idr_PrepaidExpenseRelatingToOfficeLeasesDetails"/>
+	<link:roleRef roleURI="http://www.hciviocare.com/20170331/role/idr_FutureAggregateMinimumLeasePaymentsDetails" xlink:type="simple" xlink:href="vica-20170331.xsd#idr_FutureAggregateMinimumLeasePaymentsDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.hciviocare.com/20170331/role/idr_FutureAggregateMinimumLeasePaymentsDetails"/>
+	<link:roleRef roleURI="http://www.hciviocare.com/20170331/role/idr_LoanDetails" xlink:type="simple" xlink:href="vica-20170331.xsd#idr_LoanDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.hciviocare.com/20170331/role/idr_LoanDetails"/>
+	<link:roleRef roleURI="http://www.hciviocare.com/20170331/role/idr_CommitmentsDetails" xlink:type="simple" xlink:href="vica-20170331.xsd#idr_CommitmentsDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.hciviocare.com/20170331/role/idr_CommitmentsDetails"/>
+	<link:roleRef roleURI="http://www.hciviocare.com/20170331/role/idr_ServicesProvidedFromRelatedPartiesDetails" xlink:type="simple" xlink:href="vica-20170331.xsd#idr_ServicesProvidedFromRelatedPartiesDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.hciviocare.com/20170331/role/idr_ServicesProvidedFromRelatedPartiesDetails"/>
+	<link:roleRef roleURI="http://www.hciviocare.com/20170331/role/idr_RelatedPartyTransactionsDetails" xlink:type="simple" xlink:href="vica-20170331.xsd#idr_RelatedPartyTransactionsDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.hciviocare.com/20170331/role/idr_RelatedPartyTransactionsDetails"/>
+	<link:roleRef roleURI="http://www.hciviocare.com/20170331/role/idr_AccountsPayableFromRelatedPartiesBalanceDecember312016Details" xlink:type="simple" xlink:href="vica-20170331.xsd#idr_AccountsPayableFromRelatedPartiesBalanceDecember312016Details"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.hciviocare.com/20170331/role/idr_AccountsPayableFromRelatedPartiesBalanceDecember312016Details"/>
+	<link:roleRef roleURI="http://www.hciviocare.com/20170331/role/idr_ServicesProvidedDuringThePeriodDetails" xlink:type="simple" xlink:href="vica-20170331.xsd#idr_ServicesProvidedDuringThePeriodDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.hciviocare.com/20170331/role/idr_ServicesProvidedDuringThePeriodDetails"/>
+	<link:roleRef roleURI="http://www.hciviocare.com/20170331/role/idr_ReimbursementOnCompanySExpensesAndInterestOnLoanDetails" xlink:type="simple" xlink:href="vica-20170331.xsd#idr_ReimbursementOnCompanySExpensesAndInterestOnLoanDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.hciviocare.com/20170331/role/idr_ReimbursementOnCompanySExpensesAndInterestOnLoanDetails"/>
+	<link:roleRef roleURI="http://www.hciviocare.com/20170331/role/idr_PaymentsDetails" xlink:type="simple" xlink:href="vica-20170331.xsd#idr_PaymentsDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.hciviocare.com/20170331/role/idr_PaymentsDetails"/>
+	<link:roleRef roleURI="http://www.hciviocare.com/20170331/role/idr_ForeignExchangeDetails" xlink:type="simple" xlink:href="vica-20170331.xsd#idr_ForeignExchangeDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.hciviocare.com/20170331/role/idr_ForeignExchangeDetails"/>
+	<link:roleRef roleURI="http://www.hciviocare.com/20170331/role/idr_AccountsPayableFromRelatedPartiesBalanceMarch312017Details" xlink:type="simple" xlink:href="vica-20170331.xsd#idr_AccountsPayableFromRelatedPartiesBalanceMarch312017Details"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.hciviocare.com/20170331/role/idr_AccountsPayableFromRelatedPartiesBalanceMarch312017Details"/>
+	<link:roleRef roleURI="http://www.hciviocare.com/20170331/role/idr_AdvancesFromRelatedPartiesDetails" xlink:type="simple" xlink:href="vica-20170331.xsd#idr_AdvancesFromRelatedPartiesDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.hciviocare.com/20170331/role/idr_AdvancesFromRelatedPartiesDetails"/>
+	<link:roleRef roleURI="http://www.hciviocare.com/20170331/role/idr_CapitalStockTransactionsDetails" xlink:type="simple" xlink:href="vica-20170331.xsd#idr_CapitalStockTransactionsDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.hciviocare.com/20170331/role/idr_CapitalStockTransactionsDetails"/>
+	<link:roleRef roleURI="http://www.hciviocare.com/20170331/role/idr_ShareIssuancesConsultingAgreementDetails" xlink:type="simple" xlink:href="vica-20170331.xsd#idr_ShareIssuancesConsultingAgreementDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.hciviocare.com/20170331/role/idr_ShareIssuancesConsultingAgreementDetails"/>
+	<link:roleRef roleURI="http://www.hciviocare.com/20170331/role/idr_DesignationOfSeriesAPreferredStockDetails" xlink:type="simple" xlink:href="vica-20170331.xsd#idr_DesignationOfSeriesAPreferredStockDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.hciviocare.com/20170331/role/idr_DesignationOfSeriesAPreferredStockDetails"/>
+	<link:roleRef roleURI="http://www.hciviocare.com/20170331/role/idr_StockOptionNarrativeDetails" xlink:type="simple" xlink:href="vica-20170331.xsd#idr_StockOptionNarrativeDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.hciviocare.com/20170331/role/idr_StockOptionNarrativeDetails"/>
+	<link:roleRef roleURI="http://www.hciviocare.com/20170331/role/idr_StockOptionsOutstandingDetails" xlink:type="simple" xlink:href="vica-20170331.xsd#idr_StockOptionsOutstandingDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.hciviocare.com/20170331/role/idr_StockOptionsOutstandingDetails"/>
+	<link:roleRef roleURI="http://www.hciviocare.com/20170331/role/idr_StockOptionsOutstandingCommonStockDetails" xlink:type="simple" xlink:href="vica-20170331.xsd#idr_StockOptionsOutstandingCommonStockDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.hciviocare.com/20170331/role/idr_StockOptionsOutstandingCommonStockDetails"/>
+	<link:roleRef roleURI="http://www.hciviocare.com/20170331/role/idr_AssumptionsUsedToValueTheOptionsGrantedUsingTheBlackScholesOptionPricingModelDetails" xlink:type="simple" xlink:href="vica-20170331.xsd#idr_AssumptionsUsedToValueTheOptionsGrantedUsingTheBlackScholesOptionPricingModelDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.hciviocare.com/20170331/role/idr_AssumptionsUsedToValueTheOptionsGrantedUsingTheBlackScholesOptionPricingModelDetails"/>
+	<link:roleRef roleURI="http://www.hciviocare.com/20170331/role/idr_CommonStockOptionsGrantedUsingTheBlackScholesOptionsModelDetails" xlink:type="simple" xlink:href="vica-20170331.xsd#idr_CommonStockOptionsGrantedUsingTheBlackScholesOptionsModelDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.hciviocare.com/20170331/role/idr_CommonStockOptionsGrantedUsingTheBlackScholesOptionsModelDetails"/>
+	<link:roleRef roleURI="http://www.hciviocare.com/20170331/role/idr_NetOperatingLossCarryForwardDetails" xlink:type="simple" xlink:href="vica-20170331.xsd#idr_NetOperatingLossCarryForwardDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.hciviocare.com/20170331/role/idr_NetOperatingLossCarryForwardDetails"/>
+	<link:roleRef roleURI="http://www.hciviocare.com/20170331/role/idr_ProvisionForIncomeTaxesDetails" xlink:type="simple" xlink:href="vica-20170331.xsd#idr_ProvisionForIncomeTaxesDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.hciviocare.com/20170331/role/idr_ProvisionForIncomeTaxesDetails"/>
+	<link:roleRef roleURI="http://www.hciviocare.com/20170331/role/idr_NetDeferredTaxAmountsDetails" xlink:type="simple" xlink:href="vica-20170331.xsd#idr_NetDeferredTaxAmountsDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.hciviocare.com/20170331/role/idr_NetDeferredTaxAmountsDetails"/>
+	<link:roleRef roleURI="http://www.hciviocare.com/20170331/role/idr_SegmentReportingDetails" xlink:type="simple" xlink:href="vica-20170331.xsd#idr_SegmentReportingDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.hciviocare.com/20170331/role/idr_SegmentReportingDetails"/>
+	<link:roleRef roleURI="http://www.hciviocare.com/20170331/role/idr_SubsequentEventsDetails" xlink:type="simple" xlink:href="vica-20170331.xsd#idr_SubsequentEventsDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.hciviocare.com/20170331/role/idr_SubsequentEventsDetails"/>
+</link:linkbase>

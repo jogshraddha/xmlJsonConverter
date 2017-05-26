@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='iso-8859-1'?>
+<!-- Vistalytics - iFile Suite version 6.233-->
+<link:linkbase xmlns="http://www.xbrl.org/2003/linkbase"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd"
+		xmlns:fil="http://www.remsleep.com/20170331"
+		xmlns:link="http://www.xbrl.org/2003/linkbase"
+		xmlns:xlink="http://www.w3.org/1999/xlink"
+		xmlns:xbrldt="http://xbrl.org/2005/xbrldt"
+		xmlns:xbrli="http://www.xbrl.org/2003/instance">
+	<link:roleRef roleURI="http://www.remsleep.com/20170331/role/idr_CONDENSEDBALANCESHEETSUnaudited" xlink:type="simple" xlink:href="rmsl-20170331.xsd#idr_CONDENSEDBALANCESHEETSUnaudited"/>
+	<link:calculationLink xlink:type="extended" xlink:role="http://www.remsleep.com/20170331/role/idr_CONDENSEDBALANCESHEETSUnaudited">
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_Assets' xlink:label='us-gaap_Assets'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_PropertyPlantAndEquipmentNet' xlink:label='us-gaap_PropertyPlantAndEquipmentNet'/>
+		<link:calculationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/summation-item' xlink:from='us-gaap_Assets' xlink:to='us-gaap_PropertyPlantAndEquipmentNet' use='optional' order='1.0' weight='1.0'/>
+	</link:calculationLink>
+	<link:roleRef roleURI="http://www.remsleep.com/20170331/role/idr_CONDENSEDSTATEMENTSOFOPERATIONSUnaudited" xlink:type="simple" xlink:href="rmsl-20170331.xsd#idr_CONDENSEDSTATEMENTSOFOPERATIONSUnaudited"/>
+	<link:calculationLink xlink:type="extended" xlink:role="http://www.remsleep.com/20170331/role/idr_CONDENSEDSTATEMENTSOFOPERATIONSUnaudited">
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_OperatingExpenses' xlink:label='us-gaap_OperatingExpenses'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_LegalFees' xlink:label='us-gaap_LegalFees'/>
+		<link:calculationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/summation-item' xlink:from='us-gaap_OperatingExpenses' xlink:to='us-gaap_LegalFees' use='optional' order='1.0' weight='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_Depreciation' xlink:label='us-gaap_Depreciation'/>
+		<link:calculationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/summation-item' xlink:from='us-gaap_OperatingExpenses' xlink:to='us-gaap_Depreciation' use='optional' order='2.0' weight='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_OtherExpenses' xlink:label='us-gaap_OtherExpenses'/>
+		<link:calculationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/summation-item' xlink:from='us-gaap_OperatingExpenses' xlink:to='us-gaap_OtherExpenses' use='optional' order='3.0' weight='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_OfficersCompensation' xlink:label='us-gaap_OfficersCompensation'/>
+		<link:calculationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/summation-item' xlink:from='us-gaap_OperatingExpenses' xlink:to='us-gaap_OfficersCompensation' use='optional' order='4.0' weight='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='rmsl-20170331.xsd#fil_PublicCompanyCosts' xlink:label='fil_PublicCompanyCosts'/>
+		<link:calculationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/summation-item' xlink:from='us-gaap_OperatingExpenses' xlink:to='fil_PublicCompanyCosts' use='optional' order='5.0' weight='1.0'/>
+	</link:calculationLink>
+	<link:roleRef roleURI="http://www.remsleep.com/20170331/role/idr_CONDENSEDSTATEMENTSOFCASHFLOWSUnaudited" xlink:type="simple" xlink:href="rmsl-20170331.xsd#idr_CONDENSEDSTATEMENTSOFCASHFLOWSUnaudited"/>
+	<link:calculationLink xlink:type="extended" xlink:role="http://www.remsleep.com/20170331/role/idr_CONDENSEDSTATEMENTSOFCASHFLOWSUnaudited">
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_NetCashProvidedByUsedInFinancingActivities' xlink:label='us-gaap_NetCashProvidedByUsedInFinancingActivities'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_ProceedsFromRelatedPartyDebt' xlink:label='us-gaap_ProceedsFromRelatedPartyDebt'/>
+		<link:calculationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/summation-item' xlink:from='us-gaap_NetCashProvidedByUsedInFinancingActivities' xlink:to='us-gaap_ProceedsFromRelatedPartyDebt' use='optional' order='1.0' weight='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_NetCashProvidedByUsedInOperatingActivities' xlink:label='us-gaap_NetCashProvidedByUsedInOperatingActivities'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_DepreciationAndAmortization' xlink:label='us-gaap_DepreciationAndAmortization'/>
+		<link:calculationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/summation-item' xlink:from='us-gaap_NetCashProvidedByUsedInOperatingActivities' xlink:to='us-gaap_DepreciationAndAmortization' use='optional' order='1.0' weight='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_ProfitLoss' xlink:label='us-gaap_ProfitLoss'/>
+		<link:calculationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/summation-item' xlink:from='us-gaap_NetCashProvidedByUsedInOperatingActivities' xlink:to='us-gaap_ProfitLoss' use='optional' order='2.0' weight='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_StockIssuedDuringPeriodValueShareBasedCompensation' xlink:label='us-gaap_StockIssuedDuringPeriodValueShareBasedCompensation'/>
+		<link:calculationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/summation-item' xlink:from='us-gaap_NetCashProvidedByUsedInOperatingActivities' xlink:to='us-gaap_StockIssuedDuringPeriodValueShareBasedCompensation' use='optional' order='3.0' weight='1.0'/>
+	</link:calculationLink>
+</link:linkbase>

@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='iso-8859-1'?>
+<!-- Vistalytics - iFile Suite version 6.233 -->
+<link:linkbase xmlns="http://www.xbrl.org/2003/linkbase"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd"
+		xmlns:fil="http://www.sigmalabs.com/20170331"
+		xmlns:link="http://www.xbrl.org/2003/linkbase"
+		xmlns:xlink="http://www.w3.org/1999/xlink"
+		xmlns:xbrldt="http://xbrl.org/2005/xbrldt"
+		xmlns:xbrli="http://www.xbrl.org/2003/instance">
+	<link:roleRef roleURI="http://www.sigmalabs.com/20170331/role/idr_CondensedBalanceSheetsUnaudited" xlink:type="simple" xlink:href="sglb-20170331.xsd#idr_CondensedBalanceSheetsUnaudited"/>
+	<link:calculationLink xlink:type="extended" xlink:role="http://www.sigmalabs.com/20170331/role/idr_CondensedBalanceSheetsUnaudited">
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_Assets' xlink:label='us-gaap_Assets'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_AssetsCurrent' xlink:label='us-gaap_AssetsCurrent'/>
+		<link:calculationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/summation-item' xlink:from='us-gaap_Assets' xlink:to='us-gaap_AssetsCurrent' use='optional' order='1.0' weight='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_OtherAssets' xlink:label='us-gaap_OtherAssets'/>
+		<link:calculationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/summation-item' xlink:from='us-gaap_Assets' xlink:to='us-gaap_OtherAssets' use='optional' order='2.0' weight='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_LiabilitiesCurrent' xlink:label='us-gaap_LiabilitiesCurrent'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_AccountsPayableCurrent' xlink:label='us-gaap_AccountsPayableCurrent'/>
+		<link:calculationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/summation-item' xlink:from='us-gaap_LiabilitiesCurrent' xlink:to='us-gaap_AccountsPayableCurrent' use='optional' order='1.0' weight='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_AccruedLiabilitiesCurrent' xlink:label='us-gaap_AccruedLiabilitiesCurrent'/>
+		<link:calculationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/summation-item' xlink:from='us-gaap_LiabilitiesCurrent' xlink:to='us-gaap_AccruedLiabilitiesCurrent' use='optional' order='2.0' weight='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_NotesPayable' xlink:label='us-gaap_NotesPayable'/>
+		<link:calculationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/summation-item' xlink:from='us-gaap_LiabilitiesCurrent' xlink:to='us-gaap_NotesPayable' use='optional' order='3.0' weight='1.0'/>
+	</link:calculationLink>
+	<link:roleRef roleURI="http://www.sigmalabs.com/20170331/role/idr_CondensedStatementsOfOperationsUnaudited" xlink:type="simple" xlink:href="sglb-20170331.xsd#idr_CondensedStatementsOfOperationsUnaudited"/>
+	<link:calculationLink xlink:type="extended" xlink:role="http://www.sigmalabs.com/20170331/role/idr_CondensedStatementsOfOperationsUnaudited">
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_OperatingExpenses' xlink:label='us-gaap_OperatingExpenses'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_OtherGeneralAndAdministrativeExpense' xlink:label='us-gaap_OtherGeneralAndAdministrativeExpense'/>
+		<link:calculationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/summation-item' xlink:from='us-gaap_OperatingExpenses' xlink:to='us-gaap_OtherGeneralAndAdministrativeExpense' use='optional' order='1.0' weight='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='sglb-20170331.xsd#fil_PayrollExpense' xlink:label='fil_PayrollExpense'/>
+		<link:calculationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/summation-item' xlink:from='us-gaap_OperatingExpenses' xlink:to='fil_PayrollExpense' use='optional' order='2.0' weight='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_ResearchAndDevelopmentExpense' xlink:label='us-gaap_ResearchAndDevelopmentExpense'/>
+		<link:calculationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/summation-item' xlink:from='us-gaap_OperatingExpenses' xlink:to='us-gaap_ResearchAndDevelopmentExpense' use='optional' order='3.0' weight='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_AllocatedShareBasedCompensationExpense' xlink:label='us-gaap_AllocatedShareBasedCompensationExpense'/>
+		<link:calculationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/summation-item' xlink:from='us-gaap_OperatingExpenses' xlink:to='us-gaap_AllocatedShareBasedCompensationExpense' use='optional' order='4.0' weight='1.0'/>
+	</link:calculationLink>
+	<link:roleRef roleURI="http://www.sigmalabs.com/20170331/role/idr_CondensedStatementsOfCashFlowsUnaudited" xlink:type="simple" xlink:href="sglb-20170331.xsd#idr_CondensedStatementsOfCashFlowsUnaudited"/>
+	<link:calculationLink xlink:type="extended" xlink:role="http://www.sigmalabs.com/20170331/role/idr_CondensedStatementsOfCashFlowsUnaudited">
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_NetCashProvidedByUsedInFinancingActivities' xlink:label='us-gaap_NetCashProvidedByUsedInFinancingActivities'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_ProceedsFromIssuanceOfCommonStock' xlink:label='us-gaap_ProceedsFromIssuanceOfCommonStock'/>
+		<link:calculationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/summation-item' xlink:from='us-gaap_NetCashProvidedByUsedInFinancingActivities' xlink:to='us-gaap_ProceedsFromIssuanceOfCommonStock' use='optional' order='1.0' weight='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_NetCashProvidedByUsedInOperatingActivities' xlink:label='us-gaap_NetCashProvidedByUsedInOperatingActivities'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_IncreaseDecreaseInAccountsPayable' xlink:label='us-gaap_IncreaseDecreaseInAccountsPayable'/>
+		<link:calculationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/summation-item' xlink:from='us-gaap_NetCashProvidedByUsedInOperatingActivities' xlink:to='us-gaap_IncreaseDecreaseInAccountsPayable' use='optional' order='1.0' weight='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_IncreaseDecreaseInAccountsReceivable' xlink:label='us-gaap_IncreaseDecreaseInAccountsReceivable'/>
+		<link:calculationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/summation-item' xlink:from='us-gaap_NetCashProvidedByUsedInOperatingActivities' xlink:to='us-gaap_IncreaseDecreaseInAccountsReceivable' use='optional' order='2.0' weight='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_IncreaseDecreaseInOtherAccruedLiabilities' xlink:label='us-gaap_IncreaseDecreaseInOtherAccruedLiabilities'/>
+		<link:calculationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/summation-item' xlink:from='us-gaap_NetCashProvidedByUsedInOperatingActivities' xlink:to='us-gaap_IncreaseDecreaseInOtherAccruedLiabilities' use='optional' order='3.0' weight='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_AdjustmentForAmortization' xlink:label='us-gaap_AdjustmentForAmortization'/>
+		<link:calculationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/summation-item' xlink:from='us-gaap_NetCashProvidedByUsedInOperatingActivities' xlink:to='us-gaap_AdjustmentForAmortization' use='optional' order='4.0' weight='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_Depreciation' xlink:label='us-gaap_Depreciation'/>
+		<link:calculationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/summation-item' xlink:from='us-gaap_NetCashProvidedByUsedInOperatingActivities' xlink:to='us-gaap_Depreciation' use='optional' order='5.0' weight='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_IncreaseDecreaseInInventories' xlink:label='us-gaap_IncreaseDecreaseInInventories'/>
+		<link:calculationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/summation-item' xlink:from='us-gaap_NetCashProvidedByUsedInOperatingActivities' xlink:to='us-gaap_IncreaseDecreaseInInventories' use='optional' order='6.0' weight='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_ProfitLoss' xlink:label='us-gaap_ProfitLoss'/>
+		<link:calculationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/summation-item' xlink:from='us-gaap_NetCashProvidedByUsedInOperatingActivities' xlink:to='us-gaap_ProfitLoss' use='optional' order='7.0' weight='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_IncreaseDecreaseInNotesPayableCurrent' xlink:label='us-gaap_IncreaseDecreaseInNotesPayableCurrent'/>
+		<link:calculationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/summation-item' xlink:from='us-gaap_NetCashProvidedByUsedInOperatingActivities' xlink:to='us-gaap_IncreaseDecreaseInNotesPayableCurrent' use='optional' order='8.0' weight='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='sglb-20170331.xsd#fil_NotePayableOriginalIssueDiscount' xlink:label='fil_NotePayableOriginalIssueDiscount'/>
+		<link:calculationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/summation-item' xlink:from='us-gaap_NetCashProvidedByUsedInOperatingActivities' xlink:to='fil_NotePayableOriginalIssueDiscount' use='optional' order='9.0' weight='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_IncreaseDecreaseInPrepaidExpense' xlink:label='us-gaap_IncreaseDecreaseInPrepaidExpense'/>
+		<link:calculationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/summation-item' xlink:from='us-gaap_NetCashProvidedByUsedInOperatingActivities' xlink:to='us-gaap_IncreaseDecreaseInPrepaidExpense' use='optional' order='10.0' weight='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='sglb-20170331.xsd#fil_RevaluationOfDerivativeLiabilityAndDebtDiscountRelatedToNotesPayable' xlink:label='fil_RevaluationOfDerivativeLiabilityAndDebtDiscountRelatedToNotesPayable'/>
+		<link:calculationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/summation-item' xlink:from='us-gaap_NetCashProvidedByUsedInOperatingActivities' xlink:to='fil_RevaluationOfDerivativeLiabilityAndDebtDiscountRelatedToNotesPayable' use='optional' order='11.0' weight='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_ShareBasedCompensation' xlink:label='us-gaap_ShareBasedCompensation'/>
+		<link:calculationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/summation-item' xlink:from='us-gaap_NetCashProvidedByUsedInOperatingActivities' xlink:to='us-gaap_ShareBasedCompensation' use='optional' order='12.0' weight='1.0'/>
+	</link:calculationLink>
+</link:linkbase>

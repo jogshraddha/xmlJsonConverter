@@ -25,11 +25,14 @@ public class XbrlConverter {
 
 	public static int PRETTY_PRINT_INDENT_FACTOR = 4;
 
-	public static void main(String[] args) throws Throwable {
+	public void convertXbrlData() {
 		String extension = ".json";
 		String[] extensions = new String[] { "xml" };
 		final String directoryPath = App.class.getClassLoader()
 				.getResource("XBRL").getPath();
+		
+		final String jsonDirPath = App.class.getClassLoader()
+				.getResource("JSON").getPath();
 		File directory = new File(directoryPath);
 		if (directory.exists()) {
 			@SuppressWarnings("unchecked")
@@ -49,7 +52,7 @@ public class XbrlConverter {
 					List<File> files = (List<File>) FileUtils.listFiles(file,
 							extensions, true);
 					StringBuilder jsonPathBuilder = new StringBuilder();
-					jsonPathBuilder.append(file.getPath())
+					jsonPathBuilder.append(jsonDirPath)
 							.append(File.separator).append(file.getName())
 							.append(extension);
 					File jsonFile = new File(jsonPathBuilder.toString());

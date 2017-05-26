@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='iso-8859-1'?>
+<!-- Vistalytics - iFile Suite version 6.233 -->
+<link:linkbase xmlns="http://www.xbrl.org/2003/linkbase"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd"
+		xmlns:fil="http://www.momsonline.com/20170331"
+		xmlns:link="http://www.xbrl.org/2003/linkbase"
+		xmlns:xlink="http://www.w3.org/1999/xlink"
+		xmlns:xbrldt="http://xbrl.org/2005/xbrldt"
+		xmlns:xbrli="http://www.xbrl.org/2003/instance">
+	<link:roleRef roleURI="http://www.momsonline.com/20170331/role/idr_BALANCESHEETSUNAUDITED" xlink:type="simple" xlink:href="momc-20170331.xsd#idr_BALANCESHEETSUNAUDITED"/>
+	<link:calculationLink xlink:type="extended" xlink:role="http://www.momsonline.com/20170331/role/idr_BALANCESHEETSUNAUDITED">
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_LiabilitiesAndStockholdersEquity' xlink:label='us-gaap_LiabilitiesAndStockholdersEquity'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_LiabilitiesCurrent' xlink:label='us-gaap_LiabilitiesCurrent'/>
+		<link:calculationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/summation-item' xlink:from='us-gaap_LiabilitiesAndStockholdersEquity' xlink:to='us-gaap_LiabilitiesCurrent' use='optional' order='1.0' weight='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_StockholdersEquity' xlink:label='us-gaap_StockholdersEquity'/>
+		<link:calculationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/summation-item' xlink:from='us-gaap_LiabilitiesAndStockholdersEquity' xlink:to='us-gaap_StockholdersEquity' use='optional' order='2.0' weight='1.0'/>
+	</link:calculationLink>
+	<link:roleRef roleURI="http://www.momsonline.com/20170331/role/idr_STATEMENTSOFOPERATIONSUNAUDITED" xlink:type="simple" xlink:href="momc-20170331.xsd#idr_STATEMENTSOFOPERATIONSUNAUDITED"/>
+	<link:calculationLink xlink:type="extended" xlink:role="http://www.momsonline.com/20170331/role/idr_STATEMENTSOFOPERATIONSUNAUDITED">
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_OperatingExpenses' xlink:label='us-gaap_OperatingExpenses'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_AdjustmentForAmortization' xlink:label='us-gaap_AdjustmentForAmortization'/>
+		<link:calculationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/summation-item' xlink:from='us-gaap_OperatingExpenses' xlink:to='us-gaap_AdjustmentForAmortization' use='optional' order='1.0' weight='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_LegalFees' xlink:label='us-gaap_LegalFees'/>
+		<link:calculationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/summation-item' xlink:from='us-gaap_OperatingExpenses' xlink:to='us-gaap_LegalFees' use='optional' order='2.0' weight='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='momc-20170331.xsd#fil_PlatformLease' xlink:label='fil_PlatformLease'/>
+		<link:calculationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/summation-item' xlink:from='us-gaap_OperatingExpenses' xlink:to='fil_PlatformLease' use='optional' order='3.0' weight='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_SellingGeneralAndAdministrativeExpense' xlink:label='us-gaap_SellingGeneralAndAdministrativeExpense'/>
+		<link:calculationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/summation-item' xlink:from='us-gaap_OperatingExpenses' xlink:to='us-gaap_SellingGeneralAndAdministrativeExpense' use='optional' order='4.0' weight='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='momc-20170331.xsd#fil_WebsiteMaintenance' xlink:label='fil_WebsiteMaintenance'/>
+		<link:calculationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/summation-item' xlink:from='us-gaap_OperatingExpenses' xlink:to='fil_WebsiteMaintenance' use='optional' order='5.0' weight='1.0'/>
+	</link:calculationLink>
+	<link:roleRef roleURI="http://www.momsonline.com/20170331/role/idr_STATEMENTSOFCASHFLOWSUNAUDITED" xlink:type="simple" xlink:href="momc-20170331.xsd#idr_STATEMENTSOFCASHFLOWSUNAUDITED"/>
+	<link:calculationLink xlink:type="extended" xlink:role="http://www.momsonline.com/20170331/role/idr_STATEMENTSOFCASHFLOWSUNAUDITED">
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_NetCashProvidedByUsedInOperatingActivities' xlink:label='us-gaap_NetCashProvidedByUsedInOperatingActivities'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_IncreaseDecreaseInAccountsPayable' xlink:label='us-gaap_IncreaseDecreaseInAccountsPayable'/>
+		<link:calculationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/summation-item' xlink:from='us-gaap_NetCashProvidedByUsedInOperatingActivities' xlink:to='us-gaap_IncreaseDecreaseInAccountsPayable' use='optional' order='1.0' weight='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_AdjustmentForAmortization' xlink:label='us-gaap_AdjustmentForAmortization'/>
+		<link:calculationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/summation-item' xlink:from='us-gaap_NetCashProvidedByUsedInOperatingActivities' xlink:to='us-gaap_AdjustmentForAmortization' use='optional' order='2.0' weight='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='momc-20170331.xsd#fil_DeferredStockCompensation2' xlink:label='fil_DeferredStockCompensation2'/>
+		<link:calculationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/summation-item' xlink:from='us-gaap_NetCashProvidedByUsedInOperatingActivities' xlink:to='fil_DeferredStockCompensation2' use='optional' order='3.0' weight='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_IncreaseDecreaseInDueToRelatedPartiesCurrent' xlink:label='us-gaap_IncreaseDecreaseInDueToRelatedPartiesCurrent'/>
+		<link:calculationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/summation-item' xlink:from='us-gaap_NetCashProvidedByUsedInOperatingActivities' xlink:to='us-gaap_IncreaseDecreaseInDueToRelatedPartiesCurrent' use='optional' order='4.0' weight='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='momc-20170331.xsd#fil_ExpensesPaidByRelatedParty2' xlink:label='fil_ExpensesPaidByRelatedParty2'/>
+		<link:calculationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/summation-item' xlink:from='us-gaap_NetCashProvidedByUsedInOperatingActivities' xlink:to='fil_ExpensesPaidByRelatedParty2' use='optional' order='5.0' weight='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_NetIncomeLoss' xlink:label='us-gaap_NetIncomeLoss'/>
+		<link:calculationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/summation-item' xlink:from='us-gaap_NetCashProvidedByUsedInOperatingActivities' xlink:to='us-gaap_NetIncomeLoss' use='optional' order='6.0' weight='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_ShareBasedCompensation' xlink:label='us-gaap_ShareBasedCompensation'/>
+		<link:calculationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/summation-item' xlink:from='us-gaap_NetCashProvidedByUsedInOperatingActivities' xlink:to='us-gaap_ShareBasedCompensation' use='optional' order='7.0' weight='1.0'/>
+	</link:calculationLink>
+</link:linkbase>

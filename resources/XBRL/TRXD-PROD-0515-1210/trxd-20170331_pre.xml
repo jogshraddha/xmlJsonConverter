@@ -1,0 +1,685 @@
+<?xml version='1.0' encoding='iso-8859-1'?>
+<!-- Vistalytics - iFile Suite version 6.233 -->
+<link:linkbase xmlns="http://www.xbrl.org/2003/linkbase"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd"
+		xmlns:fil="http://www.trxadegroup.com/20170331"
+		xmlns:link="http://www.xbrl.org/2003/linkbase"
+		xmlns:xlink="http://www.w3.org/1999/xlink"
+		xmlns:xbrldt="http://xbrl.org/2005/xbrldt"
+		xmlns:xbrli="http://www.xbrl.org/2003/instance">
+	<link:roleRef roleURI="http://www.trxadegroup.com/20170331/role/idr_DocumentDocumentAndEntityInformation" xlink:type="simple" xlink:href="trxd-20170331.xsd#idr_DocumentDocumentAndEntityInformation"/>
+	<link:presentationLink xlink:type="extended" xlink:role="http://www.trxadegroup.com/20170331/role/idr_DocumentDocumentAndEntityInformation">
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_DocumentAndEntityInformationAbstract' xlink:label='fil_DocumentAndEntityInformationAbstract'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.sec.gov/dei/2014/dei-2014-01-31.xsd#dei_EntityRegistrantName' xlink:label='dei_EntityRegistrantName'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_DocumentAndEntityInformationAbstract' xlink:to='dei_EntityRegistrantName' use='optional' order='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.sec.gov/dei/2014/dei-2014-01-31.xsd#dei_TradingSymbol' xlink:label='dei_TradingSymbol'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_DocumentAndEntityInformationAbstract' xlink:to='dei_TradingSymbol' use='optional' order='2.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.sec.gov/dei/2014/dei-2014-01-31.xsd#dei_DocumentType' xlink:label='dei_DocumentType'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_DocumentAndEntityInformationAbstract' xlink:to='dei_DocumentType' use='optional' order='3.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.sec.gov/dei/2014/dei-2014-01-31.xsd#dei_DocumentPeriodEndDate' xlink:label='dei_DocumentPeriodEndDate'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_DocumentAndEntityInformationAbstract' xlink:to='dei_DocumentPeriodEndDate' use='optional' order='4.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.sec.gov/dei/2014/dei-2014-01-31.xsd#dei_AmendmentFlag' xlink:label='dei_AmendmentFlag'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_DocumentAndEntityInformationAbstract' xlink:to='dei_AmendmentFlag' use='optional' order='5.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.sec.gov/dei/2014/dei-2014-01-31.xsd#dei_EntityCentralIndexKey' xlink:label='dei_EntityCentralIndexKey'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_DocumentAndEntityInformationAbstract' xlink:to='dei_EntityCentralIndexKey' use='optional' order='6.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.sec.gov/dei/2014/dei-2014-01-31.xsd#dei_CurrentFiscalYearEndDate' xlink:label='dei_CurrentFiscalYearEndDate'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_DocumentAndEntityInformationAbstract' xlink:to='dei_CurrentFiscalYearEndDate' use='optional' order='7.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.sec.gov/dei/2014/dei-2014-01-31.xsd#dei_EntityCommonStockSharesOutstanding' xlink:label='dei_EntityCommonStockSharesOutstanding'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_DocumentAndEntityInformationAbstract' xlink:to='dei_EntityCommonStockSharesOutstanding' use='optional' order='8.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.sec.gov/dei/2014/dei-2014-01-31.xsd#dei_EntityFilerCategory' xlink:label='dei_EntityFilerCategory'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_DocumentAndEntityInformationAbstract' xlink:to='dei_EntityFilerCategory' use='optional' order='9.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.sec.gov/dei/2014/dei-2014-01-31.xsd#dei_EntityCurrentReportingStatus' xlink:label='dei_EntityCurrentReportingStatus'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_DocumentAndEntityInformationAbstract' xlink:to='dei_EntityCurrentReportingStatus' use='optional' order='10.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.sec.gov/dei/2014/dei-2014-01-31.xsd#dei_EntityVoluntaryFilers' xlink:label='dei_EntityVoluntaryFilers'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_DocumentAndEntityInformationAbstract' xlink:to='dei_EntityVoluntaryFilers' use='optional' order='11.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.sec.gov/dei/2014/dei-2014-01-31.xsd#dei_EntityWellKnownSeasonedIssuer' xlink:label='dei_EntityWellKnownSeasonedIssuer'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_DocumentAndEntityInformationAbstract' xlink:to='dei_EntityWellKnownSeasonedIssuer' use='optional' order='12.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.sec.gov/dei/2014/dei-2014-01-31.xsd#dei_DocumentFiscalYearFocus' xlink:label='dei_DocumentFiscalYearFocus'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_DocumentAndEntityInformationAbstract' xlink:to='dei_DocumentFiscalYearFocus' use='optional' order='13.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.sec.gov/dei/2014/dei-2014-01-31.xsd#dei_DocumentFiscalPeriodFocus' xlink:label='dei_DocumentFiscalPeriodFocus'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_DocumentAndEntityInformationAbstract' xlink:to='dei_DocumentFiscalPeriodFocus' use='optional' order='14.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.sec.gov/dei/2014/dei-2014-01-31.xsd#dei_EntityPublicFloat' xlink:label='dei_EntityPublicFloat'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_DocumentAndEntityInformationAbstract' xlink:to='dei_EntityPublicFloat' use='optional' order='15.0'/>
+	</link:presentationLink>
+	<link:roleRef roleURI="http://www.trxadegroup.com/20170331/role/idr_ConsolidatedBalanceSheetsUnaudited" xlink:type="simple" xlink:href="trxd-20170331.xsd#idr_ConsolidatedBalanceSheetsUnaudited"/>
+	<link:presentationLink xlink:type="extended" xlink:role="http://www.trxadegroup.com/20170331/role/idr_ConsolidatedBalanceSheetsUnaudited">
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_AssetsAbstract' xlink:label='us-gaap_AssetsAbstract'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_AssetsCurrentAbstract' xlink:label='us-gaap_AssetsCurrentAbstract'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_AssetsAbstract' xlink:to='us-gaap_AssetsCurrentAbstract' use='optional' order='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_Cash' xlink:label='us-gaap_Cash'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_AssetsCurrentAbstract' xlink:to='us-gaap_Cash' use='optional' order='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_AccountsReceivableNet' xlink:label='us-gaap_AccountsReceivableNet'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_AssetsCurrentAbstract' xlink:to='us-gaap_AccountsReceivableNet' use='optional' order='2.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_PrepaidExpenseCurrent' xlink:label='us-gaap_PrepaidExpenseCurrent'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_AssetsCurrentAbstract' xlink:to='us-gaap_PrepaidExpenseCurrent' use='optional' order='3.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_OtherAssets' xlink:label='us-gaap_OtherAssets'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_AssetsCurrentAbstract' xlink:to='us-gaap_OtherAssets' use='optional' order='4.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_AssetsCurrent' xlink:label='us-gaap_AssetsCurrent'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_AssetsCurrentAbstract' xlink:to='us-gaap_AssetsCurrent' use='optional' order='5.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_Assets' xlink:label='us-gaap_Assets'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_AssetsCurrentAbstract' xlink:to='us-gaap_Assets' use='optional' order='6.0' preferredLabel='http://www.xbrl.org/2003/role/totalLabel'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_LiabilitiesAndStockholdersEquityAbstract' xlink:label='us-gaap_LiabilitiesAndStockholdersEquityAbstract'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_AssetsAbstract' xlink:to='us-gaap_LiabilitiesAndStockholdersEquityAbstract' use='optional' order='2.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_LiabilitiesCurrentAbstract' xlink:label='us-gaap_LiabilitiesCurrentAbstract'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_LiabilitiesAndStockholdersEquityAbstract' xlink:to='us-gaap_LiabilitiesCurrentAbstract' use='optional' order='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_AccountsPayableCurrent' xlink:label='us-gaap_AccountsPayableCurrent'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_LiabilitiesCurrentAbstract' xlink:to='us-gaap_AccountsPayableCurrent' use='optional' order='1.0' preferredLabel='http://www.xbrl.org/2003/role/terseLabel'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_AccruedLiabilitiesCurrent' xlink:label='us-gaap_AccruedLiabilitiesCurrent'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_LiabilitiesCurrentAbstract' xlink:to='us-gaap_AccruedLiabilitiesCurrent' use='optional' order='2.0' preferredLabel='http://www.xbrl.org/2003/role/terseLabel'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_NotesPayableCurrent' xlink:label='us-gaap_NotesPayableCurrent'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_LiabilitiesCurrentAbstract' xlink:to='us-gaap_NotesPayableCurrent' use='optional' order='3.0'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_ShortTermConvertiblePayableNetOfDiscount' xlink:label='fil_ShortTermConvertiblePayableNetOfDiscount'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_LiabilitiesCurrentAbstract' xlink:to='fil_ShortTermConvertiblePayableNetOfDiscount' use='optional' order='4.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_NotesPayableRelatedPartiesCurrentAndNoncurrent' xlink:label='us-gaap_NotesPayableRelatedPartiesCurrentAndNoncurrent'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_LiabilitiesCurrentAbstract' xlink:to='us-gaap_NotesPayableRelatedPartiesCurrentAndNoncurrent' use='optional' order='5.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_ConvertibleNotesPayableCurrent' xlink:label='us-gaap_ConvertibleNotesPayableCurrent'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_LiabilitiesCurrentAbstract' xlink:to='us-gaap_ConvertibleNotesPayableCurrent' use='optional' order='6.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_LiabilitiesCurrent' xlink:label='us-gaap_LiabilitiesCurrent'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_LiabilitiesCurrentAbstract' xlink:to='us-gaap_LiabilitiesCurrent' use='optional' order='7.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_LongTermDebtAndCapitalLeaseObligationsAbstract' xlink:label='us-gaap_LongTermDebtAndCapitalLeaseObligationsAbstract'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_LiabilitiesAndStockholdersEquityAbstract' xlink:to='us-gaap_LongTermDebtAndCapitalLeaseObligationsAbstract' use='optional' order='2.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_ConvertibleNotesPayable' xlink:label='us-gaap_ConvertibleNotesPayable'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_LongTermDebtAndCapitalLeaseObligationsAbstract' xlink:to='us-gaap_ConvertibleNotesPayable' use='optional' order='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_Liabilities' xlink:label='us-gaap_Liabilities'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_LongTermDebtAndCapitalLeaseObligationsAbstract' xlink:to='us-gaap_Liabilities' use='optional' order='2.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_StockholdersEquityAbstract' xlink:label='us-gaap_StockholdersEquityAbstract'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_LiabilitiesAndStockholdersEquityAbstract' xlink:to='us-gaap_StockholdersEquityAbstract' use='optional' order='3.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_PreferredStockValue' xlink:label='us-gaap_PreferredStockValue'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_StockholdersEquityAbstract' xlink:to='us-gaap_PreferredStockValue' use='optional' order='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_CommonStockValue' xlink:label='us-gaap_CommonStockValue'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_StockholdersEquityAbstract' xlink:to='us-gaap_CommonStockValue' use='optional' order='2.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_AdditionalPaidInCapital' xlink:label='us-gaap_AdditionalPaidInCapital'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_StockholdersEquityAbstract' xlink:to='us-gaap_AdditionalPaidInCapital' use='optional' order='3.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_RetainedEarningsAccumulatedDeficit' xlink:label='us-gaap_RetainedEarningsAccumulatedDeficit'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_StockholdersEquityAbstract' xlink:to='us-gaap_RetainedEarningsAccumulatedDeficit' use='optional' order='4.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_ShareholdersEquityFairValueDisclosure' xlink:label='us-gaap_ShareholdersEquityFairValueDisclosure'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_StockholdersEquityAbstract' xlink:to='us-gaap_ShareholdersEquityFairValueDisclosure' use='optional' order='5.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_LiabilitiesAndStockholdersEquity' xlink:label='us-gaap_LiabilitiesAndStockholdersEquity'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_StockholdersEquityAbstract' xlink:to='us-gaap_LiabilitiesAndStockholdersEquity' use='optional' order='6.0' preferredLabel='http://www.xbrl.org/2003/role/totalLabel'/>
+	</link:presentationLink>
+	<link:roleRef roleURI="http://www.trxadegroup.com/20170331/role/idr_ConsolidatedBalanceSheetsParentheticals" xlink:type="simple" xlink:href="trxd-20170331.xsd#idr_ConsolidatedBalanceSheetsParentheticals"/>
+	<link:presentationLink xlink:type="extended" xlink:role="http://www.trxadegroup.com/20170331/role/idr_ConsolidatedBalanceSheetsParentheticals">
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_StockTransactionsParentheticalDisclosuresAbstract' xlink:label='us-gaap_StockTransactionsParentheticalDisclosuresAbstract'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_DebtInstrumentUnamortizedDiscountCurrent' xlink:label='us-gaap_DebtInstrumentUnamortizedDiscountCurrent'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_StockTransactionsParentheticalDisclosuresAbstract' xlink:to='us-gaap_DebtInstrumentUnamortizedDiscountCurrent' use='optional' order='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_ShortTermConvertiblePayableRelatedPartyNetOfDiscount' xlink:label='fil_ShortTermConvertiblePayableRelatedPartyNetOfDiscount'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_StockTransactionsParentheticalDisclosuresAbstract' xlink:to='fil_ShortTermConvertiblePayableRelatedPartyNetOfDiscount' use='optional' order='2.0'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_ConvertibleNoteNetDiscount' xlink:label='fil_ConvertibleNoteNetDiscount'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_StockTransactionsParentheticalDisclosuresAbstract' xlink:to='fil_ConvertibleNoteNetDiscount' use='optional' order='3.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_PreferredStockNoParValue' xlink:label='us-gaap_PreferredStockNoParValue'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_StockTransactionsParentheticalDisclosuresAbstract' xlink:to='us-gaap_PreferredStockNoParValue' use='optional' order='4.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_PreferredStockSharesAuthorized' xlink:label='us-gaap_PreferredStockSharesAuthorized'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_StockTransactionsParentheticalDisclosuresAbstract' xlink:to='us-gaap_PreferredStockSharesAuthorized' use='optional' order='5.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_PreferredStockSharesIssued' xlink:label='us-gaap_PreferredStockSharesIssued'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_StockTransactionsParentheticalDisclosuresAbstract' xlink:to='us-gaap_PreferredStockSharesIssued' use='optional' order='6.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_PreferredStockSharesOutstanding' xlink:label='us-gaap_PreferredStockSharesOutstanding'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_StockTransactionsParentheticalDisclosuresAbstract' xlink:to='us-gaap_PreferredStockSharesOutstanding' use='optional' order='7.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_CommonStockParOrStatedValuePerShare' xlink:label='us-gaap_CommonStockParOrStatedValuePerShare'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_StockTransactionsParentheticalDisclosuresAbstract' xlink:to='us-gaap_CommonStockParOrStatedValuePerShare' use='optional' order='8.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_CommonStockSharesAuthorized' xlink:label='us-gaap_CommonStockSharesAuthorized'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_StockTransactionsParentheticalDisclosuresAbstract' xlink:to='us-gaap_CommonStockSharesAuthorized' use='optional' order='9.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_CommonStockSharesIssued' xlink:label='us-gaap_CommonStockSharesIssued'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_StockTransactionsParentheticalDisclosuresAbstract' xlink:to='us-gaap_CommonStockSharesIssued' use='optional' order='10.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_CommonStockSharesOutstanding' xlink:label='us-gaap_CommonStockSharesOutstanding'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_StockTransactionsParentheticalDisclosuresAbstract' xlink:to='us-gaap_CommonStockSharesOutstanding' use='optional' order='11.0'/>
+	</link:presentationLink>
+	<link:roleRef roleURI="http://www.trxadegroup.com/20170331/role/idr_ConsolidatedStatementsOfOperationsUnaudited" xlink:type="simple" xlink:href="trxd-20170331.xsd#idr_ConsolidatedStatementsOfOperationsUnaudited"/>
+	<link:presentationLink xlink:type="extended" xlink:role="http://www.trxadegroup.com/20170331/role/idr_ConsolidatedStatementsOfOperationsUnaudited">
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_RevenuesAbstract' xlink:label='us-gaap_RevenuesAbstract'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_Revenues' xlink:label='us-gaap_Revenues'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_RevenuesAbstract' xlink:to='us-gaap_Revenues' use='optional' order='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_CostOfGoodsSold' xlink:label='us-gaap_CostOfGoodsSold'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_RevenuesAbstract' xlink:to='us-gaap_CostOfGoodsSold' use='optional' order='2.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_GrossProfit' xlink:label='us-gaap_GrossProfit'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_RevenuesAbstract' xlink:to='us-gaap_GrossProfit' use='optional' order='3.0' preferredLabel='http://www.xbrl.org/2003/role/totalLabel'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_OperatingExpensesAbstract' xlink:label='us-gaap_OperatingExpensesAbstract'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_RevenuesAbstract' xlink:to='us-gaap_OperatingExpensesAbstract' use='optional' order='4.0' preferredLabel='http://www.xbrl.org/2003/role/terseLabel'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_GeneralAndAdministrativeExpense' xlink:label='us-gaap_GeneralAndAdministrativeExpense'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_OperatingExpensesAbstract' xlink:to='us-gaap_GeneralAndAdministrativeExpense' use='optional' order='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_OperatingIncomeLoss' xlink:label='us-gaap_OperatingIncomeLoss'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_OperatingExpensesAbstract' xlink:to='us-gaap_OperatingIncomeLoss' use='optional' order='2.0' preferredLabel='http://www.xbrl.org/2003/role/totalLabel'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_InterestExpense' xlink:label='us-gaap_InterestExpense'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_OperatingExpensesAbstract' xlink:to='us-gaap_InterestExpense' use='optional' order='3.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_IncomeLossFromContinuingOperations' xlink:label='us-gaap_IncomeLossFromContinuingOperations'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_OperatingExpensesAbstract' xlink:to='us-gaap_IncomeLossFromContinuingOperations' use='optional' order='4.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_IncomeLossFromDiscontinuedOperationsNetOfTax' xlink:label='us-gaap_IncomeLossFromDiscontinuedOperationsNetOfTax'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_OperatingExpensesAbstract' xlink:to='us-gaap_IncomeLossFromDiscontinuedOperationsNetOfTax' use='optional' order='5.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_NetIncomeLoss' xlink:label='us-gaap_NetIncomeLoss'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_OperatingExpensesAbstract' xlink:to='us-gaap_NetIncomeLoss' use='optional' order='6.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_EarningsPerShareBasicAbstract' xlink:label='us-gaap_EarningsPerShareBasicAbstract'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_RevenuesAbstract' xlink:to='us-gaap_EarningsPerShareBasicAbstract' use='optional' order='5.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_IncomeLossFromContinuingOperationsPerBasicShare' xlink:label='us-gaap_IncomeLossFromContinuingOperationsPerBasicShare'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_EarningsPerShareBasicAbstract' xlink:to='us-gaap_IncomeLossFromContinuingOperationsPerBasicShare' use='optional' order='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_IncomeLossFromDiscontinuedOperationsNetOfTaxPerBasicShare' xlink:label='us-gaap_IncomeLossFromDiscontinuedOperationsNetOfTaxPerBasicShare'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_EarningsPerShareBasicAbstract' xlink:to='us-gaap_IncomeLossFromDiscontinuedOperationsNetOfTaxPerBasicShare' use='optional' order='2.0'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_TotalContinuingAmpDiscontinuedOperations1' xlink:label='fil_TotalContinuingAmpDiscontinuedOperations1'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_EarningsPerShareBasicAbstract' xlink:to='fil_TotalContinuingAmpDiscontinuedOperations1' use='optional' order='3.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_EarningsPerShareDilutedAbstract' xlink:label='us-gaap_EarningsPerShareDilutedAbstract'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_RevenuesAbstract' xlink:to='us-gaap_EarningsPerShareDilutedAbstract' use='optional' order='6.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_IncomeLossFromContinuingOperationsPerDilutedShare' xlink:label='us-gaap_IncomeLossFromContinuingOperationsPerDilutedShare'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_EarningsPerShareDilutedAbstract' xlink:to='us-gaap_IncomeLossFromContinuingOperationsPerDilutedShare' use='optional' order='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_IncomeLossFromDiscontinuedOperationsNetOfTaxPerDilutedShare' xlink:label='us-gaap_IncomeLossFromDiscontinuedOperationsNetOfTaxPerDilutedShare'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_EarningsPerShareDilutedAbstract' xlink:to='us-gaap_IncomeLossFromDiscontinuedOperationsNetOfTaxPerDilutedShare' use='optional' order='2.0'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_TotalContinuingAmpDiscontinuedOperations' xlink:label='fil_TotalContinuingAmpDiscontinuedOperations'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_EarningsPerShareDilutedAbstract' xlink:to='fil_TotalContinuingAmpDiscontinuedOperations' use='optional' order='3.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_WeightedAverageNumberOfSharesOutstandingBasic' xlink:label='us-gaap_WeightedAverageNumberOfSharesOutstandingBasic'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_EarningsPerShareDilutedAbstract' xlink:to='us-gaap_WeightedAverageNumberOfSharesOutstandingBasic' use='optional' order='4.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_WeightedAverageNumberOfDilutedSharesOutstanding' xlink:label='us-gaap_WeightedAverageNumberOfDilutedSharesOutstanding'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_EarningsPerShareDilutedAbstract' xlink:to='us-gaap_WeightedAverageNumberOfDilutedSharesOutstanding' use='optional' order='5.0'/>
+	</link:presentationLink>
+	<link:roleRef roleURI="http://www.trxadegroup.com/20170331/role/idr_ConsolidatedStatementsOfCashFlowsUnaudited" xlink:type="simple" xlink:href="trxd-20170331.xsd#idr_ConsolidatedStatementsOfCashFlowsUnaudited"/>
+	<link:presentationLink xlink:type="extended" xlink:role="http://www.trxadegroup.com/20170331/role/idr_ConsolidatedStatementsOfCashFlowsUnaudited">
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_NetCashProvidedByUsedInOperatingActivitiesContinuingOperationsAbstract' xlink:label='us-gaap_NetCashProvidedByUsedInOperatingActivitiesContinuingOperationsAbstract'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_ProfitLoss' xlink:label='us-gaap_ProfitLoss'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_NetCashProvidedByUsedInOperatingActivitiesContinuingOperationsAbstract' xlink:to='us-gaap_ProfitLoss' use='optional' order='1.0' preferredLabel='http://www.xbrl.org/2003/role/terseLabel'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_LossFromDiscontinuedOperations' xlink:label='fil_LossFromDiscontinuedOperations'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_NetCashProvidedByUsedInOperatingActivitiesContinuingOperationsAbstract' xlink:to='fil_LossFromDiscontinuedOperations' use='optional' order='2.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_AdjustmentsToReconcileNetIncomeLossToCashProvidedByUsedInOperatingActivitiesAbstract' xlink:label='us-gaap_AdjustmentsToReconcileNetIncomeLossToCashProvidedByUsedInOperatingActivitiesAbstract'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_NetCashProvidedByUsedInOperatingActivitiesContinuingOperationsAbstract' xlink:to='us-gaap_AdjustmentsToReconcileNetIncomeLossToCashProvidedByUsedInOperatingActivitiesAbstract' use='optional' order='3.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_ProvisionForDoubtfulAccounts' xlink:label='us-gaap_ProvisionForDoubtfulAccounts'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_AdjustmentsToReconcileNetIncomeLossToCashProvidedByUsedInOperatingActivitiesAbstract' xlink:to='us-gaap_ProvisionForDoubtfulAccounts' use='optional' order='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_StockIssuedDuringPeriodValueIssuedForServices' xlink:label='us-gaap_StockIssuedDuringPeriodValueIssuedForServices'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_AdjustmentsToReconcileNetIncomeLossToCashProvidedByUsedInOperatingActivitiesAbstract' xlink:to='us-gaap_StockIssuedDuringPeriodValueIssuedForServices' use='optional' order='2.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_StockOptionPlanExpense' xlink:label='us-gaap_StockOptionPlanExpense'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_AdjustmentsToReconcileNetIncomeLossToCashProvidedByUsedInOperatingActivitiesAbstract' xlink:to='us-gaap_StockOptionPlanExpense' use='optional' order='3.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_AmortizationOfDebtDiscountPremium' xlink:label='us-gaap_AmortizationOfDebtDiscountPremium'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_AdjustmentsToReconcileNetIncomeLossToCashProvidedByUsedInOperatingActivitiesAbstract' xlink:to='us-gaap_AmortizationOfDebtDiscountPremium' use='optional' order='4.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_IncreaseDecreaseInOperatingCapitalAbstract' xlink:label='us-gaap_IncreaseDecreaseInOperatingCapitalAbstract'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_NetCashProvidedByUsedInOperatingActivitiesContinuingOperationsAbstract' xlink:to='us-gaap_IncreaseDecreaseInOperatingCapitalAbstract' use='optional' order='4.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_IncreaseDecreaseInAccountsReceivable' xlink:label='us-gaap_IncreaseDecreaseInAccountsReceivable'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_IncreaseDecreaseInOperatingCapitalAbstract' xlink:to='us-gaap_IncreaseDecreaseInAccountsReceivable' use='optional' order='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_PrepaidExpenseAndOtherAssetsCurrent' xlink:label='us-gaap_PrepaidExpenseAndOtherAssetsCurrent'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_IncreaseDecreaseInOperatingCapitalAbstract' xlink:to='us-gaap_PrepaidExpenseAndOtherAssetsCurrent' use='optional' order='2.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_IncreaseDecreaseInAccountsPayable' xlink:label='us-gaap_IncreaseDecreaseInAccountsPayable'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_IncreaseDecreaseInOperatingCapitalAbstract' xlink:to='us-gaap_IncreaseDecreaseInAccountsPayable' use='optional' order='3.0' preferredLabel='http://www.xbrl.org/2003/role/terseLabel'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_IncreaseDecreaseInOtherAccruedLiabilities' xlink:label='us-gaap_IncreaseDecreaseInOtherAccruedLiabilities'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_IncreaseDecreaseInOperatingCapitalAbstract' xlink:to='us-gaap_IncreaseDecreaseInOtherAccruedLiabilities' use='optional' order='4.0' preferredLabel='http://www.xbrl.org/2003/role/terseLabel'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_NetCashProvidedByUsedInOperatingActivities' xlink:label='us-gaap_NetCashProvidedByUsedInOperatingActivities'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_IncreaseDecreaseInOperatingCapitalAbstract' xlink:to='us-gaap_NetCashProvidedByUsedInOperatingActivities' use='optional' order='5.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_NetCashProvidedByUsedInFinancingActivitiesAbstract' xlink:label='us-gaap_NetCashProvidedByUsedInFinancingActivitiesAbstract'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_NetCashProvidedByUsedInOperatingActivitiesContinuingOperationsAbstract' xlink:to='us-gaap_NetCashProvidedByUsedInFinancingActivitiesAbstract' use='optional' order='5.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_RepaymentsOfRelatedPartyDebt' xlink:label='us-gaap_RepaymentsOfRelatedPartyDebt'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_NetCashProvidedByUsedInFinancingActivitiesAbstract' xlink:to='us-gaap_RepaymentsOfRelatedPartyDebt' use='optional' order='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_ProceedsFromWarrantExercises' xlink:label='us-gaap_ProceedsFromWarrantExercises'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_NetCashProvidedByUsedInFinancingActivitiesAbstract' xlink:to='us-gaap_ProceedsFromWarrantExercises' use='optional' order='2.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_ProceedsFromIssuanceOfCommonStock' xlink:label='us-gaap_ProceedsFromIssuanceOfCommonStock'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_NetCashProvidedByUsedInFinancingActivitiesAbstract' xlink:to='us-gaap_ProceedsFromIssuanceOfCommonStock' use='optional' order='3.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_NetCashProvidedByUsedInFinancingActivities' xlink:label='us-gaap_NetCashProvidedByUsedInFinancingActivities'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_NetCashProvidedByUsedInFinancingActivitiesAbstract' xlink:to='us-gaap_NetCashProvidedByUsedInFinancingActivities' use='optional' order='4.0'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_DiscontinuedOperationAbstract' xlink:label='fil_DiscontinuedOperationAbstract'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_NetCashProvidedByUsedInOperatingActivitiesContinuingOperationsAbstract' xlink:to='fil_DiscontinuedOperationAbstract' use='optional' order='6.0'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_NetCashProvidedByOperatingActivities' xlink:label='fil_NetCashProvidedByOperatingActivities'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_DiscontinuedOperationAbstract' xlink:to='fil_NetCashProvidedByOperatingActivities' use='optional' order='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_NetCashProvidedByUsedInDiscontinuedOperations' xlink:label='us-gaap_NetCashProvidedByUsedInDiscontinuedOperations'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_DiscontinuedOperationAbstract' xlink:to='us-gaap_NetCashProvidedByUsedInDiscontinuedOperations' use='optional' order='2.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_CashAndCashEquivalentsPeriodIncreaseDecrease' xlink:label='us-gaap_CashAndCashEquivalentsPeriodIncreaseDecrease'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_NetCashProvidedByUsedInOperatingActivitiesContinuingOperationsAbstract' xlink:to='us-gaap_CashAndCashEquivalentsPeriodIncreaseDecrease' use='optional' order='7.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_CashAndCashEquivalentsAtCarryingValue' xlink:label='us-gaap_CashAndCashEquivalentsAtCarryingValue'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_NetCashProvidedByUsedInOperatingActivitiesContinuingOperationsAbstract' xlink:to='us-gaap_CashAndCashEquivalentsAtCarryingValue' use='optional' order='8.0' preferredLabel='http://www.xbrl.org/2003/role/periodStartLabel'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_CashAndCashEquivalentsAtCarryingValue' xlink:label='us-gaap_CashAndCashEquivalentsAtCarryingValue_1'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_NetCashProvidedByUsedInOperatingActivitiesContinuingOperationsAbstract' xlink:to='us-gaap_CashAndCashEquivalentsAtCarryingValue_1' use='optional' order='9.0' preferredLabel='http://www.xbrl.org/2003/role/periodEndLabel'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_SupplementalCashFlowInformationAbstract' xlink:label='us-gaap_SupplementalCashFlowInformationAbstract'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_NetCashProvidedByUsedInOperatingActivitiesContinuingOperationsAbstract' xlink:to='us-gaap_SupplementalCashFlowInformationAbstract' use='optional' order='10.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_InterestPaid' xlink:label='us-gaap_InterestPaid'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_SupplementalCashFlowInformationAbstract' xlink:to='us-gaap_InterestPaid' use='optional' order='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_IncomeTaxesPaidNet' xlink:label='us-gaap_IncomeTaxesPaidNet'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_SupplementalCashFlowInformationAbstract' xlink:to='us-gaap_IncomeTaxesPaidNet' use='optional' order='2.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_CashFlowNoncashInvestingAndFinancingActivitiesDisclosureAbstract' xlink:label='us-gaap_CashFlowNoncashInvestingAndFinancingActivitiesDisclosureAbstract'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_NetCashProvidedByUsedInOperatingActivitiesContinuingOperationsAbstract' xlink:to='us-gaap_CashFlowNoncashInvestingAndFinancingActivitiesDisclosureAbstract' use='optional' order='11.0'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_ArrangementToMoveRelatedPartyAccountsPayableToNotesPayable' xlink:label='fil_ArrangementToMoveRelatedPartyAccountsPayableToNotesPayable'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_CashFlowNoncashInvestingAndFinancingActivitiesDisclosureAbstract' xlink:to='fil_ArrangementToMoveRelatedPartyAccountsPayableToNotesPayable' use='optional' order='1.0'/>
+	</link:presentationLink>
+	<link:roleRef roleURI="http://www.trxadegroup.com/20170331/role/idr_DisclosureORGANIZATIONANDBASISOFPRESENTATION" xlink:type="simple" xlink:href="trxd-20170331.xsd#idr_DisclosureORGANIZATIONANDBASISOFPRESENTATION"/>
+	<link:presentationLink xlink:type="extended" xlink:role="http://www.trxadegroup.com/20170331/role/idr_DisclosureORGANIZATIONANDBASISOFPRESENTATION">
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_OrganizationConsolidationAndPresentationOfFinancialStatementsAbstract1' xlink:label='fil_OrganizationConsolidationAndPresentationOfFinancialStatementsAbstract1'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_OrganizationConsolidationAndPresentationOfFinancialStatementsDisclosureTextBlock' xlink:label='us-gaap_OrganizationConsolidationAndPresentationOfFinancialStatementsDisclosureTextBlock'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_OrganizationConsolidationAndPresentationOfFinancialStatementsAbstract1' xlink:to='us-gaap_OrganizationConsolidationAndPresentationOfFinancialStatementsDisclosureTextBlock' use='optional' order='1.0' preferredLabel='http://www.xbrl.org/2003/role/terseLabel'/>
+	</link:presentationLink>
+	<link:roleRef roleURI="http://www.trxadegroup.com/20170331/role/idr_DisclosureGOINGCONCERN" xlink:type="simple" xlink:href="trxd-20170331.xsd#idr_DisclosureGOINGCONCERN"/>
+	<link:presentationLink xlink:type="extended" xlink:role="http://www.trxadegroup.com/20170331/role/idr_DisclosureGOINGCONCERN">
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_OrganizationConsolidationAndPresentationOfFinancialStatementsAbstract1' xlink:label='fil_OrganizationConsolidationAndPresentationOfFinancialStatementsAbstract1'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_SubstantialDoubtAboutGoingConcernTextBlock' xlink:label='us-gaap_SubstantialDoubtAboutGoingConcernTextBlock'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_OrganizationConsolidationAndPresentationOfFinancialStatementsAbstract1' xlink:to='us-gaap_SubstantialDoubtAboutGoingConcernTextBlock' use='optional' order='1.0'/>
+	</link:presentationLink>
+	<link:roleRef roleURI="http://www.trxadegroup.com/20170331/role/idr_DisclosureDISCONTINUEDOPERATIONS" xlink:type="simple" xlink:href="trxd-20170331.xsd#idr_DisclosureDISCONTINUEDOPERATIONS"/>
+	<link:presentationLink xlink:type="extended" xlink:role="http://www.trxadegroup.com/20170331/role/idr_DisclosureDISCONTINUEDOPERATIONS">
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_DiscontinuedOperationsAbstract' xlink:label='fil_DiscontinuedOperationsAbstract'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_NatureOfOperations' xlink:label='us-gaap_NatureOfOperations'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_DiscontinuedOperationsAbstract' xlink:to='us-gaap_NatureOfOperations' use='optional' order='1.0'/>
+	</link:presentationLink>
+	<link:roleRef roleURI="http://www.trxadegroup.com/20170331/role/idr_DisclosureShortTermDebtAndRelatedPartiesDebt" xlink:type="simple" xlink:href="trxd-20170331.xsd#idr_DisclosureShortTermDebtAndRelatedPartiesDebt"/>
+	<link:presentationLink xlink:type="extended" xlink:role="http://www.trxadegroup.com/20170331/role/idr_DisclosureShortTermDebtAndRelatedPartiesDebt">
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_RelatedPartyDisclosuresAbstract' xlink:label='fil_RelatedPartyDisclosuresAbstract'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_RelatedPartyTransactionsDisclosureTextBlock' xlink:label='us-gaap_RelatedPartyTransactionsDisclosureTextBlock'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_RelatedPartyDisclosuresAbstract' xlink:to='us-gaap_RelatedPartyTransactionsDisclosureTextBlock' use='optional' order='1.0' preferredLabel='http://www.xbrl.org/2003/role/terseLabel'/>
+	</link:presentationLink>
+	<link:roleRef roleURI="http://www.trxadegroup.com/20170331/role/idr_DisclosureStockholdersEquity" xlink:type="simple" xlink:href="trxd-20170331.xsd#idr_DisclosureStockholdersEquity"/>
+	<link:presentationLink xlink:type="extended" xlink:role="http://www.trxadegroup.com/20170331/role/idr_DisclosureStockholdersEquity">
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_EquityAbstract1' xlink:label='fil_EquityAbstract1'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_StockholdersEquityNoteDisclosureTextBlock' xlink:label='us-gaap_StockholdersEquityNoteDisclosureTextBlock'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_EquityAbstract1' xlink:to='us-gaap_StockholdersEquityNoteDisclosureTextBlock' use='optional' order='1.0' preferredLabel='http://www.xbrl.org/2003/role/terseLabel'/>
+	</link:presentationLink>
+	<link:roleRef roleURI="http://www.trxadegroup.com/20170331/role/idr_DisclosureWarrants" xlink:type="simple" xlink:href="trxd-20170331.xsd#idr_DisclosureWarrants"/>
+	<link:presentationLink xlink:type="extended" xlink:role="http://www.trxadegroup.com/20170331/role/idr_DisclosureWarrants">
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_WarrantsDisclosureTextBlockAbstract' xlink:label='fil_WarrantsDisclosureTextBlockAbstract'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_WarrantsDisclosureTextBlock' xlink:label='fil_WarrantsDisclosureTextBlock'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_WarrantsDisclosureTextBlockAbstract' xlink:to='fil_WarrantsDisclosureTextBlock' use='optional' order='1.0' preferredLabel='http://www.xbrl.org/2003/role/terseLabel'/>
+	</link:presentationLink>
+	<link:roleRef roleURI="http://www.trxadegroup.com/20170331/role/idr_DisclosureOptions" xlink:type="simple" xlink:href="trxd-20170331.xsd#idr_DisclosureOptions"/>
+	<link:presentationLink xlink:type="extended" xlink:role="http://www.trxadegroup.com/20170331/role/idr_DisclosureOptions">
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_CompensationRelatedCostsRetirementBenefitsAbstract' xlink:label='fil_CompensationRelatedCostsRetirementBenefitsAbstract'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_CompensationAndEmployeeBenefitPlansTextBlock' xlink:label='us-gaap_CompensationAndEmployeeBenefitPlansTextBlock'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_CompensationRelatedCostsRetirementBenefitsAbstract' xlink:to='us-gaap_CompensationAndEmployeeBenefitPlansTextBlock' use='optional' order='1.0' preferredLabel='http://www.xbrl.org/2003/role/terseLabel'/>
+	</link:presentationLink>
+	<link:roleRef roleURI="http://www.trxadegroup.com/20170331/role/idr_DisclosureRelatedParties" xlink:type="simple" xlink:href="trxd-20170331.xsd#idr_DisclosureRelatedParties"/>
+	<link:presentationLink xlink:type="extended" xlink:role="http://www.trxadegroup.com/20170331/role/idr_DisclosureRelatedParties">
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_DebtAbstract' xlink:label='fil_DebtAbstract'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_DebtDisclosureTextBlock' xlink:label='us-gaap_DebtDisclosureTextBlock'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_DebtAbstract' xlink:to='us-gaap_DebtDisclosureTextBlock' use='optional' order='1.0' preferredLabel='http://www.xbrl.org/2003/role/terseLabel'/>
+	</link:presentationLink>
+	<link:roleRef roleURI="http://www.trxadegroup.com/20170331/role/idr_DisclosureCommitmentAndContingencies" xlink:type="simple" xlink:href="trxd-20170331.xsd#idr_DisclosureCommitmentAndContingencies"/>
+	<link:presentationLink xlink:type="extended" xlink:role="http://www.trxadegroup.com/20170331/role/idr_DisclosureCommitmentAndContingencies">
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_CommitmentAndContingenciesAbstract' xlink:label='fil_CommitmentAndContingenciesAbstract'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_CommitmentsAndContingenciesDisclosureTextBlock' xlink:label='us-gaap_CommitmentsAndContingenciesDisclosureTextBlock'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_CommitmentAndContingenciesAbstract' xlink:to='us-gaap_CommitmentsAndContingenciesDisclosureTextBlock' use='optional' order='1.0'/>
+	</link:presentationLink>
+	<link:roleRef roleURI="http://www.trxadegroup.com/20170331/role/idr_DisclosureSUBSEQUENTEVENTS" xlink:type="simple" xlink:href="trxd-20170331.xsd#idr_DisclosureSUBSEQUENTEVENTS"/>
+	<link:presentationLink xlink:type="extended" xlink:role="http://www.trxadegroup.com/20170331/role/idr_DisclosureSUBSEQUENTEVENTS">
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_SubsequentEventsAbstract1' xlink:label='fil_SubsequentEventsAbstract1'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_SubsequentEventsTextBlock' xlink:label='us-gaap_SubsequentEventsTextBlock'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_SubsequentEventsAbstract1' xlink:to='us-gaap_SubsequentEventsTextBlock' use='optional' order='1.0' preferredLabel='http://www.xbrl.org/2003/role/terseLabel'/>
+	</link:presentationLink>
+	<link:roleRef roleURI="http://www.trxadegroup.com/20170331/role/idr_DisclosureComputationOfBasicAndDilutedLossPerShareTables" xlink:type="simple" xlink:href="trxd-20170331.xsd#idr_DisclosureComputationOfBasicAndDilutedLossPerShareTables"/>
+	<link:presentationLink xlink:type="extended" xlink:role="http://www.trxadegroup.com/20170331/role/idr_DisclosureComputationOfBasicAndDilutedLossPerShareTables">
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_EarningsPerShareAbstract1' xlink:label='fil_EarningsPerShareAbstract1'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_ScheduleOfEarningsPerShareBasicAndDilutedTableTextBlock' xlink:label='us-gaap_ScheduleOfEarningsPerShareBasicAndDilutedTableTextBlock'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_EarningsPerShareAbstract1' xlink:to='us-gaap_ScheduleOfEarningsPerShareBasicAndDilutedTableTextBlock' use='optional' order='1.0'/>
+	</link:presentationLink>
+	<link:roleRef roleURI="http://www.trxadegroup.com/20170331/role/idr_DisclosureScheduleOfDiscontinuedOperationsTables" xlink:type="simple" xlink:href="trxd-20170331.xsd#idr_DisclosureScheduleOfDiscontinuedOperationsTables"/>
+	<link:presentationLink xlink:type="extended" xlink:role="http://www.trxadegroup.com/20170331/role/idr_DisclosureScheduleOfDiscontinuedOperationsTables">
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_ScheduleOfDiscontinuedOperationsTablesAbstract' xlink:label='fil_ScheduleOfDiscontinuedOperationsTablesAbstract'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_SummarizesTheSaleArrangementTextBlock' xlink:label='fil_SummarizesTheSaleArrangementTextBlock'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_ScheduleOfDiscontinuedOperationsTablesAbstract' xlink:to='fil_SummarizesTheSaleArrangementTextBlock' use='optional' order='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_ResultsOfDiscontinuedOperationsTextBlock' xlink:label='fil_ResultsOfDiscontinuedOperationsTextBlock'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_ScheduleOfDiscontinuedOperationsTablesAbstract' xlink:to='fil_ResultsOfDiscontinuedOperationsTextBlock' use='optional' order='2.0'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_AssetsAndLiabilitiesOfDiscontinuedOperationsTextBlock' xlink:label='fil_AssetsAndLiabilitiesOfDiscontinuedOperationsTextBlock'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_ScheduleOfDiscontinuedOperationsTablesAbstract' xlink:to='fil_AssetsAndLiabilitiesOfDiscontinuedOperationsTextBlock' use='optional' order='3.0'/>
+	</link:presentationLink>
+	<link:roleRef roleURI="http://www.trxadegroup.com/20170331/role/idr_DisclosureScheduleOfWarrantsTables" xlink:type="simple" xlink:href="trxd-20170331.xsd#idr_DisclosureScheduleOfWarrantsTables"/>
+	<link:presentationLink xlink:type="extended" xlink:role="http://www.trxadegroup.com/20170331/role/idr_DisclosureScheduleOfWarrantsTables">
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_ScheduleOfOutstandingAndExercisableWarrantsAbstract' xlink:label='fil_ScheduleOfOutstandingAndExercisableWarrantsAbstract'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_ScheduleOfStockholdersEquityNoteWarrantsOrRightsTextBlock' xlink:label='us-gaap_ScheduleOfStockholdersEquityNoteWarrantsOrRightsTextBlock'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_ScheduleOfOutstandingAndExercisableWarrantsAbstract' xlink:to='us-gaap_ScheduleOfStockholdersEquityNoteWarrantsOrRightsTextBlock' use='optional' order='1.0'/>
+	</link:presentationLink>
+	<link:roleRef roleURI="http://www.trxadegroup.com/20170331/role/idr_DisclosureScheduleOfStockOptionsActivityTables" xlink:type="simple" xlink:href="trxd-20170331.xsd#idr_DisclosureScheduleOfStockOptionsActivityTables"/>
+	<link:presentationLink xlink:type="extended" xlink:role="http://www.trxadegroup.com/20170331/role/idr_DisclosureScheduleOfStockOptionsActivityTables">
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_ScheduleOfStockOptionsActivityAbstract' xlink:label='fil_ScheduleOfStockOptionsActivityAbstract'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_ScheduleOfShareBasedPaymentAwardStockOptionsValuationAssumptionsTableTextBlock' xlink:label='us-gaap_ScheduleOfShareBasedPaymentAwardStockOptionsValuationAssumptionsTableTextBlock'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_ScheduleOfStockOptionsActivityAbstract' xlink:to='us-gaap_ScheduleOfShareBasedPaymentAwardStockOptionsValuationAssumptionsTableTextBlock' use='optional' order='1.0'/>
+	</link:presentationLink>
+	<link:roleRef roleURI="http://www.trxadegroup.com/20170331/role/idr_OrganizationDetails" xlink:type="simple" xlink:href="trxd-20170331.xsd#idr_OrganizationDetails"/>
+	<link:presentationLink xlink:type="extended" xlink:role="http://www.trxadegroup.com/20170331/role/idr_OrganizationDetails">
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_OrganizationDetailsAbstract' xlink:label='fil_OrganizationDetailsAbstract'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_CompanyOwnsTrxadeInc' xlink:label='fil_CompanyOwnsTrxadeInc'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_OrganizationDetailsAbstract' xlink:to='fil_CompanyOwnsTrxadeInc' use='optional' order='1.0'/>
+	</link:presentationLink>
+	<link:roleRef roleURI="http://www.trxadegroup.com/20170331/role/idr_ComputationOfBasicAndDilutedLossPerShareDetails" xlink:type="simple" xlink:href="trxd-20170331.xsd#idr_ComputationOfBasicAndDilutedLossPerShareDetails"/>
+	<link:presentationLink xlink:type="extended" xlink:role="http://www.trxadegroup.com/20170331/role/idr_ComputationOfBasicAndDilutedLossPerShareDetails">
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_NumeratorAbstract' xlink:label='fil_NumeratorAbstract'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_NetLoss' xlink:label='fil_NetLoss'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_NumeratorAbstract' xlink:to='fil_NetLoss' use='optional' order='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_NetLossFromDiscontinuedOperations2' xlink:label='fil_NetLossFromDiscontinuedOperations2'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_NumeratorAbstract' xlink:to='fil_NetLossFromDiscontinuedOperations2' use='optional' order='2.0'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_NetLossFromContinuingOperations1' xlink:label='fil_NetLossFromContinuingOperations1'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_NumeratorAbstract' xlink:to='fil_NetLossFromContinuingOperations1' use='optional' order='3.0'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_NumeratorForBasicAndDilutedEpsIncomeLossAvailableToCommonShareholders2' xlink:label='fil_NumeratorForBasicAndDilutedEpsIncomeLossAvailableToCommonShareholders2'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_NumeratorAbstract' xlink:to='fil_NumeratorForBasicAndDilutedEpsIncomeLossAvailableToCommonShareholders2' use='optional' order='4.0'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_NumeratorForBasicAndDilutedEpsIncomeLossFromDiscontinuedOperations2' xlink:label='fil_NumeratorForBasicAndDilutedEpsIncomeLossFromDiscontinuedOperations2'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_NumeratorAbstract' xlink:to='fil_NumeratorForBasicAndDilutedEpsIncomeLossFromDiscontinuedOperations2' use='optional' order='5.0'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_NumeratorForBasicAndDilutedEpsIncomeLossFromContinuingOperations1' xlink:label='fil_NumeratorForBasicAndDilutedEpsIncomeLossFromContinuingOperations1'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_NumeratorAbstract' xlink:to='fil_NumeratorForBasicAndDilutedEpsIncomeLossFromContinuingOperations1' use='optional' order='6.0'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_DenominatorAbstract' xlink:label='fil_DenominatorAbstract'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_NumeratorAbstract' xlink:to='fil_DenominatorAbstract' use='optional' order='7.0'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_DenominatorForBasicEpsWeightedAverageShares' xlink:label='fil_DenominatorForBasicEpsWeightedAverageShares'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_NumeratorAbstract' xlink:to='fil_DenominatorForBasicEpsWeightedAverageShares' use='optional' order='8.0'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_DilutiveEffectOfWarrants' xlink:label='fil_DilutiveEffectOfWarrants'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_NumeratorAbstract' xlink:to='fil_DilutiveEffectOfWarrants' use='optional' order='9.0'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_DenominatorForDilutedEpsWeightedAverageShares' xlink:label='fil_DenominatorForDilutedEpsWeightedAverageShares'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_NumeratorAbstract' xlink:to='fil_DenominatorForDilutedEpsWeightedAverageShares' use='optional' order='10.0'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_BasicAndDilutedLossPerCommonShare' xlink:label='fil_BasicAndDilutedLossPerCommonShare'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_NumeratorAbstract' xlink:to='fil_BasicAndDilutedLossPerCommonShare' use='optional' order='11.0'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_BasicAndDilutedLossPerCommonShareFromDiscontinuedOperations1' xlink:label='fil_BasicAndDilutedLossPerCommonShareFromDiscontinuedOperations1'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_NumeratorAbstract' xlink:to='fil_BasicAndDilutedLossPerCommonShareFromDiscontinuedOperations1' use='optional' order='12.0'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_BasicAndDilutedLossPerCommonShareFromContinuingOperations1' xlink:label='fil_BasicAndDilutedLossPerCommonShareFromContinuingOperations1'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_NumeratorAbstract' xlink:to='fil_BasicAndDilutedLossPerCommonShareFromContinuingOperations1' use='optional' order='13.0'/>
+	</link:presentationLink>
+	<link:roleRef roleURI="http://www.trxadegroup.com/20170331/role/idr_SummarizesTheSaleArrangementDetails" xlink:type="simple" xlink:href="trxd-20170331.xsd#idr_SummarizesTheSaleArrangementDetails"/>
+	<link:presentationLink xlink:type="extended" xlink:role="http://www.trxadegroup.com/20170331/role/idr_SummarizesTheSaleArrangementDetails">
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_SummarizesTheSaleArrangementDetailsAbstract' xlink:label='fil_SummarizesTheSaleArrangementDetailsAbstract'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_AssetsTransferred' xlink:label='fil_AssetsTransferred'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_SummarizesTheSaleArrangementDetailsAbstract' xlink:to='fil_AssetsTransferred' use='optional' order='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_LiabilitiesTransferred' xlink:label='fil_LiabilitiesTransferred'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_SummarizesTheSaleArrangementDetailsAbstract' xlink:to='fil_LiabilitiesTransferred' use='optional' order='2.0'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_CancellationOfIntercompanyPayables' xlink:label='fil_CancellationOfIntercompanyPayables'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_SummarizesTheSaleArrangementDetailsAbstract' xlink:to='fil_CancellationOfIntercompanyPayables' use='optional' order='3.0'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_WriteOffUnamortizedDebtDiscount' xlink:label='fil_WriteOffUnamortizedDebtDiscount'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_SummarizesTheSaleArrangementDetailsAbstract' xlink:to='fil_WriteOffUnamortizedDebtDiscount' use='optional' order='4.0'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_IssuanceOf1500000Warrants' xlink:label='fil_IssuanceOf1500000Warrants'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_SummarizesTheSaleArrangementDetailsAbstract' xlink:to='fil_IssuanceOf1500000Warrants' use='optional' order='5.0'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_GainOnSaleOfWestminster' xlink:label='fil_GainOnSaleOfWestminster'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_SummarizesTheSaleArrangementDetailsAbstract' xlink:to='fil_GainOnSaleOfWestminster' use='optional' order='6.0'/>
+	</link:presentationLink>
+	<link:roleRef roleURI="http://www.trxadegroup.com/20170331/role/idr_ResultsOfDiscontinuedOperationsDetails" xlink:type="simple" xlink:href="trxd-20170331.xsd#idr_ResultsOfDiscontinuedOperationsDetails"/>
+	<link:presentationLink xlink:type="extended" xlink:role="http://www.trxadegroup.com/20170331/role/idr_ResultsOfDiscontinuedOperationsDetails">
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_ResultsOfDiscontinuedOperationsDetailsAbstract' xlink:label='fil_ResultsOfDiscontinuedOperationsDetailsAbstract'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_Revenue' xlink:label='fil_Revenue'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_ResultsOfDiscontinuedOperationsDetailsAbstract' xlink:to='fil_Revenue' use='optional' order='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_CostOfGoodsSold1' xlink:label='fil_CostOfGoodsSold1'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_ResultsOfDiscontinuedOperationsDetailsAbstract' xlink:to='fil_CostOfGoodsSold1' use='optional' order='2.0' preferredLabel='http://www.xbrl.org/2003/role/terseLabel'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_OperatingExpenses1' xlink:label='fil_OperatingExpenses1'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_ResultsOfDiscontinuedOperationsDetailsAbstract' xlink:to='fil_OperatingExpenses1' use='optional' order='3.0' preferredLabel='http://www.xbrl.org/2003/role/terseLabel'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_InterestExpense1' xlink:label='fil_InterestExpense1'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_ResultsOfDiscontinuedOperationsDetailsAbstract' xlink:to='fil_InterestExpense1' use='optional' order='4.0'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_LossFromDiscontinuedOperations1' xlink:label='fil_LossFromDiscontinuedOperations1'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_ResultsOfDiscontinuedOperationsDetailsAbstract' xlink:to='fil_LossFromDiscontinuedOperations1' use='optional' order='5.0'/>
+	</link:presentationLink>
+	<link:roleRef roleURI="http://www.trxadegroup.com/20170331/role/idr_AssetsAndLiabilitiesOfDiscontinuedOperationsDetails" xlink:type="simple" xlink:href="trxd-20170331.xsd#idr_AssetsAndLiabilitiesOfDiscontinuedOperationsDetails"/>
+	<link:presentationLink xlink:type="extended" xlink:role="http://www.trxadegroup.com/20170331/role/idr_AssetsAndLiabilitiesOfDiscontinuedOperationsDetails">
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_AssetsAndLiabilitiesOfDiscontinuedOperationsDetailsAbstract' xlink:label='fil_AssetsAndLiabilitiesOfDiscontinuedOperationsDetailsAbstract'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_Cash1' xlink:label='fil_Cash1'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_AssetsAndLiabilitiesOfDiscontinuedOperationsDetailsAbstract' xlink:to='fil_Cash1' use='optional' order='1.0' preferredLabel='http://www.xbrl.org/2003/role/terseLabel'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_AccountsReceivable' xlink:label='fil_AccountsReceivable'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_AssetsAndLiabilitiesOfDiscontinuedOperationsDetailsAbstract' xlink:to='fil_AccountsReceivable' use='optional' order='2.0' preferredLabel='http://www.xbrl.org/2003/role/terseLabel'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_InventoryNetOf30413ObsolescenceReserve' xlink:label='fil_InventoryNetOf30413ObsolescenceReserve'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_AssetsAndLiabilitiesOfDiscontinuedOperationsDetailsAbstract' xlink:to='fil_InventoryNetOf30413ObsolescenceReserve' use='optional' order='3.0'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_PrepaidAssetsAndOtherAdvances' xlink:label='fil_PrepaidAssetsAndOtherAdvances'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_AssetsAndLiabilitiesOfDiscontinuedOperationsDetailsAbstract' xlink:to='fil_PrepaidAssetsAndOtherAdvances' use='optional' order='4.0'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_FixedAssetsNetOfAccumulatedAmortization' xlink:label='fil_FixedAssetsNetOfAccumulatedAmortization'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_AssetsAndLiabilitiesOfDiscontinuedOperationsDetailsAbstract' xlink:to='fil_FixedAssetsNetOfAccumulatedAmortization' use='optional' order='5.0'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_OtherAssets1' xlink:label='fil_OtherAssets1'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_AssetsAndLiabilitiesOfDiscontinuedOperationsDetailsAbstract' xlink:to='fil_OtherAssets1' use='optional' order='6.0' preferredLabel='http://www.xbrl.org/2003/role/terseLabel'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_TotalAssets' xlink:label='fil_TotalAssets'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_AssetsAndLiabilitiesOfDiscontinuedOperationsDetailsAbstract' xlink:to='fil_TotalAssets' use='optional' order='7.0' preferredLabel='http://www.xbrl.org/2003/role/terseLabel'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_IntercompanyPayable' xlink:label='fil_IntercompanyPayable'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_AssetsAndLiabilitiesOfDiscontinuedOperationsDetailsAbstract' xlink:to='fil_IntercompanyPayable' use='optional' order='8.0'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_AccountsPayable' xlink:label='fil_AccountsPayable'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_AssetsAndLiabilitiesOfDiscontinuedOperationsDetailsAbstract' xlink:to='fil_AccountsPayable' use='optional' order='9.0'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_AccruedLiabilities' xlink:label='fil_AccruedLiabilities'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_AssetsAndLiabilitiesOfDiscontinuedOperationsDetailsAbstract' xlink:to='fil_AccruedLiabilities' use='optional' order='10.0' preferredLabel='http://www.xbrl.org/2003/role/terseLabel'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_ConvertibleNote' xlink:label='fil_ConvertibleNote'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_AssetsAndLiabilitiesOfDiscontinuedOperationsDetailsAbstract' xlink:to='fil_ConvertibleNote' use='optional' order='11.0'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_TotalLiabilities' xlink:label='fil_TotalLiabilities'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_AssetsAndLiabilitiesOfDiscontinuedOperationsDetailsAbstract' xlink:to='fil_TotalLiabilities' use='optional' order='12.0' preferredLabel='http://www.xbrl.org/2003/role/terseLabel'/>
+	</link:presentationLink>
+	<link:roleRef roleURI="http://www.trxadegroup.com/20170331/role/idr_ConvertiblePromissoryNoteDetails" xlink:type="simple" xlink:href="trxd-20170331.xsd#idr_ConvertiblePromissoryNoteDetails"/>
+	<link:presentationLink xlink:type="extended" xlink:role="http://www.trxadegroup.com/20170331/role/idr_ConvertiblePromissoryNoteDetails">
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_ConvertiblePromissoryNoteDetailsAbstract' xlink:label='fil_ConvertiblePromissoryNoteDetailsAbstract'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_ShortTermConvertibleNotesHadAPrincipalBalance' xlink:label='fil_ShortTermConvertibleNotesHadAPrincipalBalance'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_ConvertiblePromissoryNoteDetailsAbstract' xlink:to='fil_ShortTermConvertibleNotesHadAPrincipalBalance' use='optional' order='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_ConvertiblePromissoryNoteDebtDiscount' xlink:label='fil_ConvertiblePromissoryNoteDebtDiscount'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_ConvertiblePromissoryNoteDetailsAbstract' xlink:to='fil_ConvertiblePromissoryNoteDebtDiscount' use='optional' order='2.0'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_AnnualInterestRateOnConvertiblePromissoryNote' xlink:label='fil_AnnualInterestRateOnConvertiblePromissoryNote'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_ConvertiblePromissoryNoteDetailsAbstract' xlink:to='fil_AnnualInterestRateOnConvertiblePromissoryNote' use='optional' order='3.0'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_TheHoldersOfTheNotesWereGrantedWarrantsAtOneCommonStockForTheNoteAmount' xlink:label='fil_TheHoldersOfTheNotesWereGrantedWarrantsAtOneCommonStockForTheNoteAmount'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_ConvertiblePromissoryNoteDetailsAbstract' xlink:to='fil_TheHoldersOfTheNotesWereGrantedWarrantsAtOneCommonStockForTheNoteAmount' use='optional' order='4.0'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_WarrantsToPurchaseSharesOfCommonStockWereIssuedAtAStrikePriceOf150' xlink:label='fil_WarrantsToPurchaseSharesOfCommonStockWereIssuedAtAStrikePriceOf150'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_ConvertiblePromissoryNoteDetailsAbstract' xlink:to='fil_WarrantsToPurchaseSharesOfCommonStockWereIssuedAtAStrikePriceOf150' use='optional' order='5.0'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_ALossOnExtinguishmentOfDebtWasBookedInTheAmount' xlink:label='fil_ALossOnExtinguishmentOfDebtWasBookedInTheAmount'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_ConvertiblePromissoryNoteDetailsAbstract' xlink:to='fil_ALossOnExtinguishmentOfDebtWasBookedInTheAmount' use='optional' order='6.0'/>
+	</link:presentationLink>
+	<link:roleRef roleURI="http://www.trxadegroup.com/20170331/role/idr_PromissoryNoteDetails" xlink:type="simple" xlink:href="trxd-20170331.xsd#idr_PromissoryNoteDetails"/>
+	<link:presentationLink xlink:type="extended" xlink:role="http://www.trxadegroup.com/20170331/role/idr_PromissoryNoteDetails">
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_PromissoryNoteDetailsAbstract' xlink:label='fil_PromissoryNoteDetailsAbstract'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_PromissoryNoteWasIssuedInTheFaceAmount' xlink:label='fil_PromissoryNoteWasIssuedInTheFaceAmount'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_PromissoryNoteDetailsAbstract' xlink:to='fil_PromissoryNoteWasIssuedInTheFaceAmount' use='optional' order='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_OriginalIssuanceDiscount' xlink:label='fil_OriginalIssuanceDiscount'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_PromissoryNoteDetailsAbstract' xlink:to='fil_OriginalIssuanceDiscount' use='optional' order='2.0'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_TermNotesInYear' xlink:label='fil_TermNotesInYear'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_PromissoryNoteDetailsAbstract' xlink:to='fil_TermNotesInYear' use='optional' order='3.0'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_AmortizedDebtDiscountOfPromissoryNote' xlink:label='fil_AmortizedDebtDiscountOfPromissoryNote'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_PromissoryNoteDetailsAbstract' xlink:to='fil_AmortizedDebtDiscountOfPromissoryNote' use='optional' order='4.0'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_PromissoryNoteHasABalance' xlink:label='fil_PromissoryNoteHasABalance'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_PromissoryNoteDetailsAbstract' xlink:to='fil_PromissoryNoteHasABalance' use='optional' order='5.0'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_UnamortizedDebtDiscountOfPromissoryNote' xlink:label='fil_UnamortizedDebtDiscountOfPromissoryNote'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_PromissoryNoteDetailsAbstract' xlink:to='fil_UnamortizedDebtDiscountOfPromissoryNote' use='optional' order='6.0'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_PaymentMadeMonthly' xlink:label='fil_PaymentMadeMonthly'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_PromissoryNoteDetailsAbstract' xlink:to='fil_PaymentMadeMonthly' use='optional' order='7.0'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_IssuanceOfDebtDiscount' xlink:label='fil_IssuanceOfDebtDiscount'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_PromissoryNoteDetailsAbstract' xlink:to='fil_IssuanceOfDebtDiscount' use='optional' order='8.0'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_InitialNetProceedsWere' xlink:label='fil_InitialNetProceedsWere'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_PromissoryNoteDetailsAbstract' xlink:to='fil_InitialNetProceedsWere' use='optional' order='9.0'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_ClassifiedShortTermDiscountOf25306And10739' xlink:label='fil_ClassifiedShortTermDiscountOf25306And10739'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_PromissoryNoteDetailsAbstract' xlink:to='fil_ClassifiedShortTermDiscountOf25306And10739' use='optional' order='10.0'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_ClassifiedAsLongTermWithADiscount' xlink:label='fil_ClassifiedAsLongTermWithADiscount'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_PromissoryNoteDetailsAbstract' xlink:to='fil_ClassifiedAsLongTermWithADiscount' use='optional' order='11.0'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_PaymentsAreMadeEachWeekdayInTheAmount' xlink:label='fil_PaymentsAreMadeEachWeekdayInTheAmount'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_PromissoryNoteDetailsAbstract' xlink:to='fil_PaymentsAreMadeEachWeekdayInTheAmount' use='optional' order='12.0'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_PaidOffByCash' xlink:label='fil_PaidOffByCash'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_PromissoryNoteDetailsAbstract' xlink:to='fil_PaidOffByCash' use='optional' order='13.0'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_AmortizedDebtDiscountOfPromissoryNote1' xlink:label='fil_AmortizedDebtDiscountOfPromissoryNote1'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_PromissoryNoteDetailsAbstract' xlink:to='fil_AmortizedDebtDiscountOfPromissoryNote1' use='optional' order='14.0' preferredLabel='http://www.xbrl.org/2003/role/terseLabel'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_ShortTermBalance' xlink:label='fil_ShortTermBalance'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_PromissoryNoteDetailsAbstract' xlink:to='fil_ShortTermBalance' use='optional' order='15.0'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_ClassifiedAsShortTermWithADiscount' xlink:label='fil_ClassifiedAsShortTermWithADiscount'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_PromissoryNoteDetailsAbstract' xlink:to='fil_ClassifiedAsShortTermWithADiscount' use='optional' order='16.0'/>
+	</link:presentationLink>
+	<link:roleRef roleURI="http://www.trxadegroup.com/20170331/role/idr_RelatedPartyConvertiblePromissoryNoteDetails" xlink:type="simple" xlink:href="trxd-20170331.xsd#idr_RelatedPartyConvertiblePromissoryNoteDetails"/>
+	<link:presentationLink xlink:type="extended" xlink:role="http://www.trxadegroup.com/20170331/role/idr_RelatedPartyConvertiblePromissoryNoteDetails">
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_RelatedPartyConvertiblePromissoryNoteDetailsAbstract' xlink:label='fil_RelatedPartyConvertiblePromissoryNoteDetailsAbstract'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_PromissoryNotesWereIssuedToMrShilpaPatel' xlink:label='fil_PromissoryNotesWereIssuedToMrShilpaPatel'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_RelatedPartyConvertiblePromissoryNoteDetailsAbstract' xlink:to='fil_PromissoryNotesWereIssuedToMrShilpaPatel' use='optional' order='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_SimpleInterestIsPayableAtTheMaturityDateOfTheNote' xlink:label='fil_SimpleInterestIsPayableAtTheMaturityDateOfTheNote'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_RelatedPartyConvertiblePromissoryNoteDetailsAbstract' xlink:to='fil_SimpleInterestIsPayableAtTheMaturityDateOfTheNote' use='optional' order='2.0'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_NoteMayBeConvertedForCommonStockAtAConversionPrice' xlink:label='fil_NoteMayBeConvertedForCommonStockAtAConversionPrice'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_RelatedPartyConvertiblePromissoryNoteDetailsAbstract' xlink:to='fil_NoteMayBeConvertedForCommonStockAtAConversionPrice' use='optional' order='3.0'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_ConvertiblePromissoryNotesWereIssuedInTheAggregateAmount' xlink:label='fil_ConvertiblePromissoryNotesWereIssuedInTheAggregateAmount'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_RelatedPartyConvertiblePromissoryNoteDetailsAbstract' xlink:to='fil_ConvertiblePromissoryNotesWereIssuedInTheAggregateAmount' use='optional' order='4.0'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_TermOfTheNotes' xlink:label='fil_TermOfTheNotes'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_RelatedPartyConvertiblePromissoryNoteDetailsAbstract' xlink:to='fil_TermOfTheNotes' use='optional' order='5.0'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_NotesWereGrantedWarrantsToPurchaseSharesOfCommonStock' xlink:label='fil_NotesWereGrantedWarrantsToPurchaseSharesOfCommonStock'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_RelatedPartyConvertiblePromissoryNoteDetailsAbstract' xlink:to='fil_NotesWereGrantedWarrantsToPurchaseSharesOfCommonStock' use='optional' order='6.0'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_WarrantsWereIssuedAtAStrikePrice1' xlink:label='fil_WarrantsWereIssuedAtAStrikePrice1'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_RelatedPartyConvertiblePromissoryNoteDetailsAbstract' xlink:to='fil_WarrantsWereIssuedAtAStrikePrice1' use='optional' order='7.0'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_ExpirationDateOfYearsFromDateOfIssuance' xlink:label='fil_ExpirationDateOfYearsFromDateOfIssuance'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_RelatedPartyConvertiblePromissoryNoteDetailsAbstract' xlink:to='fil_ExpirationDateOfYearsFromDateOfIssuance' use='optional' order='8.0'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_ConvertibleNotePayableAndATotalDebtDiscountWasRecordedAsOfTheGrantDate' xlink:label='fil_ConvertibleNotePayableAndATotalDebtDiscountWasRecordedAsOfTheGrantDate'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_RelatedPartyConvertiblePromissoryNoteDetailsAbstract' xlink:to='fil_ConvertibleNotePayableAndATotalDebtDiscountWasRecordedAsOfTheGrantDate' use='optional' order='9.0'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_DebtDiscountWasAmortized2' xlink:label='fil_DebtDiscountWasAmortized2'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_RelatedPartyConvertiblePromissoryNoteDetailsAbstract' xlink:to='fil_DebtDiscountWasAmortized2' use='optional' order='10.0'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_ShortTermRelatedPartyConvertibleNotesHadAPrincipalBalance' xlink:label='fil_ShortTermRelatedPartyConvertibleNotesHadAPrincipalBalance'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_RelatedPartyConvertiblePromissoryNoteDetailsAbstract' xlink:to='fil_ShortTermRelatedPartyConvertibleNotesHadAPrincipalBalance' use='optional' order='11.0'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_AnUnamortizedDebtDiscount' xlink:label='fil_AnUnamortizedDebtDiscount'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_RelatedPartyConvertiblePromissoryNoteDetailsAbstract' xlink:to='fil_AnUnamortizedDebtDiscount' use='optional' order='12.0'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_RelatedPartyPromissoryNoteAbstract' xlink:label='fil_RelatedPartyPromissoryNoteAbstract'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_RelatedPartyConvertiblePromissoryNoteDetailsAbstract' xlink:to='fil_RelatedPartyPromissoryNoteAbstract' use='optional' order='13.0'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_MrPrashantPatelLoanedTheCompany' xlink:label='fil_MrPrashantPatelLoanedTheCompany'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_RelatedPartyConvertiblePromissoryNoteDetailsAbstract' xlink:to='fil_MrPrashantPatelLoanedTheCompany' use='optional' order='14.0'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_TermOfTheNotesInDays' xlink:label='fil_TermOfTheNotesInDays'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_RelatedPartyConvertiblePromissoryNoteDetailsAbstract' xlink:to='fil_TermOfTheNotesInDays' use='optional' order='15.0'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_AccountsPayable1' xlink:label='fil_AccountsPayable1'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_RelatedPartyConvertiblePromissoryNoteDetailsAbstract' xlink:to='fil_AccountsPayable1' use='optional' order='16.0' preferredLabel='http://www.xbrl.org/2003/role/terseLabel'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_BalanceAmountWas' xlink:label='fil_BalanceAmountWas'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_RelatedPartyConvertiblePromissoryNoteDetailsAbstract' xlink:to='fil_BalanceAmountWas' use='optional' order='17.0'/>
+	</link:presentationLink>
+	<link:roleRef roleURI="http://www.trxadegroup.com/20170331/role/idr_CapitalStockTransactionsDetails" xlink:type="simple" xlink:href="trxd-20170331.xsd#idr_CapitalStockTransactionsDetails"/>
+	<link:presentationLink xlink:type="extended" xlink:role="http://www.trxadegroup.com/20170331/role/idr_CapitalStockTransactionsDetails">
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_CapitalStockTransactionsDetailsAbstract' xlink:label='fil_CapitalStockTransactionsDetailsAbstract'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_SharesOfCommonStockIssued' xlink:label='fil_SharesOfCommonStockIssued'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_CapitalStockTransactionsDetailsAbstract' xlink:to='fil_SharesOfCommonStockIssued' use='optional' order='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_SharesOfCommonStockIssuedForCash' xlink:label='fil_SharesOfCommonStockIssuedForCash'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_CapitalStockTransactionsDetailsAbstract' xlink:to='fil_SharesOfCommonStockIssuedForCash' use='optional' order='2.0'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_TheCommonStockSoldPerShare' xlink:label='fil_TheCommonStockSoldPerShare'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_CapitalStockTransactionsDetailsAbstract' xlink:to='fil_TheCommonStockSoldPerShare' use='optional' order='3.0'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_InConnectionWithThisCommonStockOfferingWarrantsToPurchaseSharesOfCommonStockWereIssued' xlink:label='fil_InConnectionWithThisCommonStockOfferingWarrantsToPurchaseSharesOfCommonStockWereIssued'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_CapitalStockTransactionsDetailsAbstract' xlink:to='fil_InConnectionWithThisCommonStockOfferingWarrantsToPurchaseSharesOfCommonStockWereIssued' use='optional' order='4.0'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_CommonStockStrikePricePerShare' xlink:label='fil_CommonStockStrikePricePerShare'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_CapitalStockTransactionsDetailsAbstract' xlink:to='fil_CommonStockStrikePricePerShare' use='optional' order='5.0'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_ExpirationDateOfSharesInYears' xlink:label='fil_ExpirationDateOfSharesInYears'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_CapitalStockTransactionsDetailsAbstract' xlink:to='fil_ExpirationDateOfSharesInYears' use='optional' order='6.0'/>
+	</link:presentationLink>
+	<link:roleRef roleURI="http://www.trxadegroup.com/20170331/role/idr_WarrantsDetails" xlink:type="simple" xlink:href="trxd-20170331.xsd#idr_WarrantsDetails"/>
+	<link:presentationLink xlink:type="extended" xlink:role="http://www.trxadegroup.com/20170331/role/idr_WarrantsDetails">
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_WarrantsDetailsAbstract' xlink:label='fil_WarrantsDetailsAbstract'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_NumberOutstandingAbstract' xlink:label='fil_NumberOutstandingAbstract'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_WarrantsDetailsAbstract' xlink:to='fil_NumberOutstandingAbstract' use='optional' order='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_WarrantsOutstanding' xlink:label='fil_WarrantsOutstanding'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_WarrantsDetailsAbstract' xlink:to='fil_WarrantsOutstanding' use='optional' order='2.0'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_WarrantsGranted' xlink:label='fil_WarrantsGranted'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_WarrantsDetailsAbstract' xlink:to='fil_WarrantsGranted' use='optional' order='3.0'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_WarrantsForfeited' xlink:label='fil_WarrantsForfeited'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_WarrantsDetailsAbstract' xlink:to='fil_WarrantsForfeited' use='optional' order='4.0'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_WarrantsExercised' xlink:label='fil_WarrantsExercised'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_WarrantsDetailsAbstract' xlink:to='fil_WarrantsExercised' use='optional' order='5.0'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_WeightedAverageExercisePrice' xlink:label='fil_WeightedAverageExercisePrice'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_WarrantsDetailsAbstract' xlink:to='fil_WeightedAverageExercisePrice' use='optional' order='6.0'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_WarrantsGranted1' xlink:label='fil_WarrantsGranted1'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_WarrantsDetailsAbstract' xlink:to='fil_WarrantsGranted1' use='optional' order='7.0'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_WarrantsForfeited1' xlink:label='fil_WarrantsForfeited1'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_WarrantsDetailsAbstract' xlink:to='fil_WarrantsForfeited1' use='optional' order='8.0'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_WarrantsExercised1' xlink:label='fil_WarrantsExercised1'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_WarrantsDetailsAbstract' xlink:to='fil_WarrantsExercised1' use='optional' order='9.0'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_ContractualLifeInYears' xlink:label='fil_ContractualLifeInYears'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_WarrantsDetailsAbstract' xlink:to='fil_ContractualLifeInYears' use='optional' order='10.0'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_WarrantsGranted2' xlink:label='fil_WarrantsGranted2'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_WarrantsDetailsAbstract' xlink:to='fil_WarrantsGranted2' use='optional' order='11.0'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_WarrantsForfeited2' xlink:label='fil_WarrantsForfeited2'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_WarrantsDetailsAbstract' xlink:to='fil_WarrantsForfeited2' use='optional' order='12.0'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_WarrantsExercised2' xlink:label='fil_WarrantsExercised2'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_WarrantsDetailsAbstract' xlink:to='fil_WarrantsExercised2' use='optional' order='13.0'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_IntrinsicValue' xlink:label='fil_IntrinsicValue'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_WarrantsDetailsAbstract' xlink:to='fil_IntrinsicValue' use='optional' order='14.0'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_WarrantsGranted3' xlink:label='fil_WarrantsGranted3'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_WarrantsDetailsAbstract' xlink:to='fil_WarrantsGranted3' use='optional' order='15.0'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_WarrantsForfeited3' xlink:label='fil_WarrantsForfeited3'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_WarrantsDetailsAbstract' xlink:to='fil_WarrantsForfeited3' use='optional' order='16.0'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_WarrantsExercised3' xlink:label='fil_WarrantsExercised3'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_WarrantsDetailsAbstract' xlink:to='fil_WarrantsExercised3' use='optional' order='17.0'/>
+	</link:presentationLink>
+	<link:roleRef roleURI="http://www.trxadegroup.com/20170331/role/idr_OptionsDetails" xlink:type="simple" xlink:href="trxd-20170331.xsd#idr_OptionsDetails"/>
+	<link:presentationLink xlink:type="extended" xlink:role="http://www.trxadegroup.com/20170331/role/idr_OptionsDetails">
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_OptionsDetailsAbstract' xlink:label='fil_OptionsDetailsAbstract'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_TheStockOptionPlanProvidesForTheGrantOfUpToShares' xlink:label='fil_TheStockOptionPlanProvidesForTheGrantOfUpToShares'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_OptionsDetailsAbstract' xlink:to='fil_TheStockOptionPlanProvidesForTheGrantOfUpToShares' use='optional' order='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_AllOptionsMayBeExercisedForAPeriod' xlink:label='fil_AllOptionsMayBeExercisedForAPeriod'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_OptionsDetailsAbstract' xlink:to='fil_AllOptionsMayBeExercisedForAPeriod' use='optional' order='2.0'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_OptionsAreVestedInMinimumYears' xlink:label='fil_OptionsAreVestedInMinimumYears'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_OptionsDetailsAbstract' xlink:to='fil_OptionsAreVestedInMinimumYears' use='optional' order='3.0'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_OptionsAreVestedInMaximumYears' xlink:label='fil_OptionsAreVestedInMaximumYears'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_OptionsDetailsAbstract' xlink:to='fil_OptionsAreVestedInMaximumYears' use='optional' order='4.0'/>
+	</link:presentationLink>
+	<link:roleRef roleURI="http://www.trxadegroup.com/20170331/role/idr_TwoOptionsGrantsDetails" xlink:type="simple" xlink:href="trxd-20170331.xsd#idr_TwoOptionsGrantsDetails"/>
+	<link:presentationLink xlink:type="extended" xlink:role="http://www.trxadegroup.com/20170331/role/idr_TwoOptionsGrantsDetails">
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_OptionsGrantsDetailsAbstract' xlink:label='fil_OptionsGrantsDetailsAbstract'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_TheOptionExpenseForThePeriodAssociatedWithTheExtensionWas' xlink:label='fil_TheOptionExpenseForThePeriodAssociatedWithTheExtensionWas'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_OptionsGrantsDetailsAbstract' xlink:to='fil_TheOptionExpenseForThePeriodAssociatedWithTheExtensionWas' use='optional' order='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_N500OptionsWereForfeitedOrExpiredDueToEmployeeResignation' xlink:label='fil_N500OptionsWereForfeitedOrExpiredDueToEmployeeResignation'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_OptionsGrantsDetailsAbstract' xlink:to='fil_N500OptionsWereForfeitedOrExpiredDueToEmployeeResignation' use='optional' order='2.0'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_TheOptionExpenseReversedWas' xlink:label='fil_TheOptionExpenseReversedWas'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_OptionsGrantsDetailsAbstract' xlink:to='fil_TheOptionExpenseReversedWas' use='optional' order='3.0'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_TotalCompensationCostRelatedToStockOptionsWas' xlink:label='fil_TotalCompensationCostRelatedToStockOptionsWas'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_OptionsGrantsDetailsAbstract' xlink:to='fil_TotalCompensationCostRelatedToStockOptionsWas' use='optional' order='4.0'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_UnrecognizedCompensationCostsRelatedToStockOptions' xlink:label='fil_UnrecognizedCompensationCostsRelatedToStockOptions'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_OptionsGrantsDetailsAbstract' xlink:to='fil_UnrecognizedCompensationCostsRelatedToStockOptions' use='optional' order='5.0'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_WeightedAveragePeriodMinimumYears' xlink:label='fil_WeightedAveragePeriodMinimumYears'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_OptionsGrantsDetailsAbstract' xlink:to='fil_WeightedAveragePeriodMinimumYears' use='optional' order='6.0'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_WeightedAveragePeriodMaximumYears' xlink:label='fil_WeightedAveragePeriodMaximumYears'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_OptionsGrantsDetailsAbstract' xlink:to='fil_WeightedAveragePeriodMaximumYears' use='optional' order='7.0'/>
+	</link:presentationLink>
+	<link:roleRef roleURI="http://www.trxadegroup.com/20170331/role/idr_StockOptionActivityDetails" xlink:type="simple" xlink:href="trxd-20170331.xsd#idr_StockOptionActivityDetails"/>
+	<link:presentationLink xlink:type="extended" xlink:role="http://www.trxadegroup.com/20170331/role/idr_StockOptionActivityDetails">
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_StockOptionActivityDetailsAbstract' xlink:label='fil_StockOptionActivityDetailsAbstract'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_NumberOfOptionsAbstract' xlink:label='fil_NumberOfOptionsAbstract'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_StockOptionActivityDetailsAbstract' xlink:to='fil_NumberOfOptionsAbstract' use='optional' order='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_OptionsOutstanding' xlink:label='fil_OptionsOutstanding'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_NumberOfOptionsAbstract' xlink:to='fil_OptionsOutstanding' use='optional' order='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_OptionsExercisable' xlink:label='fil_OptionsExercisable'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_NumberOfOptionsAbstract' xlink:to='fil_OptionsExercisable' use='optional' order='2.0'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_Forfeited' xlink:label='fil_Forfeited'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_NumberOfOptionsAbstract' xlink:to='fil_Forfeited' use='optional' order='3.0'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_Granted' xlink:label='fil_Granted'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_NumberOfOptionsAbstract' xlink:to='fil_Granted' use='optional' order='4.0'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_Expired' xlink:label='fil_Expired'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_NumberOfOptionsAbstract' xlink:to='fil_Expired' use='optional' order='5.0'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_AverageExercisePriceAbstract' xlink:label='fil_AverageExercisePriceAbstract'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_StockOptionActivityDetailsAbstract' xlink:to='fil_AverageExercisePriceAbstract' use='optional' order='2.0'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_OptionsOutstandingAverageExercisePrice' xlink:label='fil_OptionsOutstandingAverageExercisePrice'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_AverageExercisePriceAbstract' xlink:to='fil_OptionsOutstandingAverageExercisePrice' use='optional' order='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_OptionsExercisableAverageExercisePrice' xlink:label='fil_OptionsExercisableAverageExercisePrice'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_AverageExercisePriceAbstract' xlink:to='fil_OptionsExercisableAverageExercisePrice' use='optional' order='2.0'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_ForfeitedAverageExercisePrice' xlink:label='fil_ForfeitedAverageExercisePrice'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_AverageExercisePriceAbstract' xlink:to='fil_ForfeitedAverageExercisePrice' use='optional' order='3.0'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_ExpiredAverageExercisePrice' xlink:label='fil_ExpiredAverageExercisePrice'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_AverageExercisePriceAbstract' xlink:to='fil_ExpiredAverageExercisePrice' use='optional' order='4.0'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_ContractualLifeInYearsAbstract' xlink:label='fil_ContractualLifeInYearsAbstract'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_StockOptionActivityDetailsAbstract' xlink:to='fil_ContractualLifeInYearsAbstract' use='optional' order='3.0'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_OptionsOutstandingContractualLifeInYears' xlink:label='fil_OptionsOutstandingContractualLifeInYears'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_ContractualLifeInYearsAbstract' xlink:to='fil_OptionsOutstandingContractualLifeInYears' use='optional' order='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_OptionsExercisableContractualLifeInYears' xlink:label='fil_OptionsExercisableContractualLifeInYears'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_ContractualLifeInYearsAbstract' xlink:to='fil_OptionsExercisableContractualLifeInYears' use='optional' order='2.0'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_ForfeitedContractualLifeInYears' xlink:label='fil_ForfeitedContractualLifeInYears'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_ContractualLifeInYearsAbstract' xlink:to='fil_ForfeitedContractualLifeInYears' use='optional' order='3.0'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_ExpiredContractualLifeInYears' xlink:label='fil_ExpiredContractualLifeInYears'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_ContractualLifeInYearsAbstract' xlink:to='fil_ExpiredContractualLifeInYears' use='optional' order='4.0'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_IntrinsicValueAbstract' xlink:label='fil_IntrinsicValueAbstract'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_StockOptionActivityDetailsAbstract' xlink:to='fil_IntrinsicValueAbstract' use='optional' order='4.0'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_OptionsOutstandingIntrinsicValue' xlink:label='fil_OptionsOutstandingIntrinsicValue'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_IntrinsicValueAbstract' xlink:to='fil_OptionsOutstandingIntrinsicValue' use='optional' order='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_OptionsExercisableIntrinsicValue' xlink:label='fil_OptionsExercisableIntrinsicValue'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_IntrinsicValueAbstract' xlink:to='fil_OptionsExercisableIntrinsicValue' use='optional' order='2.0'/>
+	</link:presentationLink>
+	<link:roleRef roleURI="http://www.trxadegroup.com/20170331/role/idr_RelatedPartiesDetails" xlink:type="simple" xlink:href="trxd-20170331.xsd#idr_RelatedPartiesDetails"/>
+	<link:presentationLink xlink:type="extended" xlink:role="http://www.trxadegroup.com/20170331/role/idr_RelatedPartiesDetails">
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_RelatedPartiesDetailsAbstract' xlink:label='fil_RelatedPartiesDetailsAbstract'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_TrxadeGroupIncOwedManagementWagesToMrPrashantPatel' xlink:label='fil_TrxadeGroupIncOwedManagementWagesToMrPrashantPatel'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_RelatedPartiesDetailsAbstract' xlink:to='fil_TrxadeGroupIncOwedManagementWagesToMrPrashantPatel' use='optional' order='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_TrxadeGroupIncOwedManagementWagesToMrSurenAjjarapu' xlink:label='fil_TrxadeGroupIncOwedManagementWagesToMrSurenAjjarapu'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_RelatedPartiesDetailsAbstract' xlink:to='fil_TrxadeGroupIncOwedManagementWagesToMrSurenAjjarapu' use='optional' order='2.0'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_SuspendedExecutiveSalariesPrashantPatel' xlink:label='fil_SuspendedExecutiveSalariesPrashantPatel'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_RelatedPartiesDetailsAbstract' xlink:to='fil_SuspendedExecutiveSalariesPrashantPatel' use='optional' order='3.0'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_SuspendedExecutiveSalariesSurenAjjarapu' xlink:label='fil_SuspendedExecutiveSalariesSurenAjjarapu'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_RelatedPartiesDetailsAbstract' xlink:to='fil_SuspendedExecutiveSalariesSurenAjjarapu' use='optional' order='4.0'/>
+	</link:presentationLink>
+	<link:roleRef roleURI="http://www.trxadegroup.com/20170331/role/idr_CONTINGENCYDetails" xlink:type="simple" xlink:href="trxd-20170331.xsd#idr_CONTINGENCYDetails"/>
+	<link:presentationLink xlink:type="extended" xlink:role="http://www.trxadegroup.com/20170331/role/idr_CONTINGENCYDetails">
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_ContingencyDetailsAbstract' xlink:label='fil_ContingencyDetailsAbstract'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_ToResolveAllClaimsInExchangeForTraxadeFundingASettlementFund' xlink:label='fil_ToResolveAllClaimsInExchangeForTraxadeFundingASettlementFund'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_ContingencyDetailsAbstract' xlink:to='fil_ToResolveAllClaimsInExchangeForTraxadeFundingASettlementFund' use='optional' order='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_TheFinalJudgmentAndApprovalWasEnteredAndFunded' xlink:label='fil_TheFinalJudgmentAndApprovalWasEnteredAndFunded'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_ContingencyDetailsAbstract' xlink:to='fil_TheFinalJudgmentAndApprovalWasEnteredAndFunded' use='optional' order='2.0'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_AnAccuralRecordedOnBook' xlink:label='fil_AnAccuralRecordedOnBook'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_ContingencyDetailsAbstract' xlink:to='fil_AnAccuralRecordedOnBook' use='optional' order='3.0'/>
+	</link:presentationLink>
+	<link:roleRef roleURI="http://www.trxadegroup.com/20170331/role/idr_SubsequentEventsDetails" xlink:type="simple" xlink:href="trxd-20170331.xsd#idr_SubsequentEventsDetails"/>
+	<link:presentationLink xlink:type="extended" xlink:role="http://www.trxadegroup.com/20170331/role/idr_SubsequentEventsDetails">
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_SubsequentEventsDetailsAbstract' xlink:label='fil_SubsequentEventsDetailsAbstract'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_ConvertiblePromissoryNotesWasRepaid' xlink:label='fil_ConvertiblePromissoryNotesWasRepaid'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_SubsequentEventsDetailsAbstract' xlink:to='fil_ConvertiblePromissoryNotesWasRepaid' use='optional' order='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_ConvertiblePromissoryNotesInterest' xlink:label='fil_ConvertiblePromissoryNotesInterest'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_SubsequentEventsDetailsAbstract' xlink:to='fil_ConvertiblePromissoryNotesInterest' use='optional' order='2.0'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_ATwoYearExtensionWasExecutedOnTheRemainingNotesAndTheInterestOwedTotaling' xlink:label='fil_ATwoYearExtensionWasExecutedOnTheRemainingNotesAndTheInterestOwedTotaling'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_SubsequentEventsDetailsAbstract' xlink:to='fil_ATwoYearExtensionWasExecutedOnTheRemainingNotesAndTheInterestOwedTotaling' use='optional' order='3.0'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_PrincipalOfTheNotesAndTheBalanceIsDue' xlink:label='fil_PrincipalOfTheNotesAndTheBalanceIsDue'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_SubsequentEventsDetailsAbstract' xlink:to='fil_PrincipalOfTheNotesAndTheBalanceIsDue' use='optional' order='4.0'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_WarrantsToPurchaseSharesOfCommonStockWereIssued' xlink:label='fil_WarrantsToPurchaseSharesOfCommonStockWereIssued'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_SubsequentEventsDetailsAbstract' xlink:to='fil_WarrantsToPurchaseSharesOfCommonStockWereIssued' use='optional' order='5.0'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_StrikePriceOfAShare' xlink:label='fil_StrikePriceOfAShare'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_SubsequentEventsDetailsAbstract' xlink:to='fil_StrikePriceOfAShare' use='optional' order='6.0'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_ALossOnExtinguishmentOfDebtWasBookedInTheAmount1' xlink:label='fil_ALossOnExtinguishmentOfDebtWasBookedInTheAmount1'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_SubsequentEventsDetailsAbstract' xlink:to='fil_ALossOnExtinguishmentOfDebtWasBookedInTheAmount1' use='optional' order='7.0' preferredLabel='http://www.xbrl.org/2003/role/terseLabel'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_RelatedPartyNoteWasRenewedForAOneYearExtension' xlink:label='fil_RelatedPartyNoteWasRenewedForAOneYearExtension'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_SubsequentEventsDetailsAbstract' xlink:to='fil_RelatedPartyNoteWasRenewedForAOneYearExtension' use='optional' order='8.0'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_OptionsWereGranted' xlink:label='fil_OptionsWereGranted'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_SubsequentEventsDetailsAbstract' xlink:to='fil_OptionsWereGranted' use='optional' order='9.0'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_ExercisePriceOfOptionsPerShare' xlink:label='fil_ExercisePriceOfOptionsPerShare'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_SubsequentEventsDetailsAbstract' xlink:to='fil_ExercisePriceOfOptionsPerShare' use='optional' order='10.0'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_OptionsExpirationFromGrantDateYears' xlink:label='fil_OptionsExpirationFromGrantDateYears'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_SubsequentEventsDetailsAbstract' xlink:to='fil_OptionsExpirationFromGrantDateYears' use='optional' order='11.0'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_TwoOptionGrantsTotalingOptions' xlink:label='fil_TwoOptionGrantsTotalingOptions'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_SubsequentEventsDetailsAbstract' xlink:to='fil_TwoOptionGrantsTotalingOptions' use='optional' order='12.0'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_OptionsWereAmendedToExtendFromMinimumYears' xlink:label='fil_OptionsWereAmendedToExtendFromMinimumYears'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_SubsequentEventsDetailsAbstract' xlink:to='fil_OptionsWereAmendedToExtendFromMinimumYears' use='optional' order='13.0'/>
+		<link:loc xlink:type='locator' xlink:href='trxd-20170331.xsd#fil_OptionsWereAmendedToExtendFromMaximumYears' xlink:label='fil_OptionsWereAmendedToExtendFromMaximumYears'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_SubsequentEventsDetailsAbstract' xlink:to='fil_OptionsWereAmendedToExtendFromMaximumYears' use='optional' order='14.0'/>
+	</link:presentationLink>
+</link:linkbase>

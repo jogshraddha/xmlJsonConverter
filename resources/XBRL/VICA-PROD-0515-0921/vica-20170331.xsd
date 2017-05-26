@@ -1,0 +1,891 @@
+<?xml version='1.0' encoding='iso-8859-1'?>
+<!-- Vistalytics - iFile Suite version 6.233 -->
+<schema xmlns:nonnum='http://www.xbrl.org/dtr/type/non-numeric' xmlns='http://www.w3.org/2001/XMLSchema' xmlns:us-gaap='http://fasb.org/us-gaap/2016-01-31' xmlns:xbrldt='http://xbrl.org/2005/xbrldt' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:dei='http://xbrl.sec.gov/dei/2014-01-31' xmlns:fil='http://www.hciviocare.com/20170331' targetNamespace='http://www.hciviocare.com/20170331' xmlns:num='http://www.xbrl.org/dtr/type/numeric' xmlns:link='http://www.xbrl.org/2003/linkbase' attributeFormDefault='unqualified' xmlns:xbrli='http://www.xbrl.org/2003/instance' elementFormDefault='qualified'>
+	<annotation>
+		<appinfo>
+			<link:linkbaseRef xlink:type="simple" xlink:href="vica-20170331_pre.xml" xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+			<link:linkbaseRef xlink:type="simple" xlink:href="vica-20170331_def.xml" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+			<link:linkbaseRef xlink:type="simple" xlink:href="vica-20170331_lab.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+			<link:linkbaseRef xlink:type="simple" xlink:href="vica-20170331_cal.xml" xlink:role="http://www.xbrl.org/2003/role/calculationLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+			<link:roleType roleURI="http://www.hciviocare.com/20170331/role/idr_DisclosureSCHEDULEOFPREPAIDEXPENSESTables" id="idr_DisclosureSCHEDULEOFPREPAIDEXPENSESTables">
+				<link:definition>000220 - Disclosure - SCHEDULE OF PREPAID EXPENSES (Tables)</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.hciviocare.com/20170331/role/idr_ServicesProvidedDuringThePeriodDetails" id="idr_ServicesProvidedDuringThePeriodDetails">
+				<link:definition>000500 - Statement - Services provided during the period (Details)</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.hciviocare.com/20170331/role/idr_PlantMachineDetails" id="idr_PlantMachineDetails">
+				<link:definition>000370 - Statement - Plant &amp; Machine (Details)</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.hciviocare.com/20170331/role/idr_DisclosureSCHEDULEOFOFFICELEASETables" id="idr_DisclosureSCHEDULEOFOFFICELEASETables">
+				<link:definition>000240 - Disclosure - SCHEDULE OF OFFICE LEASE (Tables)</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.hciviocare.com/20170331/role/idr_ShareIssuancesConsultingAgreementDetails" id="idr_ShareIssuancesConsultingAgreementDetails">
+				<link:definition>000570 - Statement - Share issuances - Consulting agreement (Details)</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.hciviocare.com/20170331/role/idr_DisclosureSTOCKOPTIONS" id="idr_DisclosureSTOCKOPTIONS">
+				<link:definition>000170 - Disclosure - STOCK OPTIONS</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.hciviocare.com/20170331/role/idr_SubsequentEventsDetails" id="idr_SubsequentEventsDetails">
+				<link:definition>000680 - Statement - Subsequent Events (Details)</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.hciviocare.com/20170331/role/idr_CommonStockOptionsGrantedUsingTheBlackScholesOptionsModelDetails" id="idr_CommonStockOptionsGrantedUsingTheBlackScholesOptionsModelDetails">
+				<link:definition>000630 - Statement - Common stock Options Granted using the Black-Scholes options model (Details)</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.hciviocare.com/20170331/role/idr_FutureAggregateMinimumLeasePaymentsDetails" id="idr_FutureAggregateMinimumLeasePaymentsDetails">
+				<link:definition>000440 - Statement - Future aggregate minimum lease payments (Details)</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.hciviocare.com/20170331/role/idr_AccountsPayableFromRelatedPartiesBalanceMarch312017Details" id="idr_AccountsPayableFromRelatedPartiesBalanceMarch312017Details">
+				<link:definition>000540 - Statement - Accounts payable from related parties Balance March 31, 2017 (Details)</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.hciviocare.com/20170331/role/idr_DisclosureLOAN" id="idr_DisclosureLOAN">
+				<link:definition>000130 - Disclosure - LOAN</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.hciviocare.com/20170331/role/idr_OrganizationAndBusinessBackgroundDetails" id="idr_OrganizationAndBusinessBackgroundDetails">
+				<link:definition>000290 - Statement - Organization and Business Background (Details)</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.hciviocare.com/20170331/role/idr_DisclosureSIGNIFICANTACCOUNTINGPOLICIESPolicies" id="idr_DisclosureSIGNIFICANTACCOUNTINGPOLICIESPolicies">
+				<link:definition>000210 - Disclosure - SIGNIFICANT ACCOUNTING POLICIES (Policies)</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.hciviocare.com/20170331/role/idr_AdvancesFromRelatedPartiesDetails" id="idr_AdvancesFromRelatedPartiesDetails">
+				<link:definition>000550 - Statement - Advances From Related Parties (Details)</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.hciviocare.com/20170331/role/idr_DisclosureCONTROLBYPRINCIPALSTOCKHOLDEROFFICER" id="idr_DisclosureCONTROLBYPRINCIPALSTOCKHOLDEROFFICER">
+				<link:definition>000080 - Disclosure - CONTROL BY PRINCIPAL STOCKHOLDER/OFFICER</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.hciviocare.com/20170331/role/idr_PropertyAndEquipmentDetailsTextual" id="idr_PropertyAndEquipmentDetailsTextual">
+				<link:definition>000400 - Statement - Property and Equipment (Details Textual)</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.hciviocare.com/20170331/role/idr_OfficeFurnitureDetails" id="idr_OfficeFurnitureDetails">
+				<link:definition>000340 - Statement - Office Furniture (Details)</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.hciviocare.com/20170331/role/idr_SummaryOfSignificantAccountingPoliciesDetails" id="idr_SummaryOfSignificantAccountingPoliciesDetails">
+				<link:definition>000310 - Statement - Summary of Significant Accounting Policies (Details)</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.hciviocare.com/20170331/role/idr_LeaseholdImprovementDetails" id="idr_LeaseholdImprovementDetails">
+				<link:definition>000330 - Statement - Leasehold Improvement (Details)</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.hciviocare.com/20170331/role/idr_DisclosureSTOCKOPTIONSTables" id="idr_DisclosureSTOCKOPTIONSTables">
+				<link:definition>000260 - Disclosure - STOCK OPTIONS (Tables)</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.hciviocare.com/20170331/role/idr_DisclosureSCHEDULEOFRELATEDPARTYTRANSACTIONSTables" id="idr_DisclosureSCHEDULEOFRELATEDPARTYTRANSACTIONSTables">
+				<link:definition>000250 - Disclosure - SCHEDULE OF RELATED PARTY TRANSACTIONS (Tables)</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.hciviocare.com/20170331/role/idr_StockOptionsOutstandingDetails" id="idr_StockOptionsOutstandingDetails">
+				<link:definition>000600 - Statement - Stock Options Outstanding (Details)</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.hciviocare.com/20170331/role/idr_StockOptionNarrativeDetails" id="idr_StockOptionNarrativeDetails">
+				<link:definition>000590 - Statement - Stock Option Narrative (Details)</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.hciviocare.com/20170331/role/idr_VehiclesDetails" id="idr_VehiclesDetails">
+				<link:definition>000360 - Statement - Vehicles (Details)</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.hciviocare.com/20170331/role/idr_CommitmentsDetails" id="idr_CommitmentsDetails">
+				<link:definition>000460 - Statement - Commitments (Details)</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.hciviocare.com/20170331/role/idr_StockOptionsOutstandingCommonStockDetails" id="idr_StockOptionsOutstandingCommonStockDetails">
+				<link:definition>000610 - Statement - Stock Options Outstanding Common stock (Details)</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.hciviocare.com/20170331/role/idr_DisclosureORGANIZATIONANDBUSINESSBACKGROUND" id="idr_DisclosureORGANIZATIONANDBUSINESSBACKGROUND">
+				<link:definition>000060 - Disclosure - ORGANIZATION AND BUSINESS BACKGROUND</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.hciviocare.com/20170331/role/idr_ComputerEquipmentDetails" id="idr_ComputerEquipmentDetails">
+				<link:definition>000350 - Statement - Computer &amp; Equipment (Details)</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.hciviocare.com/20170331/role/idr_RelatedPartyTransactionsDetails" id="idr_RelatedPartyTransactionsDetails">
+				<link:definition>000480 - Statement - Related Party Transactions (Details)</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.hciviocare.com/20170331/role/idr_ForeignExchangeDetails" id="idr_ForeignExchangeDetails">
+				<link:definition>000530 - Statement - Foreign exchange (Details)</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.hciviocare.com/20170331/role/idr_DisclosureSUMMARYOFSIGNIFICANTACCOUNTINGPOLICIES" id="idr_DisclosureSUMMARYOFSIGNIFICANTACCOUNTINGPOLICIES">
+				<link:definition>000090 - Disclosure - SUMMARY OF SIGNIFICANT ACCOUNTING POLICIES</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.hciviocare.com/20170331/role/idr_SegmentReportingDetails" id="idr_SegmentReportingDetails">
+				<link:definition>000670 - Statement - Segment Reporting (Details)</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.hciviocare.com/20170331/role/idr_PaymentsDetails" id="idr_PaymentsDetails">
+				<link:definition>000520 - Statement - Payments (Details)</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.hciviocare.com/20170331/role/idr_CONSOLIDATEDBALANCESHEETS" id="idr_CONSOLIDATEDBALANCESHEETS">
+				<link:definition>000020 - Statement - CONSOLIDATED BALANCE SHEETS</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.hciviocare.com/20170331/role/idr_AccountsPayableFromRelatedPartiesBalanceDecember312016Details" id="idr_AccountsPayableFromRelatedPartiesBalanceDecember312016Details">
+				<link:definition>000490 - Statement - Accounts payable from related parties Balance December 31, 2016 (Details)</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.hciviocare.com/20170331/role/idr_DisclosureGOINGCONCERN" id="idr_DisclosureGOINGCONCERN">
+				<link:definition>000070 - Disclosure - GOING CONCERN</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.hciviocare.com/20170331/role/idr_DisclosureSUBSEQUENTEVENTS" id="idr_DisclosureSUBSEQUENTEVENTS">
+				<link:definition>000200 - Disclosure - SUBSEQUENT EVENTS</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.hciviocare.com/20170331/role/idr_DocumentDocumentAndEntityInformation" id="idr_DocumentDocumentAndEntityInformation">
+				<link:definition>000010 - Document - Document and Entity Information</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.hciviocare.com/20170331/role/idr_DisclosurePROPERTYANDEQUIPMENT" id="idr_DisclosurePROPERTYANDEQUIPMENT">
+				<link:definition>000110 - Disclosure - PROPERTY AND EQUIPMENT</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.hciviocare.com/20170331/role/idr_PrepaidExpenseRelatingToOfficeLeasesDetails" id="idr_PrepaidExpenseRelatingToOfficeLeasesDetails">
+				<link:definition>000430 - Statement - Prepaid Expense Relating To Office Leases (Details)</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.hciviocare.com/20170331/role/idr_SummaryOfBalanceOwingToLessorDetails" id="idr_SummaryOfBalanceOwingToLessorDetails">
+				<link:definition>000420 - Statement - Summary of balance owing to Lessor (Details)</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.hciviocare.com/20170331/role/idr_DisclosurePREPAIDEXPENSES" id="idr_DisclosurePREPAIDEXPENSES">
+				<link:definition>000100 - Disclosure - PREPAID EXPENSES</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.hciviocare.com/20170331/role/idr_NetDeferredTaxAmountsDetails" id="idr_NetDeferredTaxAmountsDetails">
+				<link:definition>000660 - Statement - Net Deferred Tax Amounts (Details)</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.hciviocare.com/20170331/role/idr_ProvisionForIncomeTaxesDetails" id="idr_ProvisionForIncomeTaxesDetails">
+				<link:definition>000650 - Statement - Provision for Income Taxes (Details)</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.hciviocare.com/20170331/role/idr_ServicesProvidedFromRelatedPartiesDetails" id="idr_ServicesProvidedFromRelatedPartiesDetails">
+				<link:definition>000470 - Statement - Services Provided From Related Parties (Details)</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.hciviocare.com/20170331/role/idr_CapitalStockTransactionsDetails" id="idr_CapitalStockTransactionsDetails">
+				<link:definition>000560 - Statement - Capital Stock Transactions (Details)</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.hciviocare.com/20170331/role/idr_GoingConcernDetails" id="idr_GoingConcernDetails">
+				<link:definition>000300 - Statement - Going Concern (Details)</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.hciviocare.com/20170331/role/idr_CONSOLIDATEDBALANCESHEETSPARENTHETICALS" id="idr_CONSOLIDATEDBALANCESHEETSPARENTHETICALS">
+				<link:definition>000030 - Statement - CONSOLIDATED BALANCE SHEETS PARENTHETICALS</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.hciviocare.com/20170331/role/idr_OfficeLeaseDetailsTextual" id="idr_OfficeLeaseDetailsTextual">
+				<link:definition>000410 - Statement - Office Lease (Details Textual)</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.hciviocare.com/20170331/role/idr_DisclosureCAPITALSTOCK" id="idr_DisclosureCAPITALSTOCK">
+				<link:definition>000160 - Disclosure - CAPITAL STOCK</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.hciviocare.com/20170331/role/idr_DisclosureOFFICELEASE" id="idr_DisclosureOFFICELEASE">
+				<link:definition>000120 - Disclosure - OFFICE LEASE</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.hciviocare.com/20170331/role/idr_DisclosurePROVISIONFORINCOMETAXESTables" id="idr_DisclosurePROVISIONFORINCOMETAXESTables">
+				<link:definition>000270 - Disclosure - PROVISION FOR INCOME TAXES (Tables)</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.hciviocare.com/20170331/role/idr_DisclosureSCHEDULEOFSEGMENTREPORTINGTables" id="idr_DisclosureSCHEDULEOFSEGMENTREPORTINGTables">
+				<link:definition>000280 - Disclosure - SCHEDULE OF SEGMENT REPORTING (Tables)</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.hciviocare.com/20170331/role/idr_PropertyAndEquipmentDetails" id="idr_PropertyAndEquipmentDetails">
+				<link:definition>000390 - Statement - Property And Equipment (Details)</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.hciviocare.com/20170331/role/idr_LoanDetails" id="idr_LoanDetails">
+				<link:definition>000450 - Statement - Loan (Details)</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.hciviocare.com/20170331/role/idr_DisclosureRELATEDPARTYTRANSACTIONS" id="idr_DisclosureRELATEDPARTYTRANSACTIONS">
+				<link:definition>000150 - Disclosure - RELATED PARTY TRANSACTIONS</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.hciviocare.com/20170331/role/idr_CONSOLIDATEDSTATEMENTSOFCASHFLOWSUnaudited" id="idr_CONSOLIDATEDSTATEMENTSOFCASHFLOWSUnaudited">
+				<link:definition>000050 - Statement - CONSOLIDATED STATEMENTS OF CASH FLOWS (Unaudited)</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.hciviocare.com/20170331/role/idr_AssumptionsUsedToValueTheOptionsGrantedUsingTheBlackScholesOptionPricingModelDetails" id="idr_AssumptionsUsedToValueTheOptionsGrantedUsingTheBlackScholesOptionPricingModelDetails">
+				<link:definition>000620 - Statement - Assumptions used to value the options granted using the Black-Scholes option pricing model (Details)</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.hciviocare.com/20170331/role/idr_CONSOLIDATEDSTATEMENTSOFOPERATIONSANDCOMPREHENSIVELOSSUnaudited" id="idr_CONSOLIDATEDSTATEMENTSOFOPERATIONSANDCOMPREHENSIVELOSSUnaudited">
+				<link:definition>000040 - Statement - CONSOLIDATED STATEMENTS OF OPERATIONS AND COMPREHENSIVE LOSS (Unaudited)</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.hciviocare.com/20170331/role/idr_DisclosureCOMMITMENTS" id="idr_DisclosureCOMMITMENTS">
+				<link:definition>000140 - Disclosure - COMMITMENTS</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.hciviocare.com/20170331/role/idr_LabEquipmentDetails" id="idr_LabEquipmentDetails">
+				<link:definition>000380 - Statement - Lab Equipment (Details)</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.hciviocare.com/20170331/role/idr_DisclosureSCHEDULEOFPROPERTYANDEQUIPMENTTables" id="idr_DisclosureSCHEDULEOFPROPERTYANDEQUIPMENTTables">
+				<link:definition>000230 - Disclosure - SCHEDULE OF PROPERTY AND EQUIPMENT (Tables)</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.hciviocare.com/20170331/role/idr_DisclosureSEGMENTREPORTING" id="idr_DisclosureSEGMENTREPORTING">
+				<link:definition>000190 - Disclosure - SEGMENT REPORTING</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.hciviocare.com/20170331/role/idr_PrepaidExpensesDetails" id="idr_PrepaidExpensesDetails">
+				<link:definition>000320 - Statement - Prepaid Expenses (Details)</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.hciviocare.com/20170331/role/idr_DesignationOfSeriesAPreferredStockDetails" id="idr_DesignationOfSeriesAPreferredStockDetails">
+				<link:definition>000580 - Statement - Designation of Series A Preferred Stock (Details)</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.hciviocare.com/20170331/role/idr_ReimbursementOnCompanySExpensesAndInterestOnLoanDetails" id="idr_ReimbursementOnCompanySExpensesAndInterestOnLoanDetails">
+				<link:definition>000510 - Statement - Reimbursement on Company&apos;s expenses And interest on loan (Details)</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.hciviocare.com/20170331/role/idr_NetOperatingLossCarryForwardDetails" id="idr_NetOperatingLossCarryForwardDetails">
+				<link:definition>000640 - Statement - Net Operating Loss Carry Forward (Details)</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.hciviocare.com/20170331/role/idr_DisclosurePROVISIONFORINCOMETAXES" id="idr_DisclosurePROVISIONFORINCOMETAXES">
+				<link:definition>000180 - Disclosure - PROVISION FOR INCOME TAXES</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+		</appinfo>
+	</annotation>
+	<import schemaLocation='http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd' namespace='http://www.xbrl.org/2003/instance'/>
+	<import schemaLocation='http://www.xbrl.org/dtr/type/numeric-2009-12-16.xsd' namespace='http://www.xbrl.org/dtr/type/numeric'/>
+	<import schemaLocation='http://www.xbrl.org/dtr/type/nonNumeric-2009-12-16.xsd' namespace='http://www.xbrl.org/dtr/type/non-numeric'/>
+	<import schemaLocation='http://www.xbrl.org/2005/xbrldt-2005.xsd' namespace='http://xbrl.org/2005/xbrldt'/>
+	<import namespace='http://fasb.org/us-gaap/2016-01-31' schemaLocation='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd' />
+	<import namespace='http://xbrl.sec.gov/dei/2014-01-31' schemaLocation='http://xbrl.sec.gov/dei/2014/dei-2014-01-31.xsd' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_DocumentAndEntityInformationAbstract' name='DocumentAndEntityInformationAbstract' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_OrganizationConsolidationAndPresentationOfFinancialStatementsAbstract1' name='OrganizationConsolidationAndPresentationOfFinancialStatementsAbstract1' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_ControlByPrincipalStockholderOfficerAbstract' name='ControlByPrincipalStockholderOfficerAbstract' />
+	<element nillable='true' type='nonnum:textBlockItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_ControlByPrincipalStockholderOfficerTextBlock' name='ControlByPrincipalStockholderOfficerTextBlock' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_GoingConcernAbstract' name='GoingConcernAbstract' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_AccountingPoliciesAbstract1' name='AccountingPoliciesAbstract1' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_DeferredCostsCapitalizedPrepaidAndOtherAssetsAbstract' name='DeferredCostsCapitalizedPrepaidAndOtherAssetsAbstract' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_PropertyPlantAndEquipmentAbstract1' name='PropertyPlantAndEquipmentAbstract1' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_EquityAbstract1' name='EquityAbstract1' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_LeasesAbstract1' name='LeasesAbstract1' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_RelatedPartyDisclosuresAbstract' name='RelatedPartyDisclosuresAbstract' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_SubsequentEventsAbstract1' name='SubsequentEventsAbstract1' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_SignificantAccountingPoliciesAbstract' name='SignificantAccountingPoliciesAbstract' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_ScheduleOfPrepaidExpensesAbstract' name='ScheduleOfPrepaidExpensesAbstract' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_ScheduleOfPropertyAndEquipmentAbstract' name='ScheduleOfPropertyAndEquipmentAbstract' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_ScheduleOfOfficeLeaseAbstract' name='ScheduleOfOfficeLeaseAbstract' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_ScheduleOfRelatedPartyTransactionsAbstract' name='ScheduleOfRelatedPartyTransactionsAbstract' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_CashPaidReceivedDuringYearForAbstract' name='CashPaidReceivedDuringYearForAbstract' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_CommitmentAndContingenciesAbstract' name='CommitmentAndContingenciesAbstract' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_CompensationRelatedCostsShareBasedPaymentsAbstract' name='CompensationRelatedCostsShareBasedPaymentsAbstract' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_IncomeTaxesAbstract' name='IncomeTaxesAbstract' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_LoanAbstract' name='LoanAbstract' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_OrganizationAndBusinessBackgroundDetailsAbstract' name='OrganizationAndBusinessBackgroundDetailsAbstract' />
+	<element nillable='true' type='xbrli:pureItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' id='fil_FinraApprovedA7NewForOneOldForwardSplit' name='FinraApprovedA7NewForOneOldForwardSplit' />
+	<element nillable='true' type='xbrli:sharesItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' id='fil_CommonStockSharesAuthorizedBeforeIncrease' name='CommonStockSharesAuthorizedBeforeIncrease' />
+	<element nillable='true' type='xbrli:sharesItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' id='fil_CommonStockSharesAuthorizedAfterIncrease' name='CommonStockSharesAuthorizedAfterIncrease' />
+	<element nillable='true' type='num:perShareItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' id='fil_ParValueOfCommonStock' name='ParValueOfCommonStock' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_GoingConcernTextualAbstract' name='GoingConcernTextualAbstract' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' xbrli:balance='debit' id='fil_NetLosses' name='NetLosses' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' xbrli:balance='debit' id='fil_WorkingCapitalDeficiency1' name='WorkingCapitalDeficiency1' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' xbrli:balance='debit' id='fil_StockholdersDeficiency' name='StockholdersDeficiency' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_SummaryOfSignificantAccountingPoliciesTextualAbstract' name='SummaryOfSignificantAccountingPoliciesTextualAbstract' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_PrepaidExpensesDetailsAbstract' name='PrepaidExpensesDetailsAbstract' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_TravelAdvancesAndOtherExpenses' name='TravelAdvancesAndOtherExpenses' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_LeaseholdImprovementCostForeignExchange1' name='LeaseholdImprovementCostForeignExchange1' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_LeaseholdImprovementAmortizationChargeForThePeriod1' name='LeaseholdImprovementAmortizationChargeForThePeriod1' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_OfficeFurnitureCostAdditionsPurchase' name='OfficeFurnitureCostAdditionsPurchase' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_OfficeFurnitureCostForeignExchange' name='OfficeFurnitureCostForeignExchange' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_OfficeFurnitureCostForeignExchange1' name='OfficeFurnitureCostForeignExchange1' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_OfficeFurnitureAmortizationChargeForThePeriod' name='OfficeFurnitureAmortizationChargeForThePeriod' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_OfficeFurnitureAmortizationChargeForThePeriod1' name='OfficeFurnitureAmortizationChargeForThePeriod1' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_ComputerAmpEquipmentCostAdditionsPurchase' name='ComputerAmpEquipmentCostAdditionsPurchase' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_ComputerAmpEquipmentCostForeignExchange' name='ComputerAmpEquipmentCostForeignExchange' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_ComputerAmpEquipmentCostForeignExchange1' name='ComputerAmpEquipmentCostForeignExchange1' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_ComputerAmpEquipmentAmortizationChargeForThePeriod' name='ComputerAmpEquipmentAmortizationChargeForThePeriod' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_ComputerAmpEquipmentAmortizationChargeForThePeriod1' name='ComputerAmpEquipmentAmortizationChargeForThePeriod1' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_VehiclesCostAdditionsPurchase' name='VehiclesCostAdditionsPurchase' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_VehiclesCostForeignExchange' name='VehiclesCostForeignExchange' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_VehiclesCostForeignExchange1' name='VehiclesCostForeignExchange1' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_VehiclesAmortizationChargeForThePeriod1' name='VehiclesAmortizationChargeForThePeriod1' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_Amortization4Abstract' name='Amortization4Abstract' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_PlantAmpMachineCostAdditionsPurchase' name='PlantAmpMachineCostAdditionsPurchase' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_PlantAmpMachineCostForeignExchange' name='PlantAmpMachineCostForeignExchange' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_PlantAmpMachineCostForeignExchange1' name='PlantAmpMachineCostForeignExchange1' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_PlantAmpMachineAmortizationChargeForThePeriod' name='PlantAmpMachineAmortizationChargeForThePeriod' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_PlantAmpMachineAmortizationChargeForThePeriod1' name='PlantAmpMachineAmortizationChargeForThePeriod1' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_LabEquipmentCostAdditionsPurchase' name='LabEquipmentCostAdditionsPurchase' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_LabEquipmentCostForeignExchange' name='LabEquipmentCostForeignExchange' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_LabEquipmentCostForeignExchange1' name='LabEquipmentCostForeignExchange1' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_LabEquipmentAmortizationChargeForThePeriod' name='LabEquipmentAmortizationChargeForThePeriod' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_LabEquipmentAmortizationChargeForThePeriod1' name='LabEquipmentAmortizationChargeForThePeriod1' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_PropertyAndEquipmentDetailsAbstract' name='PropertyAndEquipmentDetailsAbstract' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_TotalCostAdditionsPurchase' name='TotalCostAdditionsPurchase' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_TotalCostForeignExchange' name='TotalCostForeignExchange' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_TotalCostForeignExchange1' name='TotalCostForeignExchange1' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_TotalAmortizationChargeForThePeriod' name='TotalAmortizationChargeForThePeriod' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_TotalAmortizationChargeForThePeriod1' name='TotalAmortizationChargeForThePeriod1' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_PropertyAndEquipmentDetailsTextualAbstract' name='PropertyAndEquipmentDetailsTextualAbstract' />
+	<element nillable='true' type='xbrli:pureItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' id='fil_MinimumLeaseholdImprovementsAreAmortizedInYears' name='MinimumLeaseholdImprovementsAreAmortizedInYears' />
+	<element nillable='true' type='xbrli:pureItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' id='fil_MaximumLeaseholdImprovementsAreAmortizedInYears' name='MaximumLeaseholdImprovementsAreAmortizedInYears' />
+	<element nillable='true' type='xbrli:pureItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' id='fil_MinimumFurnitureIsAmortizedInYears' name='MinimumFurnitureIsAmortizedInYears' />
+	<element nillable='true' type='xbrli:pureItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' id='fil_VehiclesAreAmortizedInYears' name='VehiclesAreAmortizedInYears' />
+	<element nillable='true' type='xbrli:pureItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' id='fil_PlantAndMachineEquipmentIsAmortizedInYears' name='PlantAndMachineEquipmentIsAmortizedInYears' />
+	<element nillable='true' type='xbrli:pureItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' id='fil_LabEquipmentIsAmortizedInYears' name='LabEquipmentIsAmortizedInYears' />
+	<element nillable='true' type='xbrli:pureItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' id='fil_MaximumFurnitureIsAmortizedInYears1' name='MaximumFurnitureIsAmortizedInYears1' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_OfficeLeaseDetailsTextualAbstract' name='OfficeLeaseDetailsTextualAbstract' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_MonthlyRentalFees' name='MonthlyRentalFees' />
+	<element nillable='true' type='xbrli:pureItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' id='fil_LeaseRenewableTermInYears' name='LeaseRenewableTermInYears' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_MonthlyRentalFeesInEur' name='MonthlyRentalFeesInEur' />
+	<element nillable='true' type='num:percentItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' id='fil_RentRateInPercentage' name='RentRateInPercentage' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_CompanyPaidATotal' name='CompanyPaidATotal' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_CompanyPaidATotalInEur' name='CompanyPaidATotalInEur' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_DepositAmount' name='DepositAmount' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_DepositAmountInEur' name='DepositAmountInEur' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_RentalFee' name='RentalFee' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_RentalFeeInEur' name='RentalFeeInEur' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_MonthlyRentalFeeReducedTo' name='MonthlyRentalFeeReducedTo' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_MonthlyRentalFeeReducedInEur' name='MonthlyRentalFeeReducedInEur' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_LeaseFeesDuringTheFirstAnniversaryOfTheDateOfEntry' name='LeaseFeesDuringTheFirstAnniversaryOfTheDateOfEntry' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_LeaseFeesDuringTheFirstAnniversaryOfTheDateOfEntryInGbp' name='LeaseFeesDuringTheFirstAnniversaryOfTheDateOfEntryInGbp' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_LeaseFeesDuringTheSecondAnniversaryOfTheDateOfEntry' name='LeaseFeesDuringTheSecondAnniversaryOfTheDateOfEntry' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_LeaseFeesDuringTheSecondAnniversaryOfTheDateOfEntryInGbp' name='LeaseFeesDuringTheSecondAnniversaryOfTheDateOfEntryInGbp' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_LeaseFeesDuringTheThirdAnniversaryOfTheDateOfEntry' name='LeaseFeesDuringTheThirdAnniversaryOfTheDateOfEntry' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_LeaseFeesDuringTheThirdAnniversaryOfTheDateOfEntryInGbp' name='LeaseFeesDuringTheThirdAnniversaryOfTheDateOfEntryInGbp' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_LeaseFeesDuringTheFourthAnniversaryOfTheDateOfEntry' name='LeaseFeesDuringTheFourthAnniversaryOfTheDateOfEntry' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_LeaseFeesDuringTheFourthAnniversaryOfTheDateOfEntryInGbp' name='LeaseFeesDuringTheFourthAnniversaryOfTheDateOfEntryInGbp' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_LeaseFeesDuringTheFifthAnniversaryOfTheDateOfEntry' name='LeaseFeesDuringTheFifthAnniversaryOfTheDateOfEntry' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_LeaseFeesDuringTheFifthAnniversaryOfTheDateOfEntryInGbp' name='LeaseFeesDuringTheFifthAnniversaryOfTheDateOfEntryInGbp' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_LocationGreeceAbstract' name='LocationGreeceAbstract' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_UnitedKingdomAbstract' name='UnitedKingdomAbstract' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_Loan1Abstract' name='Loan1Abstract' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_CommitmentsDetailsAbstract' name='CommitmentsDetailsAbstract' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_CompensationPaid' name='CompensationPaid' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_CompensationPaidInEur' name='CompensationPaidInEur' />
+	<element nillable='true' type='xbrli:sharesItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' id='fil_KapatosReceiveSharesOfCommonStockForEachResearchProjectCompleted' name='KapatosReceiveSharesOfCommonStockForEachResearchProjectCompleted' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='credit' id='fil_KapatosReceiveSharesOfCommonStockForEachResearchProjectCompletedWithAValuation' name='KapatosReceiveSharesOfCommonStockForEachResearchProjectCompletedWithAValuation' />
+	<element nillable='true' type='xbrli:sharesItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' id='fil_SharesOfCommonStockForEachResearchProjectCompleted' name='SharesOfCommonStockForEachResearchProjectCompleted' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='credit' id='fil_SharesOfCommonStockForEachResearchProjectCompletedWithAValuation' name='SharesOfCommonStockForEachResearchProjectCompletedWithAValuation' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_ServicesProvidedFromRelatedPartiesAbstract' name='ServicesProvidedFromRelatedPartiesAbstract' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' xbrli:balance='debit' id='fil_ConsultingFeesFromCeoAndPresidentI1' name='ConsultingFeesFromCeoAndPresidentI1' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' xbrli:balance='debit' id='fil_ConsultingFeesFromADirectorIi1' name='ConsultingFeesFromADirectorIi1' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' xbrli:balance='debit' id='fil_TotalServicesProvidedFromRelatedParties' name='TotalServicesProvidedFromRelatedParties' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_RelatedPartyTransactions1Abstract' name='RelatedPartyTransactions1Abstract' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_StockOptionsTablesAbstract' name='StockOptionsTablesAbstract' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_ProvisionForIncomeTaxesAbstract' name='ProvisionForIncomeTaxesAbstract' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_SeriesAPreferredStockAbstract' name='SeriesAPreferredStockAbstract' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_WeightedAverageExercisePriceAbstract' name='WeightedAverageExercisePriceAbstract' />
+	<element nillable='true' type='xbrli:sharesItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' id='fil_SeriesAPreferredStockGranted' name='SeriesAPreferredStockGranted' />
+	<element nillable='true' type='xbrli:sharesItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' id='fil_SeriesAPreferredStockExercised' name='SeriesAPreferredStockExercised' />
+	<element nillable='true' type='xbrli:sharesItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' id='fil_SeriesAPreferredStockExpiredOrCancelled' name='SeriesAPreferredStockExpiredOrCancelled' />
+	<element nillable='true' type='xbrli:sharesItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' id='fil_SeriesAPreferredStockOutstandingAtThePeriod' name='SeriesAPreferredStockOutstandingAtThePeriod' />
+	<element nillable='true' type='num:perShareItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' id='fil_WeightedAverageExercisePriceGranted' name='WeightedAverageExercisePriceGranted' />
+	<element nillable='true' type='num:perShareItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' id='fil_WeightedAverageExercisePriceExercised' name='WeightedAverageExercisePriceExercised' />
+	<element nillable='true' type='num:perShareItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' id='fil_WeightedAverageExercisePriceExpiredOrCancelled' name='WeightedAverageExercisePriceExpiredOrCancelled' />
+	<element nillable='true' type='num:perShareItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' id='fil_FairValueOfOptionsGrantedMinimum' name='FairValueOfOptionsGrantedMinimum' />
+	<element nillable='true' type='num:perShareItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' id='fil_FairValueOfOptionsGrantedMaximum' name='FairValueOfOptionsGrantedMaximum' />
+	<element nillable='true' type='xbrli:pureItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' id='fil_ExpectedLifeYearsA' name='ExpectedLifeYearsA' />
+	<element nillable='true' type='num:percentItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' id='fil_DividendYieldD' name='DividendYieldD' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_NetOperatingLossCarryForwardDetailsAbstract' name='NetOperatingLossCarryForwardDetailsAbstract' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_NetOperatingLossCarryForwardInUs' name='NetOperatingLossCarryForwardInUs' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_NetOperatingLossCarryForwardGreece' name='NetOperatingLossCarryForwardGreece' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_NetOperatingLossCarryForwardInUk' name='NetOperatingLossCarryForwardInUk' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' xbrli:balance='debit' id='fil_CurrentOperations1' name='CurrentOperations1' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' xbrli:balance='debit' id='fil_NetRefundableAmount' name='NetRefundableAmount' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' xbrli:balance='debit' id='fil_NetRefundableAmount1' name='NetRefundableAmount1' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_NetDeferredTaxAmountsInGreeceAbstract' name='NetDeferredTaxAmountsInGreeceAbstract' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_NetDeferredTaxAmountsInUkAbstract' name='NetDeferredTaxAmountsInUkAbstract' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_DeferredTaxAssetAttributableToAbstract' name='DeferredTaxAssetAttributableToAbstract' />
+	<element nillable='true' type='num:percentItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' id='fil_UsExpectedRate' name='UsExpectedRate' />
+	<element nillable='true' type='num:percentItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' id='fil_GreeceExpectedRate' name='GreeceExpectedRate' />
+	<element nillable='true' type='num:percentItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' id='fil_UkExpectedRate' name='UkExpectedRate' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' xbrli:balance='debit' id='fil_RetainedDeficit' name='RetainedDeficit' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_LeaseholdImprovementCostAtDecember312015' name='LeaseholdImprovementCostAtDecember312015' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_LeaseholdImprovementAmortizationAtDecember312015' name='LeaseholdImprovementAmortizationAtDecember312015' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_OfficeFurnitureCostAtDecember312015' name='OfficeFurnitureCostAtDecember312015' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_OfficeFurnitureAmortizationAtDecember312015' name='OfficeFurnitureAmortizationAtDecember312015' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_LeaseholdImprovementCostAdditionsPurchase' name='LeaseholdImprovementCostAdditionsPurchase' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_LeaseholdImprovementCostForeignExchange' name='LeaseholdImprovementCostForeignExchange' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_ComputerAmpEquipmentCostAtDecember312015' name='ComputerAmpEquipmentCostAtDecember312015' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_ComputerAmpEquipmentAmortizationAtDecember312015' name='ComputerAmpEquipmentAmortizationAtDecember312015' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_VehiclesCostAtDecember312015' name='VehiclesCostAtDecember312015' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_VehiclesAmortizationAtDecember312015' name='VehiclesAmortizationAtDecember312015' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_VehiclesAmortizationChargeForThePeriod' name='VehiclesAmortizationChargeForThePeriod' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_PlantAmpMachineCostAtDecember312015' name='PlantAmpMachineCostAtDecember312015' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_PlantAmpMachineAmortizationAtDecember312015' name='PlantAmpMachineAmortizationAtDecember312015' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_LabEquipmentCostAtDecember312015' name='LabEquipmentCostAtDecember312015' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_LabEquipmentAmortizationAtDecember312015' name='LabEquipmentAmortizationAtDecember312015' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_TotalCostAtDecember312015' name='TotalCostAtDecember312015' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_TotalAmortizationAtDecember312015' name='TotalAmortizationAtDecember312015' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_MonthlyOperatingCost' name='MonthlyOperatingCost' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_MonthlyOperatingCostInEur' name='MonthlyOperatingCostInEur' />
+	<element nillable='true' type='xbrli:sharesItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' id='fil_AdvisoryBoardMemberHasARightToPurchaseSharesOfSeriesAPreferredStock' name='AdvisoryBoardMemberHasARightToPurchaseSharesOfSeriesAPreferredStock' />
+	<element nillable='true' type='num:perShareItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' id='fil_AdvisoryBoardMemberHasARightToPurchaseSharesOfSeriesAPreferredStockAtAPrice' name='AdvisoryBoardMemberHasARightToPurchaseSharesOfSeriesAPreferredStockAtAPrice' />
+	<element nillable='true' type='xbrli:pureItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' id='fil_AdvisoryBoardMemberHasARightToPurchaseSharesOfSeriesAPreferredStockForAPeriodInYears' name='AdvisoryBoardMemberHasARightToPurchaseSharesOfSeriesAPreferredStockForAPeriodInYears' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_StockOptionNarrativeAbstract' name='StockOptionNarrativeAbstract' />
+	<element nillable='true' type='xbrli:pureItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' id='fil_SeriesAPreferredSharesWhenVestedWillHaveConversionRighForOneShareToSharesOfCommonStock' name='SeriesAPreferredSharesWhenVestedWillHaveConversionRighForOneShareToSharesOfCommonStock' />
+	<element nillable='true' type='xbrli:pureItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' id='fil_VotingRightsPerShareOfSeriesAPreferredStockHeldAtAnyMeetingsOfTheStockholders' name='VotingRightsPerShareOfSeriesAPreferredStockHeldAtAnyMeetingsOfTheStockholders' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_AdvancesFromARelatedParty' name='AdvancesFromARelatedParty' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_ForeignExchangeOnTheDepositsInGreece' name='ForeignExchangeOnTheDepositsInGreece' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_ForeignExchangeOnTheDepositsInUnitedKingdom' name='ForeignExchangeOnTheDepositsInUnitedKingdom' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' xbrli:balance='debit' id='fil_ProfessionalFeesFromDirectorIii' name='ProfessionalFeesFromDirectorIii' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_ServicesProvidedDuringThePeriodDetailsAbstract' name='ServicesProvidedDuringThePeriodDetailsAbstract' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_ConsultingFeesFromCeoAndPresidentIServicesProvidedDuringThePeriod' name='ConsultingFeesFromCeoAndPresidentIServicesProvidedDuringThePeriod' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_ConsultingFeesFromADirectorIiServicesProvidedDuringThePeriod' name='ConsultingFeesFromADirectorIiServicesProvidedDuringThePeriod' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_ProfessionalFeesFromDirectorIiiServicesProvidedDuringThePeriod' name='ProfessionalFeesFromDirectorIiiServicesProvidedDuringThePeriod' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_AccountsPayableFromRelatedPartiesServicesProvidedDuringThePeriod' name='AccountsPayableFromRelatedPartiesServicesProvidedDuringThePeriod' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_ReimbursementOnCompanySExpensesAndInterestOnLoanDetailsAbstract' name='ReimbursementOnCompanySExpensesAndInterestOnLoanDetailsAbstract' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_ConsultingFeesFromCeoAndPresidentIReimbursementOnCompanySExpensesAndInterestOnLoan' name='ConsultingFeesFromCeoAndPresidentIReimbursementOnCompanySExpensesAndInterestOnLoan' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_ConsultingFeesFromADirectorIiReimbursementOnCompanySExpensesAndInterestOnLoan' name='ConsultingFeesFromADirectorIiReimbursementOnCompanySExpensesAndInterestOnLoan' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_ProfessionalFeesFromDirectorIiiReimbursementOnCompanySExpensesAndInterestOnLoan' name='ProfessionalFeesFromDirectorIiiReimbursementOnCompanySExpensesAndInterestOnLoan' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_AccountsPayableFromRelatedPartiesReimbursementOnCompanySExpensesAndInterestOnLoan' name='AccountsPayableFromRelatedPartiesReimbursementOnCompanySExpensesAndInterestOnLoan' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_PaymentsDetailsAbstract' name='PaymentsDetailsAbstract' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_ConsultingFeesFromCeoAndPresidentIPayments' name='ConsultingFeesFromCeoAndPresidentIPayments' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_ConsultingFeesFromADirectorIiPayments' name='ConsultingFeesFromADirectorIiPayments' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_ProfessionalFeesFromDirectorIiiPayments' name='ProfessionalFeesFromDirectorIiiPayments' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_AccountsPayableFromRelatedPartiesPayments' name='AccountsPayableFromRelatedPartiesPayments' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_ForeignExchangeDetailsAbstract' name='ForeignExchangeDetailsAbstract' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_ConsultingFeesFromCeoAndPresidentIForeignExchange' name='ConsultingFeesFromCeoAndPresidentIForeignExchange' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_ConsultingFeesFromADirectorIiForeignExchange' name='ConsultingFeesFromADirectorIiForeignExchange' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_ProfessionalFeesFromDirectorIiiForeignExchange' name='ProfessionalFeesFromDirectorIiiForeignExchange' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_AccountsPayableFromRelatedPartiesForeignExchange' name='AccountsPayableFromRelatedPartiesForeignExchange' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_AdvancesFromRelatedPartiesCeoAndPresidentIAbstract' name='AdvancesFromRelatedPartiesCeoAndPresidentIAbstract' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_AdvancesFromRelatedPartiesCeoAndPresidentIAddition' name='AdvancesFromRelatedPartiesCeoAndPresidentIAddition' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_AdvancesFromRelatedPartiesCeoAndPresidentIPayment' name='AdvancesFromRelatedPartiesCeoAndPresidentIPayment' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_AdvancesFromRelatedPartiesceoAndPresidentIForeignExchange' name='AdvancesFromRelatedPartiesceoAndPresidentIForeignExchange' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_AdvancesFromRelatedPartiesAbstract' name='AdvancesFromRelatedPartiesAbstract' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_AdvancesFromRelatedPartiesAddition' name='AdvancesFromRelatedPartiesAddition' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_AdvancesFromRelatedPartiesPayment' name='AdvancesFromRelatedPartiesPayment' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_AdvancesFromRelatedPartiesForeignExchange' name='AdvancesFromRelatedPartiesForeignExchange' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_DesignationOfSeriesAPreferredStockDetailsAbstract' name='DesignationOfSeriesAPreferredStockDetailsAbstract' />
+	<element nillable='true' type='xbrli:sharesItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' id='fil_SeriesAPreferredStockAndTheNumberOfSharesConstitutingSuchSeriesShares' name='SeriesAPreferredStockAndTheNumberOfSharesConstitutingSuchSeriesShares' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_Amortization1Abstract' name='Amortization1Abstract' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_AmortizationAbstract' name='AmortizationAbstract' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_LeaseholdImprovementAmortizationChargeForThePeriod' name='LeaseholdImprovementAmortizationChargeForThePeriod' />
+	<element nillable='true' type='xbrli:sharesItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' id='fil_TotalSharesIssuedAndOutstanding' name='TotalSharesIssuedAndOutstanding' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_ShareIssuancesConsultingAgreementAbstract' name='ShareIssuancesConsultingAgreementAbstract' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_Amortization2Abstract' name='Amortization2Abstract' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_Amortization3Abstract' name='Amortization3Abstract' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_CarryingAmountsAbstract' name='CarryingAmountsAbstract' />
+	<element nillable='true' type='xbrli:pureItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' id='fil_ComputerAndEquipmentIsAmortizedInYears' name='ComputerAndEquipmentIsAmortizedInYears' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_MrKatsarosWillReceiveCompensationPerMonthInEur' name='MrKatsarosWillReceiveCompensationPerMonthInEur' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_MrKatsarosWillReceiveCompensationPerMonth' name='MrKatsarosWillReceiveCompensationPerMonth' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_CompanyAgreedToPayLeontaritisPerAnnum' name='CompanyAgreedToPayLeontaritisPerAnnum' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_PayableInMonthlyPayments' name='PayableInMonthlyPayments' />
+	<element nillable='true' type='xbrli:sharesItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' id='fil_CompanyIssuanceCommonSharesAsCompensation' name='CompanyIssuanceCommonSharesAsCompensation' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_MrKatsarosWillReceiveCompensationPerMonthUsd' name='MrKatsarosWillReceiveCompensationPerMonthUsd' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_MrKatsarosWillReceiveCompensationPerMonthEur' name='MrKatsarosWillReceiveCompensationPerMonthEur' />
+	<element nillable='true' type='xbrli:sharesItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' id='fil_GrantOfAStockAwardOfCommonShares' name='GrantOfAStockAwardOfCommonShares' />
+	<element nillable='true' type='xbrli:sharesItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' id='fil_AwardVestsInThreeEqualInstalments' name='AwardVestsInThreeEqualInstalments' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_CompensationPerYearUsd' name='CompensationPerYearUsd' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_CompensationPerYearGbp' name='CompensationPerYearGbp' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_RemunerationIncreaseGbp' name='RemunerationIncreaseGbp' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_RemunerationIncreaseUsd' name='RemunerationIncreaseUsd' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' xbrli:balance='debit' id='fil_SharesIssuedForStockAward' name='SharesIssuedForStockAward' />
+	<element nillable='true' type='nonnum:textBlockItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_ScheduleOfSummaryOfBalanceOwingToLessorTableTextBlock' name='ScheduleOfSummaryOfBalanceOwingToLessorTableTextBlock' />
+	<element nillable='true' type='nonnum:textBlockItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_ScheduleOfTotalAmountPaidAsDepositInThePrepaidAccountTableTextBlock' name='ScheduleOfTotalAmountPaidAsDepositInThePrepaidAccountTableTextBlock' />
+	<element nillable='true' type='nonnum:textBlockItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_ServicesProvidedFromRelatedPartiesTableTextBlock' name='ServicesProvidedFromRelatedPartiesTableTextBlock' />
+	<element nillable='true' type='nonnum:textBlockItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_AccountsPayableAndAccruedLiabilitiesFromRelatedPartiesTableTextBlock' name='AccountsPayableAndAccruedLiabilitiesFromRelatedPartiesTableTextBlock' />
+	<element nillable='true' type='nonnum:textBlockItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_AdvancesFromRelatedPartiesTableTextBlock' name='AdvancesFromRelatedPartiesTableTextBlock' />
+	<element nillable='true' type='nonnum:textBlockItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_RelatedPartiesPolicyTextBlock' name='RelatedPartiesPolicyTextBlock' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_OfficeLeaseIncludingSecurityDeposits' name='OfficeLeaseIncludingSecurityDeposits' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_LeaseholdImprovementCostAbstract' name='LeaseholdImprovementCostAbstract' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_LeaseholdImprovementCostAtDecember312016' name='LeaseholdImprovementCostAtDecember312016' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_LeaseholdImprovementAmortizationAtDecember312016' name='LeaseholdImprovementAmortizationAtDecember312016' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_LeaseholdImprovementCarryingAmountsAtDecember312016' name='LeaseholdImprovementCarryingAmountsAtDecember312016' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_OfficeFurnitureCostAtDecember312016' name='OfficeFurnitureCostAtDecember312016' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_OfficeFurnitureAmortizationAtDecember312016' name='OfficeFurnitureAmortizationAtDecember312016' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_OfficeFurnitureCarryingAmountsAtDecember312016' name='OfficeFurnitureCarryingAmountsAtDecember312016' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_ComputerAmpEquipmentCostAbstract' name='ComputerAmpEquipmentCostAbstract' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_ComputerAmpEquipmentCostAtDecember312016' name='ComputerAmpEquipmentCostAtDecember312016' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_ComputerAmpEquipmentAmortizationAtDecember312016' name='ComputerAmpEquipmentAmortizationAtDecember312016' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_ComputerAmpEquipmentCarryingAmountsAtDecember312016' name='ComputerAmpEquipmentCarryingAmountsAtDecember312016' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_VehiclesCostAbstract' name='VehiclesCostAbstract' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_VehiclesCostAtDecember312016' name='VehiclesCostAtDecember312016' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_VehiclesAmortizationAtDecember312016' name='VehiclesAmortizationAtDecember312016' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_VehiclesCarryingAmountsAtDecember312016' name='VehiclesCarryingAmountsAtDecember312016' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_PlantAmpMachineCostAbstract' name='PlantAmpMachineCostAbstract' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_PlantAmpMachineCostAtDecember312016' name='PlantAmpMachineCostAtDecember312016' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_PlantAmpMachineAmortizationAtDecember312016' name='PlantAmpMachineAmortizationAtDecember312016' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_PlantAmpMachineCarryingAmountsAtDecember312016' name='PlantAmpMachineCarryingAmountsAtDecember312016' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_LabEquipmentCostAtDecember312016' name='LabEquipmentCostAtDecember312016' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_LabEquipmentAmortizationAtDecember312016' name='LabEquipmentAmortizationAtDecember312016' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_LabEquipmentCarryingAmountsAtDecember312016' name='LabEquipmentCarryingAmountsAtDecember312016' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_TotalCostAtDecember312016' name='TotalCostAtDecember312016' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_TotalAmortizationAtDecember312016' name='TotalAmortizationAtDecember312016' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_TotalCarryingAmountsAtDecember312016' name='TotalCarryingAmountsAtDecember312016' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_CarryingAmounts1Abstract' name='CarryingAmounts1Abstract' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_CarryingAmounts2Abstract' name='CarryingAmounts2Abstract' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_CarryingAmounts3Abstract' name='CarryingAmounts3Abstract' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_CarryingAmounts4Abstract' name='CarryingAmounts4Abstract' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_CompanyPaidATotalAsDepositInThePrepaidAccount' name='CompanyPaidATotalAsDepositInThePrepaidAccount' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_CompanyPaidATotalAsDepositInThePrepaidAccountInGbp' name='CompanyPaidATotalAsDepositInThePrepaidAccountInGbp' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_AsOfDecember312016InGreece' name='AsOfDecember312016InGreece' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_AsOfDecember312016InUnitedKingdom' name='AsOfDecember312016InUnitedKingdom' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_AccountsPayableFromRelatedPartiesBalanceDecember312016DetailsAbstract' name='AccountsPayableFromRelatedPartiesBalanceDecember312016DetailsAbstract' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='credit' id='fil_ConsultingFeesFromCeoAndPresidentIBalanceDecember312016' name='ConsultingFeesFromCeoAndPresidentIBalanceDecember312016' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='credit' id='fil_ConsultingFeesFromADirectorIiBalanceDecember312016' name='ConsultingFeesFromADirectorIiBalanceDecember312016' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='credit' id='fil_ProfessionalFeesFromDirectorIiiBalanceDecember312016' name='ProfessionalFeesFromDirectorIiiBalanceDecember312016' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='credit' id='fil_AccountsPayableFromRelatedPartiesBalanceDecember312016' name='AccountsPayableFromRelatedPartiesBalanceDecember312016' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='credit' id='fil_AdvancesFromRelatedPartiesCeoAndPresidentIAtBalanceDecember312016' name='AdvancesFromRelatedPartiesCeoAndPresidentIAtBalanceDecember312016' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_AdvancesFromRelatedPartiesDirectorIiAbstract' name='AdvancesFromRelatedPartiesDirectorIiAbstract' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='credit' id='fil_AdvancesFromRelatedPartiesDirectorIiForeignExchange' name='AdvancesFromRelatedPartiesDirectorIiForeignExchange' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='credit' id='fil_AdvancesFromRelatedPartiesAtBalanceDecember312016' name='AdvancesFromRelatedPartiesAtBalanceDecember312016' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_NetOperatingLossCarryoverUK' name='NetOperatingLossCarryoverUK' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='credit' id='fil_LessValuationAllowanceUK' name='LessValuationAllowanceUK' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_NetDeferredTaxAssetsUK' name='NetDeferredTaxAssetsUK' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_ProvisionForIncomeTaxesInUsConsistsOfTheFollowingAbstract' name='ProvisionForIncomeTaxesInUsConsistsOfTheFollowingAbstract' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' xbrli:balance='debit' id='fil_TimingDifferencesStockBasedCompensation' name='TimingDifferencesStockBasedCompensation' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_ProvisionForIncomeTaxesInGreeceConsistsOfTheFollowingAbstract' name='ProvisionForIncomeTaxesInGreeceConsistsOfTheFollowingAbstract' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' xbrli:balance='debit' id='fil_CurrentOperations' name='CurrentOperations' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' xbrli:balance='debit' id='fil_LessChangeInValuationAllowance' name='LessChangeInValuationAllowance' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_ProvisionForIncomeTaxesInUkConsistsOfTheFollowingAbstract' name='ProvisionForIncomeTaxesInUkConsistsOfTheFollowingAbstract' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' xbrli:balance='debit' id='fil_ResearchAndDevelopment1' name='ResearchAndDevelopment1' />
+	<element nillable='true' type='xbrli:sharesItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' id='fil_SeriesAPreferredStockOutstandingAtBeginningOfTheYear' name='SeriesAPreferredStockOutstandingAtBeginningOfTheYear' />
+	<element nillable='true' type='num:perShareItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' id='fil_WeightedAverageExercisePriceBeginningOfTheYear' name='WeightedAverageExercisePriceBeginningOfTheYear' />
+	<element nillable='true' type='num:perShareItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' id='fil_WeightedAverageExercisePriceOutstandingAtThePeriod' name='WeightedAverageExercisePriceOutstandingAtThePeriod' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_AssumptionsUsedToValueWarrantsIssuedUsingTheBlackScholesOptionPricingModelAbstract' name='AssumptionsUsedToValueWarrantsIssuedUsingTheBlackScholesOptionPricingModelAbstract' />
+	<element nillable='true' type='num:percentItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' id='fil_RiskFreeInterestRateBMinimum' name='RiskFreeInterestRateBMinimum' />
+	<element nillable='true' type='num:percentItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' id='fil_RiskFreeInterestRateBMaximum' name='RiskFreeInterestRateBMaximum' />
+	<element nillable='true' type='num:percentItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' id='fil_VolatilityC' name='VolatilityC' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' xbrli:balance='debit' id='fil_ConsultingFeesForVpIv' name='ConsultingFeesForVpIv' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' xbrli:balance='debit' id='fil_ConsultingFeesForCooV' name='ConsultingFeesForCooV' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' xbrli:balance='debit' id='fil_StockBasedCompensationVpIv' name='StockBasedCompensationVpIv' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' xbrli:balance='debit' id='fil_StockAwardGrantedToDirectorIii' name='StockAwardGrantedToDirectorIii' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='credit' id='fil_DrKapatosInvoicedForServicesRenderedInEachFiscalYearGbp' name='DrKapatosInvoicedForServicesRenderedInEachFiscalYearGbp' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='credit' id='fil_MrKardarasInvoicedTheCompanyEurForServicesRendered' name='MrKardarasInvoicedTheCompanyEurForServicesRendered' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='credit' id='fil_ConsultingFeesForVpIvServicesProvidedDuringThePeriod' name='ConsultingFeesForVpIvServicesProvidedDuringThePeriod' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='credit' id='fil_ConsultingFeesForCooVServicesProvidedDuringThePeriod' name='ConsultingFeesForCooVServicesProvidedDuringThePeriod' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='credit' id='fil_ConsultingFeesForVpIvReimbursementOnCompanySExpensesAndInterestOnLoan' name='ConsultingFeesForVpIvReimbursementOnCompanySExpensesAndInterestOnLoan' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='credit' id='fil_ConsultingFeesForCooVReimbursementOnCompanySExpensesAndInterestOnLoan' name='ConsultingFeesForCooVReimbursementOnCompanySExpensesAndInterestOnLoan' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='credit' id='fil_ConsultingFeesForVpIvPayments' name='ConsultingFeesForVpIvPayments' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='credit' id='fil_ConsultingFeesForCooVPayments' name='ConsultingFeesForCooVPayments' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='credit' id='fil_ConsultingFeesForVpIvForeignExchange' name='ConsultingFeesForVpIvForeignExchange' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='credit' id='fil_ConsultingFeesForCooVForeignExchange' name='ConsultingFeesForCooVForeignExchange' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='credit' id='fil_ConsultingFeesForVpIvBalanceDecember312016' name='ConsultingFeesForVpIvBalanceDecember312016' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='credit' id='fil_ConsultingFeesForCooVBalanceDecember312016' name='ConsultingFeesForCooVBalanceDecember312016' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_SegmentReportingAbstract1' name='SegmentReportingAbstract1' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_ScheduleOfSegmentReportingTablesAbstract' name='ScheduleOfSegmentReportingTablesAbstract' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_ForeignCurrenciesDetailsAbstract' name='ForeignCurrenciesDetailsAbstract' />
+	<element nillable='true' type='xbrli:pureItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' id='fil_AssetsAndLiabilitiesAreTranslatedAtExchangeRate1usdToEur' name='AssetsAndLiabilitiesAreTranslatedAtExchangeRate1usdToEur' />
+	<element nillable='true' type='xbrli:pureItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' id='fil_AssetsAndLiabilitiesAreTranslatedAtExchangeRate1usdToGbp' name='AssetsAndLiabilitiesAreTranslatedAtExchangeRate1usdToGbp' />
+	<element nillable='true' type='xbrli:pureItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' id='fil_IncomeAndExpensesAreTranslatedAtExchangeRate1usdToEur' name='IncomeAndExpensesAreTranslatedAtExchangeRate1usdToEur' />
+	<element nillable='true' type='xbrli:pureItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' id='fil_IncomeAndExpensesAreTranslatedAtExchangeRate1usdToGbp' name='IncomeAndExpensesAreTranslatedAtExchangeRate1usdToGbp' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_EarningsLossPerShareDetailsAbstract' name='EarningsLossPerShareDetailsAbstract' />
+	<element nillable='true' type='xbrli:sharesItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' id='fil_CommonStockIssuableUponConversionOf25000SeriesAPreferredStockOptions' name='CommonStockIssuableUponConversionOf25000SeriesAPreferredStockOptions' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_FutureAggregateMinimumLeasePaymentsGreeceDetailsAbstract' name='FutureAggregateMinimumLeasePaymentsGreeceDetailsAbstract' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='credit' id='fil_FutureAggregateMinimumLeasePaymentsGreece2017' name='FutureAggregateMinimumLeasePaymentsGreece2017' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='credit' id='fil_FutureAggregateMinimumLeasePaymentsGreece2018' name='FutureAggregateMinimumLeasePaymentsGreece2018' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='credit' id='fil_FutureAggregateMinimumLeasePaymentsGreece2019' name='FutureAggregateMinimumLeasePaymentsGreece2019' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='credit' id='fil_FutureAggregateMinimumLeasePaymentsGreece2020' name='FutureAggregateMinimumLeasePaymentsGreece2020' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='credit' id='fil_FutureAggregateMinimumLeasePaymentsGreeceTotal' name='FutureAggregateMinimumLeasePaymentsGreeceTotal' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_FutureAggregateMinimumLeasePaymentsUnitedKingdomDetailsAbstract' name='FutureAggregateMinimumLeasePaymentsUnitedKingdomDetailsAbstract' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='credit' id='fil_FutureAggregateMinimumLeasePaymentsUk2017' name='FutureAggregateMinimumLeasePaymentsUk2017' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='credit' id='fil_FutureAggregateMinimumLeasePaymentsUk2018' name='FutureAggregateMinimumLeasePaymentsUk2018' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='credit' id='fil_FutureAggregateMinimumLeasePaymentsUk2019' name='FutureAggregateMinimumLeasePaymentsUk2019' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='credit' id='fil_FutureAggregateMinimumLeasePaymentsUk2020' name='FutureAggregateMinimumLeasePaymentsUk2020' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='credit' id='fil_FutureAggregateMinimumLeasePaymentsUkTotal' name='FutureAggregateMinimumLeasePaymentsUkTotal' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_SegmentReportingClinicsUkDetailsAbstract' name='SegmentReportingClinicsUkDetailsAbstract' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' xbrli:balance='credit' id='fil_RevenueClinicsUk' name='RevenueClinicsUk' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' xbrli:balance='debit' id='fil_DepreciationAmpAmortizationClinicsUk' name='DepreciationAmpAmortizationClinicsUk' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' xbrli:balance='debit' id='fil_LossFromOperationsClinicsUk' name='LossFromOperationsClinicsUk' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' xbrli:balance='debit' id='fil_InterestExpensesClinicsUk' name='InterestExpensesClinicsUk' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_AssetsClinicsUk' name='AssetsClinicsUk' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_ExpenditureOnLongLivedAssetsClinicsUk' name='ExpenditureOnLongLivedAssetsClinicsUk' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_SegmentReportingTechnologyUkDetailsAbstract' name='SegmentReportingTechnologyUkDetailsAbstract' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' xbrli:balance='credit' id='fil_RevenueTechnologyUk' name='RevenueTechnologyUk' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' xbrli:balance='debit' id='fil_DepreciationAmpAmortizationTechnologyUk' name='DepreciationAmpAmortizationTechnologyUk' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' xbrli:balance='debit' id='fil_LossFromOperationsTechnologyUk' name='LossFromOperationsTechnologyUk' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' xbrli:balance='debit' id='fil_InterestExpensesTechnologyUk' name='InterestExpensesTechnologyUk' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_AssetsTechnologyUk' name='AssetsTechnologyUk' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_ExpenditureOnLongLivedAssetsTechnologyUk' name='ExpenditureOnLongLivedAssetsTechnologyUk' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_SegmentReportingAllOtherGreeceDetailsAbstract' name='SegmentReportingAllOtherGreeceDetailsAbstract' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' xbrli:balance='credit' id='fil_RevenueAllOtherGreece' name='RevenueAllOtherGreece' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' xbrli:balance='debit' id='fil_DepreciationAmpAmortizationAllOtherGreece' name='DepreciationAmpAmortizationAllOtherGreece' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' xbrli:balance='debit' id='fil_LossFromOperationsAllOtherGreece' name='LossFromOperationsAllOtherGreece' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' xbrli:balance='debit' id='fil_InterestExpensesAllOtherGreece' name='InterestExpensesAllOtherGreece' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_AssetsAllOtherGreece' name='AssetsAllOtherGreece' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_ExpenditureOnLongLivedAssetsAllOtherGreece' name='ExpenditureOnLongLivedAssetsAllOtherGreece' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_SegmentReportingTotalDetailsAbstract' name='SegmentReportingTotalDetailsAbstract' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' xbrli:balance='credit' id='fil_RevenueTotal' name='RevenueTotal' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' xbrli:balance='debit' id='fil_DepreciationAmpAmortizationTotal' name='DepreciationAmpAmortizationTotal' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' xbrli:balance='debit' id='fil_LossFromOperationsTotal' name='LossFromOperationsTotal' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' xbrli:balance='debit' id='fil_InterestExpensesTotal' name='InterestExpensesTotal' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_AssetsTotal' name='AssetsTotal' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_ExpenditureOnLongLivedAssetsTotal' name='ExpenditureOnLongLivedAssetsTotal' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' xbrli:balance='debit' id='fil_InterestExpensesDueToThirdParty' name='InterestExpensesDueToThirdParty' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' xbrli:balance='debit' id='fil_AmortizationOfStockOption' name='AmortizationOfStockOption' />
+	<element nillable='true' type='xbrli:sharesItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' id='fil_CommonStockIssuableUponExerciseOfStockOption' name='CommonStockIssuableUponExerciseOfStockOption' />
+	<element nillable='true' type='xbrli:sharesItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' id='fil_Total' name='Total' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' xbrli:balance='debit' id='fil_ResearchAndDevelopmentCost' name='ResearchAndDevelopmentCost' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_LeaseholdImprovementCostAtMarch312017' name='LeaseholdImprovementCostAtMarch312017' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_LeaseholdImprovementAmortizationAtMarch312017' name='LeaseholdImprovementAmortizationAtMarch312017' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_LeaseholdImprovementCarryingAmountsAtMarch312017' name='LeaseholdImprovementCarryingAmountsAtMarch312017' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_OfficeFurnitureCostAbstract' name='OfficeFurnitureCostAbstract' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_OfficeFurnitureCostAtMarch312017' name='OfficeFurnitureCostAtMarch312017' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_OfficeFurnitureAmortizationAtMarch312017' name='OfficeFurnitureAmortizationAtMarch312017' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_OfficeFurnitureCarryingAmountsAtMarch312017' name='OfficeFurnitureCarryingAmountsAtMarch312017' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_ComputerAmpEquipmentCostAtMarch312017' name='ComputerAmpEquipmentCostAtMarch312017' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_ComputerAmpEquipmentAmortizationAtMarch312017' name='ComputerAmpEquipmentAmortizationAtMarch312017' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_ComputerAmpEquipmentCarryingAmountsAtMarch312017' name='ComputerAmpEquipmentCarryingAmountsAtMarch312017' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_VehiclesCostAtMarch312017' name='VehiclesCostAtMarch312017' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_VehiclesAmortizationAtMarch312017' name='VehiclesAmortizationAtMarch312017' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_VehiclesCarryingAmountsAtMarch312017' name='VehiclesCarryingAmountsAtMarch312017' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_PlantAmpMachineCostAtMarch312017' name='PlantAmpMachineCostAtMarch312017' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_PlantAmpMachineAmortizationAtMarch312017' name='PlantAmpMachineAmortizationAtMarch312017' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_PlantAmpMachineCarryingAmountsAtMarch312017' name='PlantAmpMachineCarryingAmountsAtMarch312017' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_LabEquipmentCostAbstract' name='LabEquipmentCostAbstract' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_LabEquipmentCostAtMarch312017' name='LabEquipmentCostAtMarch312017' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_AmortizationLabEquipmentAbstract' name='AmortizationLabEquipmentAbstract' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_LabEquipmentAmortizationAtMarch312017' name='LabEquipmentAmortizationAtMarch312017' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_CarryingAmountsLabEquipmentAbstract' name='CarryingAmountsLabEquipmentAbstract' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_LabEquipmentCarryingAmountsAtMarch312017' name='LabEquipmentCarryingAmountsAtMarch312017' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_TotalCostAtMarch312017' name='TotalCostAtMarch312017' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_TotalAmortizationAtMarch312017' name='TotalAmortizationAtMarch312017' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_CarryingAmountsTotalAbstract' name='CarryingAmountsTotalAbstract' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_TotalCarryingAmountsAtMarch312017' name='TotalCarryingAmountsAtMarch312017' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_AmountOwedForRentAbstract' name='AmountOwedForRentAbstract' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='credit' id='fil_AmountOwedForRentBalanceDecember312016' name='AmountOwedForRentBalanceDecember312016' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='credit' id='fil_PaymentDuringThePeriod' name='PaymentDuringThePeriod' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='credit' id='fil_AmountOwedForRentBalanceMarch312017' name='AmountOwedForRentBalanceMarch312017' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_AmountOwedForMaintenanceChargesAbstract' name='AmountOwedForMaintenanceChargesAbstract' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='credit' id='fil_AmountOwedForMaintenanceChargesBalanceDecember312016' name='AmountOwedForMaintenanceChargesBalanceDecember312016' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='credit' id='fil_ForeignExchange' name='ForeignExchange' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='credit' id='fil_AmountOwedForMaintenanceChargesBalanceMarch312017' name='AmountOwedForMaintenanceChargesBalanceMarch312017' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_AmountOwedForUtilityChargesAbstract' name='AmountOwedForUtilityChargesAbstract' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='credit' id='fil_AmountOwedForUtilityChargesBalanceDecember312016' name='AmountOwedForUtilityChargesBalanceDecember312016' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='credit' id='fil_ForeignExchangeUtilityCharges' name='ForeignExchangeUtilityCharges' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='credit' id='fil_AmountOwedForUtilityChargesBalanceMarch312017' name='AmountOwedForUtilityChargesBalanceMarch312017' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_AsOfMarch312017InGreece' name='AsOfMarch312017InGreece' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_AsOfMarch312017InUnitedKingdom' name='AsOfMarch312017InUnitedKingdom' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='credit' id='fil_LoanFromAThirdParty' name='LoanFromAThirdParty' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='credit' id='fil_LoanFromAThirdPartyInEur' name='LoanFromAThirdPartyInEur' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='credit' id='fil_AdvancesFromThirdParty' name='AdvancesFromThirdParty' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='credit' id='fil_AdvancesFromThirdPartyInGbp' name='AdvancesFromThirdPartyInGbp' />
+	<element nillable='true' type='num:percentItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' id='fil_AnnualInterestRate' name='AnnualInterestRate' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' xbrli:balance='debit' id='fil_LessChangeInValuationAllowance1' name='LessChangeInValuationAllowance1' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' xbrli:balance='debit' id='fil_NetRefundableAmount2' name='NetRefundableAmount2' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_SubsequentEventDetailsAbstract' name='SubsequentEventDetailsAbstract' />
+	<element nillable='true' type='xbrli:sharesItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' id='fil_IndividualsSubscribedTotalSharesUnderPrivatePlacementSubscriptionAgreements' name='IndividualsSubscribedTotalSharesUnderPrivatePlacementSubscriptionAgreements' />
+	<element nillable='true' type='num:perShareItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' id='fil_IndividualsSubscribedTotalSharesAtPurchasePricePerShare' name='IndividualsSubscribedTotalSharesAtPurchasePricePerShare' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_IndividualsSubscribedTotalSharesForCashProceeds' name='IndividualsSubscribedTotalSharesForCashProceeds' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_NetOperatingLossCarryover' name='NetOperatingLossCarryover' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='credit' id='fil_LessValuationAllowance' name='LessValuationAllowance' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_NetDeferredTaxAsset' name='NetDeferredTaxAsset' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_AccountsPayableFromRelatedPartiesBalanceMarch312017DetailsAbstract' name='AccountsPayableFromRelatedPartiesBalanceMarch312017DetailsAbstract' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='credit' id='fil_ConsultingFeesFromCeoAndPresidentIBalanceMarch312017' name='ConsultingFeesFromCeoAndPresidentIBalanceMarch312017' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='credit' id='fil_ConsultingFeesFromADirectorIiBalanceMarch312017' name='ConsultingFeesFromADirectorIiBalanceMarch312017' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='credit' id='fil_ProfessionalFeesFromDirectorIiiBalanceMarch312017' name='ProfessionalFeesFromDirectorIiiBalanceMarch312017' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='credit' id='fil_ConsultingFeesForVpIvBalanceMarch312017' name='ConsultingFeesForVpIvBalanceMarch312017' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='credit' id='fil_ConsultingFeesForCooVBalanceMarch312017' name='ConsultingFeesForCooVBalanceMarch312017' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='credit' id='fil_AccountsPayableFromRelatedPartiesBalanceMarch312017' name='AccountsPayableFromRelatedPartiesBalanceMarch312017' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='credit' id='fil_AdvancesFromRelatedPartiesCeoAndPresidentIAtBalanceMarch312017' name='AdvancesFromRelatedPartiesCeoAndPresidentIAtBalanceMarch312017' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='credit' id='fil_AdvancesFromRelatedPartiesDirectorIiBalanceDecember312016' name='AdvancesFromRelatedPartiesDirectorIiBalanceDecember312016' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='credit' id='fil_AdvancesFromRelatedPartiesDirectorIiAtBalanceBalanceMarch312017' name='AdvancesFromRelatedPartiesDirectorIiAtBalanceBalanceMarch312017' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='credit' id='fil_AdvancesFromRelatedPartiesAtBalanceMarch312017' name='AdvancesFromRelatedPartiesAtBalanceMarch312017' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_AmortizationTotalAbstract' name='AmortizationTotalAbstract' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='credit' id='fil_DrKapatosInvoicedForServicesRenderedGbp' name='DrKapatosInvoicedForServicesRenderedGbp' />
+	<element nillable='true' type='xbrli:sharesItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' id='fil_IssuanceOfCommonSharesForTheServicesProvidedByMrNikolaosKardaras' name='IssuanceOfCommonSharesForTheServicesProvidedByMrNikolaosKardaras' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='credit' id='fil_IssuanceOfCommonSharesForTheServicesProvidedByMrNikolaosKardarasValue' name='IssuanceOfCommonSharesForTheServicesProvidedByMrNikolaosKardarasValue' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_CapitalStockTransactionsDetailsAbstract' name='CapitalStockTransactionsDetailsAbstract' />
+	<element nillable='true' type='xbrli:sharesItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' id='fil_AuthorizeToIssueSharesOfPreferredStock' name='AuthorizeToIssueSharesOfPreferredStock' />
+	<element nillable='true' type='num:perShareItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' id='fil_SharesOfPreferredStockParValue' name='SharesOfPreferredStockParValue' />
+	<element nillable='true' type='xbrli:sharesItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' id='fil_CommonStockSharesAuthorized1' name='CommonStockSharesAuthorized1' />
+	<element nillable='true' type='num:perShareItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' id='fil_CommonStockParValue' name='CommonStockParValue' />
+	<element nillable='true' type='xbrli:sharesItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' id='fil_GrantedFullyVestedStockOptionsForThePurchaseOfSeriesAPreferredStockForAPeriodOfFive5YearsFromTheDateOfVesting' name='GrantedFullyVestedStockOptionsForThePurchaseOfSeriesAPreferredStockForAPeriodOfFive5YearsFromTheDateOfVesting' />
+	<element nillable='true' type='num:perShareItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' id='fil_SeriesAPreferredStockAtAPricePerShare' name='SeriesAPreferredStockAtAPricePerShare' />
+	<element nillable='true' type='xbrli:sharesItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' id='fil_AuthorizedShareCapitalIncreasesFrom100000000To' name='AuthorizedShareCapitalIncreasesFrom100000000To' />
+	<element nillable='true' type='num:perShareItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' id='fil_AuthorizedShareCapitalWithAParValue' name='AuthorizedShareCapitalWithAParValue' />
+	<element nillable='true' type='xbrli:sharesItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' id='fil_CommonSharesAsCompensationForTheServicesProvidedByVicePresident' name='CommonSharesAsCompensationForTheServicesProvidedByVicePresident' />
+	<element nillable='true' type='xbrli:sharesItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' id='fil_CommonSharesAsCompensationForTheServicesProvided' name='CommonSharesAsCompensationForTheServicesProvided' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='credit' id='fil_CommonSharesAsCompensationForTheServicesProvidedValue' name='CommonSharesAsCompensationForTheServicesProvidedValue' />
+	<element nillable='true' type='xbrli:sharesItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' id='fil_IssuanceOfCommonSharesForTheServicesProvidedByAConsultant' name='IssuanceOfCommonSharesForTheServicesProvidedByAConsultant' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='credit' id='fil_IssuanceOfCommonSharesForTheServicesProvidedByAConsultantValue' name='IssuanceOfCommonSharesForTheServicesProvidedByAConsultantValue' />
+	<element nillable='true' type='xbrli:sharesItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' id='fil_MrLeontaritisAcquireSharesOfTheCommonStockJanuary12017' name='MrLeontaritisAcquireSharesOfTheCommonStockJanuary12017' />
+	<element nillable='true' type='num:perShareItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' id='fil_AcquiredSharesOfCommonStockAtAPricePerShareForATermOfFive5Years' name='AcquiredSharesOfCommonStockAtAPricePerShareForATermOfFive5Years' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='credit' id='fil_RecognizedStockBasedCompensationExpenseAllocatedToConsultingFees' name='RecognizedStockBasedCompensationExpenseAllocatedToConsultingFees' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='credit' id='fil_UnrecognizedStockBasedCompensationExpense' name='UnrecognizedStockBasedCompensationExpense' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_CommonStockAbstract' name='CommonStockAbstract' />
+	<element nillable='true' type='xbrli:sharesItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' id='fil_CommonStockOutstandingAtBeginningOfTheYear' name='CommonStockOutstandingAtBeginningOfTheYear' />
+	<element nillable='true' type='xbrli:sharesItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' id='fil_CommonStockGranted' name='CommonStockGranted' />
+	<element nillable='true' type='xbrli:sharesItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' id='fil_CommonStockExercised' name='CommonStockExercised' />
+	<element nillable='true' type='xbrli:sharesItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' id='fil_CommonStockExpiredOrCancelled' name='CommonStockExpiredOrCancelled' />
+	<element nillable='true' type='xbrli:sharesItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' id='fil_CommonStockOutstandingAtThePeriod' name='CommonStockOutstandingAtThePeriod' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_WeightedAverageExercisePrice1Abstract' name='WeightedAverageExercisePrice1Abstract' />
+	<element nillable='true' type='num:perShareItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' id='fil_WeightedAverageExercisePriceCommonStockBeginningOfTheYear' name='WeightedAverageExercisePriceCommonStockBeginningOfTheYear' />
+	<element nillable='true' type='num:perShareItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' id='fil_WeightedAverageExercisePriceCommonStockGranted' name='WeightedAverageExercisePriceCommonStockGranted' />
+	<element nillable='true' type='num:perShareItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' id='fil_WeightedAverageExercisePriceCommonStockExercised' name='WeightedAverageExercisePriceCommonStockExercised' />
+	<element nillable='true' type='num:perShareItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' id='fil_WeightedAverageExercisePriceCommonStockExpiredOrCancelled' name='WeightedAverageExercisePriceCommonStockExpiredOrCancelled' />
+	<element nillable='true' type='num:perShareItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' id='fil_WeightedAverageExercisePriceCommonStockOutstandingAtThePeriod' name='WeightedAverageExercisePriceCommonStockOutstandingAtThePeriod' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_CommonStockOptionsGrantedOnJanuary12017Abstract' name='CommonStockOptionsGrantedOnJanuary12017Abstract' />
+	<element nillable='true' type='num:perShareItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' id='fil_CommonStockFairValueOfOptionsGranted' name='CommonStockFairValueOfOptionsGranted' />
+	<element nillable='true' type='xbrli:pureItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' id='fil_CommonStockExpectedLifeYearsA' name='CommonStockExpectedLifeYearsA' />
+	<element nillable='true' type='num:percentItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' id='fil_CommonStockRiskFreeInterestRateB' name='CommonStockRiskFreeInterestRateB' />
+	<element nillable='true' type='num:percentItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' id='fil_CommonStockVolatilityC' name='CommonStockVolatilityC' />
+	<element nillable='true' type='num:percentItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' id='fil_CommonStockDividendYieldD' name='CommonStockDividendYieldD' />
+</schema>

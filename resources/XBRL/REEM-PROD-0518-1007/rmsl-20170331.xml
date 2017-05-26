@@ -1,0 +1,702 @@
+<?xml version='1.0' encoding='iso-8859-1'?>
+<!-- Vistalytics - iFile Suite version 6.233 -->
+<xbrl xmlns:nonnum='http://www.xbrl.org/dtr/type/non-numeric' xmlns='http://www.xbrl.org/2003/instance' xmlns:us-gaap='http://fasb.org/us-gaap/2016-01-31' xmlns:xbrldi='http://xbrl.org/2006/xbrldi' xmlns:dei='http://xbrl.sec.gov/dei/2014-01-31' xmlns:fil='http://www.remsleep.com/20170331' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:utr='http://www.xbrl.org/2009/utr' xmlns:num='http://www.xbrl.org/dtr/type/numeric' xmlns:link='http://www.xbrl.org/2003/linkbase' xmlns:iso4217='http://www.xbrl.org/2003/iso4217' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xbrli='http://www.xbrl.org/2003/instance'>
+	<link:schemaRef xlink:type='simple' xlink:href='rmsl-20170331.xsd' />
+	<us-gaap:SubsequentEventsTextBlock contextRef='Y17Q1'>&lt;!--egx--&gt;&lt;p style=&apos;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&lt;b&gt;&lt;font lang=&quot;EN-US&quot;&gt;NOTE 8 - SUBSEQUENT EVENTS&lt;/font&gt;&lt;/b&gt;&lt;/p&gt; &lt;p style=&apos;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&amp;nbsp;&lt;/p&gt; &lt;p style=&apos;text-align:justify;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&lt;font lang=&quot;EN-US&quot;&gt;In April 2017, with the agreement of the executive of the Company&apos;s previous management, the Company cancelled 3,000,000 common shares and 1,500,000 Class A Preferred Shares that had been previously issued to him.&lt;/font&gt;&lt;/p&gt; &lt;p style=&apos;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&amp;nbsp;&lt;/p&gt; &lt;p style=&apos;text-align:justify;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&lt;font lang=&quot;EN-US&quot;&gt;The Company evaluated all events or transactions that occurred after March 31, 2017 through the date of this filing. No additional disclosures are required.&lt;/font&gt;&lt;/p&gt;</us-gaap:SubsequentEventsTextBlock>
+	<us-gaap:SubstantialDoubtAboutGoingConcernTextBlock contextRef='Y17Q1'>&lt;!--egx--&gt;&lt;p style=&apos;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&lt;b&gt;&lt;font lang=&quot;EN-US&quot;&gt;NOTE 7 - GOING CONCERN AND UNCERTAINTY &lt;/font&gt;&lt;/b&gt;&lt;/p&gt; &lt;p style=&apos;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&amp;nbsp;&lt;/p&gt; &lt;p style=&apos;text-align:justify;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&lt;font lang=&quot;EN-US&quot;&gt;The Company has suffered recurring losses from operations since inception. In addition, the Company has yet to generate an internal cash flow from its business operations. These factors raise substantial doubt as to the ability of the Company to continue as a going concern.&lt;/font&gt;&lt;/p&gt; &lt;p style=&apos;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&amp;nbsp;&lt;/p&gt;</us-gaap:SubstantialDoubtAboutGoingConcernTextBlock>
+	<us-gaap:RelatedPartyTransactionsDisclosureTextBlock contextRef='Y17Q1'>&lt;!--egx--&gt;&lt;p style=&apos;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&lt;b&gt;&lt;font lang=&quot;EN-US&quot;&gt;NOTE 6 - RELATED PARTY TRANSACTIONS&lt;/font&gt;&lt;/b&gt;&lt;/p&gt; &lt;p style=&apos;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&amp;nbsp;&lt;/p&gt; &lt;p style=&apos;text-align:justify;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&lt;font lang=&quot;EN-US&quot;&gt;The Company has received support from parties related through common ownership and directorship. All of the expenses herein have been borne by these individuals on behalf of the Company and the direct vendor payments are treated as capital contributions and shareholder loans in the accompanying financial statements. There are outstanding loans of $104,613 and $108 and $85,287 and $108 at March 31, 2017 and December 31, 2016 and, respectively.&lt;/font&gt;&lt;/p&gt; &lt;p style=&apos;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&amp;nbsp;&lt;/p&gt;</us-gaap:RelatedPartyTransactionsDisclosureTextBlock>
+	<us-gaap:CommitmentsAndContingenciesDisclosureTextBlock contextRef='Y17Q1'>&lt;!--egx--&gt;&lt;p style=&apos;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&amp;nbsp;&lt;/p&gt; &lt;p style=&apos;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&lt;b&gt;&lt;font lang=&quot;EN-US&quot;&gt;NOTE 5 - COMMITMENTS AND CONTINGENCIES&lt;/font&gt;&lt;/b&gt;&lt;/p&gt; &lt;p style=&apos;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&amp;nbsp;&lt;/p&gt; &lt;p style=&apos;text-align:justify;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&lt;font lang=&quot;EN-US&quot;&gt;Certain of the Company&amp;#146;s officers and directors are involved in other related business activities and most likely will become involved in other business activities in the future.&lt;/font&gt;&lt;/p&gt;</us-gaap:CommitmentsAndContingenciesDisclosureTextBlock>
+	<fil:SupplementalCashFlowInformationTextBlock contextRef='Y17Q1'>&lt;!--egx--&gt;&lt;p style=&apos;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&lt;b&gt;&lt;font lang=&quot;EN-US&quot;&gt;NOTE 4 - SUPPLEMENTAL CASH FLOW INFORMATION &lt;/font&gt;&lt;/b&gt;&lt;/p&gt; &lt;p style=&apos;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&amp;nbsp;&lt;/p&gt; &lt;p style=&apos;text-align:justify;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&lt;font lang=&quot;EN-US&quot;&gt;Supplemental disclosures of cash flow information for the quarter ended March 31, 2016 and 2015 are&lt;/font&gt;&lt;font lang=&quot;EN-US&quot;&gt; summarized as follows:&lt;/font&gt;&lt;/p&gt; &lt;p style=&apos;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&amp;nbsp;&lt;/p&gt; &lt;p style=&apos;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&lt;font lang=&quot;EN-US&quot;&gt;Cash paid during the years for interest and income taxes:&lt;/font&gt;&lt;/p&gt; &lt;p style=&apos;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&amp;nbsp;&lt;/p&gt; &lt;div align=&quot;center&quot;&gt; &lt;table cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; border=&quot;0&quot; style=&apos;border-collapse:collapse&apos;&gt; &lt;tr style=&apos;height:7.2pt&apos;&gt; &lt;td valign=&quot;top&quot; width=&quot;147&quot; style=&apos;border-top:#f0f0f0;height:7.2pt;border-right:#f0f0f0;width:110.15pt;border-bottom:#f0f0f0;padding-bottom:0cm;padding-top:0cm;padding-left:5.4pt;border-left:#f0f0f0;padding-right:5.4pt;background-color:transparent&apos;&gt; &lt;p style=&apos;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt; &lt;td valign=&quot;top&quot; width=&quot;17&quot; style=&apos;border-top:#f0f0f0;height:7.2pt;border-right:#f0f0f0;width:12.95pt;border-bottom:#f0f0f0;padding-bottom:0cm;padding-top:0cm;padding-left:5.4pt;border-left:#f0f0f0;padding-right:5.4pt;background-color:transparent&apos;&gt; &lt;p style=&apos;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt; &lt;td valign=&quot;bottom&quot; width=&quot;60&quot; style=&apos;border-top:#f0f0f0;height:7.2pt;border-right:#f0f0f0;width:45pt;border-bottom:windowtext 1pt solid;padding-bottom:0cm;padding-top:0cm;padding-left:5.4pt;border-left:#f0f0f0;padding-right:5.4pt;background-color:transparent&apos;&gt; &lt;p align=&quot;center&quot; style=&apos;text-align:center;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&lt;font lang=&quot;EN-US&quot;&gt;2016&lt;/font&gt;&lt;/p&gt;&lt;/td&gt; &lt;td valign=&quot;top&quot; width=&quot;21&quot; style=&apos;border-top:#f0f0f0;height:7.2pt;border-right:#f0f0f0;width:15.8pt;border-bottom:#f0f0f0;padding-bottom:0cm;padding-top:0cm;padding-left:5.4pt;border-left:#f0f0f0;padding-right:5.4pt;background-color:transparent&apos;&gt; &lt;p style=&apos;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt; &lt;td valign=&quot;bottom&quot; width=&quot;66&quot; style=&apos;border-top:#f0f0f0;height:7.2pt;border-right:#f0f0f0;width:49.5pt;border-bottom:windowtext 1pt solid;padding-bottom:0cm;padding-top:0cm;padding-left:5.4pt;border-left:#f0f0f0;padding-right:5.4pt;background-color:transparent&apos;&gt; &lt;p align=&quot;center&quot; style=&apos;text-align:center;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&lt;font lang=&quot;EN-US&quot;&gt;2015&lt;/font&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt; &lt;tr style=&apos;height:7.2pt&apos;&gt; &lt;td valign=&quot;bottom&quot; width=&quot;147&quot; style=&apos;border-top:#f0f0f0;height:7.2pt;border-right:#f0f0f0;width:110.15pt;border-bottom:#f0f0f0;padding-bottom:0cm;padding-top:0cm;padding-left:5.4pt;border-left:#f0f0f0;padding-right:5.4pt;background-color:transparent&apos;&gt; &lt;p style=&apos;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&lt;font lang=&quot;EN-US&quot;&gt;Income Taxes&lt;/font&gt;&lt;/p&gt;&lt;/td&gt; &lt;td valign=&quot;bottom&quot; width=&quot;17&quot; style=&apos;border-top:#f0f0f0;height:7.2pt;border-right:#f0f0f0;width:12.95pt;border-bottom:#f0f0f0;padding-bottom:0cm;padding-top:0cm;padding-left:5.4pt;border-left:#f0f0f0;padding-right:5.4pt;background-color:transparent&apos;&gt; &lt;p align=&quot;right&quot; style=&apos;text-align:right;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&lt;font lang=&quot;EN-US&quot;&gt;$&lt;/font&gt;&lt;/p&gt;&lt;/td&gt; &lt;td valign=&quot;bottom&quot; width=&quot;60&quot; style=&apos;border-top:#f0f0f0;height:7.2pt;border-right:#f0f0f0;width:45pt;border-bottom:#f0f0f0;padding-bottom:0cm;padding-top:0cm;padding-left:5.4pt;border-left:#f0f0f0;padding-right:5.4pt;background-color:transparent&apos;&gt; &lt;p align=&quot;right&quot; style=&apos;text-align:right;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&lt;font lang=&quot;EN-US&quot;&gt;-&lt;/font&gt;&lt;/p&gt;&lt;/td&gt; &lt;td valign=&quot;bottom&quot; width=&quot;21&quot; style=&apos;border-top:#f0f0f0;height:7.2pt;border-right:#f0f0f0;width:15.8pt;border-bottom:#f0f0f0;padding-bottom:0cm;padding-top:0cm;padding-left:5.4pt;border-left:#f0f0f0;padding-right:5.4pt;background-color:transparent&apos;&gt; &lt;p align=&quot;right&quot; style=&apos;text-align:right;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&lt;font lang=&quot;EN-US&quot;&gt;$&lt;/font&gt;&lt;/p&gt;&lt;/td&gt; &lt;td valign=&quot;bottom&quot; width=&quot;66&quot; style=&apos;border-top:#f0f0f0;height:7.2pt;border-right:#f0f0f0;width:49.5pt;border-bottom:#f0f0f0;padding-bottom:0cm;padding-top:0cm;padding-left:5.4pt;border-left:#f0f0f0;padding-right:5.4pt;background-color:transparent&apos;&gt; &lt;p align=&quot;right&quot; style=&apos;text-align:right;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&lt;font lang=&quot;EN-US&quot;&gt;-&lt;/font&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt; &lt;tr style=&apos;height:7.2pt&apos;&gt; &lt;td valign=&quot;bottom&quot; width=&quot;147&quot; style=&apos;border-top:#f0f0f0;height:7.2pt;border-right:#f0f0f0;width:110.15pt;border-bottom:#f0f0f0;padding-bottom:0cm;padding-top:0cm;padding-left:5.4pt;border-left:#f0f0f0;padding-right:5.4pt;background-color:transparent&apos;&gt; &lt;p style=&apos;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&lt;font lang=&quot;EN-US&quot;&gt;Interest&lt;/font&gt;&lt;/p&gt;&lt;/td&gt; &lt;td valign=&quot;bottom&quot; width=&quot;17&quot; style=&apos;border-top:#f0f0f0;height:7.2pt;border-right:#f0f0f0;width:12.95pt;border-bottom:#f0f0f0;padding-bottom:0cm;padding-top:0cm;padding-left:5.4pt;border-left:#f0f0f0;padding-right:5.4pt;background-color:transparent&apos;&gt; &lt;p align=&quot;right&quot; style=&apos;text-align:right;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&lt;font lang=&quot;EN-US&quot;&gt;$&lt;/font&gt;&lt;/p&gt;&lt;/td&gt; &lt;td valign=&quot;bottom&quot; width=&quot;60&quot; style=&apos;border-top:#f0f0f0;height:7.2pt;border-right:#f0f0f0;width:45pt;border-bottom:#f0f0f0;padding-bottom:0cm;padding-top:0cm;padding-left:5.4pt;border-left:#f0f0f0;padding-right:5.4pt;background-color:transparent&apos;&gt; &lt;p align=&quot;right&quot; style=&apos;text-align:right;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&lt;font lang=&quot;EN-US&quot;&gt;-&lt;/font&gt;&lt;/p&gt;&lt;/td&gt; &lt;td valign=&quot;bottom&quot; width=&quot;21&quot; style=&apos;border-top:#f0f0f0;height:7.2pt;border-right:#f0f0f0;width:15.8pt;border-bottom:#f0f0f0;padding-bottom:0cm;padding-top:0cm;padding-left:5.4pt;border-left:#f0f0f0;padding-right:5.4pt;background-color:transparent&apos;&gt; &lt;p align=&quot;right&quot; style=&apos;text-align:right;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&lt;font lang=&quot;EN-US&quot;&gt;$&lt;/font&gt;&lt;/p&gt;&lt;/td&gt; &lt;td valign=&quot;bottom&quot; width=&quot;66&quot; style=&apos;border-top:#f0f0f0;height:7.2pt;border-right:#f0f0f0;width:49.5pt;border-bottom:#f0f0f0;padding-bottom:0cm;padding-top:0cm;padding-left:5.4pt;border-left:#f0f0f0;padding-right:5.4pt;background-color:transparent&apos;&gt; &lt;p align=&quot;right&quot; style=&apos;text-align:right;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&lt;font lang=&quot;EN-US&quot;&gt;-&lt;/font&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt; &lt;p style=&apos;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&amp;nbsp;&lt;/p&gt;</fil:SupplementalCashFlowInformationTextBlock>
+	<us-gaap:EarningsPerShareTextBlock contextRef='Y17Q1'>&lt;!--egx--&gt;&lt;p style=&apos;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&lt;b&gt;&lt;font lang=&quot;EN-US&quot;&gt;NOTE 3 - LOSS PER SHARE&lt;/font&gt;&lt;/b&gt;&lt;/p&gt; &lt;p style=&apos;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&amp;nbsp;&lt;/p&gt; &lt;p style=&apos;text-align:justify;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&lt;font lang=&quot;EN-US&quot;&gt;Loss per share is computed by dividing the net income (loss) by the weighted average number of common &lt;/font&gt;&lt;font lang=&quot;EN-US&quot;&gt;shares outstanding during the period. Basic and diluted loss per share was ($0.01) and ($.00) for the three months ended March 31, 2017 and 2016.&lt;/font&gt;&lt;/p&gt;</us-gaap:EarningsPerShareTextBlock>
+	<us-gaap:StockholdersEquityNoteDisclosureTextBlock contextRef='Y17Q1'>&lt;!--egx--&gt;&lt;p style=&apos;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&lt;b&gt;&lt;font lang=&quot;EN-US&quot;&gt;NOTE 2 - CAPITAL STOCK&lt;/font&gt;&lt;/b&gt;&lt;/p&gt; &lt;p style=&apos;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&amp;nbsp;&lt;/p&gt; &lt;p style=&apos;text-align:justify;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&lt;font lang=&quot;EN-US&quot;&gt;On January 5, 2016, the Company issued 1 million common shares with a fair value of $30,000 to an investor in exchange for a like amount of expenses that the investor paid on behalf of the Company. The fair value of the shares was based on the price quoted on the OTC bulletin board on the grant date. &lt;/font&gt;&lt;/p&gt; &lt;p style=&apos;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&amp;nbsp;&lt;/p&gt; &lt;p style=&apos;text-align:justify;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&lt;font lang=&quot;EN-US&quot;&gt;On January 20, 2016, the Company issued as compensation for services provided a total of 1,000,000 common shares with a fair value of $15,000 to a third party. The fair value of the shares was based on the price quoted on the OTC pink sheets on the grant date.&lt;/font&gt;&lt;/p&gt; &lt;p style=&apos;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&amp;nbsp;&lt;/p&gt; &lt;p style=&apos;text-align:justify;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&lt;font lang=&quot;EN-US&quot;&gt;On February 25, 2016, the Company issued 2 million Class A preferred shares. On April 26, 2016 the Company issued 1.5 million Class A preferred shares. The fair value of the shares was based on the price quoted on the OTC pink sheets on the grant date for the common shares as the preferred shares have a preference to a 1 to 1 conversion to common stock. The Company recognized compensation expense to officers.&lt;/font&gt;&lt;/p&gt; &lt;p style=&apos;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&amp;nbsp;&lt;/p&gt; &lt;p style=&apos;text-align:justify;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&lt;font lang=&quot;EN-US&quot;&gt;On February 23, 2016, the Company issued as compensation for services provided a total of 200,000 common shares with a fair value of $3,000 to a third party. The fair value of the shares was based on the price quoted on the OTC pink sheets on the grant date.&lt;/font&gt;&lt;/p&gt; &lt;p style=&apos;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&amp;nbsp;&lt;/p&gt; &lt;p style=&apos;text-align:justify;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&lt;font lang=&quot;EN-US&quot;&gt;On October 5, 2016, the Company issued as compensation for services provided a total of 250,000 common shares with a fair value of $40,000 to a third party. The fair value of the shares was based on the price quoted on the OTC pink sheets on the grant date.&lt;/font&gt;&lt;/p&gt; &lt;p style=&apos;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&amp;nbsp;&lt;/p&gt; &lt;p style=&apos;text-align:justify;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&lt;font lang=&quot;EN-US&quot;&gt;On January 15, 2017, the Company issued as compensation for services provided a total of 100,000 common shares with a fair value of $5,000 to a third party. The fair value of the shares was based on the price quoted on the OTC pink sheets on the grant date.&lt;/font&gt;&lt;/p&gt; &lt;p style=&apos;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&amp;nbsp;&lt;/p&gt; &lt;p style=&apos;text-align:justify;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&lt;font lang=&quot;EN-US&quot;&gt;On March 6, 2017, the Company issued as compensation for services provided a total of 650,000 common shares with a fair value of $390,000 to a third party. The fair value of the shares was based on the price quoted on the OTC pink sheets on the grant date.&lt;/font&gt;&lt;/p&gt; &lt;p align=&quot;center&quot; style=&apos;text-align:center;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&amp;nbsp;&lt;/p&gt; &lt;p style=&apos;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&lt;font lang=&quot;EN-US&quot;&gt;On March 26, 2015, a 1:2,000 reverse split was completed.&lt;/font&gt;&lt;/p&gt; &lt;p style=&apos;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&amp;nbsp;&lt;/p&gt; &lt;p style=&apos;text-align:justify;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&lt;font lang=&quot;EN-US&quot;&gt;The Company is currently authorized to issue 5,000,000 Class A preferred shares with $0.001 per value with 1:25 voting rights. As of December 31, 2016, there were 5,000,000 class A preferred shares issued and outstanding. The Company is currently authorized to issue 1,000,000,000 common shares with $.001 par value per share.&lt;/font&gt;&lt;/p&gt;</us-gaap:StockholdersEquityNoteDisclosureTextBlock>
+	<us-gaap:SignificantAccountingPoliciesTextBlock contextRef='Y17Q1'>&lt;!--egx--&gt;&lt;p style=&apos;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&lt;b&gt;&lt;font lang=&quot;EN-US&quot;&gt;NOTE 1 - SUMMARY OF SIGNIFICANT ACCOUNTING POLICIES &lt;/font&gt;&lt;/b&gt;&lt;/p&gt; &lt;p style=&apos;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&amp;nbsp;&lt;/p&gt; &lt;p style=&apos;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&lt;u&gt;&lt;font lang=&quot;EN-US&quot;&gt;Business Activity &lt;/font&gt;&lt;/u&gt;&lt;/p&gt; &lt;p style=&apos;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&amp;nbsp;&lt;/p&gt; &lt;p style=&apos;text-align:justify;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&lt;font lang=&quot;EN-US&quot;&gt;REMSleep Holdings, Inc., f/k/a/ Kat Gold Holdings Corp. (the &amp;#147;Company&amp;#148;) was incorporated in the State of Nevada on June 6, 2007. Following its acquisition of Handcamp on June 4, 2010, a gold property located in the Province of Newfoundland and Labrador, Canada (&amp;#147;Handcamp&amp;#148;), the Company changed its business model to that of a mineral acquisition, exploration and development company focused primarily on gold &lt;/font&gt;&lt;font lang=&quot;EN-US&quot;&gt;properties. On August 26, 2010, the Company&amp;#146;s name was changed from Bella Viaggio, Inc. to Kat Gold Holdings corp. As of this annual report, the Company has not generated any revenues but has incurred expenses related to the drilling and exploration of Handcamp. On January 5, 2015 the name of the Company was changed to REMSleep Holdings, Inc. and the business model was changed to reflect the new direction of the Company; to develop and distribute products to help people affected by sleep apnea. On May 30, 2015 REMSleep LLC was formerly merged into REMSleep Holdings, Inc.&lt;/font&gt;&lt;/p&gt; &lt;p style=&apos;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&amp;nbsp;&lt;/p&gt; &lt;p style=&apos;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&lt;u&gt;&lt;font lang=&quot;EN-US&quot;&gt;Basis of Presentation&lt;/font&gt;&lt;/u&gt;&lt;/p&gt; &lt;p style=&apos;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&amp;nbsp;&lt;/p&gt; &lt;p style=&apos;text-align:justify;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&lt;font lang=&quot;EN-US&quot;&gt;The preparation of financial statements in conformity with accounting principles generally accepted in the United States of America requires management to make estimates and assumptions that affect the reported amounts of assets and liabilities at the date of the financial statements and the reported amounts of revenue and expenses during the reported period. Actual results could differ from those estimates. Management further acknowledges that it is solely responsible for adopting sound accounting practices, establishing and maintaining a system of internal accounting control and preventing and detecting fraud. The Company&amp;#146;s system of internal accounting control is designed to assure, among other items, that (1) recorded transactions are valid; (2) all valid transactions are recorded and (3) transactions are recorded in the period in a timely manner to produce financial statements which present fairly the financial condition, results of operations and cash flows of the Company for the respective periods being presented.&lt;/font&gt;&lt;/p&gt; &lt;p style=&apos;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&amp;nbsp;&lt;/p&gt; &lt;p style=&apos;text-align:justify;margin:0cm 0cm 0pt&apos;&gt;&lt;font lang=&quot;EN-US&quot; style=&apos;line-height:107%&apos;&gt;The Company&amp;#146;s condensed consolidated financial statements have been prepared in accordance with accounting principles generally accepted in the United States of America (&amp;#147;US GAAP&amp;#148;) and the rules and regulations of the Securities and Exchange Commission (&amp;#147;SEC&amp;#148;).&lt;/font&gt;&lt;/p&gt; &lt;p style=&apos;text-align:justify;margin:0cm 0cm 0pt;text-indent:36pt&apos;&gt;&lt;font lang=&quot;EN-US&quot; style=&apos;line-height:107%&apos;&gt;&amp;nbsp;&lt;/font&gt;&lt;/p&gt; &lt;p style=&apos;text-align:justify;margin:0cm 0cm 0pt&apos;&gt;&lt;font lang=&quot;EN-US&quot; style=&apos;line-height:107%&apos;&gt;The unaudited condensed consolidated financial information furnished herein reflects all adjustments, consisting solely of normal recurring items, which in the opinion of management are necessary to fairly state the financial position of the Company and the results of its operations for the periods presented. This report should be read in conjunction with the Company&amp;#146;s financial statements and notes thereto included in the Company&amp;#146;s Form 10-K for the year ended December 31, 2016 filed with the Securities and Exchange Commission (the &amp;#147;&lt;i&gt;SEC&lt;/i&gt;&amp;#148;) on March 31, 2017. The Company assumes that the users of the interim financial information herein have read or have access to the audited financial statements for the preceding fiscal year and that the adequacy of additional disclosure needed for a fair presentation may be determined in that context. Accordingly, footnote disclosure, which would substantially duplicate the disclosure contained in the Company&amp;#146;s Form 10-K for the year ended December 31, 2016 has been omitted. The results of operations for the interim periods presented are not necessarily indicative of results for the entire year ending&amp;nbsp;December 31, 2017&amp;nbsp;or any other period.&lt;/font&gt;&lt;/p&gt; &lt;p style=&apos;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&amp;nbsp;&lt;/p&gt; &lt;p style=&apos;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&lt;u&gt;&lt;font lang=&quot;EN-US&quot;&gt;Accounting Basis&lt;/font&gt;&lt;/u&gt;&lt;/p&gt; &lt;p style=&apos;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&amp;nbsp;&lt;/p&gt; &lt;p style=&apos;text-align:justify;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&lt;font lang=&quot;EN-US&quot;&gt;The Company uses the accrual basis of accounting and accounting principles generally accepted in the United States of America (&amp;#147;GAAP&amp;#148; accounting). The Company has adopted a December 31 fiscal year end.&lt;/font&gt;&lt;/p&gt; &lt;p style=&apos;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&amp;nbsp;&lt;/p&gt; &lt;p style=&apos;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&lt;u&gt;&lt;font lang=&quot;EN-US&quot;&gt;Use of Estimates &lt;/font&gt;&lt;/u&gt;&lt;/p&gt; &lt;p style=&apos;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&amp;nbsp;&lt;/p&gt; &lt;p style=&apos;text-align:justify;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&lt;font lang=&quot;EN-US&quot;&gt;The preparation of financial statements in conformity with accounting principles generally accepted in the&lt;/font&gt;&lt;font lang=&quot;EN-US&quot;&gt; United States of America requires management to make estimates and assumptions that affect the reported amounts of assets and liabilities at the date of the financial statements and the reported amounts of revenues and expenses during the reporting periods. Actual results could differ from those estimates.&lt;/font&gt;&lt;/p&gt; &lt;p style=&apos;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&amp;nbsp;&lt;/p&gt; &lt;p style=&apos;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&lt;u&gt;&lt;font lang=&quot;EN-US&quot;&gt;Cash and Cash Equivalents &lt;/font&gt;&lt;/u&gt;&lt;/p&gt; &lt;p style=&apos;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&amp;nbsp;&lt;/p&gt; &lt;p style=&apos;text-align:justify;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&lt;font lang=&quot;EN-US&quot;&gt;For purposes of the Statements of Cash Flows, the Company considers highly liquid investments with an&lt;/font&gt;&lt;font lang=&quot;EN-US&quot;&gt; original maturity of three months or less to be cash equivalents.&lt;/font&gt;&lt;/p&gt; &lt;p style=&apos;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&amp;nbsp;&lt;/p&gt; &lt;p style=&apos;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&lt;u&gt;&lt;font lang=&quot;EN-US&quot;&gt;Comprehensive Income (Loss) &lt;/font&gt;&lt;/u&gt;&lt;/p&gt; &lt;p style=&apos;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&amp;nbsp;&lt;/p&gt; &lt;p style=&apos;text-align:justify;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&lt;font lang=&quot;EN-US&quot;&gt;The Company reports comprehensive income and its components following guidance set forth by section&lt;/font&gt;&lt;font lang=&quot;EN-US&quot;&gt; 220-10 of the FASB Accounting Standards Codification which establishes standards for the reporting and display of comprehensive income and its components in the consolidated financial statements. &lt;/font&gt;&lt;/p&gt; &lt;p align=&quot;center&quot; style=&apos;text-align:center;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&amp;nbsp;&lt;/p&gt; &lt;p style=&apos;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&lt;u&gt;&lt;font lang=&quot;EN-US&quot;&gt;Long-Lived Assets &lt;/font&gt;&lt;/u&gt;&lt;/p&gt; &lt;p style=&apos;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&amp;nbsp;&lt;/p&gt; &lt;p style=&apos;text-align:justify;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&lt;font lang=&quot;EN-US&quot;&gt;The Company evaluates the recoverability of its fixed assets and other assets in accordance with section&lt;/font&gt;&lt;font lang=&quot;EN-US&quot;&gt; 360-10-15 of the FASB Accounting Standards Codification for disclosures about Impairment or Disposal of Long-Lived Assets. Disclosure requires recognition of impairment of long-lived assets in the event the net book value of such assets exceeds its expected cash flows. If so, it is considered to be impaired and is written down to fair market value, which is determined based on either discounted future cash flows or appraised values. The Company adopted the statement on inception. No impairments of these types of assets were recognized during the period ended December 31, 2016.&lt;/font&gt;&lt;/p&gt; &lt;p style=&apos;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&amp;nbsp;&lt;/p&gt; &lt;p style=&apos;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&lt;u&gt;&lt;font lang=&quot;EN-US&quot;&gt;Risk and Uncertainties &lt;/font&gt;&lt;/u&gt;&lt;/p&gt; &lt;p style=&apos;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&amp;nbsp;&lt;/p&gt; &lt;p style=&apos;text-align:justify;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&lt;font lang=&quot;EN-US&quot;&gt;As of January 5, 2015, the Company is subject to risks common to manufacturing and health product providers.&lt;/font&gt;&lt;/p&gt; &lt;p style=&apos;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&amp;nbsp;&lt;/p&gt; &lt;p style=&apos;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&lt;u&gt;&lt;font lang=&quot;EN-US&quot;&gt;Advertising Costs &lt;/font&gt;&lt;/u&gt;&lt;/p&gt; &lt;p style=&apos;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&amp;nbsp;&lt;/p&gt; &lt;p style=&apos;text-align:justify;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&lt;font lang=&quot;EN-US&quot;&gt;Advertising costs are expensed as incurred. The Company does not incur any direct-response advertising costs.&lt;/font&gt;&lt;/p&gt; &lt;p style=&apos;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&amp;nbsp;&lt;/p&gt; &lt;p style=&apos;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&lt;u&gt;&lt;font lang=&quot;EN-US&quot;&gt;Stock-Based Compensation&lt;/font&gt;&lt;/u&gt;&lt;/p&gt; &lt;p style=&apos;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&amp;nbsp;&lt;/p&gt; &lt;p style=&apos;text-align:justify;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&lt;font lang=&quot;EN-US&quot;&gt;The Company accounts for stock-based compensation using the fair value method following the guidance set forth in section 718-10 of the FASB Accounting Standards Codification for disclosure about stock based compensation. This section requires a public entity to measure the cost of employee services received in exchange for an award of equity instruments based on the grant-date fair value of the award (with limited exceptions). That cost will be recognized over the period during which an employee is required to provide service in exchange for the award- the requisite service period (usually the vesting period). No compensation cost is recognized for equity instruments for which employees do not render the requisite service.&lt;/font&gt;&lt;/p&gt; &lt;p style=&apos;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&amp;nbsp;&lt;/p&gt; &lt;p style=&apos;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&lt;u&gt;&lt;font lang=&quot;EN-US&quot;&gt;Fair Value for Financial Assets and Financial Liabilities&lt;/font&gt;&lt;/u&gt;&lt;/p&gt; &lt;p style=&apos;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&amp;nbsp;&lt;/p&gt; &lt;p style=&apos;text-align:justify;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&lt;font lang=&quot;EN-US&quot;&gt;The Company follows paragraph 825-10-50-10 of the FASB Accounting Standards Codification for disclosures about fair value of its financial instruments and paragraph 820-10-35-37 of the FASB Accounting Standards Codification (&quot;paragraph 820-10-35-37&quot;) to measure the fair value of its financial instruments. Paragraph 820-10-35-37 establishes a framework for measuring fair value in accounting principles generally accepted in the United States of America (U.S. GAAP), and expands disclosures about fair value measurements. To increase consistency and comparability in fair value measurements and related disclosures, Paragraph 820-10-35-37 establishes a fair value hierarchy which prioritizes the inputs to valuation techniques used to measure fair value into three broad levels. The fair value hierarchy gives the highest priority to quoted prices (unadjusted) in active markets for identical assets or liabilities and the lowest priority to unobservable inputs.&lt;/font&gt;&lt;/p&gt; &lt;p style=&apos;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&amp;nbsp;&lt;/p&gt; &lt;p style=&apos;text-align:justify;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&lt;font lang=&quot;EN-US&quot;&gt;The three levels of fair value hierarchy defined by Paragraph 820-10-35-37 are described below:&lt;/font&gt;&lt;/p&gt; &lt;p style=&apos;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&amp;nbsp;&lt;/p&gt; &lt;p style=&apos;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&lt;font lang=&quot;EN-US&quot;&gt;Level 1: Quoted market prices available in active markets for identical assets and liabilities as of the reporting date.&lt;/font&gt;&lt;/p&gt; &lt;p style=&apos;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&amp;nbsp;&lt;/p&gt; &lt;p style=&apos;text-align:justify;margin:0cm 0cm 0pt 40.5pt;line-height:normal;text-indent:-40.5pt&apos;&gt;&lt;font lang=&quot;EN-US&quot;&gt;Level 2: Pricing inputs other than quoted prices in active markets included in Level 1, which are either directly or indirectly observable as of the reporting date.&lt;/font&gt;&lt;/p&gt; &lt;p style=&apos;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&amp;nbsp;&lt;/p&gt; &lt;p style=&apos;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&lt;font lang=&quot;EN-US&quot;&gt;Level 3: Pricing inputs that are generally observable inputs and not corroborated by the market data.&lt;/font&gt;&lt;/p&gt; &lt;p style=&apos;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&amp;nbsp;&lt;/p&gt; &lt;p style=&apos;text-align:justify;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&lt;font lang=&quot;EN-US&quot;&gt;The carrying amounts of the Company&apos;s financial assets and liabilities, such as cash, accounts receivable, rent deposit, accounts payable, customer deposits and notes payable approximate their fair values because of the short maturity of these instruments.&lt;/font&gt;&lt;/p&gt; &lt;p style=&apos;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&amp;nbsp;&lt;/p&gt; &lt;p style=&apos;text-align:justify;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&lt;font lang=&quot;EN-US&quot;&gt;There were no assets or liabilities measured at fair value on a nonrecurring basis during the period ended March 31, 2017.&lt;/font&gt;&lt;/p&gt; &lt;p align=&quot;center&quot; style=&apos;text-align:center;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&amp;nbsp;&lt;/p&gt; &lt;p style=&apos;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&lt;u&gt;&lt;font lang=&quot;EN-US&quot;&gt;Fair Value of Financial Statements &lt;/font&gt;&lt;/u&gt;&lt;/p&gt; &lt;p style=&apos;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&amp;nbsp;&lt;/p&gt; &lt;p style=&apos;text-align:justify;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&lt;font lang=&quot;EN-US&quot;&gt;The Company&amp;#146;s financial instruments consist of cash and security deposits. The carrying amount of these&lt;/font&gt;&lt;font lang=&quot;EN-US&quot;&gt; financial instruments approximate fair value due to either length of maturity or interest rates that approximate prevailing market rates unless otherwise disclosed in these financial statements.&lt;/font&gt;&lt;/p&gt; &lt;p style=&apos;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&amp;nbsp;&lt;/p&gt; &lt;p style=&apos;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&lt;u&gt;&lt;font lang=&quot;EN-US&quot;&gt;Loss Per Share &lt;/font&gt;&lt;/u&gt;&lt;/p&gt; &lt;p style=&apos;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&amp;nbsp;&lt;/p&gt; &lt;p style=&apos;text-align:justify;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&lt;font lang=&quot;EN-US&quot;&gt;Net loss per common share is computed pursuant to section 260-10-45 of the FASB Accounting Standards&lt;/font&gt;&lt;font lang=&quot;EN-US&quot;&gt; Codification. Basic net loss per share is computed by dividing net loss by the weighted average number of shares of common stock outstanding during the period. Diluted net loss per share is computed by dividing net loss by the weighted average number of shares of common stock and potentially outstanding shares of common stock during each period. There were no potentially dilutive shares outstanding as of March 31, 2017 and 2016.&lt;/font&gt;&lt;/p&gt; &lt;p style=&apos;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&amp;nbsp;&lt;/p&gt; &lt;p style=&apos;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&lt;u&gt;&lt;font lang=&quot;EN-US&quot;&gt;Income Taxes&lt;/font&gt;&lt;/u&gt;&lt;/p&gt; &lt;p style=&apos;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&amp;nbsp;&lt;/p&gt; &lt;p style=&apos;text-align:justify;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&lt;font lang=&quot;EN-US&quot;&gt;Income taxes are computed using the asset and liability method. Under the asset and liability method, deferred income tax assets and liabilities are determined based on the differences between the financial reporting and tax basic of assets and liabilities and are measured using the currently enacted tax rates and laws. A valuation allowance is provided for the amount of deferred tax assets that, based on available evidence, are not expected to be realized. It is the Company&apos;s policy to classify interest and penalties on income taxes as interest expense or penalties expense. As of March 31, 2017 there have been no interest or penalties incurred on income taxes.&lt;/font&gt;&lt;/p&gt; &lt;p style=&apos;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&amp;nbsp;&lt;/p&gt; &lt;p style=&apos;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&lt;u&gt;&lt;font lang=&quot;EN-US&quot;&gt;Recent Accounting Pronouncements &lt;/font&gt;&lt;/u&gt;&lt;/p&gt; &lt;p style=&apos;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&amp;nbsp;&lt;/p&gt; &lt;p style=&apos;text-align:justify;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&lt;font lang=&quot;EN-US&quot;&gt;The Company has reviewed all recently issued, but not yet effective, accounting pronouncements and does not believe the future adoption of any such pronouncements will cause a material impact on its financial condition or the results of its operations.&lt;/font&gt;&lt;/p&gt;</us-gaap:SignificantAccountingPoliciesTextBlock>
+	<us-gaap:BusinessCombinationsPolicy contextRef='Y17Q1'>&lt;!--egx--&gt;&lt;p style=&apos;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&lt;u&gt;&lt;font lang=&quot;EN-US&quot;&gt;Business Activity &lt;/font&gt;&lt;/u&gt;&lt;/p&gt; &lt;p style=&apos;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&amp;nbsp;&lt;/p&gt; &lt;p style=&apos;text-align:justify;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&lt;font lang=&quot;EN-US&quot;&gt;REMSleep Holdings, Inc., f/k/a/ Kat Gold Holdings Corp. (the &amp;#147;Company&amp;#148;) was incorporated in the State of Nevada on June 6, 2007. Following its acquisition of Handcamp on June 4, 2010, a gold property located in the Province of Newfoundland and Labrador, Canada (&amp;#147;Handcamp&amp;#148;), the Company changed its business model to that of a mineral acquisition, exploration and development company focused primarily on gold &lt;/font&gt;&lt;font lang=&quot;EN-US&quot;&gt;properties. On August 26, 2010, the Company&amp;#146;s name was changed from Bella Viaggio, Inc. to Kat Gold Holdings corp. As of this annual report, the Company has not generated any revenues but has incurred expenses related to the drilling and exploration of Handcamp. On January 5, 2015 the name of the Company was changed to REMSleep Holdings, Inc. and the business model was changed to reflect the new direction of the Company; to develop and distribute products to help people affected by sleep apnea. On May 30, 2015 REMSleep LLC was formerly merged into REMSleep Holdings, Inc.&lt;/font&gt;&lt;/p&gt;</us-gaap:BusinessCombinationsPolicy>
+	<us-gaap:BasisOfAccounting contextRef='Y17Q1'>&lt;!--egx--&gt;&lt;p style=&apos;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&lt;u&gt;&lt;font lang=&quot;EN-US&quot;&gt;Basis of Presentation&lt;/font&gt;&lt;/u&gt;&lt;/p&gt; &lt;p style=&apos;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&amp;nbsp;&lt;/p&gt; &lt;p style=&apos;text-align:justify;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&lt;font lang=&quot;EN-US&quot;&gt;The preparation of financial statements in conformity with accounting principles generally accepted in the United States of America requires management to make estimates and assumptions that affect the reported amounts of assets and liabilities at the date of the financial statements and the reported amounts of revenue and expenses during the reported period. Actual results could differ from those estimates. Management further acknowledges that it is solely responsible for adopting sound accounting practices, establishing and maintaining a system of internal accounting control and preventing and detecting fraud. The Company&amp;#146;s system of internal accounting control is designed to assure, among other items, that (1) recorded transactions are valid; (2) all valid transactions are recorded and (3) transactions are recorded in the period in a timely manner to produce financial statements which present fairly the financial condition, results of operations and cash flows of the Company for the respective periods being presented.&lt;/font&gt;&lt;/p&gt; &lt;p style=&apos;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&amp;nbsp;&lt;/p&gt; &lt;p style=&apos;text-align:justify;margin:0cm 0cm 0pt&apos;&gt;&lt;font lang=&quot;EN-US&quot; style=&apos;line-height:107%&apos;&gt;The Company&amp;#146;s condensed consolidated financial statements have been prepared in accordance with accounting principles generally accepted in the United States of America (&amp;#147;US GAAP&amp;#148;) and the rules and regulations of the Securities and Exchange Commission (&amp;#147;SEC&amp;#148;).&lt;/font&gt;&lt;/p&gt; &lt;p style=&apos;text-align:justify;margin:0cm 0cm 0pt;text-indent:36pt&apos;&gt;&lt;font lang=&quot;EN-US&quot; style=&apos;line-height:107%&apos;&gt;&amp;nbsp;&lt;/font&gt;&lt;/p&gt; &lt;p style=&apos;text-align:justify;margin:0cm 0cm 0pt&apos;&gt;&lt;font lang=&quot;EN-US&quot; style=&apos;line-height:107%&apos;&gt;The unaudited condensed consolidated financial information furnished herein reflects all adjustments, consisting solely of normal recurring items, which in the opinion of management are necessary to fairly state the financial position of the Company and the results of its operations for the periods presented. This report should be read in conjunction with the Company&amp;#146;s financial statements and notes thereto included in the Company&amp;#146;s Form 10-K for the year ended December 31, 2016 filed with the Securities and Exchange Commission (the &amp;#147;&lt;i&gt;SEC&lt;/i&gt;&amp;#148;) on March 31, 2017. The Company assumes that the users of the interim financial information herein have read or have access to the audited financial statements for the preceding fiscal year and that the adequacy of additional disclosure needed for a fair presentation may be determined in that context. Accordingly, footnote disclosure, which would substantially duplicate the disclosure contained in the Company&amp;#146;s Form 10-K for the year ended December 31, 2016 has been omitted. The results of operations for the interim periods presented are not necessarily indicative of results for the entire year ending&amp;nbsp;December 31, 2017&amp;nbsp;or any other period.&lt;/font&gt;&lt;/p&gt;</us-gaap:BasisOfAccounting>
+	<us-gaap:BasisOfAccountingPolicyPolicyTextBlock contextRef='Y17Q1'>&lt;!--egx--&gt;&lt;p style=&apos;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&lt;u&gt;&lt;font lang=&quot;EN-US&quot;&gt;Accounting Basis&lt;/font&gt;&lt;/u&gt;&lt;/p&gt; &lt;p style=&apos;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&amp;nbsp;&lt;/p&gt; &lt;p style=&apos;text-align:justify;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&lt;font lang=&quot;EN-US&quot;&gt;The Company uses the accrual basis of accounting and accounting principles generally accepted in the United States of America (&amp;#147;GAAP&amp;#148; accounting). The Company has adopted a December 31 fiscal year end.&lt;/font&gt;&lt;/p&gt;</us-gaap:BasisOfAccountingPolicyPolicyTextBlock>
+	<us-gaap:UseOfEstimates contextRef='Y17Q1'>&lt;!--egx--&gt;&lt;p style=&apos;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&lt;u&gt;&lt;font lang=&quot;EN-US&quot;&gt;Use of Estimates &lt;/font&gt;&lt;/u&gt;&lt;/p&gt; &lt;p style=&apos;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&amp;nbsp;&lt;/p&gt; &lt;p style=&apos;text-align:justify;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&lt;font lang=&quot;EN-US&quot;&gt;The preparation of financial statements in conformity with accounting principles generally accepted in the&lt;/font&gt;&lt;font lang=&quot;EN-US&quot;&gt; United States of America requires management to make estimates and assumptions that affect the reported amounts of assets and liabilities at the date of the financial statements and the reported amounts of revenues and expenses during the reporting periods. Actual results could differ from those estimates.&lt;/font&gt;&lt;/p&gt;</us-gaap:UseOfEstimates>
+	<us-gaap:CashAndCashEquivalentsPolicyTextBlock contextRef='Y17Q1'>&lt;!--egx--&gt;&lt;p style=&apos;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&lt;u&gt;&lt;font lang=&quot;EN-US&quot;&gt;Cash and Cash Equivalents &lt;/font&gt;&lt;/u&gt;&lt;/p&gt; &lt;p style=&apos;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&amp;nbsp;&lt;/p&gt; &lt;p style=&apos;text-align:justify;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&lt;font lang=&quot;EN-US&quot;&gt;For purposes of the Statements of Cash Flows, the Company considers highly liquid investments with an&lt;/font&gt;&lt;font lang=&quot;EN-US&quot;&gt; original maturity of three months or less to be cash equivalents.&lt;/font&gt;&lt;/p&gt; &lt;p style=&apos;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&amp;nbsp;&lt;/p&gt;</us-gaap:CashAndCashEquivalentsPolicyTextBlock>
+	<us-gaap:ComprehensiveIncomeNoteTextBlock contextRef='Y17Q1'>&lt;!--egx--&gt;&lt;p style=&apos;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&lt;u&gt;&lt;font lang=&quot;EN-US&quot;&gt;Comprehensive Income (Loss) &lt;/font&gt;&lt;/u&gt;&lt;/p&gt; &lt;p style=&apos;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&amp;nbsp;&lt;/p&gt; &lt;p style=&apos;text-align:justify;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&lt;font lang=&quot;EN-US&quot;&gt;The Company reports comprehensive income and its components following guidance set forth by section&lt;/font&gt;&lt;font lang=&quot;EN-US&quot;&gt; 220-10 of the FASB Accounting Standards Codification which establishes standards for the reporting and display of comprehensive income and its components in the consolidated financial statements. &lt;/font&gt;&lt;/p&gt;</us-gaap:ComprehensiveIncomeNoteTextBlock>
+	<us-gaap:ImpairmentOrDisposalOfLongLivedAssetsPolicyTextBlock contextRef='Y17Q1'>&lt;!--egx--&gt;&lt;p style=&apos;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&lt;u&gt;&lt;font lang=&quot;EN-US&quot;&gt;Long-Lived Assets &lt;/font&gt;&lt;/u&gt;&lt;/p&gt; &lt;p style=&apos;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&amp;nbsp;&lt;/p&gt; &lt;p style=&apos;text-align:justify;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&lt;font lang=&quot;EN-US&quot;&gt;The Company evaluates the recoverability of its fixed assets and other assets in accordance with section&lt;/font&gt;&lt;font lang=&quot;EN-US&quot;&gt; 360-10-15 of the FASB Accounting Standards Codification for disclosures about Impairment or Disposal of Long-Lived Assets. Disclosure requires recognition of impairment of long-lived assets in the event the net book value of such assets exceeds its expected cash flows. If so, it is considered to be impaired and is written down to fair market value, which is determined based on either discounted future cash flows or appraised values. The Company adopted the statement on inception. No impairments of these types of assets were recognized during the period ended December 31, 2016.&lt;/font&gt;&lt;/p&gt;</us-gaap:ImpairmentOrDisposalOfLongLivedAssetsPolicyTextBlock>
+	<us-gaap:ConcentrationRiskCreditRisk contextRef='Y17Q1'>&lt;!--egx--&gt;&lt;p style=&apos;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&lt;u&gt;&lt;font lang=&quot;EN-US&quot;&gt;Risk and Uncertainties &lt;/font&gt;&lt;/u&gt;&lt;/p&gt; &lt;p style=&apos;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&amp;nbsp;&lt;/p&gt; &lt;p style=&apos;text-align:justify;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&lt;font lang=&quot;EN-US&quot;&gt;As of January 5, 2015, the Company is subject to risks common to manufacturing and health product providers.&lt;/font&gt;&lt;/p&gt;</us-gaap:ConcentrationRiskCreditRisk>
+	<us-gaap:AdvertisingCostsPolicyTextBlock contextRef='Y17Q1'>&lt;!--egx--&gt;&lt;p style=&apos;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&lt;u&gt;&lt;font lang=&quot;EN-US&quot;&gt;Advertising Costs &lt;/font&gt;&lt;/u&gt;&lt;/p&gt; &lt;p style=&apos;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&amp;nbsp;&lt;/p&gt; &lt;p style=&apos;text-align:justify;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&lt;font lang=&quot;EN-US&quot;&gt;Advertising costs are expensed as incurred. The Company does not incur any direct-response advertising costs.&lt;/font&gt;&lt;/p&gt;</us-gaap:AdvertisingCostsPolicyTextBlock>
+	<us-gaap:ShareBasedCompensationOptionAndIncentivePlansPolicy contextRef='Y17Q1'>&lt;!--egx--&gt;&lt;p style=&apos;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&lt;u&gt;&lt;font lang=&quot;EN-US&quot;&gt;Stock-Based Compensation&lt;/font&gt;&lt;/u&gt;&lt;/p&gt; &lt;p style=&apos;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&amp;nbsp;&lt;/p&gt; &lt;p style=&apos;text-align:justify;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&lt;font lang=&quot;EN-US&quot;&gt;The Company accounts for stock-based compensation using the fair value method following the guidance set forth in section 718-10 of the FASB Accounting Standards Codification for disclosure about stock based compensation. This section requires a public entity to measure the cost of employee services received in exchange for an award of equity instruments based on the grant-date fair value of the award (with limited exceptions). That cost will be recognized over the period during which an employee is required to provide service in exchange for the award- the requisite service period (usually the vesting period). No compensation cost is recognized for equity instruments for which employees do not render the requisite service.&lt;/font&gt;&lt;/p&gt;</us-gaap:ShareBasedCompensationOptionAndIncentivePlansPolicy>
+	<us-gaap:FairValueMeasurementPolicyPolicyTextBlock contextRef='Y17Q1'>&lt;!--egx--&gt;&lt;p style=&apos;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&lt;u&gt;&lt;font lang=&quot;EN-US&quot;&gt;Fair Value for Financial Assets and Financial Liabilities&lt;/font&gt;&lt;/u&gt;&lt;/p&gt; &lt;p style=&apos;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&amp;nbsp;&lt;/p&gt; &lt;p style=&apos;text-align:justify;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&lt;font lang=&quot;EN-US&quot;&gt;The Company follows paragraph 825-10-50-10 of the FASB Accounting Standards Codification for disclosures about fair value of its financial instruments and paragraph 820-10-35-37 of the FASB Accounting Standards Codification (&quot;paragraph 820-10-35-37&quot;) to measure the fair value of its financial instruments. Paragraph 820-10-35-37 establishes a framework for measuring fair value in accounting principles generally accepted in the United States of America (U.S. GAAP), and expands disclosures about fair value measurements. To increase consistency and comparability in fair value measurements and related disclosures, Paragraph 820-10-35-37 establishes a fair value hierarchy which prioritizes the inputs to valuation techniques used to measure fair value into three broad levels. The fair value hierarchy gives the highest priority to quoted prices (unadjusted) in active markets for identical assets or liabilities and the lowest priority to unobservable inputs.&lt;/font&gt;&lt;/p&gt; &lt;p style=&apos;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&amp;nbsp;&lt;/p&gt; &lt;p style=&apos;text-align:justify;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&lt;font lang=&quot;EN-US&quot;&gt;The three levels of fair value hierarchy defined by Paragraph 820-10-35-37 are described below:&lt;/font&gt;&lt;/p&gt; &lt;p style=&apos;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&amp;nbsp;&lt;/p&gt; &lt;p style=&apos;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&lt;font lang=&quot;EN-US&quot;&gt;Level 1: Quoted market prices available in active markets for identical assets and liabilities as of the reporting date.&lt;/font&gt;&lt;/p&gt; &lt;p style=&apos;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&amp;nbsp;&lt;/p&gt; &lt;p style=&apos;text-align:justify;margin:0cm 0cm 0pt 40.5pt;line-height:normal;text-indent:-40.5pt&apos;&gt;&lt;font lang=&quot;EN-US&quot;&gt;Level 2: Pricing inputs other than quoted prices in active markets included in Level 1, which are either directly or indirectly observable as of the reporting date.&lt;/font&gt;&lt;/p&gt; &lt;p style=&apos;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&amp;nbsp;&lt;/p&gt; &lt;p style=&apos;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&lt;font lang=&quot;EN-US&quot;&gt;Level 3: Pricing inputs that are generally observable inputs and not corroborated by the market data.&lt;/font&gt;&lt;/p&gt; &lt;p style=&apos;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&amp;nbsp;&lt;/p&gt; &lt;p style=&apos;text-align:justify;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&lt;font lang=&quot;EN-US&quot;&gt;The carrying amounts of the Company&apos;s financial assets and liabilities, such as cash, accounts receivable, rent deposit, accounts payable, customer deposits and notes payable approximate their fair values because of the short maturity of these instruments.&lt;/font&gt;&lt;/p&gt; &lt;p style=&apos;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&amp;nbsp;&lt;/p&gt; &lt;p style=&apos;text-align:justify;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&lt;font lang=&quot;EN-US&quot;&gt;There were no assets or liabilities measured at fair value on a nonrecurring basis during the period ended March 31, 2017.&lt;/font&gt;&lt;/p&gt;</us-gaap:FairValueMeasurementPolicyPolicyTextBlock>
+	<us-gaap:FairValueOfFinancialInstrumentsPolicy contextRef='Y17Q1'>&lt;!--egx--&gt;&lt;p style=&apos;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&lt;u&gt;&lt;font lang=&quot;EN-US&quot;&gt;Fair Value of Financial Statements &lt;/font&gt;&lt;/u&gt;&lt;/p&gt; &lt;p style=&apos;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&amp;nbsp;&lt;/p&gt; &lt;p style=&apos;text-align:justify;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&lt;font lang=&quot;EN-US&quot;&gt;The Company&amp;#146;s financial instruments consist of cash and security deposits. The carrying amount of these&lt;/font&gt;&lt;font lang=&quot;EN-US&quot;&gt; financial instruments approximate fair value due to either length of maturity or interest rates that approximate prevailing market rates unless otherwise disclosed in these financial statements.&lt;/font&gt;&lt;/p&gt;</us-gaap:FairValueOfFinancialInstrumentsPolicy>
+	<us-gaap:EarningsPerSharePolicyTextBlock contextRef='Y17Q1'>&lt;!--egx--&gt;&lt;p style=&apos;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&lt;u&gt;&lt;font lang=&quot;EN-US&quot;&gt;Loss Per Share &lt;/font&gt;&lt;/u&gt;&lt;/p&gt; &lt;p style=&apos;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&amp;nbsp;&lt;/p&gt; &lt;p style=&apos;text-align:justify;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&lt;font lang=&quot;EN-US&quot;&gt;Net loss per common share is computed pursuant to section 260-10-45 of the FASB Accounting Standards&lt;/font&gt;&lt;font lang=&quot;EN-US&quot;&gt; Codification. Basic net loss per share is computed by dividing net loss by the weighted average number of shares of common stock outstanding during the period. Diluted net loss per share is computed by dividing net loss by the weighted average number of shares of common stock and potentially outstanding shares of common stock during each period. There were no potentially dilutive shares outstanding as of March 31, 2017 and 2016.&lt;/font&gt;&lt;/p&gt; &lt;p style=&apos;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&amp;nbsp;&lt;/p&gt;</us-gaap:EarningsPerSharePolicyTextBlock>
+	<us-gaap:IncomeTaxPolicyTextBlock contextRef='Y17Q1'>&lt;!--egx--&gt;&lt;p style=&apos;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&lt;u&gt;&lt;font lang=&quot;EN-US&quot;&gt;Income Taxes&lt;/font&gt;&lt;/u&gt;&lt;/p&gt; &lt;p style=&apos;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&amp;nbsp;&lt;/p&gt; &lt;p style=&apos;text-align:justify;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&lt;font lang=&quot;EN-US&quot;&gt;Income taxes are computed using the asset and liability method. Under the asset and liability method, deferred income tax assets and liabilities are determined based on the differences between the financial reporting and tax basic of assets and liabilities and are measured using the currently enacted tax rates and laws. A valuation allowance is provided for the amount of deferred tax assets that, based on available evidence, are not expected to be realized. It is the Company&apos;s policy to classify interest and penalties on income taxes as interest expense or penalties expense. As of March 31, 2017 there have been no interest or penalties incurred on income taxes.&lt;/font&gt;&lt;/p&gt; &lt;p style=&apos;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&amp;nbsp;&lt;/p&gt;</us-gaap:IncomeTaxPolicyTextBlock>
+	<us-gaap:NewAccountingPronouncementsPolicyPolicyTextBlock contextRef='Y17Q1'>&lt;!--egx--&gt;&lt;p style=&apos;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&lt;u&gt;&lt;font lang=&quot;EN-US&quot;&gt;Recent Accounting Pronouncements &lt;/font&gt;&lt;/u&gt;&lt;/p&gt; &lt;p style=&apos;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&amp;nbsp;&lt;/p&gt; &lt;p style=&apos;text-align:justify;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&lt;font lang=&quot;EN-US&quot;&gt;The Company has reviewed all recently issued, but not yet effective, accounting pronouncements and does not believe the future adoption of any such pronouncements will cause a material impact on its financial condition or the results of its operations.&lt;/font&gt;&lt;/p&gt;</us-gaap:NewAccountingPronouncementsPolicyPolicyTextBlock>
+	<fil:SupplementalCashFlowInformationTablesTextBlock contextRef='Y17Q1'>&lt;!--egx--&gt;&lt;p style=&apos;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&lt;font lang=&quot;EN-US&quot;&gt;Cash paid during the years for interest and income taxes:&lt;/font&gt;&lt;/p&gt; &lt;p style=&apos;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&amp;nbsp;&lt;/p&gt; &lt;div align=&quot;center&quot;&gt; &lt;table cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; border=&quot;0&quot; style=&apos;border-collapse:collapse&apos;&gt; &lt;tr style=&apos;height:7.2pt&apos;&gt; &lt;td valign=&quot;top&quot; width=&quot;147&quot; style=&apos;border-top:#f0f0f0;height:7.2pt;border-right:#f0f0f0;width:110.15pt;border-bottom:#f0f0f0;padding-bottom:0cm;padding-top:0cm;padding-left:5.4pt;border-left:#f0f0f0;padding-right:5.4pt;background-color:transparent&apos;&gt; &lt;p style=&apos;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt; &lt;td valign=&quot;top&quot; width=&quot;17&quot; style=&apos;border-top:#f0f0f0;height:7.2pt;border-right:#f0f0f0;width:12.95pt;border-bottom:#f0f0f0;padding-bottom:0cm;padding-top:0cm;padding-left:5.4pt;border-left:#f0f0f0;padding-right:5.4pt;background-color:transparent&apos;&gt; &lt;p style=&apos;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt; &lt;td valign=&quot;bottom&quot; width=&quot;60&quot; style=&apos;border-top:#f0f0f0;height:7.2pt;border-right:#f0f0f0;width:45pt;border-bottom:windowtext 1pt solid;padding-bottom:0cm;padding-top:0cm;padding-left:5.4pt;border-left:#f0f0f0;padding-right:5.4pt;background-color:transparent&apos;&gt; &lt;p align=&quot;center&quot; style=&apos;text-align:center;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&lt;font lang=&quot;EN-US&quot;&gt;2016&lt;/font&gt;&lt;/p&gt;&lt;/td&gt; &lt;td valign=&quot;top&quot; width=&quot;21&quot; style=&apos;border-top:#f0f0f0;height:7.2pt;border-right:#f0f0f0;width:15.8pt;border-bottom:#f0f0f0;padding-bottom:0cm;padding-top:0cm;padding-left:5.4pt;border-left:#f0f0f0;padding-right:5.4pt;background-color:transparent&apos;&gt; &lt;p style=&apos;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt; &lt;td valign=&quot;bottom&quot; width=&quot;66&quot; style=&apos;border-top:#f0f0f0;height:7.2pt;border-right:#f0f0f0;width:49.5pt;border-bottom:windowtext 1pt solid;padding-bottom:0cm;padding-top:0cm;padding-left:5.4pt;border-left:#f0f0f0;padding-right:5.4pt;background-color:transparent&apos;&gt; &lt;p align=&quot;center&quot; style=&apos;text-align:center;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&lt;font lang=&quot;EN-US&quot;&gt;2015&lt;/font&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt; &lt;tr style=&apos;height:7.2pt&apos;&gt; &lt;td valign=&quot;bottom&quot; width=&quot;147&quot; style=&apos;border-top:#f0f0f0;height:7.2pt;border-right:#f0f0f0;width:110.15pt;border-bottom:#f0f0f0;padding-bottom:0cm;padding-top:0cm;padding-left:5.4pt;border-left:#f0f0f0;padding-right:5.4pt;background-color:transparent&apos;&gt; &lt;p style=&apos;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&lt;font lang=&quot;EN-US&quot;&gt;Income Taxes&lt;/font&gt;&lt;/p&gt;&lt;/td&gt; &lt;td valign=&quot;bottom&quot; width=&quot;17&quot; style=&apos;border-top:#f0f0f0;height:7.2pt;border-right:#f0f0f0;width:12.95pt;border-bottom:#f0f0f0;padding-bottom:0cm;padding-top:0cm;padding-left:5.4pt;border-left:#f0f0f0;padding-right:5.4pt;background-color:transparent&apos;&gt; &lt;p align=&quot;right&quot; style=&apos;text-align:right;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&lt;font lang=&quot;EN-US&quot;&gt;$&lt;/font&gt;&lt;/p&gt;&lt;/td&gt; &lt;td valign=&quot;bottom&quot; width=&quot;60&quot; style=&apos;border-top:#f0f0f0;height:7.2pt;border-right:#f0f0f0;width:45pt;border-bottom:#f0f0f0;padding-bottom:0cm;padding-top:0cm;padding-left:5.4pt;border-left:#f0f0f0;padding-right:5.4pt;background-color:transparent&apos;&gt; &lt;p align=&quot;right&quot; style=&apos;text-align:right;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&lt;font lang=&quot;EN-US&quot;&gt;-&lt;/font&gt;&lt;/p&gt;&lt;/td&gt; &lt;td valign=&quot;bottom&quot; width=&quot;21&quot; style=&apos;border-top:#f0f0f0;height:7.2pt;border-right:#f0f0f0;width:15.8pt;border-bottom:#f0f0f0;padding-bottom:0cm;padding-top:0cm;padding-left:5.4pt;border-left:#f0f0f0;padding-right:5.4pt;background-color:transparent&apos;&gt; &lt;p align=&quot;right&quot; style=&apos;text-align:right;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&lt;font lang=&quot;EN-US&quot;&gt;$&lt;/font&gt;&lt;/p&gt;&lt;/td&gt; &lt;td valign=&quot;bottom&quot; width=&quot;66&quot; style=&apos;border-top:#f0f0f0;height:7.2pt;border-right:#f0f0f0;width:49.5pt;border-bottom:#f0f0f0;padding-bottom:0cm;padding-top:0cm;padding-left:5.4pt;border-left:#f0f0f0;padding-right:5.4pt;background-color:transparent&apos;&gt; &lt;p align=&quot;right&quot; style=&apos;text-align:right;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&lt;font lang=&quot;EN-US&quot;&gt;-&lt;/font&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt; &lt;tr style=&apos;height:7.2pt&apos;&gt; &lt;td valign=&quot;bottom&quot; width=&quot;147&quot; style=&apos;border-top:#f0f0f0;height:7.2pt;border-right:#f0f0f0;width:110.15pt;border-bottom:#f0f0f0;padding-bottom:0cm;padding-top:0cm;padding-left:5.4pt;border-left:#f0f0f0;padding-right:5.4pt;background-color:transparent&apos;&gt; &lt;p style=&apos;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&lt;font lang=&quot;EN-US&quot;&gt;Interest&lt;/font&gt;&lt;/p&gt;&lt;/td&gt; &lt;td valign=&quot;bottom&quot; width=&quot;17&quot; style=&apos;border-top:#f0f0f0;height:7.2pt;border-right:#f0f0f0;width:12.95pt;border-bottom:#f0f0f0;padding-bottom:0cm;padding-top:0cm;padding-left:5.4pt;border-left:#f0f0f0;padding-right:5.4pt;background-color:transparent&apos;&gt; &lt;p align=&quot;right&quot; style=&apos;text-align:right;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&lt;font lang=&quot;EN-US&quot;&gt;$&lt;/font&gt;&lt;/p&gt;&lt;/td&gt; &lt;td valign=&quot;bottom&quot; width=&quot;60&quot; style=&apos;border-top:#f0f0f0;height:7.2pt;border-right:#f0f0f0;width:45pt;border-bottom:#f0f0f0;padding-bottom:0cm;padding-top:0cm;padding-left:5.4pt;border-left:#f0f0f0;padding-right:5.4pt;background-color:transparent&apos;&gt; &lt;p align=&quot;right&quot; style=&apos;text-align:right;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&lt;font lang=&quot;EN-US&quot;&gt;-&lt;/font&gt;&lt;/p&gt;&lt;/td&gt; &lt;td valign=&quot;bottom&quot; width=&quot;21&quot; style=&apos;border-top:#f0f0f0;height:7.2pt;border-right:#f0f0f0;width:15.8pt;border-bottom:#f0f0f0;padding-bottom:0cm;padding-top:0cm;padding-left:5.4pt;border-left:#f0f0f0;padding-right:5.4pt;background-color:transparent&apos;&gt; &lt;p align=&quot;right&quot; style=&apos;text-align:right;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&lt;font lang=&quot;EN-US&quot;&gt;$&lt;/font&gt;&lt;/p&gt;&lt;/td&gt; &lt;td valign=&quot;bottom&quot; width=&quot;66&quot; style=&apos;border-top:#f0f0f0;height:7.2pt;border-right:#f0f0f0;width:49.5pt;border-bottom:#f0f0f0;padding-bottom:0cm;padding-top:0cm;padding-left:5.4pt;border-left:#f0f0f0;padding-right:5.4pt;background-color:transparent&apos;&gt; &lt;p align=&quot;right&quot; style=&apos;text-align:right;margin:0cm 0cm 0pt;line-height:normal&apos;&gt;&lt;font lang=&quot;EN-US&quot;&gt;-&lt;/font&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;</fil:SupplementalCashFlowInformationTablesTextBlock>
+	<us-gaap:PreferredStockSharesAuthorized decimals='INF' contextRef='E17Q1' unitRef='Shares'>5000000</us-gaap:PreferredStockSharesAuthorized>
+	<us-gaap:PreferredStockSharesAuthorized decimals='INF' contextRef='E16' unitRef='Shares'>5000000</us-gaap:PreferredStockSharesAuthorized>
+	<us-gaap:PreferredStockSharesIssued decimals='INF' contextRef='E17Q1' unitRef='Shares'>5000000</us-gaap:PreferredStockSharesIssued>
+	<us-gaap:PreferredStockSharesIssued decimals='INF' contextRef='E16' unitRef='Shares'>5000000</us-gaap:PreferredStockSharesIssued>
+	<fil:PreferredStockSharesAuthorized1 decimals='INF' contextRef='E17Q1' unitRef='Shares'>5000000</fil:PreferredStockSharesAuthorized1>
+	<fil:PreferredStockSharesAuthorized1 decimals='INF' contextRef='E16' unitRef='Shares'>5000000</fil:PreferredStockSharesAuthorized1>
+	<fil:PreferredStockSharesIssued1 decimals='INF' contextRef='E17Q1' unitRef='Shares'>0</fil:PreferredStockSharesIssued1>
+	<fil:PreferredStockSharesIssued1 decimals='INF' contextRef='E16' unitRef='Shares'>0</fil:PreferredStockSharesIssued1>
+	<fil:PreferredStockSharesAuthorized2 decimals='INF' contextRef='E17Q1' unitRef='Shares'>5000000</fil:PreferredStockSharesAuthorized2>
+	<fil:PreferredStockSharesAuthorized2 decimals='INF' contextRef='E16' unitRef='Shares'>5000000</fil:PreferredStockSharesAuthorized2>
+	<fil:PreferredStockSharesIssued2 decimals='INF' contextRef='E17Q1' unitRef='Shares'>0</fil:PreferredStockSharesIssued2>
+	<fil:PreferredStockSharesIssued2 decimals='INF' contextRef='E16' unitRef='Shares'>0</fil:PreferredStockSharesIssued2>
+	<us-gaap:CommonStockParOrStatedValuePerShare decimals='INF' contextRef='E17Q1' unitRef='UsdPerShare'>0.001</us-gaap:CommonStockParOrStatedValuePerShare>
+	<us-gaap:CommonStockParOrStatedValuePerShare decimals='INF' contextRef='E16' unitRef='UsdPerShare'>0.001</us-gaap:CommonStockParOrStatedValuePerShare>
+	<us-gaap:CommonStockSharesAuthorized decimals='INF' contextRef='E17Q1' unitRef='Shares'>1000000000</us-gaap:CommonStockSharesAuthorized>
+	<us-gaap:CommonStockSharesAuthorized decimals='INF' contextRef='E16' unitRef='Shares'>1000000000</us-gaap:CommonStockSharesAuthorized>
+	<us-gaap:CommonStockSharesIssued decimals='INF' contextRef='E17Q1' unitRef='Shares'>66212227</us-gaap:CommonStockSharesIssued>
+	<us-gaap:CommonStockSharesIssued decimals='INF' contextRef='E16' unitRef='Shares'>65462227</us-gaap:CommonStockSharesIssued>
+	<us-gaap:CommonStockSharesOutstanding decimals='INF' contextRef='E17Q1' unitRef='Shares'>66212227</us-gaap:CommonStockSharesOutstanding>
+	<us-gaap:CommonStockSharesOutstanding decimals='INF' contextRef='E16' unitRef='Shares'>65462227</us-gaap:CommonStockSharesOutstanding>
+	<fil:CommonStockToBeIssuedParValue decimals='INF' contextRef='E17Q1' unitRef='UsdPerShare'>0.001</fil:CommonStockToBeIssuedParValue>
+	<fil:CommonStockToBeIssuedParValue decimals='INF' contextRef='E16' unitRef='UsdPerShare'>0.001</fil:CommonStockToBeIssuedParValue>
+	<us-gaap:CommonStockSharesSubscribedButUnissued decimals='INF' contextRef='E17Q1' unitRef='Shares'>3750</us-gaap:CommonStockSharesSubscribedButUnissued>
+	<us-gaap:CommonStockSharesSubscribedButUnissued decimals='INF' contextRef='E16' unitRef='Shares'>3750</us-gaap:CommonStockSharesSubscribedButUnissued>
+	<us-gaap:PropertyPlantAndEquipmentNet decimals='INF' contextRef='E17Q1' unitRef='USD'>12616</us-gaap:PropertyPlantAndEquipmentNet>
+	<us-gaap:PropertyPlantAndEquipmentNet decimals='INF' contextRef='E16' unitRef='USD'>12845</us-gaap:PropertyPlantAndEquipmentNet>
+	<us-gaap:Assets decimals='INF' contextRef='E17Q1' unitRef='USD'>12616</us-gaap:Assets>
+	<us-gaap:Assets decimals='INF' contextRef='E16' unitRef='USD'>12845</us-gaap:Assets>
+	<us-gaap:AccountsPayableCurrent decimals='INF' contextRef='E17Q1' unitRef='USD'>226398</us-gaap:AccountsPayableCurrent>
+	<us-gaap:AccountsPayableCurrent decimals='INF' contextRef='E16' unitRef='USD'>226398</us-gaap:AccountsPayableCurrent>
+	<us-gaap:DueToOfficersOrStockholdersCurrent decimals='INF' contextRef='E17Q1' unitRef='USD'>104721</us-gaap:DueToOfficersOrStockholdersCurrent>
+	<us-gaap:DueToOfficersOrStockholdersCurrent decimals='INF' contextRef='E16' unitRef='USD'>85287</us-gaap:DueToOfficersOrStockholdersCurrent>
+	<us-gaap:Liabilities decimals='INF' contextRef='E17Q1' unitRef='USD'>331119</us-gaap:Liabilities>
+	<us-gaap:Liabilities decimals='INF' contextRef='E16' unitRef='USD'>311685</us-gaap:Liabilities>
+	<us-gaap:PreferredStockValue decimals='INF' contextRef='E17Q1' unitRef='USD'>105000</us-gaap:PreferredStockValue>
+	<us-gaap:PreferredStockValue decimals='INF' contextRef='E16' unitRef='USD'>105000</us-gaap:PreferredStockValue>
+	<fil:SeriesBPreferredStockValue1 decimals='INF' contextRef='E17Q1' unitRef='USD'>0</fil:SeriesBPreferredStockValue1>
+	<fil:SeriesBPreferredStockValue1 decimals='INF' contextRef='E16' unitRef='USD'>0</fil:SeriesBPreferredStockValue1>
+	<fil:SeriesCPreferredStockValue1 decimals='INF' contextRef='E17Q1' unitRef='USD'>0</fil:SeriesCPreferredStockValue1>
+	<fil:SeriesCPreferredStockValue1 decimals='INF' contextRef='E16' unitRef='USD'>0</fil:SeriesCPreferredStockValue1>
+	<us-gaap:CommonStockValue decimals='INF' contextRef='E17Q1' unitRef='USD'>66212</us-gaap:CommonStockValue>
+	<us-gaap:CommonStockValue decimals='INF' contextRef='E16' unitRef='USD'>65462</us-gaap:CommonStockValue>
+	<us-gaap:CommonStockShareSubscribedButUnissuedSubscriptionsReceivable decimals='INF' contextRef='E17Q1' unitRef='USD'>4</us-gaap:CommonStockShareSubscribedButUnissuedSubscriptionsReceivable>
+	<us-gaap:CommonStockShareSubscribedButUnissuedSubscriptionsReceivable decimals='INF' contextRef='E16' unitRef='USD'>4</us-gaap:CommonStockShareSubscribedButUnissuedSubscriptionsReceivable>
+	<us-gaap:AdditionalPaidInCapital decimals='INF' contextRef='E17Q1' unitRef='USD'>300458</us-gaap:AdditionalPaidInCapital>
+	<us-gaap:AdditionalPaidInCapital decimals='INF' contextRef='E16' unitRef='USD'>-93792</us-gaap:AdditionalPaidInCapital>
+	<us-gaap:RetainedEarningsAccumulatedDeficit decimals='INF' contextRef='E17Q1' unitRef='USD'>-790177</us-gaap:RetainedEarningsAccumulatedDeficit>
+	<us-gaap:RetainedEarningsAccumulatedDeficit decimals='INF' contextRef='E16' unitRef='USD'>-375514</us-gaap:RetainedEarningsAccumulatedDeficit>
+	<us-gaap:StockholdersEquity decimals='INF' contextRef='E17Q1' unitRef='USD'>-318503</us-gaap:StockholdersEquity>
+	<us-gaap:StockholdersEquity decimals='INF' contextRef='E16' unitRef='USD'>-298840</us-gaap:StockholdersEquity>
+	<us-gaap:LiabilitiesAndStockholdersEquity decimals='INF' contextRef='E17Q1' unitRef='USD'>12616</us-gaap:LiabilitiesAndStockholdersEquity>
+	<us-gaap:LiabilitiesAndStockholdersEquity decimals='INF' contextRef='E16' unitRef='USD'>12845</us-gaap:LiabilitiesAndStockholdersEquity>
+	<us-gaap:ProfitLoss decimals='INF' contextRef='Y17Q1' unitRef='USD'>-414663</us-gaap:ProfitLoss>
+	<us-gaap:ProfitLoss decimals='INF' contextRef='Y16Q1' unitRef='USD'>-26260</us-gaap:ProfitLoss>
+	<us-gaap:DepreciationAndAmortization decimals='INF' contextRef='Y17Q1' unitRef='USD'>229</us-gaap:DepreciationAndAmortization>
+	<us-gaap:DepreciationAndAmortization decimals='INF' contextRef='Y16Q1' unitRef='USD'>229</us-gaap:DepreciationAndAmortization>
+	<us-gaap:StockIssuedDuringPeriodValueShareBasedCompensation decimals='INF' contextRef='Y17Q1' unitRef='USD'>395000</us-gaap:StockIssuedDuringPeriodValueShareBasedCompensation>
+	<us-gaap:StockIssuedDuringPeriodValueShareBasedCompensation decimals='INF' contextRef='Y16Q1' unitRef='USD'>0</us-gaap:StockIssuedDuringPeriodValueShareBasedCompensation>
+	<us-gaap:NetCashProvidedByUsedInOperatingActivities decimals='INF' contextRef='Y17Q1' unitRef='USD'>-19434</us-gaap:NetCashProvidedByUsedInOperatingActivities>
+	<us-gaap:NetCashProvidedByUsedInOperatingActivities decimals='INF' contextRef='Y16Q1' unitRef='USD'>-26031</us-gaap:NetCashProvidedByUsedInOperatingActivities>
+	<fil:StockIssuedAsCompensation decimals='INF' contextRef='Y17Q1' unitRef='USD'>0</fil:StockIssuedAsCompensation>
+	<fil:StockIssuedAsCompensation decimals='INF' contextRef='Y16Q1' unitRef='USD'>3000</fil:StockIssuedAsCompensation>
+	<us-gaap:NetCashProvidedByUsedInInvestingActivities decimals='INF' contextRef='Y17Q1' unitRef='USD'>0</us-gaap:NetCashProvidedByUsedInInvestingActivities>
+	<us-gaap:NetCashProvidedByUsedInInvestingActivities decimals='INF' contextRef='Y16Q1' unitRef='USD'>3000</us-gaap:NetCashProvidedByUsedInInvestingActivities>
+	<us-gaap:ProceedsFromRelatedPartyDebt decimals='INF' contextRef='Y17Q1' unitRef='USD'>19434</us-gaap:ProceedsFromRelatedPartyDebt>
+	<us-gaap:ProceedsFromRelatedPartyDebt decimals='INF' contextRef='Y16Q1' unitRef='USD'>22992</us-gaap:ProceedsFromRelatedPartyDebt>
+	<us-gaap:NetCashProvidedByUsedInFinancingActivities decimals='INF' contextRef='Y17Q1' unitRef='USD'>19434</us-gaap:NetCashProvidedByUsedInFinancingActivities>
+	<us-gaap:NetCashProvidedByUsedInFinancingActivities decimals='INF' contextRef='Y16Q1' unitRef='USD'>22992</us-gaap:NetCashProvidedByUsedInFinancingActivities>
+	<us-gaap:CashAndCashEquivalentsPeriodIncreaseDecrease decimals='INF' contextRef='Y17Q1' unitRef='USD'>0</us-gaap:CashAndCashEquivalentsPeriodIncreaseDecrease>
+	<us-gaap:CashAndCashEquivalentsPeriodIncreaseDecrease decimals='INF' contextRef='Y16Q1' unitRef='USD'>-39</us-gaap:CashAndCashEquivalentsPeriodIncreaseDecrease>
+	<us-gaap:CashAndCashEquivalentsAtCarryingValue decimals='INF' contextRef='E16' unitRef='USD'>0</us-gaap:CashAndCashEquivalentsAtCarryingValue>
+	<us-gaap:CashAndCashEquivalentsAtCarryingValue decimals='INF' contextRef='E15' unitRef='USD'>108</us-gaap:CashAndCashEquivalentsAtCarryingValue>
+	<us-gaap:CashAndCashEquivalentsAtCarryingValue decimals='INF' contextRef='E17Q1' unitRef='USD'>0</us-gaap:CashAndCashEquivalentsAtCarryingValue>
+	<us-gaap:CashAndCashEquivalentsAtCarryingValue decimals='INF' contextRef='E16Q1' unitRef='USD'>69</us-gaap:CashAndCashEquivalentsAtCarryingValue>
+	<us-gaap:LegalFees decimals='INF' contextRef='Y17Q1' unitRef='USD'>17600</us-gaap:LegalFees>
+	<us-gaap:LegalFees decimals='INF' contextRef='Y16Q1' unitRef='USD'>16406</us-gaap:LegalFees>
+	<fil:PublicCompanyCosts decimals='INF' contextRef='Y17Q1' unitRef='USD'>390000</fil:PublicCompanyCosts>
+	<fil:PublicCompanyCosts decimals='INF' contextRef='Y16Q1' unitRef='USD'>7236</fil:PublicCompanyCosts>
+	<us-gaap:OfficersCompensation decimals='INF' contextRef='Y17Q1' unitRef='USD'>4000</us-gaap:OfficersCompensation>
+	<us-gaap:OfficersCompensation decimals='INF' contextRef='Y16Q1' unitRef='USD'>0</us-gaap:OfficersCompensation>
+	<us-gaap:OtherExpenses decimals='INF' contextRef='Y17Q1' unitRef='USD'>2834</us-gaap:OtherExpenses>
+	<us-gaap:OtherExpenses decimals='INF' contextRef='Y16Q1' unitRef='USD'>2389</us-gaap:OtherExpenses>
+	<us-gaap:Depreciation decimals='INF' contextRef='Y17Q1' unitRef='USD'>229</us-gaap:Depreciation>
+	<us-gaap:Depreciation decimals='INF' contextRef='Y16Q1' unitRef='USD'>229</us-gaap:Depreciation>
+	<us-gaap:OperatingExpenses decimals='INF' contextRef='Y17Q1' unitRef='USD'>414663</us-gaap:OperatingExpenses>
+	<us-gaap:OperatingExpenses decimals='INF' contextRef='Y16Q1' unitRef='USD'>26260</us-gaap:OperatingExpenses>
+	<us-gaap:OperatingIncomeLoss decimals='INF' contextRef='Y17Q1' unitRef='USD'>-414663</us-gaap:OperatingIncomeLoss>
+	<us-gaap:OperatingIncomeLoss decimals='INF' contextRef='Y16Q1' unitRef='USD'>-26260</us-gaap:OperatingIncomeLoss>
+	<us-gaap:IncomeLossFromContinuingOperationsBeforeInterestExpenseInterestIncomeIncomeTaxesExtraordinaryItemsNoncontrollingInterestsNet decimals='INF' contextRef='Y17Q1' unitRef='USD'>-414663</us-gaap:IncomeLossFromContinuingOperationsBeforeInterestExpenseInterestIncomeIncomeTaxesExtraordinaryItemsNoncontrollingInterestsNet>
+	<us-gaap:IncomeLossFromContinuingOperationsBeforeInterestExpenseInterestIncomeIncomeTaxesExtraordinaryItemsNoncontrollingInterestsNet decimals='INF' contextRef='Y16Q1' unitRef='USD'>-26260</us-gaap:IncomeLossFromContinuingOperationsBeforeInterestExpenseInterestIncomeIncomeTaxesExtraordinaryItemsNoncontrollingInterestsNet>
+	<us-gaap:IncomeTaxExpenseBenefit decimals='INF' contextRef='Y17Q1' unitRef='USD'>0</us-gaap:IncomeTaxExpenseBenefit>
+	<us-gaap:IncomeTaxExpenseBenefit decimals='INF' contextRef='Y16Q1' unitRef='USD'>0</us-gaap:IncomeTaxExpenseBenefit>
+	<us-gaap:NetIncomeLoss decimals='INF' contextRef='Y17Q1' unitRef='USD'>-414663</us-gaap:NetIncomeLoss>
+	<us-gaap:NetIncomeLoss decimals='INF' contextRef='Y16Q1' unitRef='USD'>-26260</us-gaap:NetIncomeLoss>
+	<us-gaap:EarningsPerShareBasicAndDiluted decimals='INF' contextRef='Y17Q1' unitRef='UsdPerShare'>-0.01</us-gaap:EarningsPerShareBasicAndDiluted>
+	<us-gaap:EarningsPerShareBasicAndDiluted decimals='INF' contextRef='Y16Q1' unitRef='UsdPerShare'>0.00</us-gaap:EarningsPerShareBasicAndDiluted>
+	<us-gaap:WeightedAverageNumberOfShareOutstandingBasicAndDiluted decimals='INF' contextRef='Y17Q1' unitRef='Shares'>65734449</us-gaap:WeightedAverageNumberOfShareOutstandingBasicAndDiluted>
+	<us-gaap:WeightedAverageNumberOfShareOutstandingBasicAndDiluted decimals='INF' contextRef='Y16Q1' unitRef='Shares'>61096671</us-gaap:WeightedAverageNumberOfShareOutstandingBasicAndDiluted>
+	<us-gaap:SharesOutstanding decimals='INF' contextRef='E15_StEqComps-PrefStock' unitRef='Shares'>1500000</us-gaap:SharesOutstanding>
+	<us-gaap:SharesOutstanding decimals='INF' contextRef='E15_StEqComps-SeriesAPrefSharesToBeIssued' unitRef='Shares'>0</us-gaap:SharesOutstanding>
+	<us-gaap:SharesOutstanding decimals='INF' contextRef='E15_StEqComps-CommonStock' unitRef='Shares'>61012227</us-gaap:SharesOutstanding>
+	<us-gaap:SharesOutstanding decimals='INF' contextRef='E15_StEqComps-CapUnits' unitRef='Shares'>61012</us-gaap:SharesOutstanding>
+	<us-gaap:SharesOutstanding decimals='INF' contextRef='E15_StEqComps-CommonSharesToBeIssued' unitRef='Shares'>3750</us-gaap:SharesOutstanding>
+	<us-gaap:SharesOutstanding decimals='INF' contextRef='E15_StEqComps-CommonStockToBeIssued' unitRef='Shares'>4</us-gaap:SharesOutstanding>
+	<us-gaap:SharesOutstanding decimals='INF' contextRef='E15_StEqComps-AddPaidInCap' unitRef='Shares'>-177342</us-gaap:SharesOutstanding>
+	<us-gaap:SharesOutstanding decimals='INF' contextRef='E15_StEqComps-RetainedEarnings' unitRef='Shares'>-178421</us-gaap:SharesOutstanding>
+	<us-gaap:SharesOutstanding decimals='INF' contextRef='E15' unitRef='Shares'>-294747</us-gaap:SharesOutstanding>
+	<fil:InvestmentJanuary5 decimals='INF' contextRef='Y16_StEqComps-CommonStock' unitRef='USD'>3000000</fil:InvestmentJanuary5>
+	<fil:InvestmentJanuary5 decimals='INF' contextRef='Y16_StEqComps-CapUnits' unitRef='USD'>3000</fil:InvestmentJanuary5>
+	<fil:InvestmentJanuary5 decimals='INF' contextRef='Y16_StEqComps-AddPaidInCap' unitRef='USD'>27000</fil:InvestmentJanuary5>
+	<fil:InvestmentJanuary5 decimals='INF' contextRef='Y16' unitRef='USD'>30000</fil:InvestmentJanuary5>
+	<fil:CommonSharesIssuedAsCompensationJan20 decimals='INF' contextRef='Y16_StEqComps-CommonStock' unitRef='Shares'>1000000</fil:CommonSharesIssuedAsCompensationJan20>
+	<fil:CommonSharesIssuedAsCompensationJan20 decimals='INF' contextRef='Y16_StEqComps-CapUnits' unitRef='Shares'>1000</fil:CommonSharesIssuedAsCompensationJan20>
+	<fil:CommonSharesIssuedAsCompensationJan20 decimals='INF' contextRef='Y16_StEqComps-AddPaidInCap' unitRef='Shares'>14000</fil:CommonSharesIssuedAsCompensationJan20>
+	<fil:CommonSharesIssuedAsCompensationJan20 decimals='INF' contextRef='Y16' unitRef='Shares'>15000</fil:CommonSharesIssuedAsCompensationJan20>
+	<fil:CommonSharesIssuedAsCompensationFeb23 decimals='INF' contextRef='Y16_StEqComps-CommonStock' unitRef='Shares'>200000</fil:CommonSharesIssuedAsCompensationFeb23>
+	<fil:CommonSharesIssuedAsCompensationFeb23 decimals='INF' contextRef='Y16_StEqComps-CapUnits' unitRef='Shares'>200</fil:CommonSharesIssuedAsCompensationFeb23>
+	<fil:CommonSharesIssuedAsCompensationFeb23 decimals='INF' contextRef='Y16_StEqComps-AddPaidInCap' unitRef='Shares'>2800</fil:CommonSharesIssuedAsCompensationFeb23>
+	<fil:CommonSharesIssuedAsCompensationFeb23 decimals='INF' contextRef='Y16' unitRef='Shares'>3000</fil:CommonSharesIssuedAsCompensationFeb23>
+	<fil:PreferredASharesIssuedFebruary25 decimals='INF' contextRef='Y16_StEqComps-CommonStock' unitRef='Shares'>2000000</fil:PreferredASharesIssuedFebruary25>
+	<fil:PreferredASharesIssuedFebruary25 decimals='INF' contextRef='Y16_StEqComps-MemberUnits' unitRef='Shares'>60000</fil:PreferredASharesIssuedFebruary25>
+	<fil:PreferredASharesIssuedFebruary25 decimals='INF' contextRef='Y16' unitRef='Shares'>60000</fil:PreferredASharesIssuedFebruary25>
+	<fil:PreferredASharesIssuedApril26 decimals='INF' contextRef='Y16_StEqComps-PrefStock' unitRef='Shares'>1500000</fil:PreferredASharesIssuedApril26>
+	<fil:PreferredASharesIssuedApril26 decimals='INF' contextRef='Y16_StEqComps-MemberUnits' unitRef='Shares'>45000</fil:PreferredASharesIssuedApril26>
+	<fil:PreferredASharesIssuedApril26 decimals='INF' contextRef='Y16' unitRef='Shares'>45000</fil:PreferredASharesIssuedApril26>
+	<fil:CommonSharesIssuedAsCompensationOct5 decimals='INF' contextRef='Y16_StEqComps-CommonStock' unitRef='Shares'>250000</fil:CommonSharesIssuedAsCompensationOct5>
+	<fil:CommonSharesIssuedAsCompensationOct5 decimals='INF' contextRef='Y16_StEqComps-CapUnits' unitRef='Shares'>250</fil:CommonSharesIssuedAsCompensationOct5>
+	<fil:CommonSharesIssuedAsCompensationOct5 decimals='INF' contextRef='Y16_StEqComps-AddPaidInCap' unitRef='Shares'>39750</fil:CommonSharesIssuedAsCompensationOct5>
+	<fil:CommonSharesIssuedAsCompensationOct5 decimals='INF' contextRef='Y16' unitRef='Shares'>40000</fil:CommonSharesIssuedAsCompensationOct5>
+	<fil:NetLossForTheYearEndedDecember312016 decimals='INF' contextRef='Y16_StEqComps-RetainedEarnings' unitRef='USD'>-197093</fil:NetLossForTheYearEndedDecember312016>
+	<fil:NetLossForTheYearEndedDecember312016 decimals='INF' contextRef='Y16' unitRef='USD'>-197093</fil:NetLossForTheYearEndedDecember312016>
+	<fil:Balance decimals='INF' contextRef='E16_StEqComps-PrefStock' unitRef='Shares'>5000000</fil:Balance>
+	<fil:Balance decimals='INF' contextRef='E16_StEqComps-MemberUnits' unitRef='Shares'>105000</fil:Balance>
+	<fil:Balance decimals='INF' contextRef='E16_StEqComps-CommonStock' unitRef='Shares'>65462227</fil:Balance>
+	<fil:Balance decimals='INF' contextRef='E16_StEqComps-CapUnits' unitRef='Shares'>65462</fil:Balance>
+	<fil:Balance decimals='INF' contextRef='E16_StEqComps-CommonSharesToBeIssued' unitRef='Shares'>3750</fil:Balance>
+	<fil:Balance decimals='INF' contextRef='E16_StEqComps-CommonStockToBeIssued' unitRef='Shares'>4</fil:Balance>
+	<fil:Balance decimals='INF' contextRef='E16_StEqComps-AddPaidInCap' unitRef='Shares'>-93792</fil:Balance>
+	<fil:Balance decimals='INF' contextRef='E16_StEqComps-RetainedEarnings' unitRef='Shares'>-375514</fil:Balance>
+	<fil:Balance decimals='INF' contextRef='E16' unitRef='Shares'>-298840</fil:Balance>
+	<fil:CommonSharesIssuedAsCompensationJan15 decimals='INF' contextRef='Y17Q1_StEqComps-CommonStock' unitRef='Shares'>100000</fil:CommonSharesIssuedAsCompensationJan15>
+	<fil:CommonSharesIssuedAsCompensationJan15 decimals='INF' contextRef='Y17Q1_StEqComps-CapUnits' unitRef='Shares'>100</fil:CommonSharesIssuedAsCompensationJan15>
+	<fil:CommonSharesIssuedAsCompensationJan15 decimals='INF' contextRef='Y17Q1' unitRef='Shares'>5000</fil:CommonSharesIssuedAsCompensationJan15>
+	<fil:CommonSharesIssuedAsCompensationMar6 decimals='INF' contextRef='Y17Q1_StEqComps-CommonStock' unitRef='Shares'>650000</fil:CommonSharesIssuedAsCompensationMar6>
+	<fil:CommonSharesIssuedAsCompensationMar6 decimals='INF' contextRef='Y17Q1_StEqComps-CapUnits' unitRef='Shares'>650</fil:CommonSharesIssuedAsCompensationMar6>
+	<fil:CommonSharesIssuedAsCompensationMar6 decimals='INF' contextRef='Y17Q1' unitRef='Shares'>390000</fil:CommonSharesIssuedAsCompensationMar6>
+	<fil:NetLossForThePeriodEndedMarch312017 decimals='INF' contextRef='Y17Q1_StEqComps-RetainedEarnings' unitRef='USD'>-414663</fil:NetLossForThePeriodEndedMarch312017>
+	<fil:NetLossForThePeriodEndedMarch312017 decimals='INF' contextRef='Y17Q1' unitRef='USD'>-414663</fil:NetLossForThePeriodEndedMarch312017>
+	<fil:Balance1 decimals='INF' contextRef='E17Q1_StEqComps-PrefStock' unitRef='Shares'>5000000</fil:Balance1>
+	<fil:Balance1 decimals='INF' contextRef='E17Q1_StEqComps-MemberUnits' unitRef='Shares'>105000</fil:Balance1>
+	<fil:Balance1 decimals='INF' contextRef='E17Q1_StEqComps-SeriesAPrefSharesToBeIssued' unitRef='Shares'>0</fil:Balance1>
+	<fil:Balance1 decimals='INF' contextRef='E17Q1_StEqComps-CommonStock' unitRef='Shares'>66212227</fil:Balance1>
+	<fil:Balance1 decimals='INF' contextRef='E17Q1_StEqComps-CapUnits' unitRef='Shares'>66212</fil:Balance1>
+	<fil:Balance1 decimals='INF' contextRef='E17Q1_StEqComps-CommonSharesToBeIssued' unitRef='Shares'>3750</fil:Balance1>
+	<fil:Balance1 decimals='INF' contextRef='E17Q1_StEqComps-CommonStockToBeIssued' unitRef='Shares'>4</fil:Balance1>
+	<fil:Balance1 decimals='INF' contextRef='E17Q1_StEqComps-AddPaidInCap' unitRef='Shares'>300458</fil:Balance1>
+	<fil:Balance1 decimals='INF' contextRef='E17Q1_StEqComps-RetainedEarnings' unitRef='Shares'>-790177</fil:Balance1>
+	<fil:Balance1 decimals='INF' contextRef='E17Q1' unitRef='Shares'>-318503</fil:Balance1>
+	<fil:CompanyIssuedCommonSharesToAnInvestor decimals='INF' contextRef='I160105' unitRef='Shares'>1000000</fil:CompanyIssuedCommonSharesToAnInvestor>
+	<fil:CompanyIssuedCommonSharesToAnInvestorWithAFairValueOf decimals='INF' contextRef='I160105' unitRef='USD'>30000</fil:CompanyIssuedCommonSharesToAnInvestorWithAFairValueOf>
+	<fil:CompanyIssuedAsCompensationForServicesProvidedATotalOfCommonShares1 decimals='INF' contextRef='I161005' unitRef='Shares'>250000</fil:CompanyIssuedAsCompensationForServicesProvidedATotalOfCommonShares1>
+	<fil:CompanyIssuedAsCompensationForServicesProvidedATotalOfCommonShares1 decimals='INF' contextRef='I160223' unitRef='Shares'>200000</fil:CompanyIssuedAsCompensationForServicesProvidedATotalOfCommonShares1>
+	<fil:CompanyIssuedAsCompensationForServicesProvidedATotalOfCommonShares1 decimals='INF' contextRef='I160120' unitRef='Shares'>1000000</fil:CompanyIssuedAsCompensationForServicesProvidedATotalOfCommonShares1>
+	<fil:CompanyIssuedAsCompensationForServicesProvidedATotalOfCommonShares1 decimals='INF' contextRef='I170115' unitRef='Shares'>100000</fil:CompanyIssuedAsCompensationForServicesProvidedATotalOfCommonShares1>
+	<fil:CompanyIssuedAsCompensationForServicesProvidedATotalOfCommonShares1 decimals='INF' contextRef='I170306' unitRef='Shares'>650000</fil:CompanyIssuedAsCompensationForServicesProvidedATotalOfCommonShares1>
+	<fil:CompanyIssuedAsCompensationForServicesWithAFairValueOf1 decimals='INF' contextRef='I161005' unitRef='USD'>40000</fil:CompanyIssuedAsCompensationForServicesWithAFairValueOf1>
+	<fil:CompanyIssuedAsCompensationForServicesWithAFairValueOf1 decimals='INF' contextRef='I160223' unitRef='USD'>3000</fil:CompanyIssuedAsCompensationForServicesWithAFairValueOf1>
+	<fil:CompanyIssuedAsCompensationForServicesWithAFairValueOf1 decimals='INF' contextRef='I160120' unitRef='USD'>15000</fil:CompanyIssuedAsCompensationForServicesWithAFairValueOf1>
+	<fil:CompanyIssuedAsCompensationForServicesWithAFairValueOf1 decimals='INF' contextRef='I170115' unitRef='USD'>5000</fil:CompanyIssuedAsCompensationForServicesWithAFairValueOf1>
+	<fil:CompanyIssuedAsCompensationForServicesWithAFairValueOf1 decimals='INF' contextRef='I170306' unitRef='USD'>390000</fil:CompanyIssuedAsCompensationForServicesWithAFairValueOf1>
+	<fil:CompanyIssuedClassAPreferredShares decimals='INF' contextRef='I160426' unitRef='Shares'>1500000</fil:CompanyIssuedClassAPreferredShares>
+	<fil:CompanyIssuedClassAPreferredShares decimals='INF' contextRef='I160225' unitRef='Shares'>2000000</fil:CompanyIssuedClassAPreferredShares>
+	<fil:CompanyIsAuthorizedToIssueClassAPreferredShares decimals='INF' contextRef='E16' unitRef='Shares'>5000000</fil:CompanyIsAuthorizedToIssueClassAPreferredShares>
+	<fil:CompanyIsAuthorizedToIssueClassAPreferredSharesWithPerValue decimals='INF' contextRef='E16' unitRef='UsdPerShare'>0.001</fil:CompanyIsAuthorizedToIssueClassAPreferredSharesWithPerValue>
+	<fil:ClassAPreferredSharesIssuedAndOutstanding decimals='INF' contextRef='E16' unitRef='Shares'>5000000</fil:ClassAPreferredSharesIssuedAndOutstanding>
+	<fil:CompanyIsAuthorizedToIssueCommonShares decimals='INF' contextRef='E16' unitRef='Shares'>1000000000</fil:CompanyIsAuthorizedToIssueCommonShares>
+	<fil:CompanyIsAuthorizedToIssueCommonSharesParValuePerShare decimals='INF' contextRef='E16' unitRef='UsdPerShare'>0.001</fil:CompanyIsAuthorizedToIssueCommonSharesParValuePerShare>
+	<us-gaap:IncomeLossFromContinuingOperationsPerBasicAndDilutedShare decimals='INF' contextRef='Y17Q1' unitRef='UsdPerShare'>0.01</us-gaap:IncomeLossFromContinuingOperationsPerBasicAndDilutedShare>
+	<us-gaap:IncomeLossFromContinuingOperationsPerBasicAndDilutedShare decimals='INF' contextRef='Y16Q1' unitRef='UsdPerShare'>0.00</us-gaap:IncomeLossFromContinuingOperationsPerBasicAndDilutedShare>
+	<us-gaap:IncomeTaxesPaid decimals='INF' contextRef='Y17Q1' unitRef='USD'>0</us-gaap:IncomeTaxesPaid>
+	<us-gaap:IncomeTaxesPaid decimals='INF' contextRef='Y16Q1' unitRef='USD'>0</us-gaap:IncomeTaxesPaid>
+	<us-gaap:InterestPaid decimals='INF' contextRef='Y17Q1' unitRef='USD'>0</us-gaap:InterestPaid>
+	<us-gaap:InterestPaid decimals='INF' contextRef='Y16Q1' unitRef='USD'>0</us-gaap:InterestPaid>
+	<fil:OutstandingLoans decimals='INF' contextRef='I170306' unitRef='USD'>104613</fil:OutstandingLoans>
+	<fil:OutstandingLoans decimals='INF' contextRef='E16' unitRef='USD'>85287</fil:OutstandingLoans>
+	<fil:OutstandingLoansOfRelatedParty decimals='INF' contextRef='I170306' unitRef='USD'>108</fil:OutstandingLoansOfRelatedParty>
+	<fil:OutstandingLoansOfRelatedParty decimals='INF' contextRef='E16' unitRef='USD'>108</fil:OutstandingLoansOfRelatedParty>
+	<dei:DocumentType contextRef='Y17Q1'>10-Q</dei:DocumentType>
+	<dei:DocumentPeriodEndDate contextRef='Y17Q1'>2017-03-31</dei:DocumentPeriodEndDate>
+	<dei:AmendmentFlag contextRef='Y17Q1'>false</dei:AmendmentFlag>
+	<dei:EntityRegistrantName contextRef='Y17Q1'>RemSleep Holdings Inc.</dei:EntityRegistrantName>
+	<dei:EntityCentralIndexKey contextRef='Y17Q1'>0001412126</dei:EntityCentralIndexKey>
+	<dei:TradingSymbol contextRef='Y17Q1'>rmsl</dei:TradingSymbol>
+	<dei:CurrentFiscalYearEndDate contextRef='Y17Q1'>--12-31</dei:CurrentFiscalYearEndDate>
+	<dei:EntityCommonStockSharesOutstanding decimals='INF' contextRef='I170517' unitRef='Shares'>63212227</dei:EntityCommonStockSharesOutstanding>
+	<dei:EntityFilerCategory contextRef='Y17Q1'>Smaller Reporting Company</dei:EntityFilerCategory>
+	<dei:EntityCurrentReportingStatus contextRef='Y17Q1'>Yes</dei:EntityCurrentReportingStatus>
+	<dei:EntityVoluntaryFilers contextRef='Y17Q1'>No</dei:EntityVoluntaryFilers>
+	<dei:EntityWellKnownSeasonedIssuer contextRef='Y17Q1'>No</dei:EntityWellKnownSeasonedIssuer>
+	<dei:DocumentFiscalYearFocus contextRef='Y17Q1'>2017</dei:DocumentFiscalYearFocus>
+	<dei:DocumentFiscalPeriodFocus contextRef='Y17Q1'>Q1</dei:DocumentFiscalPeriodFocus>
+	<fil:CompanyCancelledCommonShares decimals='INF' contextRef='I170430' unitRef='Shares'>3000000</fil:CompanyCancelledCommonShares>
+	<fil:ClassAPreferredSharesThatHadBeenPreviouslyIssuedToHim decimals='INF' contextRef='I170430' unitRef='Shares'>1500000</fil:ClassAPreferredSharesThatHadBeenPreviouslyIssuedToHim>
+	<context id='Y17Q1'>
+		<entity>
+			<identifier scheme='http://www.sec.gov/CIK'>0001412126</identifier>
+		</entity>
+		<period>
+			<startDate>2017-01-01</startDate>
+			<endDate>2017-03-31</endDate>
+		</period>
+	</context>
+	<context id='I170517'>
+		<entity>
+			<identifier scheme='http://www.sec.gov/CIK'>0001412126</identifier>
+		</entity>
+		<period>
+			<instant>2017-05-17</instant>
+		</period>
+	</context>
+	<context id='E17Q1'>
+		<entity>
+			<identifier scheme='http://www.sec.gov/CIK'>0001412126</identifier>
+		</entity>
+		<period>
+			<instant>2017-03-31</instant>
+		</period>
+	</context>
+	<context id='E16'>
+		<entity>
+			<identifier scheme='http://www.sec.gov/CIK'>0001412126</identifier>
+		</entity>
+		<period>
+			<instant>2016-12-31</instant>
+		</period>
+	</context>
+	<context id='Y16Q1'>
+		<entity>
+			<identifier scheme='http://www.sec.gov/CIK'>0001412126</identifier>
+		</entity>
+		<period>
+			<startDate>2016-01-01</startDate>
+			<endDate>2016-03-31</endDate>
+		</period>
+	</context>
+	<context id='E15'>
+		<entity>
+			<identifier scheme='http://www.sec.gov/CIK'>0001412126</identifier>
+		</entity>
+		<period>
+			<instant>2015-12-31</instant>
+		</period>
+	</context>
+	<context id='E16Q1'>
+		<entity>
+			<identifier scheme='http://www.sec.gov/CIK'>0001412126</identifier>
+		</entity>
+		<period>
+			<instant>2016-03-31</instant>
+		</period>
+	</context>
+	<context id='Y16'>
+		<entity>
+			<identifier scheme='http://www.sec.gov/CIK'>0001412126</identifier>
+		</entity>
+		<period>
+			<startDate>2016-01-01</startDate>
+			<endDate>2016-12-31</endDate>
+		</period>
+	</context>
+	<context id='Y17Q1_StEqComps-CommonStock'>
+		<entity>
+			<identifier scheme='http://www.sec.gov/CIK'>0001412126</identifier>
+			<segment><xbrldi:explicitMember dimension='us-gaap:StatementEquityComponentsAxis'>us-gaap:CommonStockMember</xbrldi:explicitMember></segment>
+		</entity>
+		<period>
+			<startDate>2017-01-01</startDate>
+			<endDate>2017-03-31</endDate>
+		</period>
+	</context>
+	<context id='Y17Q1_StEqComps-CapUnits'>
+		<entity>
+			<identifier scheme='http://www.sec.gov/CIK'>0001412126</identifier>
+			<segment><xbrldi:explicitMember dimension='us-gaap:StatementEquityComponentsAxis'>us-gaap:CapitalUnitsMember</xbrldi:explicitMember></segment>
+		</entity>
+		<period>
+			<startDate>2017-01-01</startDate>
+			<endDate>2017-03-31</endDate>
+		</period>
+	</context>
+	<context id='Y17Q1_StEqComps-RetainedEarnings'>
+		<entity>
+			<identifier scheme='http://www.sec.gov/CIK'>0001412126</identifier>
+			<segment><xbrldi:explicitMember dimension='us-gaap:StatementEquityComponentsAxis'>us-gaap:RetainedEarningsMember</xbrldi:explicitMember></segment>
+		</entity>
+		<period>
+			<startDate>2017-01-01</startDate>
+			<endDate>2017-03-31</endDate>
+		</period>
+	</context>
+	<context id='E17Q1_StEqComps-PrefStock'>
+		<entity>
+			<identifier scheme='http://www.sec.gov/CIK'>0001412126</identifier>
+			<segment><xbrldi:explicitMember dimension='us-gaap:StatementEquityComponentsAxis'>us-gaap:PreferredStockMember</xbrldi:explicitMember></segment>
+		</entity>
+		<period>
+			<instant>2017-03-31</instant>
+		</period>
+	</context>
+	<context id='E17Q1_StEqComps-SeriesAPrefSharesToBeIssued'>
+		<entity>
+			<identifier scheme='http://www.sec.gov/CIK'>0001412126</identifier>
+			<segment><xbrldi:explicitMember dimension='us-gaap:StatementEquityComponentsAxis'>fil:SeriesAPreferredSharesToBeIssuedMember</xbrldi:explicitMember></segment>
+		</entity>
+		<period>
+			<instant>2017-03-31</instant>
+		</period>
+	</context>
+	<context id='E17Q1_StEqComps-CommonStock'>
+		<entity>
+			<identifier scheme='http://www.sec.gov/CIK'>0001412126</identifier>
+			<segment><xbrldi:explicitMember dimension='us-gaap:StatementEquityComponentsAxis'>us-gaap:CommonStockMember</xbrldi:explicitMember></segment>
+		</entity>
+		<period>
+			<instant>2017-03-31</instant>
+		</period>
+	</context>
+	<context id='E17Q1_StEqComps-CapUnits'>
+		<entity>
+			<identifier scheme='http://www.sec.gov/CIK'>0001412126</identifier>
+			<segment><xbrldi:explicitMember dimension='us-gaap:StatementEquityComponentsAxis'>us-gaap:CapitalUnitsMember</xbrldi:explicitMember></segment>
+		</entity>
+		<period>
+			<instant>2017-03-31</instant>
+		</period>
+	</context>
+	<context id='E17Q1_StEqComps-CommonSharesToBeIssued'>
+		<entity>
+			<identifier scheme='http://www.sec.gov/CIK'>0001412126</identifier>
+			<segment><xbrldi:explicitMember dimension='us-gaap:StatementEquityComponentsAxis'>fil:CommonSharesToBeIssuedMember</xbrldi:explicitMember></segment>
+		</entity>
+		<period>
+			<instant>2017-03-31</instant>
+		</period>
+	</context>
+	<context id='E17Q1_StEqComps-CommonStockToBeIssued'>
+		<entity>
+			<identifier scheme='http://www.sec.gov/CIK'>0001412126</identifier>
+			<segment><xbrldi:explicitMember dimension='us-gaap:StatementEquityComponentsAxis'>fil:CommonStockToBeIssuedMember</xbrldi:explicitMember></segment>
+		</entity>
+		<period>
+			<instant>2017-03-31</instant>
+		</period>
+	</context>
+	<context id='E17Q1_StEqComps-AddPaidInCap'>
+		<entity>
+			<identifier scheme='http://www.sec.gov/CIK'>0001412126</identifier>
+			<segment><xbrldi:explicitMember dimension='us-gaap:StatementEquityComponentsAxis'>us-gaap:AdditionalPaidInCapitalMember</xbrldi:explicitMember></segment>
+		</entity>
+		<period>
+			<instant>2017-03-31</instant>
+		</period>
+	</context>
+	<context id='E17Q1_StEqComps-RetainedEarnings'>
+		<entity>
+			<identifier scheme='http://www.sec.gov/CIK'>0001412126</identifier>
+			<segment><xbrldi:explicitMember dimension='us-gaap:StatementEquityComponentsAxis'>us-gaap:RetainedEarningsMember</xbrldi:explicitMember></segment>
+		</entity>
+		<period>
+			<instant>2017-03-31</instant>
+		</period>
+	</context>
+	<context id='E17Q1_StEqComps-MemberUnits'>
+		<entity>
+			<identifier scheme='http://www.sec.gov/CIK'>0001412126</identifier>
+			<segment><xbrldi:explicitMember dimension='us-gaap:StatementEquityComponentsAxis'>us-gaap:MemberUnitsMember</xbrldi:explicitMember></segment>
+		</entity>
+		<period>
+			<instant>2017-03-31</instant>
+		</period>
+	</context>
+	<context id='E16_StEqComps-PrefStock'>
+		<entity>
+			<identifier scheme='http://www.sec.gov/CIK'>0001412126</identifier>
+			<segment><xbrldi:explicitMember dimension='us-gaap:StatementEquityComponentsAxis'>us-gaap:PreferredStockMember</xbrldi:explicitMember></segment>
+		</entity>
+		<period>
+			<instant>2016-12-31</instant>
+		</period>
+	</context>
+	<context id='E15_StEqComps-PrefStock'>
+		<entity>
+			<identifier scheme='http://www.sec.gov/CIK'>0001412126</identifier>
+			<segment><xbrldi:explicitMember dimension='us-gaap:StatementEquityComponentsAxis'>us-gaap:PreferredStockMember</xbrldi:explicitMember></segment>
+		</entity>
+		<period>
+			<instant>2015-12-31</instant>
+		</period>
+	</context>
+	<context id='E15_StEqComps-SeriesAPrefSharesToBeIssued'>
+		<entity>
+			<identifier scheme='http://www.sec.gov/CIK'>0001412126</identifier>
+			<segment><xbrldi:explicitMember dimension='us-gaap:StatementEquityComponentsAxis'>fil:SeriesAPreferredSharesToBeIssuedMember</xbrldi:explicitMember></segment>
+		</entity>
+		<period>
+			<instant>2015-12-31</instant>
+		</period>
+	</context>
+	<context id='E16_StEqComps-CommonStock'>
+		<entity>
+			<identifier scheme='http://www.sec.gov/CIK'>0001412126</identifier>
+			<segment><xbrldi:explicitMember dimension='us-gaap:StatementEquityComponentsAxis'>us-gaap:CommonStockMember</xbrldi:explicitMember></segment>
+		</entity>
+		<period>
+			<instant>2016-12-31</instant>
+		</period>
+	</context>
+	<context id='E15_StEqComps-CommonStock'>
+		<entity>
+			<identifier scheme='http://www.sec.gov/CIK'>0001412126</identifier>
+			<segment><xbrldi:explicitMember dimension='us-gaap:StatementEquityComponentsAxis'>us-gaap:CommonStockMember</xbrldi:explicitMember></segment>
+		</entity>
+		<period>
+			<instant>2015-12-31</instant>
+		</period>
+	</context>
+	<context id='E16_StEqComps-CapUnits'>
+		<entity>
+			<identifier scheme='http://www.sec.gov/CIK'>0001412126</identifier>
+			<segment><xbrldi:explicitMember dimension='us-gaap:StatementEquityComponentsAxis'>us-gaap:CapitalUnitsMember</xbrldi:explicitMember></segment>
+		</entity>
+		<period>
+			<instant>2016-12-31</instant>
+		</period>
+	</context>
+	<context id='E15_StEqComps-CapUnits'>
+		<entity>
+			<identifier scheme='http://www.sec.gov/CIK'>0001412126</identifier>
+			<segment><xbrldi:explicitMember dimension='us-gaap:StatementEquityComponentsAxis'>us-gaap:CapitalUnitsMember</xbrldi:explicitMember></segment>
+		</entity>
+		<period>
+			<instant>2015-12-31</instant>
+		</period>
+	</context>
+	<context id='E16_StEqComps-CommonSharesToBeIssued'>
+		<entity>
+			<identifier scheme='http://www.sec.gov/CIK'>0001412126</identifier>
+			<segment><xbrldi:explicitMember dimension='us-gaap:StatementEquityComponentsAxis'>fil:CommonSharesToBeIssuedMember</xbrldi:explicitMember></segment>
+		</entity>
+		<period>
+			<instant>2016-12-31</instant>
+		</period>
+	</context>
+	<context id='E15_StEqComps-CommonSharesToBeIssued'>
+		<entity>
+			<identifier scheme='http://www.sec.gov/CIK'>0001412126</identifier>
+			<segment><xbrldi:explicitMember dimension='us-gaap:StatementEquityComponentsAxis'>fil:CommonSharesToBeIssuedMember</xbrldi:explicitMember></segment>
+		</entity>
+		<period>
+			<instant>2015-12-31</instant>
+		</period>
+	</context>
+	<context id='E16_StEqComps-CommonStockToBeIssued'>
+		<entity>
+			<identifier scheme='http://www.sec.gov/CIK'>0001412126</identifier>
+			<segment><xbrldi:explicitMember dimension='us-gaap:StatementEquityComponentsAxis'>fil:CommonStockToBeIssuedMember</xbrldi:explicitMember></segment>
+		</entity>
+		<period>
+			<instant>2016-12-31</instant>
+		</period>
+	</context>
+	<context id='E15_StEqComps-CommonStockToBeIssued'>
+		<entity>
+			<identifier scheme='http://www.sec.gov/CIK'>0001412126</identifier>
+			<segment><xbrldi:explicitMember dimension='us-gaap:StatementEquityComponentsAxis'>fil:CommonStockToBeIssuedMember</xbrldi:explicitMember></segment>
+		</entity>
+		<period>
+			<instant>2015-12-31</instant>
+		</period>
+	</context>
+	<context id='E16_StEqComps-AddPaidInCap'>
+		<entity>
+			<identifier scheme='http://www.sec.gov/CIK'>0001412126</identifier>
+			<segment><xbrldi:explicitMember dimension='us-gaap:StatementEquityComponentsAxis'>us-gaap:AdditionalPaidInCapitalMember</xbrldi:explicitMember></segment>
+		</entity>
+		<period>
+			<instant>2016-12-31</instant>
+		</period>
+	</context>
+	<context id='E15_StEqComps-AddPaidInCap'>
+		<entity>
+			<identifier scheme='http://www.sec.gov/CIK'>0001412126</identifier>
+			<segment><xbrldi:explicitMember dimension='us-gaap:StatementEquityComponentsAxis'>us-gaap:AdditionalPaidInCapitalMember</xbrldi:explicitMember></segment>
+		</entity>
+		<period>
+			<instant>2015-12-31</instant>
+		</period>
+	</context>
+	<context id='E16_StEqComps-RetainedEarnings'>
+		<entity>
+			<identifier scheme='http://www.sec.gov/CIK'>0001412126</identifier>
+			<segment><xbrldi:explicitMember dimension='us-gaap:StatementEquityComponentsAxis'>us-gaap:RetainedEarningsMember</xbrldi:explicitMember></segment>
+		</entity>
+		<period>
+			<instant>2016-12-31</instant>
+		</period>
+	</context>
+	<context id='E15_StEqComps-RetainedEarnings'>
+		<entity>
+			<identifier scheme='http://www.sec.gov/CIK'>0001412126</identifier>
+			<segment><xbrldi:explicitMember dimension='us-gaap:StatementEquityComponentsAxis'>us-gaap:RetainedEarningsMember</xbrldi:explicitMember></segment>
+		</entity>
+		<period>
+			<instant>2015-12-31</instant>
+		</period>
+	</context>
+	<context id='E16_StEqComps-MemberUnits'>
+		<entity>
+			<identifier scheme='http://www.sec.gov/CIK'>0001412126</identifier>
+			<segment><xbrldi:explicitMember dimension='us-gaap:StatementEquityComponentsAxis'>us-gaap:MemberUnitsMember</xbrldi:explicitMember></segment>
+		</entity>
+		<period>
+			<instant>2016-12-31</instant>
+		</period>
+	</context>
+	<context id='Y16_StEqComps-PrefStock'>
+		<entity>
+			<identifier scheme='http://www.sec.gov/CIK'>0001412126</identifier>
+			<segment><xbrldi:explicitMember dimension='us-gaap:StatementEquityComponentsAxis'>us-gaap:PreferredStockMember</xbrldi:explicitMember></segment>
+		</entity>
+		<period>
+			<startDate>2016-01-01</startDate>
+			<endDate>2016-12-31</endDate>
+		</period>
+	</context>
+	<context id='Y16_StEqComps-MemberUnits'>
+		<entity>
+			<identifier scheme='http://www.sec.gov/CIK'>0001412126</identifier>
+			<segment><xbrldi:explicitMember dimension='us-gaap:StatementEquityComponentsAxis'>us-gaap:MemberUnitsMember</xbrldi:explicitMember></segment>
+		</entity>
+		<period>
+			<startDate>2016-01-01</startDate>
+			<endDate>2016-12-31</endDate>
+		</period>
+	</context>
+	<context id='Y16_StEqComps-CommonStock'>
+		<entity>
+			<identifier scheme='http://www.sec.gov/CIK'>0001412126</identifier>
+			<segment><xbrldi:explicitMember dimension='us-gaap:StatementEquityComponentsAxis'>us-gaap:CommonStockMember</xbrldi:explicitMember></segment>
+		</entity>
+		<period>
+			<startDate>2016-01-01</startDate>
+			<endDate>2016-12-31</endDate>
+		</period>
+	</context>
+	<context id='Y16_StEqComps-CapUnits'>
+		<entity>
+			<identifier scheme='http://www.sec.gov/CIK'>0001412126</identifier>
+			<segment><xbrldi:explicitMember dimension='us-gaap:StatementEquityComponentsAxis'>us-gaap:CapitalUnitsMember</xbrldi:explicitMember></segment>
+		</entity>
+		<period>
+			<startDate>2016-01-01</startDate>
+			<endDate>2016-12-31</endDate>
+		</period>
+	</context>
+	<context id='Y16_StEqComps-AddPaidInCap'>
+		<entity>
+			<identifier scheme='http://www.sec.gov/CIK'>0001412126</identifier>
+			<segment><xbrldi:explicitMember dimension='us-gaap:StatementEquityComponentsAxis'>us-gaap:AdditionalPaidInCapitalMember</xbrldi:explicitMember></segment>
+		</entity>
+		<period>
+			<startDate>2016-01-01</startDate>
+			<endDate>2016-12-31</endDate>
+		</period>
+	</context>
+	<context id='Y16_StEqComps-RetainedEarnings'>
+		<entity>
+			<identifier scheme='http://www.sec.gov/CIK'>0001412126</identifier>
+			<segment><xbrldi:explicitMember dimension='us-gaap:StatementEquityComponentsAxis'>us-gaap:RetainedEarningsMember</xbrldi:explicitMember></segment>
+		</entity>
+		<period>
+			<startDate>2016-01-01</startDate>
+			<endDate>2016-12-31</endDate>
+		</period>
+	</context>
+	<context id='I170306'>
+		<entity>
+			<identifier scheme='http://www.sec.gov/CIK'>0001412126</identifier>
+		</entity>
+		<period>
+			<instant>2017-03-06</instant>
+		</period>
+	</context>
+	<context id='I170115'>
+		<entity>
+			<identifier scheme='http://www.sec.gov/CIK'>0001412126</identifier>
+		</entity>
+		<period>
+			<instant>2017-01-15</instant>
+		</period>
+	</context>
+	<context id='I160105'>
+		<entity>
+			<identifier scheme='http://www.sec.gov/CIK'>0001412126</identifier>
+		</entity>
+		<period>
+			<instant>2016-01-05</instant>
+		</period>
+	</context>
+	<context id='I160120'>
+		<entity>
+			<identifier scheme='http://www.sec.gov/CIK'>0001412126</identifier>
+		</entity>
+		<period>
+			<instant>2016-01-20</instant>
+		</period>
+	</context>
+	<context id='I160223'>
+		<entity>
+			<identifier scheme='http://www.sec.gov/CIK'>0001412126</identifier>
+		</entity>
+		<period>
+			<instant>2016-02-23</instant>
+		</period>
+	</context>
+	<context id='I160225'>
+		<entity>
+			<identifier scheme='http://www.sec.gov/CIK'>0001412126</identifier>
+		</entity>
+		<period>
+			<instant>2016-02-25</instant>
+		</period>
+	</context>
+	<context id='I160426'>
+		<entity>
+			<identifier scheme='http://www.sec.gov/CIK'>0001412126</identifier>
+		</entity>
+		<period>
+			<instant>2016-04-26</instant>
+		</period>
+	</context>
+	<context id='I161005'>
+		<entity>
+			<identifier scheme='http://www.sec.gov/CIK'>0001412126</identifier>
+		</entity>
+		<period>
+			<instant>2016-10-05</instant>
+		</period>
+	</context>
+	<context id='I170430'>
+		<entity>
+			<identifier scheme='http://www.sec.gov/CIK'>0001412126</identifier>
+		</entity>
+		<period>
+			<instant>2017-04-30</instant>
+		</period>
+	</context>
+	<unit id='Shares'>
+		<measure>shares</measure>
+	</unit>
+	<unit id='USD'>
+		<measure>iso4217:USD</measure>
+	</unit>
+	<unit id='UsdPerShare'>
+		<divide>
+			<unitNumerator>
+				<measure>iso4217:USD</measure>
+			</unitNumerator>
+			<unitDenominator>
+				<measure>shares</measure>
+			</unitDenominator>
+		</divide>
+	</unit>
+</xbrl>

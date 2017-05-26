@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='iso-8859-1'?>
+<!-- Vistalytics - iFile Suite version 6.233 -->
+<link:linkbase xmlns="http://www.xbrl.org/2003/linkbase"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd"
+		xmlns:fil="http://www.innocomtechnology.com/20170331"
+		xmlns:link="http://www.xbrl.org/2003/linkbase"
+		xmlns:xlink="http://www.w3.org/1999/xlink"
+		xmlns:xbrldt="http://xbrl.org/2005/xbrldt"
+		xmlns:xbrli="http://www.xbrl.org/2003/instance">
+	<link:roleRef roleURI="http://www.innocomtechnology.com/20170331/role/idr_CONDENSEDCONSOLIDATEDBALANCESHEETS" xlink:type="simple" xlink:href="incm-20170331.xsd#idr_CONDENSEDCONSOLIDATEDBALANCESHEETS"/>
+	<link:calculationLink xlink:type="extended" xlink:role="http://www.innocomtechnology.com/20170331/role/idr_CONDENSEDCONSOLIDATEDBALANCESHEETS">
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_Assets' xlink:label='us-gaap_Assets'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_Cash' xlink:label='us-gaap_Cash'/>
+		<link:calculationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/summation-item' xlink:from='us-gaap_Assets' xlink:to='us-gaap_Cash' use='optional' order='1.0' weight='1.0'/>
+	</link:calculationLink>
+	<link:roleRef roleURI="http://www.innocomtechnology.com/20170331/role/idr_CONDENSEDCONSOLIDATEDSTATEMENTSOFOPERATIONSANDCOMPREHENSIVEINCOMEUnaudited" xlink:type="simple" xlink:href="incm-20170331.xsd#idr_CONDENSEDCONSOLIDATEDSTATEMENTSOFOPERATIONSANDCOMPREHENSIVEINCOMEUnaudited"/>
+	<link:calculationLink xlink:type="extended" xlink:role="http://www.innocomtechnology.com/20170331/role/idr_CONDENSEDCONSOLIDATEDSTATEMENTSOFOPERATIONSANDCOMPREHENSIVEINCOMEUnaudited">
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_GrossProfit' xlink:label='us-gaap_GrossProfit'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_Revenues' xlink:label='us-gaap_Revenues'/>
+		<link:calculationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/summation-item' xlink:from='us-gaap_GrossProfit' xlink:to='us-gaap_Revenues' use='optional' order='1.0' weight='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_CostOfRevenue' xlink:label='us-gaap_CostOfRevenue'/>
+		<link:calculationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/summation-item' xlink:from='us-gaap_GrossProfit' xlink:to='us-gaap_CostOfRevenue' use='optional' order='2.0' weight='-1.0'/>
+	</link:calculationLink>
+	<link:roleRef roleURI="http://www.innocomtechnology.com/20170331/role/idr_CONDENSEDCONSOLIDATEDSTATEMENTSOFCASHFLOWSUnaudited" xlink:type="simple" xlink:href="incm-20170331.xsd#idr_CONDENSEDCONSOLIDATEDSTATEMENTSOFCASHFLOWSUnaudited"/>
+	<link:calculationLink xlink:type="extended" xlink:role="http://www.innocomtechnology.com/20170331/role/idr_CONDENSEDCONSOLIDATEDSTATEMENTSOFCASHFLOWSUnaudited">
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_NetCashProvidedByUsedInOperatingActivities' xlink:label='us-gaap_NetCashProvidedByUsedInOperatingActivities'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_ProfitLoss' xlink:label='us-gaap_ProfitLoss'/>
+		<link:calculationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/summation-item' xlink:from='us-gaap_NetCashProvidedByUsedInOperatingActivities' xlink:to='us-gaap_ProfitLoss' use='optional' order='1.0' weight='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_IncreaseDecreaseInOtherAccountsPayableAndAccruedLiabilities' xlink:label='us-gaap_IncreaseDecreaseInOtherAccountsPayableAndAccruedLiabilities'/>
+		<link:calculationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/summation-item' xlink:from='us-gaap_NetCashProvidedByUsedInOperatingActivities' xlink:to='us-gaap_IncreaseDecreaseInOtherAccountsPayableAndAccruedLiabilities' use='optional' order='2.0' weight='1.0'/>
+	</link:calculationLink>
+</link:linkbase>

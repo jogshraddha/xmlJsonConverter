@@ -1,0 +1,286 @@
+<?xml version='1.0' encoding='iso-8859-1'?>
+<!-- Vistalytics - iFile Suite version 6.233 -->
+<link:linkbase xmlns="http://www.xbrl.org/2003/linkbase"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd"
+		xmlns:fil="http://www.mentorcapital.com/20170331"
+		xmlns:link="http://www.xbrl.org/2003/linkbase"
+		xmlns:xlink="http://www.w3.org/1999/xlink"
+		xmlns:xbrldt="http://xbrl.org/2005/xbrldt"
+		xmlns:xbrli="http://www.xbrl.org/2003/instance">
+	<link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/all" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#all"/>
+	<link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#hypercube-dimension"/>
+	<link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/dimension-default" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#dimension-default"/>
+	<link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#dimension-domain"/>
+	<link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#domain-member"/>
+	<link:roleRef roleURI="http://www.mentorcapital.com/20170331/role/idr_DocumentDocumentAndEntityInformation" xlink:type="simple" xlink:href="mntr-20170331.xsd#idr_DocumentDocumentAndEntityInformation"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.mentorcapital.com/20170331/role/idr_DocumentDocumentAndEntityInformation"/>
+	<link:roleRef roleURI="http://www.mentorcapital.com/20170331/role/idr_CondensedConsolidatedBalanceSheetsUnaudited" xlink:type="simple" xlink:href="mntr-20170331.xsd#idr_CondensedConsolidatedBalanceSheetsUnaudited"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.mentorcapital.com/20170331/role/idr_CondensedConsolidatedBalanceSheetsUnaudited"/>
+	<link:roleRef roleURI="http://www.mentorcapital.com/20170331/role/idr_CondensedConsolidatedBalanceSheetsParentheticals" xlink:type="simple" xlink:href="mntr-20170331.xsd#idr_CondensedConsolidatedBalanceSheetsParentheticals"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.mentorcapital.com/20170331/role/idr_CondensedConsolidatedBalanceSheetsParentheticals"/>
+	<link:roleRef roleURI="http://www.mentorcapital.com/20170331/role/idr_CondensedConsolidatedIncomeStatementsUnaudited" xlink:type="simple" xlink:href="mntr-20170331.xsd#idr_CondensedConsolidatedIncomeStatementsUnaudited"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.mentorcapital.com/20170331/role/idr_CondensedConsolidatedIncomeStatementsUnaudited"/>
+	<link:roleRef roleURI="http://www.mentorcapital.com/20170331/role/idr_CondensedConsolidatedStatementOfComprehensiveIncomeUnaudited" xlink:type="simple" xlink:href="mntr-20170331.xsd#idr_CondensedConsolidatedStatementOfComprehensiveIncomeUnaudited"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.mentorcapital.com/20170331/role/idr_CondensedConsolidatedStatementOfComprehensiveIncomeUnaudited"/>
+	<link:roleRef roleURI="http://www.mentorcapital.com/20170331/role/idr_CondensedConsolidatedStatementsOfCashFlowsUnaudited" xlink:type="simple" xlink:href="mntr-20170331.xsd#idr_CondensedConsolidatedStatementsOfCashFlowsUnaudited"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.mentorcapital.com/20170331/role/idr_CondensedConsolidatedStatementsOfCashFlowsUnaudited"/>
+	<link:roleRef roleURI="http://www.mentorcapital.com/20170331/role/idr_DisclosureNatureOfOperations" xlink:type="simple" xlink:href="mntr-20170331.xsd#idr_DisclosureNatureOfOperations"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.mentorcapital.com/20170331/role/idr_DisclosureNatureOfOperations"/>
+	<link:roleRef roleURI="http://www.mentorcapital.com/20170331/role/idr_DisclosureSummaryOfSignificantAccountingPolicies" xlink:type="simple" xlink:href="mntr-20170331.xsd#idr_DisclosureSummaryOfSignificantAccountingPolicies"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.mentorcapital.com/20170331/role/idr_DisclosureSummaryOfSignificantAccountingPolicies"/>
+	<link:roleRef roleURI="http://www.mentorcapital.com/20170331/role/idr_DisclosurePrepaidExpensesAndOtherAssets" xlink:type="simple" xlink:href="mntr-20170331.xsd#idr_DisclosurePrepaidExpensesAndOtherAssets"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.mentorcapital.com/20170331/role/idr_DisclosurePrepaidExpensesAndOtherAssets"/>
+	<link:roleRef roleURI="http://www.mentorcapital.com/20170331/role/idr_DisclosureBhangCorporationFormerlyKnownAsBhangChocolateCompanyIncAndJudgment" xlink:type="simple" xlink:href="mntr-20170331.xsd#idr_DisclosureBhangCorporationFormerlyKnownAsBhangChocolateCompanyIncAndJudgment"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.mentorcapital.com/20170331/role/idr_DisclosureBhangCorporationFormerlyKnownAsBhangChocolateCompanyIncAndJudgment"/>
+	<link:roleRef roleURI="http://www.mentorcapital.com/20170331/role/idr_DisclosureInvestmentInAccountReceivable" xlink:type="simple" xlink:href="mntr-20170331.xsd#idr_DisclosureInvestmentInAccountReceivable"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.mentorcapital.com/20170331/role/idr_DisclosureInvestmentInAccountReceivable"/>
+	<link:roleRef roleURI="http://www.mentorcapital.com/20170331/role/idr_DisclosurePropertyAndEquipment" xlink:type="simple" xlink:href="mntr-20170331.xsd#idr_DisclosurePropertyAndEquipment"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.mentorcapital.com/20170331/role/idr_DisclosurePropertyAndEquipment"/>
+	<link:roleRef roleURI="http://www.mentorcapital.com/20170331/role/idr_DisclosureConvertibleNoteReceivable" xlink:type="simple" xlink:href="mntr-20170331.xsd#idr_DisclosureConvertibleNoteReceivable"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.mentorcapital.com/20170331/role/idr_DisclosureConvertibleNoteReceivable"/>
+	<link:roleRef roleURI="http://www.mentorcapital.com/20170331/role/idr_DisclosureNotePurchaseAgreementAndConsultingAgreementWithGFarmaLabsLimited" xlink:type="simple" xlink:href="mntr-20170331.xsd#idr_DisclosureNotePurchaseAgreementAndConsultingAgreementWithGFarmaLabsLimited"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.mentorcapital.com/20170331/role/idr_DisclosureNotePurchaseAgreementAndConsultingAgreementWithGFarmaLabsLimited"/>
+	<link:roleRef roleURI="http://www.mentorcapital.com/20170331/role/idr_DisclosureContractualInterestInLegalRecovery" xlink:type="simple" xlink:href="mntr-20170331.xsd#idr_DisclosureContractualInterestInLegalRecovery"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.mentorcapital.com/20170331/role/idr_DisclosureContractualInterestInLegalRecovery"/>
+	<link:roleRef roleURI="http://www.mentorcapital.com/20170331/role/idr_DisclosureInvestmentsAndFairValue" xlink:type="simple" xlink:href="mntr-20170331.xsd#idr_DisclosureInvestmentsAndFairValue"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.mentorcapital.com/20170331/role/idr_DisclosureInvestmentsAndFairValue"/>
+	<link:roleRef roleURI="http://www.mentorcapital.com/20170331/role/idr_DisclosureCommonStockWarrants" xlink:type="simple" xlink:href="mntr-20170331.xsd#idr_DisclosureCommonStockWarrants"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.mentorcapital.com/20170331/role/idr_DisclosureCommonStockWarrants"/>
+	<link:roleRef roleURI="http://www.mentorcapital.com/20170331/role/idr_DisclosureWarrantsRedemptionLiability" xlink:type="simple" xlink:href="mntr-20170331.xsd#idr_DisclosureWarrantsRedemptionLiability"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.mentorcapital.com/20170331/role/idr_DisclosureWarrantsRedemptionLiability"/>
+	<link:roleRef roleURI="http://www.mentorcapital.com/20170331/role/idr_DisclosureStockholdersEquity" xlink:type="simple" xlink:href="mntr-20170331.xsd#idr_DisclosureStockholdersEquity"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.mentorcapital.com/20170331/role/idr_DisclosureStockholdersEquity"/>
+	<link:roleRef roleURI="http://www.mentorcapital.com/20170331/role/idr_DisclosureLeaseCommitments" xlink:type="simple" xlink:href="mntr-20170331.xsd#idr_DisclosureLeaseCommitments"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.mentorcapital.com/20170331/role/idr_DisclosureLeaseCommitments"/>
+	<link:roleRef roleURI="http://www.mentorcapital.com/20170331/role/idr_DisclosureLongTermDebtAndRevolvingLineOfCredit" xlink:type="simple" xlink:href="mntr-20170331.xsd#idr_DisclosureLongTermDebtAndRevolvingLineOfCredit"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.mentorcapital.com/20170331/role/idr_DisclosureLongTermDebtAndRevolvingLineOfCredit"/>
+	<link:roleRef roleURI="http://www.mentorcapital.com/20170331/role/idr_DisclosureAccruedSalaryAccruedRetirementAndIncentiveFeeRelatedParty" xlink:type="simple" xlink:href="mntr-20170331.xsd#idr_DisclosureAccruedSalaryAccruedRetirementAndIncentiveFeeRelatedParty"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.mentorcapital.com/20170331/role/idr_DisclosureAccruedSalaryAccruedRetirementAndIncentiveFeeRelatedParty"/>
+	<link:roleRef roleURI="http://www.mentorcapital.com/20170331/role/idr_DisclosurePatentAndLicenseFeeFacilityWithLarson" xlink:type="simple" xlink:href="mntr-20170331.xsd#idr_DisclosurePatentAndLicenseFeeFacilityWithLarson"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.mentorcapital.com/20170331/role/idr_DisclosurePatentAndLicenseFeeFacilityWithLarson"/>
+	<link:roleRef roleURI="http://www.mentorcapital.com/20170331/role/idr_DisclosureCommitmentAndContingencies" xlink:type="simple" xlink:href="mntr-20170331.xsd#idr_DisclosureCommitmentAndContingencies"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.mentorcapital.com/20170331/role/idr_DisclosureCommitmentAndContingencies"/>
+	<link:roleRef roleURI="http://www.mentorcapital.com/20170331/role/idr_DisclosureSegmentInformation" xlink:type="simple" xlink:href="mntr-20170331.xsd#idr_DisclosureSegmentInformation"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.mentorcapital.com/20170331/role/idr_DisclosureSegmentInformation"/>
+	<link:roleRef roleURI="http://www.mentorcapital.com/20170331/role/idr_DisclosureAccumulatedOtherComprehensiveIncomeLoss" xlink:type="simple" xlink:href="mntr-20170331.xsd#idr_DisclosureAccumulatedOtherComprehensiveIncomeLoss"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.mentorcapital.com/20170331/role/idr_DisclosureAccumulatedOtherComprehensiveIncomeLoss"/>
+	<link:roleRef roleURI="http://www.mentorcapital.com/20170331/role/idr_DisclosureSubsequentEvents" xlink:type="simple" xlink:href="mntr-20170331.xsd#idr_DisclosureSubsequentEvents"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.mentorcapital.com/20170331/role/idr_DisclosureSubsequentEvents"/>
+	<link:roleRef roleURI="http://www.mentorcapital.com/20170331/role/idr_DisclosureAccountingPoliciesPolicies" xlink:type="simple" xlink:href="mntr-20170331.xsd#idr_DisclosureAccountingPoliciesPolicies"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.mentorcapital.com/20170331/role/idr_DisclosureAccountingPoliciesPolicies"/>
+	<link:roleRef roleURI="http://www.mentorcapital.com/20170331/role/idr_DisclosureScheduleOfPrepaidExpenseAndOtherAssetsTables" xlink:type="simple" xlink:href="mntr-20170331.xsd#idr_DisclosureScheduleOfPrepaidExpenseAndOtherAssetsTables"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.mentorcapital.com/20170331/role/idr_DisclosureScheduleOfPrepaidExpenseAndOtherAssetsTables"/>
+	<link:roleRef roleURI="http://www.mentorcapital.com/20170331/role/idr_DisclosureScheduleOfReceivableFromBhangChocolateCompanyTables" xlink:type="simple" xlink:href="mntr-20170331.xsd#idr_DisclosureScheduleOfReceivableFromBhangChocolateCompanyTables"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.mentorcapital.com/20170331/role/idr_DisclosureScheduleOfReceivableFromBhangChocolateCompanyTables"/>
+	<link:roleRef roleURI="http://www.mentorcapital.com/20170331/role/idr_DisclosureScheduleOfInvestmentInAccountReceivableTables" xlink:type="simple" xlink:href="mntr-20170331.xsd#idr_DisclosureScheduleOfInvestmentInAccountReceivableTables"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.mentorcapital.com/20170331/role/idr_DisclosureScheduleOfInvestmentInAccountReceivableTables"/>
+	<link:roleRef roleURI="http://www.mentorcapital.com/20170331/role/idr_DisclosureScheduleOfPropertyAndEquipmentTables" xlink:type="simple" xlink:href="mntr-20170331.xsd#idr_DisclosureScheduleOfPropertyAndEquipmentTables"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.mentorcapital.com/20170331/role/idr_DisclosureScheduleOfPropertyAndEquipmentTables"/>
+	<link:roleRef roleURI="http://www.mentorcapital.com/20170331/role/idr_DisclosureScheduleOfConvertibleNoteReceivableTables" xlink:type="simple" xlink:href="mntr-20170331.xsd#idr_DisclosureScheduleOfConvertibleNoteReceivableTables"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.mentorcapital.com/20170331/role/idr_DisclosureScheduleOfConvertibleNoteReceivableTables"/>
+	<link:roleRef roleURI="http://www.mentorcapital.com/20170331/role/idr_DisclosureNotePurchaseAgreementAndConsultingAgreementWithGFarmaLabsLimitedTables" xlink:type="simple" xlink:href="mntr-20170331.xsd#idr_DisclosureNotePurchaseAgreementAndConsultingAgreementWithGFarmaLabsLimitedTables"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.mentorcapital.com/20170331/role/idr_DisclosureNotePurchaseAgreementAndConsultingAgreementWithGFarmaLabsLimitedTables"/>
+	<link:roleRef roleURI="http://www.mentorcapital.com/20170331/role/idr_DisclosureScheduleOfHierarchyOfAssetsTables" xlink:type="simple" xlink:href="mntr-20170331.xsd#idr_DisclosureScheduleOfHierarchyOfAssetsTables"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.mentorcapital.com/20170331/role/idr_DisclosureScheduleOfHierarchyOfAssetsTables"/>
+	<link:roleRef roleURI="http://www.mentorcapital.com/20170331/role/idr_DisclosureScheduleOfSummaryOfCommonStockWarrantsTables" xlink:type="simple" xlink:href="mntr-20170331.xsd#idr_DisclosureScheduleOfSummaryOfCommonStockWarrantsTables"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.mentorcapital.com/20170331/role/idr_DisclosureScheduleOfSummaryOfCommonStockWarrantsTables"/>
+	<link:roleRef roleURI="http://www.mentorcapital.com/20170331/role/idr_DisclosureScheduleOfRemainingAnnualMinimumLeasePaymentsUnderTheNonCancelableOperatingLeasesTables" xlink:type="simple" xlink:href="mntr-20170331.xsd#idr_DisclosureScheduleOfRemainingAnnualMinimumLeasePaymentsUnderTheNonCancelableOperatingLeasesTables"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.mentorcapital.com/20170331/role/idr_DisclosureScheduleOfRemainingAnnualMinimumLeasePaymentsUnderTheNonCancelableOperatingLeasesTables"/>
+	<link:roleRef roleURI="http://www.mentorcapital.com/20170331/role/idr_DisclosureScheduleOfLongTermDebtTables" xlink:type="simple" xlink:href="mntr-20170331.xsd#idr_DisclosureScheduleOfLongTermDebtTables"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.mentorcapital.com/20170331/role/idr_DisclosureScheduleOfLongTermDebtTables"/>
+	<link:roleRef roleURI="http://www.mentorcapital.com/20170331/role/idr_DisclosureScheduleOfAnOutstandingLiabilityToItsChiefExecutiveOfficerCEOAsFollowsTables" xlink:type="simple" xlink:href="mntr-20170331.xsd#idr_DisclosureScheduleOfAnOutstandingLiabilityToItsChiefExecutiveOfficerCEOAsFollowsTables"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.mentorcapital.com/20170331/role/idr_DisclosureScheduleOfAnOutstandingLiabilityToItsChiefExecutiveOfficerCEOAsFollowsTables"/>
+	<link:roleRef roleURI="http://www.mentorcapital.com/20170331/role/idr_DisclosureScheduleOfSegmentsTables" xlink:type="simple" xlink:href="mntr-20170331.xsd#idr_DisclosureScheduleOfSegmentsTables"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.mentorcapital.com/20170331/role/idr_DisclosureScheduleOfSegmentsTables"/>
+	<link:roleRef roleURI="http://www.mentorcapital.com/20170331/role/idr_DisclosureScheduleOfOperatingSegmentsAndCorporateUnallocatedOperatingIncomeLossToConsolidatedIncomeBeforeIncomeTaxesTables" xlink:type="simple" xlink:href="mntr-20170331.xsd#idr_DisclosureScheduleOfOperatingSegmentsAndCorporateUnallocatedOperatingIncomeLossToConsolidatedIncomeBeforeIncomeTaxesTables"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.mentorcapital.com/20170331/role/idr_DisclosureScheduleOfOperatingSegmentsAndCorporateUnallocatedOperatingIncomeLossToConsolidatedIncomeBeforeIncomeTaxesTables"/>
+	<link:roleRef roleURI="http://www.mentorcapital.com/20170331/role/idr_DisclosureAccumulatedOtherComprehensiveIncomeLossTables" xlink:type="simple" xlink:href="mntr-20170331.xsd#idr_DisclosureAccumulatedOtherComprehensiveIncomeLossTables"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.mentorcapital.com/20170331/role/idr_DisclosureAccumulatedOtherComprehensiveIncomeLossTables"/>
+	<link:roleRef roleURI="http://www.mentorcapital.com/20170331/role/idr_NatureOfOperationsNarrativeDetails" xlink:type="simple" xlink:href="mntr-20170331.xsd#idr_NatureOfOperationsNarrativeDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.mentorcapital.com/20170331/role/idr_NatureOfOperationsNarrativeDetails"/>
+	<link:roleRef roleURI="http://www.mentorcapital.com/20170331/role/idr_SignificantAccountingPoliciesDetails" xlink:type="simple" xlink:href="mntr-20170331.xsd#idr_SignificantAccountingPoliciesDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.mentorcapital.com/20170331/role/idr_SignificantAccountingPoliciesDetails"/>
+	<link:roleRef roleURI="http://www.mentorcapital.com/20170331/role/idr_GoodwillDetails" xlink:type="simple" xlink:href="mntr-20170331.xsd#idr_GoodwillDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.mentorcapital.com/20170331/role/idr_GoodwillDetails"/>
+	<link:roleRef roleURI="http://www.mentorcapital.com/20170331/role/idr_EarningPerShareDetails" xlink:type="simple" xlink:href="mntr-20170331.xsd#idr_EarningPerShareDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.mentorcapital.com/20170331/role/idr_EarningPerShareDetails"/>
+	<link:roleRef roleURI="http://www.mentorcapital.com/20170331/role/idr_AdvertisingAndPromotionDetails" xlink:type="simple" xlink:href="mntr-20170331.xsd#idr_AdvertisingAndPromotionDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.mentorcapital.com/20170331/role/idr_AdvertisingAndPromotionDetails"/>
+	<link:roleRef roleURI="http://www.mentorcapital.com/20170331/role/idr_PrepaidExpensesAndOtherAssetsDetails" xlink:type="simple" xlink:href="mntr-20170331.xsd#idr_PrepaidExpensesAndOtherAssetsDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.mentorcapital.com/20170331/role/idr_PrepaidExpensesAndOtherAssetsDetails"/>
+	<link:roleRef roleURI="http://www.mentorcapital.com/20170331/role/idr_BhangCorporationFormerlyKnownAsBhangChocolateCompanyIncAndJudgmentDetails" xlink:type="simple" xlink:href="mntr-20170331.xsd#idr_BhangCorporationFormerlyKnownAsBhangChocolateCompanyIncAndJudgmentDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.mentorcapital.com/20170331/role/idr_BhangCorporationFormerlyKnownAsBhangChocolateCompanyIncAndJudgmentDetails"/>
+	<link:roleRef roleURI="http://www.mentorcapital.com/20170331/role/idr_ReceivableAndAccruedInterestConsistsOfTheFollowingDetails" xlink:type="simple" xlink:href="mntr-20170331.xsd#idr_ReceivableAndAccruedInterestConsistsOfTheFollowingDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.mentorcapital.com/20170331/role/idr_ReceivableAndAccruedInterestConsistsOfTheFollowingDetails"/>
+	<link:roleRef roleURI="http://www.mentorcapital.com/20170331/role/idr_InvestmentInAccountReceivableNarrativeDetails" xlink:type="simple" xlink:href="mntr-20170331.xsd#idr_InvestmentInAccountReceivableNarrativeDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.mentorcapital.com/20170331/role/idr_InvestmentInAccountReceivableNarrativeDetails"/>
+	<link:roleRef roleURI="http://www.mentorcapital.com/20170331/role/idr_InvestmentConsistedOfTheFollowingDetails" xlink:type="simple" xlink:href="mntr-20170331.xsd#idr_InvestmentConsistedOfTheFollowingDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.mentorcapital.com/20170331/role/idr_InvestmentConsistedOfTheFollowingDetails"/>
+	<link:roleRef roleURI="http://www.mentorcapital.com/20170331/role/idr_AmortizationDetails" xlink:type="simple" xlink:href="mntr-20170331.xsd#idr_AmortizationDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.mentorcapital.com/20170331/role/idr_AmortizationDetails"/>
+	<link:roleRef roleURI="http://www.mentorcapital.com/20170331/role/idr_PropertyAndEquipmentDetails" xlink:type="simple" xlink:href="mntr-20170331.xsd#idr_PropertyAndEquipmentDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.mentorcapital.com/20170331/role/idr_PropertyAndEquipmentDetails"/>
+	<link:roleRef roleURI="http://www.mentorcapital.com/20170331/role/idr_PropertyAndEquipmentDuringThePeriodDetails" xlink:type="simple" xlink:href="mntr-20170331.xsd#idr_PropertyAndEquipmentDuringThePeriodDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.mentorcapital.com/20170331/role/idr_PropertyAndEquipmentDuringThePeriodDetails"/>
+	<link:roleRef roleURI="http://www.mentorcapital.com/20170331/role/idr_ConvertibleNotesReceivableDetails" xlink:type="simple" xlink:href="mntr-20170331.xsd#idr_ConvertibleNotesReceivableDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.mentorcapital.com/20170331/role/idr_ConvertibleNotesReceivableDetails"/>
+	<link:roleRef roleURI="http://www.mentorcapital.com/20170331/role/idr_ConvertibleNotesReceivableParentheticalsDetails" xlink:type="simple" xlink:href="mntr-20170331.xsd#idr_ConvertibleNotesReceivableParentheticalsDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.mentorcapital.com/20170331/role/idr_ConvertibleNotesReceivableParentheticalsDetails"/>
+	<link:roleRef roleURI="http://www.mentorcapital.com/20170331/role/idr_ConvertibleNotesReceivableNarrativeDetails" xlink:type="simple" xlink:href="mntr-20170331.xsd#idr_ConvertibleNotesReceivableNarrativeDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.mentorcapital.com/20170331/role/idr_ConvertibleNotesReceivableNarrativeDetails"/>
+	<link:roleRef roleURI="http://www.mentorcapital.com/20170331/role/idr_NotePurchaseAgreementAndConsultingAgreementWithGFarmaLabsLimitedDetails" xlink:type="simple" xlink:href="mntr-20170331.xsd#idr_NotePurchaseAgreementAndConsultingAgreementWithGFarmaLabsLimitedDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.mentorcapital.com/20170331/role/idr_NotePurchaseAgreementAndConsultingAgreementWithGFarmaLabsLimitedDetails"/>
+	<link:roleRef roleURI="http://www.mentorcapital.com/20170331/role/idr_NotesReceivableFromGFarmaDetails" xlink:type="simple" xlink:href="mntr-20170331.xsd#idr_NotesReceivableFromGFarmaDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.mentorcapital.com/20170331/role/idr_NotesReceivableFromGFarmaDetails"/>
+	<link:roleRef roleURI="http://www.mentorcapital.com/20170331/role/idr_ContractualInterestInLegalRecoveryDetails" xlink:type="simple" xlink:href="mntr-20170331.xsd#idr_ContractualInterestInLegalRecoveryDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.mentorcapital.com/20170331/role/idr_ContractualInterestInLegalRecoveryDetails"/>
+	<link:roleRef roleURI="http://www.mentorcapital.com/20170331/role/idr_FairValueMeasurementsDetailsStockholdersEquity" xlink:type="simple" xlink:href="mntr-20170331.xsd#idr_FairValueMeasurementsDetailsStockholdersEquity"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.mentorcapital.com/20170331/role/idr_FairValueMeasurementsDetailsStockholdersEquity">
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_StatementTable' xlink:label='us-gaap_StatementTable'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_StatementEquityComponentsAxis' xlink:label='us-gaap_StatementEquityComponentsAxis'/>
+		<link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/hypercube-dimension' xlink:from='us-gaap_StatementTable' xlink:to='us-gaap_StatementEquityComponentsAxis' use='optional' order='1.0' xbrldt:contextElement='segment'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_EquityComponentDomain' xlink:label='us-gaap_EquityComponentDomain'/>
+		<link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/dimension-domain' xlink:from='us-gaap_StatementEquityComponentsAxis' xlink:to='us-gaap_EquityComponentDomain' use='optional' order='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_EquityComponentDomain' xlink:label='us-gaap_EquityComponentDomain_1'/>
+		<link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/dimension-default' xlink:from='us-gaap_StatementEquityComponentsAxis' xlink:to='us-gaap_EquityComponentDomain_1' use='optional' order='1.0' xbrldt:contextElement='segment'/>
+		<link:loc xlink:type='locator' xlink:href='mntr-20170331.xsd#fil_FairValueMeasurementsUsingUnadjustedQuotedMarketPricesLevel1EquitySecuritiesMember' xlink:label='fil_FairValueMeasurementsUsingUnadjustedQuotedMarketPricesLevel1EquitySecuritiesMember'/>
+		<link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/domain-member' xlink:from='us-gaap_EquityComponentDomain' xlink:to='fil_FairValueMeasurementsUsingUnadjustedQuotedMarketPricesLevel1EquitySecuritiesMember' use='optional' order='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='mntr-20170331.xsd#fil_FairValueMeasurementsUsingQuotedPricesForIdenticalOrSimilarAssetsInActiveMarketsLevel2OtherInvestmentMember' xlink:label='fil_FairValueMeasurementsUsingQuotedPricesForIdenticalOrSimilarAssetsInActiveMarketsLevel2OtherInvestmentMember'/>
+		<link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/domain-member' xlink:from='us-gaap_EquityComponentDomain' xlink:to='fil_FairValueMeasurementsUsingQuotedPricesForIdenticalOrSimilarAssetsInActiveMarketsLevel2OtherInvestmentMember' use='optional' order='2.0'/>
+		<link:loc xlink:type='locator' xlink:href='mntr-20170331.xsd#fil_FairValueMeasurementsUsingSignificantUnobservableInputsLevel3EquityOptionsMember' xlink:label='fil_FairValueMeasurementsUsingSignificantUnobservableInputsLevel3EquityOptionsMember'/>
+		<link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/domain-member' xlink:from='us-gaap_EquityComponentDomain' xlink:to='fil_FairValueMeasurementsUsingSignificantUnobservableInputsLevel3EquityOptionsMember' use='optional' order='3.0'/>
+		<link:loc xlink:type='locator' xlink:href='mntr-20170331.xsd#fil_FairValueMeasurementsUsingSignificantUnobservableInputsLevel3EquityFundingAgreementsMember' xlink:label='fil_FairValueMeasurementsUsingSignificantUnobservableInputsLevel3EquityFundingAgreementsMember'/>
+		<link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/domain-member' xlink:from='us-gaap_EquityComponentDomain' xlink:to='fil_FairValueMeasurementsUsingSignificantUnobservableInputsLevel3EquityFundingAgreementsMember' use='optional' order='4.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_StatementLineItems' xlink:label='us-gaap_StatementLineItems'/>
+		<link:loc xlink:type='locator' xlink:href='mntr-20170331.xsd#fil_Balance' xlink:label='fil_Balance'/>
+		<link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/domain-member' xlink:from='us-gaap_StatementLineItems' xlink:to='fil_Balance' use='optional' order='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='mntr-20170331.xsd#fil_Balance1' xlink:label='fil_Balance1'/>
+		<link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/domain-member' xlink:from='us-gaap_StatementLineItems' xlink:to='fil_Balance1' use='optional' order='2.0'/>
+		<link:loc xlink:type='locator' xlink:href='mntr-20170331.xsd#fil_Balance3' xlink:label='fil_Balance3'/>
+		<link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/domain-member' xlink:from='us-gaap_StatementLineItems' xlink:to='fil_Balance3' use='optional' order='3.0'/>
+		<link:loc xlink:type='locator' xlink:href='mntr-20170331.xsd#fil_TotalGainsOrLossesAbstract' xlink:label='fil_TotalGainsOrLossesAbstract'/>
+		<link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/domain-member' xlink:from='us-gaap_StatementLineItems' xlink:to='fil_TotalGainsOrLossesAbstract' use='optional' order='4.0'/>
+		<link:loc xlink:type='locator' xlink:href='mntr-20170331.xsd#fil_IncludedInEarningsOrChangesInNetAssets' xlink:label='fil_IncludedInEarningsOrChangesInNetAssets'/>
+		<link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/domain-member' xlink:from='us-gaap_StatementLineItems' xlink:to='fil_IncludedInEarningsOrChangesInNetAssets' use='optional' order='5.0'/>
+		<link:loc xlink:type='locator' xlink:href='mntr-20170331.xsd#fil_PurchasesIssuancesSalesAndSettlementsAbstract' xlink:label='fil_PurchasesIssuancesSalesAndSettlementsAbstract'/>
+		<link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/domain-member' xlink:from='us-gaap_StatementLineItems' xlink:to='fil_PurchasesIssuancesSalesAndSettlementsAbstract' use='optional' order='6.0'/>
+		<link:loc xlink:type='locator' xlink:href='mntr-20170331.xsd#fil_Purchases' xlink:label='fil_Purchases'/>
+		<link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/domain-member' xlink:from='us-gaap_StatementLineItems' xlink:to='fil_Purchases' use='optional' order='7.0'/>
+		<link:loc xlink:type='locator' xlink:href='mntr-20170331.xsd#fil_Issuances' xlink:label='fil_Issuances'/>
+		<link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/domain-member' xlink:from='us-gaap_StatementLineItems' xlink:to='fil_Issuances' use='optional' order='8.0'/>
+		<link:loc xlink:type='locator' xlink:href='mntr-20170331.xsd#fil_Sales' xlink:label='fil_Sales'/>
+		<link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/domain-member' xlink:from='us-gaap_StatementLineItems' xlink:to='fil_Sales' use='optional' order='9.0'/>
+		<link:loc xlink:type='locator' xlink:href='mntr-20170331.xsd#fil_Settlements' xlink:label='fil_Settlements'/>
+		<link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/domain-member' xlink:from='us-gaap_StatementLineItems' xlink:to='fil_Settlements' use='optional' order='10.0'/>
+		<link:loc xlink:type='locator' xlink:href='mntr-20170331.xsd#fil_TotalGainsOrLosses1Abstract' xlink:label='fil_TotalGainsOrLosses1Abstract'/>
+		<link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/domain-member' xlink:from='us-gaap_StatementLineItems' xlink:to='fil_TotalGainsOrLosses1Abstract' use='optional' order='11.0'/>
+		<link:loc xlink:type='locator' xlink:href='mntr-20170331.xsd#fil_IncludedInEarningsOrChangesInNetAssets1' xlink:label='fil_IncludedInEarningsOrChangesInNetAssets1'/>
+		<link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/domain-member' xlink:from='us-gaap_StatementLineItems' xlink:to='fil_IncludedInEarningsOrChangesInNetAssets1' use='optional' order='12.0'/>
+		<link:loc xlink:type='locator' xlink:href='mntr-20170331.xsd#fil_PurchasesIssuancesSalesAndSettlements1Abstract' xlink:label='fil_PurchasesIssuancesSalesAndSettlements1Abstract'/>
+		<link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/domain-member' xlink:from='us-gaap_StatementLineItems' xlink:to='fil_PurchasesIssuancesSalesAndSettlements1Abstract' use='optional' order='13.0'/>
+		<link:loc xlink:type='locator' xlink:href='mntr-20170331.xsd#fil_Purchases1' xlink:label='fil_Purchases1'/>
+		<link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/domain-member' xlink:from='us-gaap_StatementLineItems' xlink:to='fil_Purchases1' use='optional' order='14.0'/>
+		<link:loc xlink:type='locator' xlink:href='mntr-20170331.xsd#fil_Issuances1' xlink:label='fil_Issuances1'/>
+		<link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/domain-member' xlink:from='us-gaap_StatementLineItems' xlink:to='fil_Issuances1' use='optional' order='15.0'/>
+		<link:loc xlink:type='locator' xlink:href='mntr-20170331.xsd#fil_Sales1' xlink:label='fil_Sales1'/>
+		<link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/domain-member' xlink:from='us-gaap_StatementLineItems' xlink:to='fil_Sales1' use='optional' order='16.0'/>
+		<link:loc xlink:type='locator' xlink:href='mntr-20170331.xsd#fil_Settlements1' xlink:label='fil_Settlements1'/>
+		<link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/domain-member' xlink:from='us-gaap_StatementLineItems' xlink:to='fil_Settlements1' use='optional' order='17.0'/>
+		<link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/all' xlink:from='us-gaap_StatementLineItems' xlink:to='us-gaap_StatementTable' order='0.5' xbrldt:closed='true' xbrldt:contextElement='segment' use='optional'/>
+	</link:definitionLink>
+	<link:roleRef roleURI="http://www.mentorcapital.com/20170331/role/idr_CommonStockWarrantsDetails" xlink:type="simple" xlink:href="mntr-20170331.xsd#idr_CommonStockWarrantsDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.mentorcapital.com/20170331/role/idr_CommonStockWarrantsDetails"/>
+	<link:roleRef roleURI="http://www.mentorcapital.com/20170331/role/idr_WarrantsDetails" xlink:type="simple" xlink:href="mntr-20170331.xsd#idr_WarrantsDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.mentorcapital.com/20170331/role/idr_WarrantsDetails"/>
+	<link:roleRef roleURI="http://www.mentorcapital.com/20170331/role/idr_SummarizesCommonStockWarrantsBDDetailsStockholdersEquity" xlink:type="simple" xlink:href="mntr-20170331.xsd#idr_SummarizesCommonStockWarrantsBDDetailsStockholdersEquity"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.mentorcapital.com/20170331/role/idr_SummarizesCommonStockWarrantsBDDetailsStockholdersEquity">
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_StatementTable' xlink:label='us-gaap_StatementTable'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_StatementEquityComponentsAxis' xlink:label='us-gaap_StatementEquityComponentsAxis'/>
+		<link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/hypercube-dimension' xlink:from='us-gaap_StatementTable' xlink:to='us-gaap_StatementEquityComponentsAxis' use='optional' order='1.0' xbrldt:contextElement='segment'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_EquityComponentDomain' xlink:label='us-gaap_EquityComponentDomain'/>
+		<link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/dimension-domain' xlink:from='us-gaap_StatementEquityComponentsAxis' xlink:to='us-gaap_EquityComponentDomain' use='optional' order='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_EquityComponentDomain' xlink:label='us-gaap_EquityComponentDomain_1'/>
+		<link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/dimension-default' xlink:from='us-gaap_StatementEquityComponentsAxis' xlink:to='us-gaap_EquityComponentDomain_1' use='optional' order='1.0' xbrldt:contextElement='segment'/>
+		<link:loc xlink:type='locator' xlink:href='mntr-20170331.xsd#fil_SeriesB1Member' xlink:label='fil_SeriesB1Member'/>
+		<link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/domain-member' xlink:from='us-gaap_EquityComponentDomain' xlink:to='fil_SeriesB1Member' use='optional' order='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='mntr-20170331.xsd#fil_SeriesDMember' xlink:label='fil_SeriesDMember'/>
+		<link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/domain-member' xlink:from='us-gaap_EquityComponentDomain' xlink:to='fil_SeriesDMember' use='optional' order='2.0'/>
+		<link:loc xlink:type='locator' xlink:href='mntr-20170331.xsd#fil_BDTotalWarrantsMember' xlink:label='fil_BDTotalWarrantsMember'/>
+		<link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/domain-member' xlink:from='us-gaap_EquityComponentDomain' xlink:to='fil_BDTotalWarrantsMember' use='optional' order='3.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_StatementLineItems' xlink:label='us-gaap_StatementLineItems'/>
+		<link:loc xlink:type='locator' xlink:href='mntr-20170331.xsd#fil_Outstanding' xlink:label='fil_Outstanding'/>
+		<link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/domain-member' xlink:from='us-gaap_StatementLineItems' xlink:to='fil_Outstanding' use='optional' order='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='mntr-20170331.xsd#fil_Outstanding1' xlink:label='fil_Outstanding1'/>
+		<link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/domain-member' xlink:from='us-gaap_StatementLineItems' xlink:to='fil_Outstanding1' use='optional' order='2.0'/>
+		<link:loc xlink:type='locator' xlink:href='mntr-20170331.xsd#fil_Outstanding2' xlink:label='fil_Outstanding2'/>
+		<link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/domain-member' xlink:from='us-gaap_StatementLineItems' xlink:to='fil_Outstanding2' use='optional' order='3.0'/>
+		<link:loc xlink:type='locator' xlink:href='mntr-20170331.xsd#fil_Issued' xlink:label='fil_Issued'/>
+		<link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/domain-member' xlink:from='us-gaap_StatementLineItems' xlink:to='fil_Issued' use='optional' order='4.0'/>
+		<link:loc xlink:type='locator' xlink:href='mntr-20170331.xsd#fil_Exercised' xlink:label='fil_Exercised'/>
+		<link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/domain-member' xlink:from='us-gaap_StatementLineItems' xlink:to='fil_Exercised' use='optional' order='5.0'/>
+		<link:loc xlink:type='locator' xlink:href='mntr-20170331.xsd#fil_Issued1' xlink:label='fil_Issued1'/>
+		<link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/domain-member' xlink:from='us-gaap_StatementLineItems' xlink:to='fil_Issued1' use='optional' order='6.0'/>
+		<link:loc xlink:type='locator' xlink:href='mntr-20170331.xsd#fil_Exercised1' xlink:label='fil_Exercised1'/>
+		<link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/domain-member' xlink:from='us-gaap_StatementLineItems' xlink:to='fil_Exercised1' use='optional' order='7.0'/>
+		<link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/all' xlink:from='us-gaap_StatementLineItems' xlink:to='us-gaap_StatementTable' order='0.5' xbrldt:closed='true' xbrldt:contextElement='segment' use='optional'/>
+	</link:definitionLink>
+	<link:roleRef roleURI="http://www.mentorcapital.com/20170331/role/idr_SummarizesEFGAndHWarrantsDetailsStockholdersEquity" xlink:type="simple" xlink:href="mntr-20170331.xsd#idr_SummarizesEFGAndHWarrantsDetailsStockholdersEquity"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.mentorcapital.com/20170331/role/idr_SummarizesEFGAndHWarrantsDetailsStockholdersEquity">
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_StatementTable' xlink:label='us-gaap_StatementTable'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_StatementEquityComponentsAxis' xlink:label='us-gaap_StatementEquityComponentsAxis'/>
+		<link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/hypercube-dimension' xlink:from='us-gaap_StatementTable' xlink:to='us-gaap_StatementEquityComponentsAxis' use='optional' order='1.0' xbrldt:contextElement='segment'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_EquityComponentDomain' xlink:label='us-gaap_EquityComponentDomain'/>
+		<link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/dimension-domain' xlink:from='us-gaap_StatementEquityComponentsAxis' xlink:to='us-gaap_EquityComponentDomain' use='optional' order='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_EquityComponentDomain' xlink:label='us-gaap_EquityComponentDomain_1'/>
+		<link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/dimension-default' xlink:from='us-gaap_StatementEquityComponentsAxis' xlink:to='us-gaap_EquityComponentDomain_1' use='optional' order='1.0' xbrldt:contextElement='segment'/>
+		<link:loc xlink:type='locator' xlink:href='mntr-20170331.xsd#fil_SeriesH700ExercisePriceMember' xlink:label='fil_SeriesH700ExercisePriceMember'/>
+		<link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/domain-member' xlink:from='us-gaap_EquityComponentDomain' xlink:to='fil_SeriesH700ExercisePriceMember' use='optional' order='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_StatementLineItems' xlink:label='us-gaap_StatementLineItems'/>
+		<link:loc xlink:type='locator' xlink:href='mntr-20170331.xsd#fil_OutstandingEFGAndHWarrants' xlink:label='fil_OutstandingEFGAndHWarrants'/>
+		<link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/domain-member' xlink:from='us-gaap_StatementLineItems' xlink:to='fil_OutstandingEFGAndHWarrants' use='optional' order='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='mntr-20170331.xsd#fil_OutstandingEFGAndHWarrants1' xlink:label='fil_OutstandingEFGAndHWarrants1'/>
+		<link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/domain-member' xlink:from='us-gaap_StatementLineItems' xlink:to='fil_OutstandingEFGAndHWarrants1' use='optional' order='2.0'/>
+		<link:loc xlink:type='locator' xlink:href='mntr-20170331.xsd#fil_OutstandingEFGAndHWarrants2' xlink:label='fil_OutstandingEFGAndHWarrants2'/>
+		<link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/domain-member' xlink:from='us-gaap_StatementLineItems' xlink:to='fil_OutstandingEFGAndHWarrants2' use='optional' order='3.0'/>
+		<link:loc xlink:type='locator' xlink:href='mntr-20170331.xsd#fil_WarrantsIssued' xlink:label='fil_WarrantsIssued'/>
+		<link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/domain-member' xlink:from='us-gaap_StatementLineItems' xlink:to='fil_WarrantsIssued' use='optional' order='4.0'/>
+		<link:loc xlink:type='locator' xlink:href='mntr-20170331.xsd#fil_WarrantsExercised' xlink:label='fil_WarrantsExercised'/>
+		<link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/domain-member' xlink:from='us-gaap_StatementLineItems' xlink:to='fil_WarrantsExercised' use='optional' order='5.0'/>
+		<link:loc xlink:type='locator' xlink:href='mntr-20170331.xsd#fil_WarrantsIssued1' xlink:label='fil_WarrantsIssued1'/>
+		<link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/domain-member' xlink:from='us-gaap_StatementLineItems' xlink:to='fil_WarrantsIssued1' use='optional' order='6.0'/>
+		<link:loc xlink:type='locator' xlink:href='mntr-20170331.xsd#fil_WarrantsExercised1' xlink:label='fil_WarrantsExercised1'/>
+		<link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/domain-member' xlink:from='us-gaap_StatementLineItems' xlink:to='fil_WarrantsExercised1' use='optional' order='7.0'/>
+		<link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/all' xlink:from='us-gaap_StatementLineItems' xlink:to='us-gaap_StatementTable' order='0.5' xbrldt:closed='true' xbrldt:contextElement='segment' use='optional'/>
+	</link:definitionLink>
+	<link:roleRef roleURI="http://www.mentorcapital.com/20170331/role/idr_WarrantRedemptionLiabilityDetails" xlink:type="simple" xlink:href="mntr-20170331.xsd#idr_WarrantRedemptionLiabilityDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.mentorcapital.com/20170331/role/idr_WarrantRedemptionLiabilityDetails"/>
+	<link:roleRef roleURI="http://www.mentorcapital.com/20170331/role/idr_CapitalStockTransactionsDetails" xlink:type="simple" xlink:href="mntr-20170331.xsd#idr_CapitalStockTransactionsDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.mentorcapital.com/20170331/role/idr_CapitalStockTransactionsDetails"/>
+	<link:roleRef roleURI="http://www.mentorcapital.com/20170331/role/idr_LeaseCommitmentsDetails" xlink:type="simple" xlink:href="mntr-20170331.xsd#idr_LeaseCommitmentsDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.mentorcapital.com/20170331/role/idr_LeaseCommitmentsDetails"/>
+	<link:roleRef roleURI="http://www.mentorcapital.com/20170331/role/idr_AnnualMinimumLeasePaymentsUnderTheNonCancelableOperatingLeasesDetails" xlink:type="simple" xlink:href="mntr-20170331.xsd#idr_AnnualMinimumLeasePaymentsUnderTheNonCancelableOperatingLeasesDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.mentorcapital.com/20170331/role/idr_AnnualMinimumLeasePaymentsUnderTheNonCancelableOperatingLeasesDetails"/>
+	<link:roleRef roleURI="http://www.mentorcapital.com/20170331/role/idr_LongTermDebtDetails" xlink:type="simple" xlink:href="mntr-20170331.xsd#idr_LongTermDebtDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.mentorcapital.com/20170331/role/idr_LongTermDebtDetails"/>
+	<link:roleRef roleURI="http://www.mentorcapital.com/20170331/role/idr_LongTermDebtParentheticalsDetails" xlink:type="simple" xlink:href="mntr-20170331.xsd#idr_LongTermDebtParentheticalsDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.mentorcapital.com/20170331/role/idr_LongTermDebtParentheticalsDetails"/>
+	<link:roleRef roleURI="http://www.mentorcapital.com/20170331/role/idr_CommercialCreditAgreementWithBondStreetServicingLLCDetails" xlink:type="simple" xlink:href="mntr-20170331.xsd#idr_CommercialCreditAgreementWithBondStreetServicingLLCDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.mentorcapital.com/20170331/role/idr_CommercialCreditAgreementWithBondStreetServicingLLCDetails"/>
+	<link:roleRef roleURI="http://www.mentorcapital.com/20170331/role/idr_AccruedSalaryAccruedRetirementAndRelatedPartyIncentiveFeeOutstandingLiabilityToChiefExecutiveOfficerDetails" xlink:type="simple" xlink:href="mntr-20170331.xsd#idr_AccruedSalaryAccruedRetirementAndRelatedPartyIncentiveFeeOutstandingLiabilityToChiefExecutiveOfficerDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.mentorcapital.com/20170331/role/idr_AccruedSalaryAccruedRetirementAndRelatedPartyIncentiveFeeOutstandingLiabilityToChiefExecutiveOfficerDetails"/>
+	<link:roleRef roleURI="http://www.mentorcapital.com/20170331/role/idr_AccruedSalaryAccruedRetirementAndIncentiveFeeRelatedPartyDetails" xlink:type="simple" xlink:href="mntr-20170331.xsd#idr_AccruedSalaryAccruedRetirementAndIncentiveFeeRelatedPartyDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.mentorcapital.com/20170331/role/idr_AccruedSalaryAccruedRetirementAndIncentiveFeeRelatedPartyDetails"/>
+	<link:roleRef roleURI="http://www.mentorcapital.com/20170331/role/idr_PatentAndLicenseFeeFacilityWithLarsonDetails" xlink:type="simple" xlink:href="mntr-20170331.xsd#idr_PatentAndLicenseFeeFacilityWithLarsonDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.mentorcapital.com/20170331/role/idr_PatentAndLicenseFeeFacilityWithLarsonDetails"/>
+	<link:roleRef roleURI="http://www.mentorcapital.com/20170331/role/idr_CommitmentsAndContingenciesDetails" xlink:type="simple" xlink:href="mntr-20170331.xsd#idr_CommitmentsAndContingenciesDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.mentorcapital.com/20170331/role/idr_CommitmentsAndContingenciesDetails"/>
+	<link:roleRef roleURI="http://www.mentorcapital.com/20170331/role/idr_SegmentInformationDetails" xlink:type="simple" xlink:href="mntr-20170331.xsd#idr_SegmentInformationDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.mentorcapital.com/20170331/role/idr_SegmentInformationDetails"/>
+	<link:roleRef roleURI="http://www.mentorcapital.com/20170331/role/idr_ReconcilesOperatingSegmentsAndCorporateUnallocatedOperatingIncomeLossDetails" xlink:type="simple" xlink:href="mntr-20170331.xsd#idr_ReconcilesOperatingSegmentsAndCorporateUnallocatedOperatingIncomeLossDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.mentorcapital.com/20170331/role/idr_ReconcilesOperatingSegmentsAndCorporateUnallocatedOperatingIncomeLossDetails"/>
+	<link:roleRef roleURI="http://www.mentorcapital.com/20170331/role/idr_AccumulatedOtherComprehensiveIncomeLossDetails" xlink:type="simple" xlink:href="mntr-20170331.xsd#idr_AccumulatedOtherComprehensiveIncomeLossDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.mentorcapital.com/20170331/role/idr_AccumulatedOtherComprehensiveIncomeLossDetails"/>
+	<link:roleRef roleURI="http://www.mentorcapital.com/20170331/role/idr_SubsequentEventsDetails" xlink:type="simple" xlink:href="mntr-20170331.xsd#idr_SubsequentEventsDetails"/>
+	<link:definitionLink xlink:type="extended" xlink:role="http://www.mentorcapital.com/20170331/role/idr_SubsequentEventsDetails"/>
+</link:linkbase>

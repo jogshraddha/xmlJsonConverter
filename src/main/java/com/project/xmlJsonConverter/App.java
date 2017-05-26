@@ -4,6 +4,7 @@ import java.util.List;
 
 import com.project.utils.ConversionUtil;
 import com.project.utils.JsonWriter;
+import com.project.utils.XbrlConverter;
 
 import org.apache.commons.io.FileUtils;
 
@@ -13,7 +14,7 @@ import org.apache.commons.io.FileUtils;
  */
 public class App {
 	public static void main(String[] args) {
-		final String dir = App.class.getClassLoader().getResource("ALPH-PROD-0413-1022").getPath();
+		/*final String dir = App.class.getClassLoader().getResource("ALPH-PROD-0413-1022").getPath();
 		File directory = new File(dir);
 		String extension = ".json";
 		String[] extensions = new String[] { "xml"};
@@ -26,7 +27,8 @@ public class App {
 			jsonPathBuilder.append(dir).append(File.separator).append(file.getName().split("\\.")[0]).append(extension);
 			File jsonFile = new File(jsonPathBuilder.toString());
 			jsonWriter.writeJson(jsonFile, jsonString);
-		}
+		}*/
+		new XbrlConverter().convertXbrlData();
 		
 	}
 }

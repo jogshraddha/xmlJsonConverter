@@ -1,0 +1,979 @@
+<?xml version='1.0' encoding='iso-8859-1'?>
+<!-- Vistalytics - iFile Suite version 6.233 -->
+<link:linkbase xmlns="http://www.xbrl.org/2003/linkbase"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd"
+		xmlns:fil="http://www.aptsystems.com/20170131"
+		xmlns:link="http://www.xbrl.org/2003/linkbase"
+		xmlns:xlink="http://www.w3.org/1999/xlink"
+		xmlns:xbrldt="http://xbrl.org/2005/xbrldt"
+		xmlns:xbrli="http://www.xbrl.org/2003/instance">
+	<link:roleRef roleURI="http://www.aptsystems.com/20170131/role/idr_DocumentDocumentAndEntityInformation" xlink:type="simple" xlink:href="apts-20170131.xsd#idr_DocumentDocumentAndEntityInformation"/>
+	<link:presentationLink xlink:type="extended" xlink:role="http://www.aptsystems.com/20170131/role/idr_DocumentDocumentAndEntityInformation">
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_DocumentAndEntityInformationAbstract' xlink:label='fil_DocumentAndEntityInformationAbstract'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.sec.gov/dei/2014/dei-2014-01-31.xsd#dei_EntityRegistrantName' xlink:label='dei_EntityRegistrantName'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_DocumentAndEntityInformationAbstract' xlink:to='dei_EntityRegistrantName' use='optional' order='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.sec.gov/dei/2014/dei-2014-01-31.xsd#dei_TradingSymbol' xlink:label='dei_TradingSymbol'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_DocumentAndEntityInformationAbstract' xlink:to='dei_TradingSymbol' use='optional' order='2.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.sec.gov/dei/2014/dei-2014-01-31.xsd#dei_DocumentType' xlink:label='dei_DocumentType'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_DocumentAndEntityInformationAbstract' xlink:to='dei_DocumentType' use='optional' order='3.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.sec.gov/dei/2014/dei-2014-01-31.xsd#dei_DocumentPeriodEndDate' xlink:label='dei_DocumentPeriodEndDate'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_DocumentAndEntityInformationAbstract' xlink:to='dei_DocumentPeriodEndDate' use='optional' order='4.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.sec.gov/dei/2014/dei-2014-01-31.xsd#dei_AmendmentFlag' xlink:label='dei_AmendmentFlag'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_DocumentAndEntityInformationAbstract' xlink:to='dei_AmendmentFlag' use='optional' order='5.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.sec.gov/dei/2014/dei-2014-01-31.xsd#dei_EntityCentralIndexKey' xlink:label='dei_EntityCentralIndexKey'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_DocumentAndEntityInformationAbstract' xlink:to='dei_EntityCentralIndexKey' use='optional' order='6.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.sec.gov/dei/2014/dei-2014-01-31.xsd#dei_CurrentFiscalYearEndDate' xlink:label='dei_CurrentFiscalYearEndDate'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_DocumentAndEntityInformationAbstract' xlink:to='dei_CurrentFiscalYearEndDate' use='optional' order='7.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.sec.gov/dei/2014/dei-2014-01-31.xsd#dei_EntityCommonStockSharesOutstanding' xlink:label='dei_EntityCommonStockSharesOutstanding'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_DocumentAndEntityInformationAbstract' xlink:to='dei_EntityCommonStockSharesOutstanding' use='optional' order='8.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.sec.gov/dei/2014/dei-2014-01-31.xsd#dei_EntityPublicFloat' xlink:label='dei_EntityPublicFloat'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_DocumentAndEntityInformationAbstract' xlink:to='dei_EntityPublicFloat' use='optional' order='9.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.sec.gov/dei/2014/dei-2014-01-31.xsd#dei_EntityFilerCategory' xlink:label='dei_EntityFilerCategory'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_DocumentAndEntityInformationAbstract' xlink:to='dei_EntityFilerCategory' use='optional' order='10.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.sec.gov/dei/2014/dei-2014-01-31.xsd#dei_EntityCurrentReportingStatus' xlink:label='dei_EntityCurrentReportingStatus'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_DocumentAndEntityInformationAbstract' xlink:to='dei_EntityCurrentReportingStatus' use='optional' order='11.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.sec.gov/dei/2014/dei-2014-01-31.xsd#dei_EntityVoluntaryFilers' xlink:label='dei_EntityVoluntaryFilers'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_DocumentAndEntityInformationAbstract' xlink:to='dei_EntityVoluntaryFilers' use='optional' order='12.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.sec.gov/dei/2014/dei-2014-01-31.xsd#dei_EntityWellKnownSeasonedIssuer' xlink:label='dei_EntityWellKnownSeasonedIssuer'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_DocumentAndEntityInformationAbstract' xlink:to='dei_EntityWellKnownSeasonedIssuer' use='optional' order='13.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.sec.gov/dei/2014/dei-2014-01-31.xsd#dei_DocumentFiscalYearFocus' xlink:label='dei_DocumentFiscalYearFocus'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_DocumentAndEntityInformationAbstract' xlink:to='dei_DocumentFiscalYearFocus' use='optional' order='14.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.sec.gov/dei/2014/dei-2014-01-31.xsd#dei_DocumentFiscalPeriodFocus' xlink:label='dei_DocumentFiscalPeriodFocus'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_DocumentAndEntityInformationAbstract' xlink:to='dei_DocumentFiscalPeriodFocus' use='optional' order='15.0'/>
+	</link:presentationLink>
+	<link:roleRef roleURI="http://www.aptsystems.com/20170131/role/idr_BalanceSheets" xlink:type="simple" xlink:href="apts-20170131.xsd#idr_BalanceSheets"/>
+	<link:presentationLink xlink:type="extended" xlink:role="http://www.aptsystems.com/20170131/role/idr_BalanceSheets">
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_AssetsAbstract' xlink:label='us-gaap_AssetsAbstract'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_AssetsCurrentAbstract' xlink:label='us-gaap_AssetsCurrentAbstract'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_AssetsAbstract' xlink:to='us-gaap_AssetsCurrentAbstract' use='optional' order='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_Cash' xlink:label='us-gaap_Cash'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_AssetsCurrentAbstract' xlink:to='us-gaap_Cash' use='optional' order='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_AccountsReceivableNet' xlink:label='us-gaap_AccountsReceivableNet'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_AssetsCurrentAbstract' xlink:to='us-gaap_AccountsReceivableNet' use='optional' order='2.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_Investments' xlink:label='us-gaap_Investments'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_AssetsCurrentAbstract' xlink:to='us-gaap_Investments' use='optional' order='3.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_PrepaidExpenseCurrentAndNoncurrent' xlink:label='us-gaap_PrepaidExpenseCurrentAndNoncurrent'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_AssetsCurrentAbstract' xlink:to='us-gaap_PrepaidExpenseCurrentAndNoncurrent' use='optional' order='4.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_OtherAssetsCurrent' xlink:label='us-gaap_OtherAssetsCurrent'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_AssetsCurrentAbstract' xlink:to='us-gaap_OtherAssetsCurrent' use='optional' order='5.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_AssetsCurrent' xlink:label='us-gaap_AssetsCurrent'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_AssetsCurrentAbstract' xlink:to='us-gaap_AssetsCurrent' use='optional' order='6.0' preferredLabel='http://www.xbrl.org/2003/role/totalLabel'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_OtherAssetsAbstract' xlink:label='us-gaap_OtherAssetsAbstract'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_AssetsAbstract' xlink:to='us-gaap_OtherAssetsAbstract' use='optional' order='2.0' preferredLabel='http://www.xbrl.org/2003/role/terseLabel'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_CapitalizedComputerSoftwareNet' xlink:label='us-gaap_CapitalizedComputerSoftwareNet'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_OtherAssetsAbstract' xlink:to='us-gaap_CapitalizedComputerSoftwareNet' use='optional' order='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_WebSiteNetOf2080And2080AccumulatedAmortizationRespectively' xlink:label='fil_WebSiteNetOf2080And2080AccumulatedAmortizationRespectively'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_OtherAssetsAbstract' xlink:to='fil_WebSiteNetOf2080And2080AccumulatedAmortizationRespectively' use='optional' order='2.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_OtherAssets' xlink:label='us-gaap_OtherAssets'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_OtherAssetsAbstract' xlink:to='us-gaap_OtherAssets' use='optional' order='3.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_Assets' xlink:label='us-gaap_Assets'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_OtherAssetsAbstract' xlink:to='us-gaap_Assets' use='optional' order='4.0' preferredLabel='http://www.xbrl.org/2003/role/totalLabel'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_LiabilitiesAndStockholdersEquityAbstract' xlink:label='us-gaap_LiabilitiesAndStockholdersEquityAbstract'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_AssetsAbstract' xlink:to='us-gaap_LiabilitiesAndStockholdersEquityAbstract' use='optional' order='3.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_LiabilitiesCurrentAbstract' xlink:label='us-gaap_LiabilitiesCurrentAbstract'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_LiabilitiesAndStockholdersEquityAbstract' xlink:to='us-gaap_LiabilitiesCurrentAbstract' use='optional' order='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_AccountsPayableAndOtherAccruedLiabilitiesCurrent' xlink:label='us-gaap_AccountsPayableAndOtherAccruedLiabilitiesCurrent'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_LiabilitiesCurrentAbstract' xlink:to='us-gaap_AccountsPayableAndOtherAccruedLiabilitiesCurrent' use='optional' order='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_EmployeeRelatedLiabilitiesCurrent' xlink:label='us-gaap_EmployeeRelatedLiabilitiesCurrent'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_LiabilitiesCurrentAbstract' xlink:to='us-gaap_EmployeeRelatedLiabilitiesCurrent' use='optional' order='2.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_ConvertibleNotesPayableCurrent' xlink:label='us-gaap_ConvertibleNotesPayableCurrent'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_LiabilitiesCurrentAbstract' xlink:to='us-gaap_ConvertibleNotesPayableCurrent' use='optional' order='3.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_NotesPayable' xlink:label='us-gaap_NotesPayable'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_LiabilitiesCurrentAbstract' xlink:to='us-gaap_NotesPayable' use='optional' order='4.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_LoansPayable' xlink:label='us-gaap_LoansPayable'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_LiabilitiesCurrentAbstract' xlink:to='us-gaap_LoansPayable' use='optional' order='5.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_LiabilitiesCurrent' xlink:label='us-gaap_LiabilitiesCurrent'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_LiabilitiesCurrentAbstract' xlink:to='us-gaap_LiabilitiesCurrent' use='optional' order='6.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_ConvertibleNotesPayableRelatedParty' xlink:label='fil_ConvertibleNotesPayableRelatedParty'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_LiabilitiesCurrentAbstract' xlink:to='fil_ConvertibleNotesPayableRelatedParty' use='optional' order='7.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_NotesPayableCurrent' xlink:label='us-gaap_NotesPayableCurrent'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_LiabilitiesCurrentAbstract' xlink:to='us-gaap_NotesPayableCurrent' use='optional' order='8.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_Liabilities' xlink:label='us-gaap_Liabilities'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_LiabilitiesCurrentAbstract' xlink:to='us-gaap_Liabilities' use='optional' order='9.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_StockholdersEquityAbstract' xlink:label='us-gaap_StockholdersEquityAbstract'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_LiabilitiesAndStockholdersEquityAbstract' xlink:to='us-gaap_StockholdersEquityAbstract' use='optional' order='2.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_PreferredStockValue' xlink:label='us-gaap_PreferredStockValue'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_StockholdersEquityAbstract' xlink:to='us-gaap_PreferredStockValue' use='optional' order='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_CommonStockValue' xlink:label='us-gaap_CommonStockValue'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_StockholdersEquityAbstract' xlink:to='us-gaap_CommonStockValue' use='optional' order='2.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_AdditionalPaidInCapital' xlink:label='us-gaap_AdditionalPaidInCapital'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_StockholdersEquityAbstract' xlink:to='us-gaap_AdditionalPaidInCapital' use='optional' order='3.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_CommonStockPayable' xlink:label='fil_CommonStockPayable'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_StockholdersEquityAbstract' xlink:to='fil_CommonStockPayable' use='optional' order='4.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_RetainedEarningsAccumulatedDeficit' xlink:label='us-gaap_RetainedEarningsAccumulatedDeficit'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_StockholdersEquityAbstract' xlink:to='us-gaap_RetainedEarningsAccumulatedDeficit' use='optional' order='5.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_StockholdersEquity' xlink:label='us-gaap_StockholdersEquity'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_StockholdersEquityAbstract' xlink:to='us-gaap_StockholdersEquity' use='optional' order='6.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_LiabilitiesAndStockholdersEquity' xlink:label='us-gaap_LiabilitiesAndStockholdersEquity'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_LiabilitiesAndStockholdersEquityAbstract' xlink:to='us-gaap_LiabilitiesAndStockholdersEquity' use='optional' order='3.0' preferredLabel='http://www.xbrl.org/2003/role/totalLabel'/>
+	</link:presentationLink>
+	<link:roleRef roleURI="http://www.aptsystems.com/20170131/role/idr_BalanceSheetsParentheticals" xlink:type="simple" xlink:href="apts-20170131.xsd#idr_BalanceSheetsParentheticals"/>
+	<link:presentationLink xlink:type="extended" xlink:role="http://www.aptsystems.com/20170131/role/idr_BalanceSheetsParentheticals">
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_StockTransactionsParentheticalDisclosuresAbstract' xlink:label='us-gaap_StockTransactionsParentheticalDisclosuresAbstract'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_CapitalizedComputerSoftwareAccumulatedAmortization' xlink:label='us-gaap_CapitalizedComputerSoftwareAccumulatedAmortization'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_StockTransactionsParentheticalDisclosuresAbstract' xlink:to='us-gaap_CapitalizedComputerSoftwareAccumulatedAmortization' use='optional' order='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_WebSiteAccumulatedAmortization' xlink:label='fil_WebSiteAccumulatedAmortization'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_StockTransactionsParentheticalDisclosuresAbstract' xlink:to='fil_WebSiteAccumulatedAmortization' use='optional' order='2.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_DebtInstrumentUnamortizedDiscountCurrent' xlink:label='us-gaap_DebtInstrumentUnamortizedDiscountCurrent'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_StockTransactionsParentheticalDisclosuresAbstract' xlink:to='us-gaap_DebtInstrumentUnamortizedDiscountCurrent' use='optional' order='3.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_PreferredStockParOrStatedValuePerShare' xlink:label='us-gaap_PreferredStockParOrStatedValuePerShare'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_StockTransactionsParentheticalDisclosuresAbstract' xlink:to='us-gaap_PreferredStockParOrStatedValuePerShare' use='optional' order='4.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_PreferredStockSharesAuthorized' xlink:label='us-gaap_PreferredStockSharesAuthorized'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_StockTransactionsParentheticalDisclosuresAbstract' xlink:to='us-gaap_PreferredStockSharesAuthorized' use='optional' order='5.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_CommonStockParOrStatedValuePerShare' xlink:label='us-gaap_CommonStockParOrStatedValuePerShare'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_StockTransactionsParentheticalDisclosuresAbstract' xlink:to='us-gaap_CommonStockParOrStatedValuePerShare' use='optional' order='6.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_CommonStockSharesAuthorized' xlink:label='us-gaap_CommonStockSharesAuthorized'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_StockTransactionsParentheticalDisclosuresAbstract' xlink:to='us-gaap_CommonStockSharesAuthorized' use='optional' order='7.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_CommonStockSharesIssued' xlink:label='us-gaap_CommonStockSharesIssued'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_StockTransactionsParentheticalDisclosuresAbstract' xlink:to='us-gaap_CommonStockSharesIssued' use='optional' order='8.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_CommonStockSharesOutstanding' xlink:label='us-gaap_CommonStockSharesOutstanding'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_StockTransactionsParentheticalDisclosuresAbstract' xlink:to='us-gaap_CommonStockSharesOutstanding' use='optional' order='9.0'/>
+	</link:presentationLink>
+	<link:roleRef roleURI="http://www.aptsystems.com/20170131/role/idr_StatementsOfOperations" xlink:type="simple" xlink:href="apts-20170131.xsd#idr_StatementsOfOperations"/>
+	<link:presentationLink xlink:type="extended" xlink:role="http://www.aptsystems.com/20170131/role/idr_StatementsOfOperations">
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_RevenuesAbstract' xlink:label='us-gaap_RevenuesAbstract'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_ConcessionsRevenue' xlink:label='us-gaap_ConcessionsRevenue'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_RevenuesAbstract' xlink:to='us-gaap_ConcessionsRevenue' use='optional' order='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_SalesRevenueNet' xlink:label='us-gaap_SalesRevenueNet'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_RevenuesAbstract' xlink:to='us-gaap_SalesRevenueNet' use='optional' order='2.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_Revenues' xlink:label='us-gaap_Revenues'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_RevenuesAbstract' xlink:to='us-gaap_Revenues' use='optional' order='3.0' preferredLabel='http://www.xbrl.org/2003/role/totalLabel'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_CostOfRevenueAbstract' xlink:label='us-gaap_CostOfRevenueAbstract'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_RevenuesAbstract' xlink:to='us-gaap_CostOfRevenueAbstract' use='optional' order='4.0' preferredLabel='http://www.xbrl.org/2003/role/terseLabel'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_CostsAndExpensesRelatedParty' xlink:label='us-gaap_CostsAndExpensesRelatedParty'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_RevenuesAbstract' xlink:to='us-gaap_CostsAndExpensesRelatedParty' use='optional' order='5.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_CostOfGoodsSold' xlink:label='us-gaap_CostOfGoodsSold'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_RevenuesAbstract' xlink:to='us-gaap_CostOfGoodsSold' use='optional' order='6.0' preferredLabel='http://www.xbrl.org/2003/role/totalLabel'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_GrossProfit' xlink:label='us-gaap_GrossProfit'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_RevenuesAbstract' xlink:to='us-gaap_GrossProfit' use='optional' order='7.0' preferredLabel='http://www.xbrl.org/2003/role/totalLabel'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_OperatingExpensesAbstract' xlink:label='us-gaap_OperatingExpensesAbstract'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_RevenuesAbstract' xlink:to='us-gaap_OperatingExpensesAbstract' use='optional' order='8.0' preferredLabel='http://www.xbrl.org/2003/role/terseLabel'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_AdjustmentForAmortization' xlink:label='us-gaap_AdjustmentForAmortization'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_OperatingExpensesAbstract' xlink:to='us-gaap_AdjustmentForAmortization' use='optional' order='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_OfficersCompensation' xlink:label='us-gaap_OfficersCompensation'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_OperatingExpensesAbstract' xlink:to='us-gaap_OfficersCompensation' use='optional' order='2.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_GeneralAndAdministrativeExpense' xlink:label='us-gaap_GeneralAndAdministrativeExpense'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_OperatingExpensesAbstract' xlink:to='us-gaap_GeneralAndAdministrativeExpense' use='optional' order='3.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_OperatingExpenses' xlink:label='us-gaap_OperatingExpenses'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_OperatingExpensesAbstract' xlink:to='us-gaap_OperatingExpenses' use='optional' order='4.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_OperatingIncomeLoss' xlink:label='us-gaap_OperatingIncomeLoss'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_OperatingExpensesAbstract' xlink:to='us-gaap_OperatingIncomeLoss' use='optional' order='5.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_OtherIncomeAndExpensesAbstract' xlink:label='us-gaap_OtherIncomeAndExpensesAbstract'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_RevenuesAbstract' xlink:to='us-gaap_OtherIncomeAndExpensesAbstract' use='optional' order='9.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_OtherIncome' xlink:label='us-gaap_OtherIncome'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_OtherIncomeAndExpensesAbstract' xlink:to='us-gaap_OtherIncome' use='optional' order='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_LossOnConversionOfAccountsPayableIntoSharesAndSettlementOfAccountsPayable' xlink:label='fil_LossOnConversionOfAccountsPayableIntoSharesAndSettlementOfAccountsPayable'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_OtherIncomeAndExpensesAbstract' xlink:to='fil_LossOnConversionOfAccountsPayableIntoSharesAndSettlementOfAccountsPayable' use='optional' order='2.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_GainLossOnConversionOfNotesPayable' xlink:label='fil_GainLossOnConversionOfNotesPayable'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_OtherIncomeAndExpensesAbstract' xlink:to='fil_GainLossOnConversionOfNotesPayable' use='optional' order='3.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_GainsLossesOnExtinguishmentOfDebt' xlink:label='us-gaap_GainsLossesOnExtinguishmentOfDebt'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_OtherIncomeAndExpensesAbstract' xlink:to='us-gaap_GainsLossesOnExtinguishmentOfDebt' use='optional' order='4.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_LossOnChangeInDerivativeLiability' xlink:label='fil_LossOnChangeInDerivativeLiability'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_OtherIncomeAndExpensesAbstract' xlink:to='fil_LossOnChangeInDerivativeLiability' use='optional' order='5.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_InterestExpenseDebtExcludingAmortization' xlink:label='us-gaap_InterestExpenseDebtExcludingAmortization'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_OtherIncomeAndExpensesAbstract' xlink:to='us-gaap_InterestExpenseDebtExcludingAmortization' use='optional' order='6.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_OtherOperatingIncomeExpenseNet' xlink:label='us-gaap_OtherOperatingIncomeExpenseNet'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_OtherIncomeAndExpensesAbstract' xlink:to='us-gaap_OtherOperatingIncomeExpenseNet' use='optional' order='7.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_NetIncomeLoss' xlink:label='us-gaap_NetIncomeLoss'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_OtherIncomeAndExpensesAbstract' xlink:to='us-gaap_NetIncomeLoss' use='optional' order='8.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_EarningsPerShareBasicAndDiluted' xlink:label='us-gaap_EarningsPerShareBasicAndDiluted'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_OtherIncomeAndExpensesAbstract' xlink:to='us-gaap_EarningsPerShareBasicAndDiluted' use='optional' order='9.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_WeightedAverageNumberOfShareOutstandingBasicAndDiluted' xlink:label='us-gaap_WeightedAverageNumberOfShareOutstandingBasicAndDiluted'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_OtherIncomeAndExpensesAbstract' xlink:to='us-gaap_WeightedAverageNumberOfShareOutstandingBasicAndDiluted' use='optional' order='10.0'/>
+	</link:presentationLink>
+	<link:roleRef roleURI="http://www.aptsystems.com/20170131/role/idr_StatementsOfStockholdersDeficit" xlink:type="simple" xlink:href="apts-20170131.xsd#idr_StatementsOfStockholdersDeficit"/>
+	<link:presentationLink xlink:type="extended" xlink:role="http://www.aptsystems.com/20170131/role/idr_StatementsOfStockholdersDeficit">
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_ChangesInStockholdersDeficitAbstract' xlink:label='fil_ChangesInStockholdersDeficitAbstract'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_StatementTable' xlink:label='us-gaap_StatementTable'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_ChangesInStockholdersDeficitAbstract' xlink:to='us-gaap_StatementTable' use='optional' order='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_StatementEquityComponentsAxis' xlink:label='us-gaap_StatementEquityComponentsAxis'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_StatementTable' xlink:to='us-gaap_StatementEquityComponentsAxis' use='optional' order='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_PreferredStockMember' xlink:label='us-gaap_PreferredStockMember'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_StatementEquityComponentsAxis' xlink:to='us-gaap_PreferredStockMember' use='optional' order='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_MemberUnitsMember' xlink:label='us-gaap_MemberUnitsMember'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_StatementEquityComponentsAxis' xlink:to='us-gaap_MemberUnitsMember' use='optional' order='2.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_CommonStockMember' xlink:label='us-gaap_CommonStockMember'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_StatementEquityComponentsAxis' xlink:to='us-gaap_CommonStockMember' use='optional' order='3.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_CapitalUnitsMember' xlink:label='us-gaap_CapitalUnitsMember'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_StatementEquityComponentsAxis' xlink:to='us-gaap_CapitalUnitsMember' use='optional' order='4.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_AdditionalPaidInCapitalMember' xlink:label='us-gaap_AdditionalPaidInCapitalMember'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_StatementEquityComponentsAxis' xlink:to='us-gaap_AdditionalPaidInCapitalMember' use='optional' order='5.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_StockPayableMember' xlink:label='fil_StockPayableMember'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_StatementEquityComponentsAxis' xlink:to='fil_StockPayableMember' use='optional' order='6.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_RetainedEarningsMember' xlink:label='us-gaap_RetainedEarningsMember'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_StatementEquityComponentsAxis' xlink:to='us-gaap_RetainedEarningsMember' use='optional' order='7.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_ParentMember' xlink:label='us-gaap_ParentMember'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_StatementEquityComponentsAxis' xlink:to='us-gaap_ParentMember' use='optional' order='8.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_StatementLineItems' xlink:label='us-gaap_StatementLineItems'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_StatementTable' xlink:to='us-gaap_StatementLineItems' use='optional' order='2.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_SharesOutstanding' xlink:label='us-gaap_SharesOutstanding'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_StatementLineItems' xlink:to='us-gaap_SharesOutstanding' use='optional' order='1.0' preferredLabel='http://www.xbrl.org/2003/role/periodStartLabel'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_BalanceAudited' xlink:label='fil_BalanceAudited'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_StatementLineItems' xlink:to='fil_BalanceAudited' use='optional' order='2.0' preferredLabel='http://www.xbrl.org/2003/role/periodStartLabel'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_BalanceAudited1' xlink:label='fil_BalanceAudited1'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_StatementLineItems' xlink:to='fil_BalanceAudited1' use='optional' order='3.0' preferredLabel='http://www.xbrl.org/2003/role/periodStartLabel'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_SharesOutstanding' xlink:label='us-gaap_SharesOutstanding_1'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_StatementLineItems' xlink:to='us-gaap_SharesOutstanding_1' use='optional' order='4.0' preferredLabel='http://www.xbrl.org/2003/role/periodEndLabel'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_IssuanceOfCommonStockForRepaymentOfNotesPayable' xlink:label='fil_IssuanceOfCommonStockForRepaymentOfNotesPayable'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_StatementLineItems' xlink:to='fil_IssuanceOfCommonStockForRepaymentOfNotesPayable' use='optional' order='5.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_IssuanceOfCommonStockForConversionOfAccruedSalaries' xlink:label='fil_IssuanceOfCommonStockForConversionOfAccruedSalaries'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_StatementLineItems' xlink:to='fil_IssuanceOfCommonStockForConversionOfAccruedSalaries' use='optional' order='6.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_IssuanceOfCommonStockForConversionOfNotesPayable' xlink:label='fil_IssuanceOfCommonStockForConversionOfNotesPayable'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_StatementLineItems' xlink:to='fil_IssuanceOfCommonStockForConversionOfNotesPayable' use='optional' order='7.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_IssuanceOfCommonStockToDirectors' xlink:label='fil_IssuanceOfCommonStockToDirectors'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_StatementLineItems' xlink:to='fil_IssuanceOfCommonStockToDirectors' use='optional' order='8.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_IssuanceOfCommonStockForServicesRendered' xlink:label='fil_IssuanceOfCommonStockForServicesRendered'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_StatementLineItems' xlink:to='fil_IssuanceOfCommonStockForServicesRendered' use='optional' order='9.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_NetLoss' xlink:label='fil_NetLoss'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_StatementLineItems' xlink:to='fil_NetLoss' use='optional' order='10.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_BalanceAudited' xlink:label='fil_BalanceAudited_1'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_StatementLineItems' xlink:to='fil_BalanceAudited_1' use='optional' order='11.0' preferredLabel='http://www.xbrl.org/2003/role/periodEndLabel'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_IssuanceOfCommonStockForAssetAcquisition' xlink:label='fil_IssuanceOfCommonStockForAssetAcquisition'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_StatementLineItems' xlink:to='fil_IssuanceOfCommonStockForAssetAcquisition' use='optional' order='12.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_IssuanceOfCommonStockForConversionOfNotesPayable1' xlink:label='fil_IssuanceOfCommonStockForConversionOfNotesPayable1'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_StatementLineItems' xlink:to='fil_IssuanceOfCommonStockForConversionOfNotesPayable1' use='optional' order='13.0' preferredLabel='http://www.xbrl.org/2003/role/terseLabel'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_IssuanceOfCommonStockForConsultingServices' xlink:label='fil_IssuanceOfCommonStockForConsultingServices'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_StatementLineItems' xlink:to='fil_IssuanceOfCommonStockForConsultingServices' use='optional' order='14.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_BeneficialConversionFeatureOnNotes' xlink:label='fil_BeneficialConversionFeatureOnNotes'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_StatementLineItems' xlink:to='fil_BeneficialConversionFeatureOnNotes' use='optional' order='15.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_IssuanceOfCommonStockForSettlementOfAccruedOfficerCompensation' xlink:label='fil_IssuanceOfCommonStockForSettlementOfAccruedOfficerCompensation'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_StatementLineItems' xlink:to='fil_IssuanceOfCommonStockForSettlementOfAccruedOfficerCompensation' use='optional' order='16.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_NetLoss1' xlink:label='fil_NetLoss1'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_StatementLineItems' xlink:to='fil_NetLoss1' use='optional' order='17.0' preferredLabel='http://www.xbrl.org/2003/role/terseLabel'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_BalanceAudited1' xlink:label='fil_BalanceAudited1_1'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_StatementLineItems' xlink:to='fil_BalanceAudited1_1' use='optional' order='18.0' preferredLabel='http://www.xbrl.org/2003/role/periodEndLabel'/>
+	</link:presentationLink>
+	<link:roleRef roleURI="http://www.aptsystems.com/20170131/role/idr_StatementsOfCashFlows" xlink:type="simple" xlink:href="apts-20170131.xsd#idr_StatementsOfCashFlows"/>
+	<link:presentationLink xlink:type="extended" xlink:role="http://www.aptsystems.com/20170131/role/idr_StatementsOfCashFlows">
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_NetCashProvidedByUsedInOperatingActivitiesContinuingOperationsAbstract' xlink:label='us-gaap_NetCashProvidedByUsedInOperatingActivitiesContinuingOperationsAbstract'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_ProfitLoss' xlink:label='us-gaap_ProfitLoss'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_NetCashProvidedByUsedInOperatingActivitiesContinuingOperationsAbstract' xlink:to='us-gaap_ProfitLoss' use='optional' order='1.0' preferredLabel='http://www.xbrl.org/2003/role/terseLabel'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_AdjustmentsToReconcileNetIncomeLossToCashProvidedByUsedInOperatingActivitiesAbstract' xlink:label='us-gaap_AdjustmentsToReconcileNetIncomeLossToCashProvidedByUsedInOperatingActivitiesAbstract'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_NetCashProvidedByUsedInOperatingActivitiesContinuingOperationsAbstract' xlink:to='us-gaap_AdjustmentsToReconcileNetIncomeLossToCashProvidedByUsedInOperatingActivitiesAbstract' use='optional' order='2.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_DepreciationDepletionAndAmortization' xlink:label='us-gaap_DepreciationDepletionAndAmortization'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_AdjustmentsToReconcileNetIncomeLossToCashProvidedByUsedInOperatingActivitiesAbstract' xlink:to='us-gaap_DepreciationDepletionAndAmortization' use='optional' order='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_AmortizationOfDebtDiscountPremium' xlink:label='us-gaap_AmortizationOfDebtDiscountPremium'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_AdjustmentsToReconcileNetIncomeLossToCashProvidedByUsedInOperatingActivitiesAbstract' xlink:to='us-gaap_AmortizationOfDebtDiscountPremium' use='optional' order='2.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_BadDebtExpense' xlink:label='fil_BadDebtExpense'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_AdjustmentsToReconcileNetIncomeLossToCashProvidedByUsedInOperatingActivitiesAbstract' xlink:to='fil_BadDebtExpense' use='optional' order='3.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_GainOnConversionOfConvertibleNotesPayable1' xlink:label='fil_GainOnConversionOfConvertibleNotesPayable1'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_AdjustmentsToReconcileNetIncomeLossToCashProvidedByUsedInOperatingActivitiesAbstract' xlink:to='fil_GainOnConversionOfConvertibleNotesPayable1' use='optional' order='4.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_ExpenseForBeneficialConversionFeature' xlink:label='fil_ExpenseForBeneficialConversionFeature'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_AdjustmentsToReconcileNetIncomeLossToCashProvidedByUsedInOperatingActivitiesAbstract' xlink:to='fil_ExpenseForBeneficialConversionFeature' use='optional' order='5.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_GainLossOnConversionOfNotesPayableForStock' xlink:label='fil_GainLossOnConversionOfNotesPayableForStock'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_AdjustmentsToReconcileNetIncomeLossToCashProvidedByUsedInOperatingActivitiesAbstract' xlink:to='fil_GainLossOnConversionOfNotesPayableForStock' use='optional' order='6.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_LossOnExtinguishmentOfDebt' xlink:label='fil_LossOnExtinguishmentOfDebt'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_AdjustmentsToReconcileNetIncomeLossToCashProvidedByUsedInOperatingActivitiesAbstract' xlink:to='fil_LossOnExtinguishmentOfDebt' use='optional' order='7.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_LossOnChangeInDerivativeLiability1' xlink:label='fil_LossOnChangeInDerivativeLiability1'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_AdjustmentsToReconcileNetIncomeLossToCashProvidedByUsedInOperatingActivitiesAbstract' xlink:to='fil_LossOnChangeInDerivativeLiability1' use='optional' order='8.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_GainLossOnInvestments' xlink:label='us-gaap_GainLossOnInvestments'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_AdjustmentsToReconcileNetIncomeLossToCashProvidedByUsedInOperatingActivitiesAbstract' xlink:to='us-gaap_GainLossOnInvestments' use='optional' order='9.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_LossOnConversionOfAccountsPayableIntoSharesAndSettlementOfAccountsPayable1' xlink:label='fil_LossOnConversionOfAccountsPayableIntoSharesAndSettlementOfAccountsPayable1'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_AdjustmentsToReconcileNetIncomeLossToCashProvidedByUsedInOperatingActivitiesAbstract' xlink:to='fil_LossOnConversionOfAccountsPayableIntoSharesAndSettlementOfAccountsPayable1' use='optional' order='10.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_StockIssuedDuringPeriodValueIssuedForServices' xlink:label='us-gaap_StockIssuedDuringPeriodValueIssuedForServices'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_AdjustmentsToReconcileNetIncomeLossToCashProvidedByUsedInOperatingActivitiesAbstract' xlink:to='us-gaap_StockIssuedDuringPeriodValueIssuedForServices' use='optional' order='11.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_PrepaymentInterestPaidInStock' xlink:label='fil_PrepaymentInterestPaidInStock'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_AdjustmentsToReconcileNetIncomeLossToCashProvidedByUsedInOperatingActivitiesAbstract' xlink:to='fil_PrepaymentInterestPaidInStock' use='optional' order='12.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_IncreaseDecreaseInOperatingCapitalAbstract' xlink:label='us-gaap_IncreaseDecreaseInOperatingCapitalAbstract'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_NetCashProvidedByUsedInOperatingActivitiesContinuingOperationsAbstract' xlink:to='us-gaap_IncreaseDecreaseInOperatingCapitalAbstract' use='optional' order='3.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_IncreaseDecreaseInAccountsReceivable' xlink:label='us-gaap_IncreaseDecreaseInAccountsReceivable'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_IncreaseDecreaseInOperatingCapitalAbstract' xlink:to='us-gaap_IncreaseDecreaseInAccountsReceivable' use='optional' order='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_IncreaseDecreaseInPrepaidExpense' xlink:label='us-gaap_IncreaseDecreaseInPrepaidExpense'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_IncreaseDecreaseInOperatingCapitalAbstract' xlink:to='us-gaap_IncreaseDecreaseInPrepaidExpense' use='optional' order='2.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_IncreaseDecreaseInAccountsPayableAndAccruedLiabilities' xlink:label='us-gaap_IncreaseDecreaseInAccountsPayableAndAccruedLiabilities'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_IncreaseDecreaseInOperatingCapitalAbstract' xlink:to='us-gaap_IncreaseDecreaseInAccountsPayableAndAccruedLiabilities' use='optional' order='3.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_IncreaseDecreaseInAccruedLiabilities' xlink:label='us-gaap_IncreaseDecreaseInAccruedLiabilities'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_IncreaseDecreaseInOperatingCapitalAbstract' xlink:to='us-gaap_IncreaseDecreaseInAccruedLiabilities' use='optional' order='4.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_NetCashProvidedByUsedInOperatingActivities' xlink:label='us-gaap_NetCashProvidedByUsedInOperatingActivities'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_IncreaseDecreaseInOperatingCapitalAbstract' xlink:to='us-gaap_NetCashProvidedByUsedInOperatingActivities' use='optional' order='5.0' preferredLabel='http://www.xbrl.org/2003/role/totalLabel'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_NetCashProvidedByUsedInInvestingActivitiesAbstract' xlink:label='us-gaap_NetCashProvidedByUsedInInvestingActivitiesAbstract'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_NetCashProvidedByUsedInOperatingActivitiesContinuingOperationsAbstract' xlink:to='us-gaap_NetCashProvidedByUsedInInvestingActivitiesAbstract' use='optional' order='4.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_PaymentsToAcquireInvestments' xlink:label='us-gaap_PaymentsToAcquireInvestments'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_NetCashProvidedByUsedInInvestingActivitiesAbstract' xlink:to='us-gaap_PaymentsToAcquireInvestments' use='optional' order='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_ProceedsFromSaleOfLongtermInvestments' xlink:label='us-gaap_ProceedsFromSaleOfLongtermInvestments'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_NetCashProvidedByUsedInInvestingActivitiesAbstract' xlink:to='us-gaap_ProceedsFromSaleOfLongtermInvestments' use='optional' order='2.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_NetCashProvidedByUsedInInvestingActivities' xlink:label='us-gaap_NetCashProvidedByUsedInInvestingActivities'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_NetCashProvidedByUsedInInvestingActivitiesAbstract' xlink:to='us-gaap_NetCashProvidedByUsedInInvestingActivities' use='optional' order='3.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_NetCashProvidedByUsedInFinancingActivitiesAbstract' xlink:label='us-gaap_NetCashProvidedByUsedInFinancingActivitiesAbstract'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_NetCashProvidedByUsedInOperatingActivitiesContinuingOperationsAbstract' xlink:to='us-gaap_NetCashProvidedByUsedInFinancingActivitiesAbstract' use='optional' order='5.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_ProceedsFromRelatedPartyDebt' xlink:label='us-gaap_ProceedsFromRelatedPartyDebt'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_NetCashProvidedByUsedInFinancingActivitiesAbstract' xlink:to='us-gaap_ProceedsFromRelatedPartyDebt' use='optional' order='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_RepaymentsOfRelatedPartyDebt' xlink:label='us-gaap_RepaymentsOfRelatedPartyDebt'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_NetCashProvidedByUsedInFinancingActivitiesAbstract' xlink:to='us-gaap_RepaymentsOfRelatedPartyDebt' use='optional' order='2.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_IssuanceOfConvertibleNotesAndShortTermNotesPayable' xlink:label='fil_IssuanceOfConvertibleNotesAndShortTermNotesPayable'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_NetCashProvidedByUsedInFinancingActivitiesAbstract' xlink:to='fil_IssuanceOfConvertibleNotesAndShortTermNotesPayable' use='optional' order='3.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_IssuanceOfLongTermNotesPayable' xlink:label='fil_IssuanceOfLongTermNotesPayable'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_NetCashProvidedByUsedInFinancingActivitiesAbstract' xlink:to='fil_IssuanceOfLongTermNotesPayable' use='optional' order='4.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_ProceedsFromIssuanceOrSaleOfEquity' xlink:label='us-gaap_ProceedsFromIssuanceOrSaleOfEquity'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_NetCashProvidedByUsedInFinancingActivitiesAbstract' xlink:to='us-gaap_ProceedsFromIssuanceOrSaleOfEquity' use='optional' order='5.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_RepaymentsOfShortTermDebt' xlink:label='us-gaap_RepaymentsOfShortTermDebt'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_NetCashProvidedByUsedInFinancingActivitiesAbstract' xlink:to='us-gaap_RepaymentsOfShortTermDebt' use='optional' order='6.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_NetCashProvidedByUsedInFinancingActivities' xlink:label='us-gaap_NetCashProvidedByUsedInFinancingActivities'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_NetCashProvidedByUsedInFinancingActivitiesAbstract' xlink:to='us-gaap_NetCashProvidedByUsedInFinancingActivities' use='optional' order='7.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_CashAndCashEquivalentsPeriodIncreaseDecrease' xlink:label='us-gaap_CashAndCashEquivalentsPeriodIncreaseDecrease'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_NetCashProvidedByUsedInFinancingActivitiesAbstract' xlink:to='us-gaap_CashAndCashEquivalentsPeriodIncreaseDecrease' use='optional' order='8.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_CashAndCashEquivalentsAtCarryingValue' xlink:label='us-gaap_CashAndCashEquivalentsAtCarryingValue'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_NetCashProvidedByUsedInFinancingActivitiesAbstract' xlink:to='us-gaap_CashAndCashEquivalentsAtCarryingValue' use='optional' order='9.0' preferredLabel='http://www.xbrl.org/2003/role/periodStartLabel'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_CashAndCashEquivalentsAtCarryingValue' xlink:label='us-gaap_CashAndCashEquivalentsAtCarryingValue_1'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_NetCashProvidedByUsedInFinancingActivitiesAbstract' xlink:to='us-gaap_CashAndCashEquivalentsAtCarryingValue_1' use='optional' order='10.0' preferredLabel='http://www.xbrl.org/2003/role/periodEndLabel'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_SupplementalCashFlowInformationAbstract' xlink:label='us-gaap_SupplementalCashFlowInformationAbstract'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_NetCashProvidedByUsedInOperatingActivitiesContinuingOperationsAbstract' xlink:to='us-gaap_SupplementalCashFlowInformationAbstract' use='optional' order='6.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_CashFlowNoncashInvestingAndFinancingActivitiesDisclosureAbstract' xlink:label='us-gaap_CashFlowNoncashInvestingAndFinancingActivitiesDisclosureAbstract'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_SupplementalCashFlowInformationAbstract' xlink:to='us-gaap_CashFlowNoncashInvestingAndFinancingActivitiesDisclosureAbstract' use='optional' order='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_InterestPaidNet' xlink:label='us-gaap_InterestPaidNet'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_CashFlowNoncashInvestingAndFinancingActivitiesDisclosureAbstract' xlink:to='us-gaap_InterestPaidNet' use='optional' order='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_IncomeTaxesPaidNet' xlink:label='us-gaap_IncomeTaxesPaidNet'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_CashFlowNoncashInvestingAndFinancingActivitiesDisclosureAbstract' xlink:to='us-gaap_IncomeTaxesPaidNet' use='optional' order='2.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_OtherNoncashInvestingAndFinancingItemsAbstract' xlink:label='us-gaap_OtherNoncashInvestingAndFinancingItemsAbstract'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_SupplementalCashFlowInformationAbstract' xlink:to='us-gaap_OtherNoncashInvestingAndFinancingItemsAbstract' use='optional' order='2.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_StockAndStockPayableIssuedSettlementOfNotesPayable' xlink:label='fil_StockAndStockPayableIssuedSettlementOfNotesPayable'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_OtherNoncashInvestingAndFinancingItemsAbstract' xlink:to='fil_StockAndStockPayableIssuedSettlementOfNotesPayable' use='optional' order='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_StockAndStockPayableIssuedForSoftwareAcquisition' xlink:label='fil_StockAndStockPayableIssuedForSoftwareAcquisition'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_OtherNoncashInvestingAndFinancingItemsAbstract' xlink:to='fil_StockAndStockPayableIssuedForSoftwareAcquisition' use='optional' order='2.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_NoteIssuedInSettlementOfNotesPayableAndAccountsPayable' xlink:label='fil_NoteIssuedInSettlementOfNotesPayableAndAccountsPayable'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_OtherNoncashInvestingAndFinancingItemsAbstract' xlink:to='fil_NoteIssuedInSettlementOfNotesPayableAndAccountsPayable' use='optional' order='3.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_AccruedOfficerCompensationSettledInShares' xlink:label='fil_AccruedOfficerCompensationSettledInShares'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='us-gaap_OtherNoncashInvestingAndFinancingItemsAbstract' xlink:to='fil_AccruedOfficerCompensationSettledInShares' use='optional' order='4.0'/>
+	</link:presentationLink>
+	<link:roleRef roleURI="http://www.aptsystems.com/20170131/role/idr_DisclosureNATUREOFOPERATIONS" xlink:type="simple" xlink:href="apts-20170131.xsd#idr_DisclosureNATUREOFOPERATIONS"/>
+	<link:presentationLink xlink:type="extended" xlink:role="http://www.aptsystems.com/20170131/role/idr_DisclosureNATUREOFOPERATIONS">
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_OrganizationConsolidationAndPresentationOfFinancialStatementsAbstract1' xlink:label='fil_OrganizationConsolidationAndPresentationOfFinancialStatementsAbstract1'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_NatureOfOperations' xlink:label='us-gaap_NatureOfOperations'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_OrganizationConsolidationAndPresentationOfFinancialStatementsAbstract1' xlink:to='us-gaap_NatureOfOperations' use='optional' order='1.0' preferredLabel='http://www.xbrl.org/2003/role/terseLabel'/>
+	</link:presentationLink>
+	<link:roleRef roleURI="http://www.aptsystems.com/20170131/role/idr_DisclosureGOINGCONCERNANDLIQUIDITY" xlink:type="simple" xlink:href="apts-20170131.xsd#idr_DisclosureGOINGCONCERNANDLIQUIDITY"/>
+	<link:presentationLink xlink:type="extended" xlink:role="http://www.aptsystems.com/20170131/role/idr_DisclosureGOINGCONCERNANDLIQUIDITY">
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_GoingConcernAndLiquidityAbstract' xlink:label='fil_GoingConcernAndLiquidityAbstract'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_GoingConcernAndLiquidityTextBlock' xlink:label='fil_GoingConcernAndLiquidityTextBlock'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_GoingConcernAndLiquidityAbstract' xlink:to='fil_GoingConcernAndLiquidityTextBlock' use='optional' order='1.0'/>
+	</link:presentationLink>
+	<link:roleRef roleURI="http://www.aptsystems.com/20170131/role/idr_DisclosureSUMMARYOFSIGNIFICANTACCOUNTINGPOLICIES" xlink:type="simple" xlink:href="apts-20170131.xsd#idr_DisclosureSUMMARYOFSIGNIFICANTACCOUNTINGPOLICIES"/>
+	<link:presentationLink xlink:type="extended" xlink:role="http://www.aptsystems.com/20170131/role/idr_DisclosureSUMMARYOFSIGNIFICANTACCOUNTINGPOLICIES">
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_AccountingPoliciesAbstract1' xlink:label='fil_AccountingPoliciesAbstract1'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_SignificantAccountingPoliciesTextBlock' xlink:label='us-gaap_SignificantAccountingPoliciesTextBlock'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_AccountingPoliciesAbstract1' xlink:to='us-gaap_SignificantAccountingPoliciesTextBlock' use='optional' order='1.0' preferredLabel='http://www.xbrl.org/2003/role/terseLabel'/>
+	</link:presentationLink>
+	<link:roleRef roleURI="http://www.aptsystems.com/20170131/role/idr_DisclosureRELATEDPARTYTRANSACTIONS" xlink:type="simple" xlink:href="apts-20170131.xsd#idr_DisclosureRELATEDPARTYTRANSACTIONS"/>
+	<link:presentationLink xlink:type="extended" xlink:role="http://www.aptsystems.com/20170131/role/idr_DisclosureRELATEDPARTYTRANSACTIONS">
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_RelatedPartyDisclosuresAbstract' xlink:label='fil_RelatedPartyDisclosuresAbstract'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_RelatedPartyTransactionsDisclosureTextBlock' xlink:label='us-gaap_RelatedPartyTransactionsDisclosureTextBlock'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_RelatedPartyDisclosuresAbstract' xlink:to='us-gaap_RelatedPartyTransactionsDisclosureTextBlock' use='optional' order='1.0' preferredLabel='http://www.xbrl.org/2003/role/terseLabel'/>
+	</link:presentationLink>
+	<link:roleRef roleURI="http://www.aptsystems.com/20170131/role/idr_DisclosureSOFTWARE" xlink:type="simple" xlink:href="apts-20170131.xsd#idr_DisclosureSOFTWARE"/>
+	<link:presentationLink xlink:type="extended" xlink:role="http://www.aptsystems.com/20170131/role/idr_DisclosureSOFTWARE">
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_ResearchAndDevelopmentAbstract1' xlink:label='fil_ResearchAndDevelopmentAbstract1'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_ResearchDevelopmentAndComputerSoftwareDisclosureTextBlock' xlink:label='us-gaap_ResearchDevelopmentAndComputerSoftwareDisclosureTextBlock'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_ResearchAndDevelopmentAbstract1' xlink:to='us-gaap_ResearchDevelopmentAndComputerSoftwareDisclosureTextBlock' use='optional' order='1.0' preferredLabel='http://www.xbrl.org/2003/role/terseLabel'/>
+	</link:presentationLink>
+	<link:roleRef roleURI="http://www.aptsystems.com/20170131/role/idr_DisclosureCONVERTIBLENOTEPAYABLERELATEDANDUNRELATEDPARTIES" xlink:type="simple" xlink:href="apts-20170131.xsd#idr_DisclosureCONVERTIBLENOTEPAYABLERELATEDANDUNRELATEDPARTIES"/>
+	<link:presentationLink xlink:type="extended" xlink:role="http://www.aptsystems.com/20170131/role/idr_DisclosureCONVERTIBLENOTEPAYABLERELATEDANDUNRELATEDPARTIES">
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_ConvertibleNotePayableAbstract' xlink:label='fil_ConvertibleNotePayableAbstract'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_LongTermDebtTextBlock' xlink:label='us-gaap_LongTermDebtTextBlock'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_ConvertibleNotePayableAbstract' xlink:to='us-gaap_LongTermDebtTextBlock' use='optional' order='1.0' preferredLabel='http://www.xbrl.org/2003/role/terseLabel'/>
+	</link:presentationLink>
+	<link:roleRef roleURI="http://www.aptsystems.com/20170131/role/idr_DisclosureNOTESPAYABLE" xlink:type="simple" xlink:href="apts-20170131.xsd#idr_DisclosureNOTESPAYABLE"/>
+	<link:presentationLink xlink:type="extended" xlink:role="http://www.aptsystems.com/20170131/role/idr_DisclosureNOTESPAYABLE">
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_NotesPayableAbstract1' xlink:label='fil_NotesPayableAbstract1'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_DebtDisclosureTextBlock' xlink:label='us-gaap_DebtDisclosureTextBlock'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_NotesPayableAbstract1' xlink:to='us-gaap_DebtDisclosureTextBlock' use='optional' order='1.0'/>
+	</link:presentationLink>
+	<link:roleRef roleURI="http://www.aptsystems.com/20170131/role/idr_DisclosureFAIRVALUEMEASUREMENTS" xlink:type="simple" xlink:href="apts-20170131.xsd#idr_DisclosureFAIRVALUEMEASUREMENTS"/>
+	<link:presentationLink xlink:type="extended" xlink:role="http://www.aptsystems.com/20170131/role/idr_DisclosureFAIRVALUEMEASUREMENTS">
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_FairValueMeasurementsAbstract' xlink:label='fil_FairValueMeasurementsAbstract'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_FairValueMeasurementInputsDisclosureTextBlock' xlink:label='us-gaap_FairValueMeasurementInputsDisclosureTextBlock'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_FairValueMeasurementsAbstract' xlink:to='us-gaap_FairValueMeasurementInputsDisclosureTextBlock' use='optional' order='1.0'/>
+	</link:presentationLink>
+	<link:roleRef roleURI="http://www.aptsystems.com/20170131/role/idr_DisclosureCOMMITMENTSANDCONTINGENCIES" xlink:type="simple" xlink:href="apts-20170131.xsd#idr_DisclosureCOMMITMENTSANDCONTINGENCIES"/>
+	<link:presentationLink xlink:type="extended" xlink:role="http://www.aptsystems.com/20170131/role/idr_DisclosureCOMMITMENTSANDCONTINGENCIES">
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_CommitmentAndContingenciesAbstract' xlink:label='fil_CommitmentAndContingenciesAbstract'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_CommitmentsAndContingenciesDisclosureTextBlock' xlink:label='us-gaap_CommitmentsAndContingenciesDisclosureTextBlock'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_CommitmentAndContingenciesAbstract' xlink:to='us-gaap_CommitmentsAndContingenciesDisclosureTextBlock' use='optional' order='1.0' preferredLabel='http://www.xbrl.org/2003/role/terseLabel'/>
+	</link:presentationLink>
+	<link:roleRef roleURI="http://www.aptsystems.com/20170131/role/idr_DisclosureSTOCKHOLDERSDEFICIT" xlink:type="simple" xlink:href="apts-20170131.xsd#idr_DisclosureSTOCKHOLDERSDEFICIT"/>
+	<link:presentationLink xlink:type="extended" xlink:role="http://www.aptsystems.com/20170131/role/idr_DisclosureSTOCKHOLDERSDEFICIT">
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_EquityAbstract1' xlink:label='fil_EquityAbstract1'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_StockholdersEquityNoteDisclosureTextBlock' xlink:label='us-gaap_StockholdersEquityNoteDisclosureTextBlock'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_EquityAbstract1' xlink:to='us-gaap_StockholdersEquityNoteDisclosureTextBlock' use='optional' order='1.0' preferredLabel='http://www.xbrl.org/2003/role/terseLabel'/>
+	</link:presentationLink>
+	<link:roleRef roleURI="http://www.aptsystems.com/20170131/role/idr_DisclosureINCOMETAXES" xlink:type="simple" xlink:href="apts-20170131.xsd#idr_DisclosureINCOMETAXES"/>
+	<link:presentationLink xlink:type="extended" xlink:role="http://www.aptsystems.com/20170131/role/idr_DisclosureINCOMETAXES">
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_IncomeTaxesAbstract' xlink:label='fil_IncomeTaxesAbstract'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_IncomeTaxDisclosureTextBlock' xlink:label='us-gaap_IncomeTaxDisclosureTextBlock'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_IncomeTaxesAbstract' xlink:to='us-gaap_IncomeTaxDisclosureTextBlock' use='optional' order='1.0' preferredLabel='http://www.xbrl.org/2003/role/terseLabel'/>
+	</link:presentationLink>
+	<link:roleRef roleURI="http://www.aptsystems.com/20170131/role/idr_DisclosureSUBSEQUENTEVENTS" xlink:type="simple" xlink:href="apts-20170131.xsd#idr_DisclosureSUBSEQUENTEVENTS"/>
+	<link:presentationLink xlink:type="extended" xlink:role="http://www.aptsystems.com/20170131/role/idr_DisclosureSUBSEQUENTEVENTS">
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_SubsequentEventsAbstract1' xlink:label='fil_SubsequentEventsAbstract1'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_SubsequentEventsTextBlock' xlink:label='us-gaap_SubsequentEventsTextBlock'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_SubsequentEventsAbstract1' xlink:to='us-gaap_SubsequentEventsTextBlock' use='optional' order='1.0' preferredLabel='http://www.xbrl.org/2003/role/terseLabel'/>
+	</link:presentationLink>
+	<link:roleRef roleURI="http://www.aptsystems.com/20170131/role/idr_DisclosureSIGNIFICANTACCOUNTINGPOLICIESPOLICIES" xlink:type="simple" xlink:href="apts-20170131.xsd#idr_DisclosureSIGNIFICANTACCOUNTINGPOLICIESPOLICIES"/>
+	<link:presentationLink xlink:type="extended" xlink:role="http://www.aptsystems.com/20170131/role/idr_DisclosureSIGNIFICANTACCOUNTINGPOLICIESPOLICIES">
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_SignificantAccountingPoliciesAbstract' xlink:label='fil_SignificantAccountingPoliciesAbstract'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_BasisOfAccountingPolicyPolicyTextBlock' xlink:label='us-gaap_BasisOfAccountingPolicyPolicyTextBlock'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_SignificantAccountingPoliciesAbstract' xlink:to='us-gaap_BasisOfAccountingPolicyPolicyTextBlock' use='optional' order='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_CashAndCashEquivalentsPolicyTextBlock' xlink:label='us-gaap_CashAndCashEquivalentsPolicyTextBlock'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_SignificantAccountingPoliciesAbstract' xlink:to='us-gaap_CashAndCashEquivalentsPolicyTextBlock' use='optional' order='2.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_UseOfEstimates' xlink:label='us-gaap_UseOfEstimates'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_SignificantAccountingPoliciesAbstract' xlink:to='us-gaap_UseOfEstimates' use='optional' order='3.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_ForeignCurrencyTransactionsAndTranslationsPolicyTextBlock' xlink:label='us-gaap_ForeignCurrencyTransactionsAndTranslationsPolicyTextBlock'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_SignificantAccountingPoliciesAbstract' xlink:to='us-gaap_ForeignCurrencyTransactionsAndTranslationsPolicyTextBlock' use='optional' order='4.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_FairValueOfFinancialInstrumentsPolicy' xlink:label='us-gaap_FairValueOfFinancialInstrumentsPolicy'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_SignificantAccountingPoliciesAbstract' xlink:to='us-gaap_FairValueOfFinancialInstrumentsPolicy' use='optional' order='5.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_DepreciationDepletionAndAmortizationPolicyTextBlock' xlink:label='us-gaap_DepreciationDepletionAndAmortizationPolicyTextBlock'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_SignificantAccountingPoliciesAbstract' xlink:to='us-gaap_DepreciationDepletionAndAmortizationPolicyTextBlock' use='optional' order='6.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_CapitalizationOfInternalCostsPolicy' xlink:label='us-gaap_CapitalizationOfInternalCostsPolicy'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_SignificantAccountingPoliciesAbstract' xlink:to='us-gaap_CapitalizationOfInternalCostsPolicy' use='optional' order='7.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_RevenueRecognitionPolicyTextBlock' xlink:label='us-gaap_RevenueRecognitionPolicyTextBlock'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_SignificantAccountingPoliciesAbstract' xlink:to='us-gaap_RevenueRecognitionPolicyTextBlock' use='optional' order='8.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_ResearchAndDevelopmentExpensePolicy' xlink:label='us-gaap_ResearchAndDevelopmentExpensePolicy'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_SignificantAccountingPoliciesAbstract' xlink:to='us-gaap_ResearchAndDevelopmentExpensePolicy' use='optional' order='9.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_DeferredChargesPolicyTextBlock' xlink:label='us-gaap_DeferredChargesPolicyTextBlock'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_SignificantAccountingPoliciesAbstract' xlink:to='us-gaap_DeferredChargesPolicyTextBlock' use='optional' order='10.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_ImpairmentOrDisposalOfLongLivedAssetsPolicyTextBlock' xlink:label='us-gaap_ImpairmentOrDisposalOfLongLivedAssetsPolicyTextBlock'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_SignificantAccountingPoliciesAbstract' xlink:to='us-gaap_ImpairmentOrDisposalOfLongLivedAssetsPolicyTextBlock' use='optional' order='11.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_AdvertisingCostsPolicyTextBlock' xlink:label='us-gaap_AdvertisingCostsPolicyTextBlock'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_SignificantAccountingPoliciesAbstract' xlink:to='us-gaap_AdvertisingCostsPolicyTextBlock' use='optional' order='12.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_IncomeTaxPolicyTextBlock' xlink:label='us-gaap_IncomeTaxPolicyTextBlock'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_SignificantAccountingPoliciesAbstract' xlink:to='us-gaap_IncomeTaxPolicyTextBlock' use='optional' order='13.0' preferredLabel='http://www.xbrl.org/2003/role/terseLabel'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_EarningsPerSharePolicyTextBlock' xlink:label='us-gaap_EarningsPerSharePolicyTextBlock'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_SignificantAccountingPoliciesAbstract' xlink:to='us-gaap_EarningsPerSharePolicyTextBlock' use='optional' order='14.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_ShareBasedCompensationOptionAndIncentivePlansPolicy' xlink:label='us-gaap_ShareBasedCompensationOptionAndIncentivePlansPolicy'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_SignificantAccountingPoliciesAbstract' xlink:to='us-gaap_ShareBasedCompensationOptionAndIncentivePlansPolicy' use='optional' order='15.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_InvestmentPolicyTextBlock' xlink:label='us-gaap_InvestmentPolicyTextBlock'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_SignificantAccountingPoliciesAbstract' xlink:to='us-gaap_InvestmentPolicyTextBlock' use='optional' order='16.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_DebtPolicyTextBlock' xlink:label='us-gaap_DebtPolicyTextBlock'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_SignificantAccountingPoliciesAbstract' xlink:to='us-gaap_DebtPolicyTextBlock' use='optional' order='17.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_BusinessCombinationsPolicy' xlink:label='us-gaap_BusinessCombinationsPolicy'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_SignificantAccountingPoliciesAbstract' xlink:to='us-gaap_BusinessCombinationsPolicy' use='optional' order='18.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_SegmentReportingPolicyPolicyTextBlock' xlink:label='us-gaap_SegmentReportingPolicyPolicyTextBlock'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_SignificantAccountingPoliciesAbstract' xlink:to='us-gaap_SegmentReportingPolicyPolicyTextBlock' use='optional' order='19.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_NewAccountingPronouncementsPolicyPolicyTextBlock' xlink:label='us-gaap_NewAccountingPronouncementsPolicyPolicyTextBlock'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_SignificantAccountingPoliciesAbstract' xlink:to='us-gaap_NewAccountingPronouncementsPolicyPolicyTextBlock' use='optional' order='20.0'/>
+	</link:presentationLink>
+	<link:roleRef roleURI="http://www.aptsystems.com/20170131/role/idr_DisclosureSCHEDULEOFTRADINGINVESTMENTSTables" xlink:type="simple" xlink:href="apts-20170131.xsd#idr_DisclosureSCHEDULEOFTRADINGINVESTMENTSTables"/>
+	<link:presentationLink xlink:type="extended" xlink:role="http://www.aptsystems.com/20170131/role/idr_DisclosureSCHEDULEOFTRADINGINVESTMENTSTables">
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_FinancialServicesBrokersAndDealersAbstract' xlink:label='fil_FinancialServicesBrokersAndDealersAbstract'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_ScheduleOfSecuritiesOwnedAndSoldNotYetPurchasedAtFairValueTextBlock' xlink:label='us-gaap_ScheduleOfSecuritiesOwnedAndSoldNotYetPurchasedAtFairValueTextBlock'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_FinancialServicesBrokersAndDealersAbstract' xlink:to='us-gaap_ScheduleOfSecuritiesOwnedAndSoldNotYetPurchasedAtFairValueTextBlock' use='optional' order='1.0' preferredLabel='http://www.xbrl.org/2003/role/terseLabel'/>
+	</link:presentationLink>
+	<link:roleRef roleURI="http://www.aptsystems.com/20170131/role/idr_DisclosureSCHEDULEOFSOFTWARETables" xlink:type="simple" xlink:href="apts-20170131.xsd#idr_DisclosureSCHEDULEOFSOFTWARETables"/>
+	<link:presentationLink xlink:type="extended" xlink:role="http://www.aptsystems.com/20170131/role/idr_DisclosureSCHEDULEOFSOFTWARETables">
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_ScheduleOfSoftwareTablesAbstract' xlink:label='fil_ScheduleOfSoftwareTablesAbstract'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_ScheduleOfSoftwareTextBlock' xlink:label='fil_ScheduleOfSoftwareTextBlock'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_ScheduleOfSoftwareTablesAbstract' xlink:to='fil_ScheduleOfSoftwareTextBlock' use='optional' order='1.0' preferredLabel='http://www.xbrl.org/2003/role/terseLabel'/>
+	</link:presentationLink>
+	<link:roleRef roleURI="http://www.aptsystems.com/20170131/role/idr_DisclosureCONVERTIBLENOTESPAYABLERELATEDANDUNRELATEDPARTIESTables" xlink:type="simple" xlink:href="apts-20170131.xsd#idr_DisclosureCONVERTIBLENOTESPAYABLERELATEDANDUNRELATEDPARTIESTables"/>
+	<link:presentationLink xlink:type="extended" xlink:role="http://www.aptsystems.com/20170131/role/idr_DisclosureCONVERTIBLENOTESPAYABLERELATEDANDUNRELATEDPARTIESTables">
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_DebtAbstract' xlink:label='fil_DebtAbstract'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_ConvertibleDebtTableTextBlock' xlink:label='us-gaap_ConvertibleDebtTableTextBlock'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_DebtAbstract' xlink:to='us-gaap_ConvertibleDebtTableTextBlock' use='optional' order='1.0' preferredLabel='http://www.xbrl.org/2003/role/terseLabel'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_ScheduleOfDebtTableTextBlock' xlink:label='us-gaap_ScheduleOfDebtTableTextBlock'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_DebtAbstract' xlink:to='us-gaap_ScheduleOfDebtTableTextBlock' use='optional' order='2.0'/>
+	</link:presentationLink>
+	<link:roleRef roleURI="http://www.aptsystems.com/20170131/role/idr_DisclosureFAIRVALUEMEASUREMENTSTables" xlink:type="simple" xlink:href="apts-20170131.xsd#idr_DisclosureFAIRVALUEMEASUREMENTSTables"/>
+	<link:presentationLink xlink:type="extended" xlink:role="http://www.aptsystems.com/20170131/role/idr_DisclosureFAIRVALUEMEASUREMENTSTables">
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_FairValueMeasuresAndDisclosuresAbstract' xlink:label='fil_FairValueMeasuresAndDisclosuresAbstract'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_FairValueAssetsMeasuredOnNonrecurringBasisValuationTechniquesTextBlock' xlink:label='us-gaap_FairValueAssetsMeasuredOnNonrecurringBasisValuationTechniquesTextBlock'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_FairValueMeasuresAndDisclosuresAbstract' xlink:to='us-gaap_FairValueAssetsMeasuredOnNonrecurringBasisValuationTechniquesTextBlock' use='optional' order='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_ScheduleOfChangesInFairValueOfPlanAssetsTableTextBlock' xlink:label='us-gaap_ScheduleOfChangesInFairValueOfPlanAssetsTableTextBlock'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_FairValueMeasuresAndDisclosuresAbstract' xlink:to='us-gaap_ScheduleOfChangesInFairValueOfPlanAssetsTableTextBlock' use='optional' order='2.0'/>
+	</link:presentationLink>
+	<link:roleRef roleURI="http://www.aptsystems.com/20170131/role/idr_DisclosureIncomeTaxExpenseBenefitAsFollowsTables" xlink:type="simple" xlink:href="apts-20170131.xsd#idr_DisclosureIncomeTaxExpenseBenefitAsFollowsTables"/>
+	<link:presentationLink xlink:type="extended" xlink:role="http://www.aptsystems.com/20170131/role/idr_DisclosureIncomeTaxExpenseBenefitAsFollowsTables">
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_IncomeTaxExpenseBenefitAsFollowsTablesAbstract' xlink:label='fil_IncomeTaxExpenseBenefitAsFollowsTablesAbstract'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_ScheduleOfComponentsOfIncomeTaxExpenseBenefitTableTextBlock' xlink:label='us-gaap_ScheduleOfComponentsOfIncomeTaxExpenseBenefitTableTextBlock'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_IncomeTaxExpenseBenefitAsFollowsTablesAbstract' xlink:to='us-gaap_ScheduleOfComponentsOfIncomeTaxExpenseBenefitTableTextBlock' use='optional' order='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_ScheduleOfDeferredTaxAssetsAndLiabilitiesTableTextBlock' xlink:label='us-gaap_ScheduleOfDeferredTaxAssetsAndLiabilitiesTableTextBlock'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_IncomeTaxExpenseBenefitAsFollowsTablesAbstract' xlink:to='us-gaap_ScheduleOfDeferredTaxAssetsAndLiabilitiesTableTextBlock' use='optional' order='2.0'/>
+	</link:presentationLink>
+	<link:roleRef roleURI="http://www.aptsystems.com/20170131/role/idr_GOINGCONCERNANDLIQUIDITYDetails" xlink:type="simple" xlink:href="apts-20170131.xsd#idr_GOINGCONCERNANDLIQUIDITYDetails"/>
+	<link:presentationLink xlink:type="extended" xlink:role="http://www.aptsystems.com/20170131/role/idr_GOINGCONCERNANDLIQUIDITYDetails">
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_GoingConcernAndLiquidityDetailsAbstract' xlink:label='fil_GoingConcernAndLiquidityDetailsAbstract'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_CompanyHadCash' xlink:label='fil_CompanyHadCash'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_GoingConcernAndLiquidityDetailsAbstract' xlink:to='fil_CompanyHadCash' use='optional' order='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_InsufficientRevenueToMeetItsOngoingOperatingExpensesLiabilitiesOf' xlink:label='fil_InsufficientRevenueToMeetItsOngoingOperatingExpensesLiabilitiesOf'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_GoingConcernAndLiquidityDetailsAbstract' xlink:to='fil_InsufficientRevenueToMeetItsOngoingOperatingExpensesLiabilitiesOf' use='optional' order='2.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_AccumulatedLossesAmounted' xlink:label='fil_AccumulatedLossesAmounted'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_GoingConcernAndLiquidityDetailsAbstract' xlink:to='fil_AccumulatedLossesAmounted' use='optional' order='3.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_ShareholdersDeficitAmount' xlink:label='fil_ShareholdersDeficitAmount'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_GoingConcernAndLiquidityDetailsAbstract' xlink:to='fil_ShareholdersDeficitAmount' use='optional' order='4.0'/>
+	</link:presentationLink>
+	<link:roleRef roleURI="http://www.aptsystems.com/20170131/role/idr_SIGNIFICANTACCOUNTINGPOLICIESDetails" xlink:type="simple" xlink:href="apts-20170131.xsd#idr_SIGNIFICANTACCOUNTINGPOLICIESDetails"/>
+	<link:presentationLink xlink:type="extended" xlink:role="http://www.aptsystems.com/20170131/role/idr_SIGNIFICANTACCOUNTINGPOLICIESDetails">
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_SignificantAccountingPolicies1Abstract' xlink:label='fil_SignificantAccountingPolicies1Abstract'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_SoftwareBeingAmortizedOverUsefulLivesMinimumInYears' xlink:label='fil_SoftwareBeingAmortizedOverUsefulLivesMinimumInYears'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_SignificantAccountingPolicies1Abstract' xlink:to='fil_SoftwareBeingAmortizedOverUsefulLivesMinimumInYears' use='optional' order='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_SoftwareBeingAmortizedOverUsefulLivesMaximumInYears' xlink:label='fil_SoftwareBeingAmortizedOverUsefulLivesMaximumInYears'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_SignificantAccountingPolicies1Abstract' xlink:to='fil_SoftwareBeingAmortizedOverUsefulLivesMaximumInYears' use='optional' order='2.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_WebsiteDevelopmentCostsBeingAmortizedOverUsefulLivesMinimumInYears' xlink:label='fil_WebsiteDevelopmentCostsBeingAmortizedOverUsefulLivesMinimumInYears'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_SignificantAccountingPolicies1Abstract' xlink:to='fil_WebsiteDevelopmentCostsBeingAmortizedOverUsefulLivesMinimumInYears' use='optional' order='3.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_WebsiteDevelopmentCostsBeingAmortizedOverUsefulLivesMaximumInYears' xlink:label='fil_WebsiteDevelopmentCostsBeingAmortizedOverUsefulLivesMaximumInYears'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_SignificantAccountingPolicies1Abstract' xlink:to='fil_WebsiteDevelopmentCostsBeingAmortizedOverUsefulLivesMaximumInYears' use='optional' order='4.0'/>
+	</link:presentationLink>
+	<link:roleRef roleURI="http://www.aptsystems.com/20170131/role/idr_SIGNIFICANTACCOUNTINGPOLICIESNARRATIVEDetails" xlink:type="simple" xlink:href="apts-20170131.xsd#idr_SIGNIFICANTACCOUNTINGPOLICIESNARRATIVEDetails"/>
+	<link:presentationLink xlink:type="extended" xlink:role="http://www.aptsystems.com/20170131/role/idr_SIGNIFICANTACCOUNTINGPOLICIESNARRATIVEDetails">
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_SignificantAccountingPoliciesNarrativeDetailsAbstract' xlink:label='fil_SignificantAccountingPoliciesNarrativeDetailsAbstract'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_AdvertisingCostsExpense' xlink:label='fil_AdvertisingCostsExpense'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_SignificantAccountingPoliciesNarrativeDetailsAbstract' xlink:to='fil_AdvertisingCostsExpense' use='optional' order='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_DebtInstrumentsAreConvertibleAtAFixedPriceSharesOfCommonStock' xlink:label='fil_DebtInstrumentsAreConvertibleAtAFixedPriceSharesOfCommonStock'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_SignificantAccountingPoliciesNarrativeDetailsAbstract' xlink:to='fil_DebtInstrumentsAreConvertibleAtAFixedPriceSharesOfCommonStock' use='optional' order='2.0'/>
+	</link:presentationLink>
+	<link:roleRef roleURI="http://www.aptsystems.com/20170131/role/idr_TRADINGINVESTMENTSDetails" xlink:type="simple" xlink:href="apts-20170131.xsd#idr_TRADINGINVESTMENTSDetails"/>
+	<link:presentationLink xlink:type="extended" xlink:role="http://www.aptsystems.com/20170131/role/idr_TRADINGINVESTMENTSDetails">
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_TradingInvestmentsDetailsAbstract' xlink:label='fil_TradingInvestmentsDetailsAbstract'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_InvestmentAvailableForTradingInInvestments1' xlink:label='fil_InvestmentAvailableForTradingInInvestments1'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_TradingInvestmentsDetailsAbstract' xlink:to='fil_InvestmentAvailableForTradingInInvestments1' use='optional' order='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_UnrealizedGains' xlink:label='fil_UnrealizedGains'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_TradingInvestmentsDetailsAbstract' xlink:to='fil_UnrealizedGains' use='optional' order='2.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_RedemptionsCommissions1' xlink:label='fil_RedemptionsCommissions1'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_TradingInvestmentsDetailsAbstract' xlink:to='fil_RedemptionsCommissions1' use='optional' order='3.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_InvestmentsInTradingAtFairMarketValueForPeriod' xlink:label='fil_InvestmentsInTradingAtFairMarketValueForPeriod'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_TradingInvestmentsDetailsAbstract' xlink:to='fil_InvestmentsInTradingAtFairMarketValueForPeriod' use='optional' order='4.0'/>
+	</link:presentationLink>
+	<link:roleRef roleURI="http://www.aptsystems.com/20170131/role/idr_RELATEDPARTYTRANSACTIONSDetails" xlink:type="simple" xlink:href="apts-20170131.xsd#idr_RELATEDPARTYTRANSACTIONSDetails"/>
+	<link:presentationLink xlink:type="extended" xlink:role="http://www.aptsystems.com/20170131/role/idr_RELATEDPARTYTRANSACTIONSDetails">
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_RelatedPartyTransactionsAsFollowsAbstract' xlink:label='fil_RelatedPartyTransactionsAsFollowsAbstract'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_AccrueAMonthlySalaryPerMonthForThePresident1' xlink:label='fil_AccrueAMonthlySalaryPerMonthForThePresident1'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_RelatedPartyTransactionsAsFollowsAbstract' xlink:to='fil_AccrueAMonthlySalaryPerMonthForThePresident1' use='optional' order='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_AccruedOfficerCompensation1' xlink:label='fil_AccruedOfficerCompensation1'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_RelatedPartyTransactionsAsFollowsAbstract' xlink:to='fil_AccruedOfficerCompensation1' use='optional' order='2.0' preferredLabel='http://www.xbrl.org/2003/role/terseLabel'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_CompanyOwedThePresident' xlink:label='fil_CompanyOwedThePresident'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_RelatedPartyTransactionsAsFollowsAbstract' xlink:to='fil_CompanyOwedThePresident' use='optional' order='3.0'/>
+	</link:presentationLink>
+	<link:roleRef roleURI="http://www.aptsystems.com/20170131/role/idr_RELATEDPARTYOTHERDetails" xlink:type="simple" xlink:href="apts-20170131.xsd#idr_RELATEDPARTYOTHERDetails"/>
+	<link:presentationLink xlink:type="extended" xlink:role="http://www.aptsystems.com/20170131/role/idr_RELATEDPARTYOTHERDetails">
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_RelatedPartyOtherDetailsAbstract' xlink:label='fil_RelatedPartyOtherDetailsAbstract'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_PresidentElectedToConvert15000OfTheAccrualInToSharesOfTheCompanySCommonStock' xlink:label='fil_PresidentElectedToConvert15000OfTheAccrualInToSharesOfTheCompanySCommonStock'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_RelatedPartyOtherDetailsAbstract' xlink:to='fil_PresidentElectedToConvert15000OfTheAccrualInToSharesOfTheCompanySCommonStock' use='optional' order='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_LossOnConversionOfAccruedSalary' xlink:label='fil_LossOnConversionOfAccruedSalary'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_RelatedPartyOtherDetailsAbstract' xlink:to='fil_LossOnConversionOfAccruedSalary' use='optional' order='2.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_CompanyRepaidThePresidentSShortTermAdvance' xlink:label='fil_CompanyRepaidThePresidentSShortTermAdvance'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_RelatedPartyOtherDetailsAbstract' xlink:to='fil_CompanyRepaidThePresidentSShortTermAdvance' use='optional' order='3.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_CompanyPaidToTheRelatedPartyContractor' xlink:label='fil_CompanyPaidToTheRelatedPartyContractor'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_RelatedPartyOtherDetailsAbstract' xlink:to='fil_CompanyPaidToTheRelatedPartyContractor' use='optional' order='4.0'/>
+	</link:presentationLink>
+	<link:roleRef roleURI="http://www.aptsystems.com/20170131/role/idr_SOFTWAREDetails" xlink:type="simple" xlink:href="apts-20170131.xsd#idr_SOFTWAREDetails"/>
+	<link:presentationLink xlink:type="extended" xlink:role="http://www.aptsystems.com/20170131/role/idr_SOFTWAREDetails">
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_SoftwareDetailsAbstract' xlink:label='fil_SoftwareDetailsAbstract'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_ChartingSoftware' xlink:label='fil_ChartingSoftware'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_SoftwareDetailsAbstract' xlink:to='fil_ChartingSoftware' use='optional' order='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_Website' xlink:label='fil_Website'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_SoftwareDetailsAbstract' xlink:to='fil_Website' use='optional' order='2.0' preferredLabel='http://www.xbrl.org/2003/role/terseLabel'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_SoftwareGross' xlink:label='fil_SoftwareGross'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_SoftwareDetailsAbstract' xlink:to='fil_SoftwareGross' use='optional' order='3.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_AccumulatedAmortization' xlink:label='fil_AccumulatedAmortization'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_SoftwareDetailsAbstract' xlink:to='fil_AccumulatedAmortization' use='optional' order='4.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_NetBookValue' xlink:label='fil_NetBookValue'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_SoftwareDetailsAbstract' xlink:to='fil_NetBookValue' use='optional' order='5.0'/>
+	</link:presentationLink>
+	<link:roleRef roleURI="http://www.aptsystems.com/20170131/role/idr_AMORTIZATIONEXPENSEDetails" xlink:type="simple" xlink:href="apts-20170131.xsd#idr_AMORTIZATIONEXPENSEDetails"/>
+	<link:presentationLink xlink:type="extended" xlink:role="http://www.aptsystems.com/20170131/role/idr_AMORTIZATIONEXPENSEDetails">
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_AmortizationExpenseDetailsAbstract' xlink:label='fil_AmortizationExpenseDetailsAbstract'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_CompanyRecordedAmortizationExpenseOnSoftware' xlink:label='fil_CompanyRecordedAmortizationExpenseOnSoftware'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_AmortizationExpenseDetailsAbstract' xlink:to='fil_CompanyRecordedAmortizationExpenseOnSoftware' use='optional' order='1.0'/>
+	</link:presentationLink>
+	<link:roleRef roleURI="http://www.aptsystems.com/20170131/role/idr_CONVERTIBLENOTEPAYABLERELATEDANDUNRELATEDPARTIESDetails" xlink:type="simple" xlink:href="apts-20170131.xsd#idr_CONVERTIBLENOTEPAYABLERELATEDANDUNRELATEDPARTIESDetails"/>
+	<link:presentationLink xlink:type="extended" xlink:role="http://www.aptsystems.com/20170131/role/idr_CONVERTIBLENOTEPAYABLERELATEDANDUNRELATEDPARTIESDetails">
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_ConvertibleNotePayableRelatedAndUnrelatedPartiesDetailsAbstract' xlink:label='fil_ConvertibleNotePayableRelatedAndUnrelatedPartiesDetailsAbstract'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_ConvertibleNotesBalanceFebruary12016' xlink:label='fil_ConvertibleNotesBalanceFebruary12016'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_ConvertibleNotePayableRelatedAndUnrelatedPartiesDetailsAbstract' xlink:to='fil_ConvertibleNotesBalanceFebruary12016' use='optional' order='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_AdditionOfConvertibleNotes' xlink:label='fil_AdditionOfConvertibleNotes'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_ConvertibleNotePayableRelatedAndUnrelatedPartiesDetailsAbstract' xlink:to='fil_AdditionOfConvertibleNotes' use='optional' order='2.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_ConversionOfNotesIntoCommonStock' xlink:label='fil_ConversionOfNotesIntoCommonStock'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_ConvertibleNotePayableRelatedAndUnrelatedPartiesDetailsAbstract' xlink:to='fil_ConversionOfNotesIntoCommonStock' use='optional' order='3.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_CashPaidSettlementOfNote' xlink:label='fil_CashPaidSettlementOfNote'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_ConvertibleNotePayableRelatedAndUnrelatedPartiesDetailsAbstract' xlink:to='fil_CashPaidSettlementOfNote' use='optional' order='4.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_GainOnExtinguishmentOfDebt' xlink:label='fil_GainOnExtinguishmentOfDebt'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_ConvertibleNotePayableRelatedAndUnrelatedPartiesDetailsAbstract' xlink:to='fil_GainOnExtinguishmentOfDebt' use='optional' order='5.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_ChangeInFairValueOfConvertibleNotesIncludingOidDiscount' xlink:label='fil_ChangeInFairValueOfConvertibleNotesIncludingOidDiscount'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_ConvertibleNotePayableRelatedAndUnrelatedPartiesDetailsAbstract' xlink:to='fil_ChangeInFairValueOfConvertibleNotesIncludingOidDiscount' use='optional' order='6.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_ConvertibleNotesBalanceJanuary312017' xlink:label='fil_ConvertibleNotesBalanceJanuary312017'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_ConvertibleNotePayableRelatedAndUnrelatedPartiesDetailsAbstract' xlink:to='fil_ConvertibleNotesBalanceJanuary312017' use='optional' order='7.0'/>
+	</link:presentationLink>
+	<link:roleRef roleURI="http://www.aptsystems.com/20170131/role/idr_CONVERTIBLENOTEPAYABLEDetails" xlink:type="simple" xlink:href="apts-20170131.xsd#idr_CONVERTIBLENOTEPAYABLEDetails"/>
+	<link:presentationLink xlink:type="extended" xlink:role="http://www.aptsystems.com/20170131/role/idr_CONVERTIBLENOTEPAYABLEDetails">
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_ConvertibleNotePayableDetailsAbstract' xlink:label='fil_ConvertibleNotePayableDetailsAbstract'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_ConvertibleNotesPayableNetOfDiscountOutstanding' xlink:label='fil_ConvertibleNotesPayableNetOfDiscountOutstanding'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_ConvertibleNotePayableDetailsAbstract' xlink:to='fil_ConvertibleNotesPayableNetOfDiscountOutstanding' use='optional' order='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_ConvertibleNotesPayableWereDueWithinTheYearEndingWithTheException' xlink:label='fil_ConvertibleNotesPayableWereDueWithinTheYearEndingWithTheException'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_ConvertibleNotePayableDetailsAbstract' xlink:to='fil_ConvertibleNotesPayableWereDueWithinTheYearEndingWithTheException' use='optional' order='2.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_LongTermConvertibleNotesPayableIsDueOnDecember312018' xlink:label='fil_LongTermConvertibleNotesPayableIsDueOnDecember312018'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_ConvertibleNotePayableDetailsAbstract' xlink:to='fil_LongTermConvertibleNotesPayableIsDueOnDecember312018' use='optional' order='3.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_LongTermConvertibleNotesPayableIsDueOnJanuary312019' xlink:label='fil_LongTermConvertibleNotesPayableIsDueOnJanuary312019'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_ConvertibleNotePayableDetailsAbstract' xlink:to='fil_LongTermConvertibleNotesPayableIsDueOnJanuary312019' use='optional' order='4.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_ConvertibleNotesPayableWereDueWithinTheYearEnding' xlink:label='fil_ConvertibleNotesPayableWereDueWithinTheYearEnding'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_ConvertibleNotePayableDetailsAbstract' xlink:to='fil_ConvertibleNotesPayableWereDueWithinTheYearEnding' use='optional' order='5.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_LongTermConvertibleNotesPayableIsDueOnDecember3120181' xlink:label='fil_LongTermConvertibleNotesPayableIsDueOnDecember3120181'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_ConvertibleNotePayableDetailsAbstract' xlink:to='fil_LongTermConvertibleNotesPayableIsDueOnDecember3120181' use='optional' order='6.0' preferredLabel='http://www.xbrl.org/2003/role/terseLabel'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_LongTermConvertibleNotesPayableIsDueOnJanuary3120191' xlink:label='fil_LongTermConvertibleNotesPayableIsDueOnJanuary3120191'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_ConvertibleNotePayableDetailsAbstract' xlink:to='fil_LongTermConvertibleNotesPayableIsDueOnJanuary3120191' use='optional' order='7.0' preferredLabel='http://www.xbrl.org/2003/role/terseLabel'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_IssuedAnUnsecuredConvertibleNote' xlink:label='fil_IssuedAnUnsecuredConvertibleNote'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_ConvertibleNotePayableDetailsAbstract' xlink:to='fil_IssuedAnUnsecuredConvertibleNote' use='optional' order='8.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_ConvertibleNoteAccruesInterestAtTheRatePerAnnum1' xlink:label='fil_ConvertibleNoteAccruesInterestAtTheRatePerAnnum1'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_ConvertibleNotePayableDetailsAbstract' xlink:to='fil_ConvertibleNoteAccruesInterestAtTheRatePerAnnum1' use='optional' order='9.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_OtherIndebtednessInAggregateWithGrossProceeds' xlink:label='fil_OtherIndebtednessInAggregateWithGrossProceeds'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_ConvertibleNotePayableDetailsAbstract' xlink:to='fil_OtherIndebtednessInAggregateWithGrossProceeds' use='optional' order='10.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_ConversionPriceIsEqualToThePerSharePricePaidByThePurchasersInPercent1' xlink:label='fil_ConversionPriceIsEqualToThePerSharePricePaidByThePurchasersInPercent1'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_ConvertibleNotePayableDetailsAbstract' xlink:to='fil_ConversionPriceIsEqualToThePerSharePricePaidByThePurchasersInPercent1' use='optional' order='11.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_NoteHasBeenReducedToTheSaleOfUnrelatedThirdParty' xlink:label='fil_NoteHasBeenReducedToTheSaleOfUnrelatedThirdParty'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_ConvertibleNotePayableDetailsAbstract' xlink:to='fil_NoteHasBeenReducedToTheSaleOfUnrelatedThirdParty' use='optional' order='12.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_CompanyReceivedAnUnsecuredShortTermLoanFromANonRelatedParty' xlink:label='fil_CompanyReceivedAnUnsecuredShortTermLoanFromANonRelatedParty'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_ConvertibleNotePayableDetailsAbstract' xlink:to='fil_CompanyReceivedAnUnsecuredShortTermLoanFromANonRelatedParty' use='optional' order='13.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_RelatedPartyLoanAmount' xlink:label='fil_RelatedPartyLoanAmount'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_ConvertibleNotePayableDetailsAbstract' xlink:to='fil_RelatedPartyLoanAmount' use='optional' order='14.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_InterestAccruingAt' xlink:label='fil_InterestAccruingAt'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_ConvertibleNotePayableDetailsAbstract' xlink:to='fil_InterestAccruingAt' use='optional' order='15.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_LoanAgreementsWithUnrelatedParties' xlink:label='fil_LoanAgreementsWithUnrelatedParties'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_ConvertibleNotePayableDetailsAbstract' xlink:to='fil_LoanAgreementsWithUnrelatedParties' use='optional' order='16.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_ConvertiblePromissoryNoteWithAnAccreditedInvestor' xlink:label='fil_ConvertiblePromissoryNoteWithAnAccreditedInvestor'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_ConvertibleNotePayableDetailsAbstract' xlink:to='fil_ConvertiblePromissoryNoteWithAnAccreditedInvestor' use='optional' order='17.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_CompanyReceivedAnUnsecuredShortTermLoanFromANonRelatedParty1' xlink:label='fil_CompanyReceivedAnUnsecuredShortTermLoanFromANonRelatedParty1'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_ConvertibleNotePayableDetailsAbstract' xlink:to='fil_CompanyReceivedAnUnsecuredShortTermLoanFromANonRelatedParty1' use='optional' order='18.0' preferredLabel='http://www.xbrl.org/2003/role/terseLabel'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_ConvertThePrincipalAndAccruedInterestIntoSharesOfTheCompanySCommonStockAtCents' xlink:label='fil_ConvertThePrincipalAndAccruedInterestIntoSharesOfTheCompanySCommonStockAtCents'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_ConvertibleNotePayableDetailsAbstract' xlink:to='fil_ConvertThePrincipalAndAccruedInterestIntoSharesOfTheCompanySCommonStockAtCents' use='optional' order='19.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_ConvertiblePromissoryNoteWasPaidInFull' xlink:label='fil_ConvertiblePromissoryNoteWasPaidInFull'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_ConvertibleNotePayableDetailsAbstract' xlink:to='fil_ConvertiblePromissoryNoteWasPaidInFull' use='optional' order='20.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_FairValueOfTheConversionFeature' xlink:label='fil_FairValueOfTheConversionFeature'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_ConvertibleNotePayableDetailsAbstract' xlink:to='fil_FairValueOfTheConversionFeature' use='optional' order='21.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_SecondConvertiblePromissoryNote' xlink:label='fil_SecondConvertiblePromissoryNote'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_ConvertibleNotePayableDetailsAbstract' xlink:to='fil_SecondConvertiblePromissoryNote' use='optional' order='22.0'/>
+	</link:presentationLink>
+	<link:roleRef roleURI="http://www.aptsystems.com/20170131/role/idr_InputsIntoTheBlackScholesModelWereAsFollowsRelatedToValuationDetails" xlink:type="simple" xlink:href="apts-20170131.xsd#idr_InputsIntoTheBlackScholesModelWereAsFollowsRelatedToValuationDetails"/>
+	<link:presentationLink xlink:type="extended" xlink:role="http://www.aptsystems.com/20170131/role/idr_InputsIntoTheBlackScholesModelWereAsFollowsRelatedToValuationDetails">
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_InputsIntoTheBlackScholesModelWereAsFollowsRelatedToValuationDetailsAbstract' xlink:label='fil_InputsIntoTheBlackScholesModelWereAsFollowsRelatedToValuationDetailsAbstract'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_ClosingSharePriceMinimum' xlink:label='fil_ClosingSharePriceMinimum'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_InputsIntoTheBlackScholesModelWereAsFollowsRelatedToValuationDetailsAbstract' xlink:to='fil_ClosingSharePriceMinimum' use='optional' order='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_ClosingSharePriceMaximum' xlink:label='fil_ClosingSharePriceMaximum'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_InputsIntoTheBlackScholesModelWereAsFollowsRelatedToValuationDetailsAbstract' xlink:to='fil_ClosingSharePriceMaximum' use='optional' order='2.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_ConversionPriceMinimum' xlink:label='fil_ConversionPriceMinimum'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_InputsIntoTheBlackScholesModelWereAsFollowsRelatedToValuationDetailsAbstract' xlink:to='fil_ConversionPriceMinimum' use='optional' order='3.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_ConversionPriceMaximum' xlink:label='fil_ConversionPriceMaximum'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_InputsIntoTheBlackScholesModelWereAsFollowsRelatedToValuationDetailsAbstract' xlink:to='fil_ConversionPriceMaximum' use='optional' order='4.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_RiskFreeRateMinimum' xlink:label='fil_RiskFreeRateMinimum'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_InputsIntoTheBlackScholesModelWereAsFollowsRelatedToValuationDetailsAbstract' xlink:to='fil_RiskFreeRateMinimum' use='optional' order='5.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_RiskFreeRateMaximum' xlink:label='fil_RiskFreeRateMaximum'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_InputsIntoTheBlackScholesModelWereAsFollowsRelatedToValuationDetailsAbstract' xlink:to='fil_RiskFreeRateMaximum' use='optional' order='6.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_ExpectedVolatilityMinimum' xlink:label='fil_ExpectedVolatilityMinimum'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_InputsIntoTheBlackScholesModelWereAsFollowsRelatedToValuationDetailsAbstract' xlink:to='fil_ExpectedVolatilityMinimum' use='optional' order='7.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_ExpectedVolatilityMaximum' xlink:label='fil_ExpectedVolatilityMaximum'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_InputsIntoTheBlackScholesModelWereAsFollowsRelatedToValuationDetailsAbstract' xlink:to='fil_ExpectedVolatilityMaximum' use='optional' order='8.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_DividendYield' xlink:label='fil_DividendYield'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_InputsIntoTheBlackScholesModelWereAsFollowsRelatedToValuationDetailsAbstract' xlink:to='fil_DividendYield' use='optional' order='9.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_ExpectedLifeMinimum' xlink:label='fil_ExpectedLifeMinimum'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_InputsIntoTheBlackScholesModelWereAsFollowsRelatedToValuationDetailsAbstract' xlink:to='fil_ExpectedLifeMinimum' use='optional' order='10.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_ExpectedLifeMaximum' xlink:label='fil_ExpectedLifeMaximum'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_InputsIntoTheBlackScholesModelWereAsFollowsRelatedToValuationDetailsAbstract' xlink:to='fil_ExpectedLifeMaximum' use='optional' order='11.0'/>
+	</link:presentationLink>
+	<link:roleRef roleURI="http://www.aptsystems.com/20170131/role/idr_CONVERTIBLENOTEPAYABLENARRATIVEDetails" xlink:type="simple" xlink:href="apts-20170131.xsd#idr_CONVERTIBLENOTEPAYABLENARRATIVEDetails"/>
+	<link:presentationLink xlink:type="extended" xlink:role="http://www.aptsystems.com/20170131/role/idr_CONVERTIBLENOTEPAYABLENARRATIVEDetails">
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_ConvertibleNotePayableNarrativeDetailsAbstract' xlink:label='fil_ConvertibleNotePayableNarrativeDetailsAbstract'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_ConvertibleLoanWasDue' xlink:label='fil_ConvertibleLoanWasDue'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_ConvertibleNotePayableNarrativeDetailsAbstract' xlink:to='fil_ConvertibleLoanWasDue' use='optional' order='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_OutstandingPortionOfTheLoansConvertedToRestrictedAndNonRestrictedCommonShares' xlink:label='fil_OutstandingPortionOfTheLoansConvertedToRestrictedAndNonRestrictedCommonShares'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_ConvertibleNotePayableNarrativeDetailsAbstract' xlink:to='fil_OutstandingPortionOfTheLoansConvertedToRestrictedAndNonRestrictedCommonShares' use='optional' order='2.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_CompanyRecognizedGainOnConversion' xlink:label='fil_CompanyRecognizedGainOnConversion'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_ConvertibleNotePayableNarrativeDetailsAbstract' xlink:to='fil_CompanyRecognizedGainOnConversion' use='optional' order='3.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_RemainingOutstandingBalance' xlink:label='fil_RemainingOutstandingBalance'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_ConvertibleNotePayableNarrativeDetailsAbstract' xlink:to='fil_RemainingOutstandingBalance' use='optional' order='4.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_ConvertibleLoanWasPaidInCashResultingInFullSettlementOfTheBalance' xlink:label='fil_ConvertibleLoanWasPaidInCashResultingInFullSettlementOfTheBalance'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_ConvertibleNotePayableNarrativeDetailsAbstract' xlink:to='fil_ConvertibleLoanWasPaidInCashResultingInFullSettlementOfTheBalance' use='optional' order='5.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_CompanyBorrowedThatIsNotConvertibleInNature' xlink:label='fil_CompanyBorrowedThatIsNotConvertibleInNature'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_ConvertibleNotePayableNarrativeDetailsAbstract' xlink:to='fil_CompanyBorrowedThatIsNotConvertibleInNature' use='optional' order='6.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_CompanyEnteredIntoAnAgreementForAnUnrelatedThirdPartyToPurchaseCommonStock' xlink:label='fil_CompanyEnteredIntoAnAgreementForAnUnrelatedThirdPartyToPurchaseCommonStock'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_ConvertibleNotePayableNarrativeDetailsAbstract' xlink:to='fil_CompanyEnteredIntoAnAgreementForAnUnrelatedThirdPartyToPurchaseCommonStock' use='optional' order='7.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_AccumulativeAmountPerMonthUnlessPriorApprovalOfTheInvestor' xlink:label='fil_AccumulativeAmountPerMonthUnlessPriorApprovalOfTheInvestor'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_ConvertibleNotePayableNarrativeDetailsAbstract' xlink:to='fil_AccumulativeAmountPerMonthUnlessPriorApprovalOfTheInvestor' use='optional' order='8.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_CompanyIssuedTwoPromissoryNotesToTheInvestorInTheAmounts1' xlink:label='fil_CompanyIssuedTwoPromissoryNotesToTheInvestorInTheAmounts1'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_ConvertibleNotePayableNarrativeDetailsAbstract' xlink:to='fil_CompanyIssuedTwoPromissoryNotesToTheInvestorInTheAmounts1' use='optional' order='9.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_CompanyIssuedTwoPromissoryNotesToTheInvestorInTheAmounts2' xlink:label='fil_CompanyIssuedTwoPromissoryNotesToTheInvestorInTheAmounts2'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_ConvertibleNotePayableNarrativeDetailsAbstract' xlink:to='fil_CompanyIssuedTwoPromissoryNotesToTheInvestorInTheAmounts2' use='optional' order='10.0' preferredLabel='http://www.xbrl.org/2003/role/terseLabel'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_PromissoryNotesAccrueInterestAtTheRatePerAnnum' xlink:label='fil_PromissoryNotesAccrueInterestAtTheRatePerAnnum'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_ConvertibleNotePayableNarrativeDetailsAbstract' xlink:to='fil_PromissoryNotesAccrueInterestAtTheRatePerAnnum' use='optional' order='11.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_ProceedsFromThePromissoryNoteWereUsedToPayTheCompanySFeesAssociatedWithTheInvestmentAgreement' xlink:label='fil_ProceedsFromThePromissoryNoteWereUsedToPayTheCompanySFeesAssociatedWithTheInvestmentAgreement'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_ConvertibleNotePayableNarrativeDetailsAbstract' xlink:to='fil_ProceedsFromThePromissoryNoteWereUsedToPayTheCompanySFeesAssociatedWithTheInvestmentAgreement' use='optional' order='12.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_ProceedsFromThePromissoryNoteAreToBeUsedToPayTheCompanySCommitmentFeeToTheInvestor' xlink:label='fil_ProceedsFromThePromissoryNoteAreToBeUsedToPayTheCompanySCommitmentFeeToTheInvestor'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_ConvertibleNotePayableNarrativeDetailsAbstract' xlink:to='fil_ProceedsFromThePromissoryNoteAreToBeUsedToPayTheCompanySCommitmentFeeToTheInvestor' use='optional' order='13.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_InvestorDidNotAdvanceTheSecondTrancheOfThePromissoryNoteAfterTheS1WasFiled' xlink:label='fil_InvestorDidNotAdvanceTheSecondTrancheOfThePromissoryNoteAfterTheS1WasFiled'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_ConvertibleNotePayableNarrativeDetailsAbstract' xlink:to='fil_InvestorDidNotAdvanceTheSecondTrancheOfThePromissoryNoteAfterTheS1WasFiled' use='optional' order='14.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_InvestorAndAgreedToRepayTheOriginalAdvanceAndAppliedInterestForSum' xlink:label='fil_InvestorAndAgreedToRepayTheOriginalAdvanceAndAppliedInterestForSum'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_ConvertibleNotePayableNarrativeDetailsAbstract' xlink:to='fil_InvestorAndAgreedToRepayTheOriginalAdvanceAndAppliedInterestForSum' use='optional' order='15.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_InvestorAndAgreedToRepayTheSecondPromissoryNote' xlink:label='fil_InvestorAndAgreedToRepayTheSecondPromissoryNote'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_ConvertibleNotePayableNarrativeDetailsAbstract' xlink:to='fil_InvestorAndAgreedToRepayTheSecondPromissoryNote' use='optional' order='16.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_ManagementIncludedAPortionOfThePromissoryNoteAsALiability' xlink:label='fil_ManagementIncludedAPortionOfThePromissoryNoteAsALiability'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_ConvertibleNotePayableNarrativeDetailsAbstract' xlink:to='fil_ManagementIncludedAPortionOfThePromissoryNoteAsALiability' use='optional' order='17.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_FirstPromissoryNoteWasDue' xlink:label='fil_FirstPromissoryNoteWasDue'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_ConvertibleNotePayableNarrativeDetailsAbstract' xlink:to='fil_FirstPromissoryNoteWasDue' use='optional' order='18.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_PromissoryNoteWasNotDue' xlink:label='fil_PromissoryNoteWasNotDue'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_ConvertibleNotePayableNarrativeDetailsAbstract' xlink:to='fil_PromissoryNoteWasNotDue' use='optional' order='19.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_ConvertiblePromissoryNoteWasPaidInFull1' xlink:label='fil_ConvertiblePromissoryNoteWasPaidInFull1'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_ConvertibleNotePayableNarrativeDetailsAbstract' xlink:to='fil_ConvertiblePromissoryNoteWasPaidInFull1' use='optional' order='20.0' preferredLabel='http://www.xbrl.org/2003/role/terseLabel'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_TheFairValueOfTheConversionFeature' xlink:label='fil_TheFairValueOfTheConversionFeature'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_ConvertibleNotePayableNarrativeDetailsAbstract' xlink:to='fil_TheFairValueOfTheConversionFeature' use='optional' order='21.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_CompanyTookOnALoanInTheFormOfAConvertibleNote' xlink:label='fil_CompanyTookOnALoanInTheFormOfAConvertibleNote'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_ConvertibleNotePayableNarrativeDetailsAbstract' xlink:to='fil_CompanyTookOnALoanInTheFormOfAConvertibleNote' use='optional' order='22.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_OutstandingNoteDueToAnInvestor' xlink:label='fil_OutstandingNoteDueToAnInvestor'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_ConvertibleNotePayableNarrativeDetailsAbstract' xlink:to='fil_OutstandingNoteDueToAnInvestor' use='optional' order='23.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_ExtinguishAnAdditionalNoteForASuccessFeeInTheAmount' xlink:label='fil_ExtinguishAnAdditionalNoteForASuccessFeeInTheAmount'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_ConvertibleNotePayableNarrativeDetailsAbstract' xlink:to='fil_ExtinguishAnAdditionalNoteForASuccessFeeInTheAmount' use='optional' order='24.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_CompanyTookOnAFurtherLoanInTheFormOfAConvertibleNote' xlink:label='fil_CompanyTookOnAFurtherLoanInTheFormOfAConvertibleNote'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_ConvertibleNotePayableNarrativeDetailsAbstract' xlink:to='fil_CompanyTookOnAFurtherLoanInTheFormOfAConvertibleNote' use='optional' order='25.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_CompanyIssuedSharesOfCommonStockInSettlementOfNotePayable' xlink:label='fil_CompanyIssuedSharesOfCommonStockInSettlementOfNotePayable'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_ConvertibleNotePayableNarrativeDetailsAbstract' xlink:to='fil_CompanyIssuedSharesOfCommonStockInSettlementOfNotePayable' use='optional' order='26.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_CompanyIssuedSharesOfCommonStockAtAConversionPricePerShare' xlink:label='fil_CompanyIssuedSharesOfCommonStockAtAConversionPricePerShare'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_ConvertibleNotePayableNarrativeDetailsAbstract' xlink:to='fil_CompanyIssuedSharesOfCommonStockAtAConversionPricePerShare' use='optional' order='27.0'/>
+	</link:presentationLink>
+	<link:roleRef roleURI="http://www.aptsystems.com/20170131/role/idr_InputsIntoTheBlackScholesModelWereAsFollowsRelatedToValuationOfThisDerivativeDetails" xlink:type="simple" xlink:href="apts-20170131.xsd#idr_InputsIntoTheBlackScholesModelWereAsFollowsRelatedToValuationOfThisDerivativeDetails"/>
+	<link:presentationLink xlink:type="extended" xlink:role="http://www.aptsystems.com/20170131/role/idr_InputsIntoTheBlackScholesModelWereAsFollowsRelatedToValuationOfThisDerivativeDetails">
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_InputsIntoTheBlackScholesModelWereAsFollowsRelatedToValuationOfThisDerivativeDetailsAbstract' xlink:label='fil_InputsIntoTheBlackScholesModelWereAsFollowsRelatedToValuationOfThisDerivativeDetailsAbstract'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_ClosingSharePriceMinimum1' xlink:label='fil_ClosingSharePriceMinimum1'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_InputsIntoTheBlackScholesModelWereAsFollowsRelatedToValuationOfThisDerivativeDetailsAbstract' xlink:to='fil_ClosingSharePriceMinimum1' use='optional' order='1.0' preferredLabel='http://www.xbrl.org/2003/role/terseLabel'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_ClosingSharePriceMaximum1' xlink:label='fil_ClosingSharePriceMaximum1'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_InputsIntoTheBlackScholesModelWereAsFollowsRelatedToValuationOfThisDerivativeDetailsAbstract' xlink:to='fil_ClosingSharePriceMaximum1' use='optional' order='2.0' preferredLabel='http://www.xbrl.org/2003/role/terseLabel'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_ConversionPriceMinimum1' xlink:label='fil_ConversionPriceMinimum1'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_InputsIntoTheBlackScholesModelWereAsFollowsRelatedToValuationOfThisDerivativeDetailsAbstract' xlink:to='fil_ConversionPriceMinimum1' use='optional' order='3.0' preferredLabel='http://www.xbrl.org/2003/role/terseLabel'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_ConversionPriceMaximum1' xlink:label='fil_ConversionPriceMaximum1'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_InputsIntoTheBlackScholesModelWereAsFollowsRelatedToValuationOfThisDerivativeDetailsAbstract' xlink:to='fil_ConversionPriceMaximum1' use='optional' order='4.0' preferredLabel='http://www.xbrl.org/2003/role/terseLabel'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_RiskFreeRateMinimum1' xlink:label='fil_RiskFreeRateMinimum1'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_InputsIntoTheBlackScholesModelWereAsFollowsRelatedToValuationOfThisDerivativeDetailsAbstract' xlink:to='fil_RiskFreeRateMinimum1' use='optional' order='5.0' preferredLabel='http://www.xbrl.org/2003/role/terseLabel'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_RiskFreeRateMaximum1' xlink:label='fil_RiskFreeRateMaximum1'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_InputsIntoTheBlackScholesModelWereAsFollowsRelatedToValuationOfThisDerivativeDetailsAbstract' xlink:to='fil_RiskFreeRateMaximum1' use='optional' order='6.0' preferredLabel='http://www.xbrl.org/2003/role/terseLabel'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_ExpectedVolatilityMinimum1' xlink:label='fil_ExpectedVolatilityMinimum1'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_InputsIntoTheBlackScholesModelWereAsFollowsRelatedToValuationOfThisDerivativeDetailsAbstract' xlink:to='fil_ExpectedVolatilityMinimum1' use='optional' order='7.0' preferredLabel='http://www.xbrl.org/2003/role/terseLabel'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_ExpectedVolatilityMaximum1' xlink:label='fil_ExpectedVolatilityMaximum1'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_InputsIntoTheBlackScholesModelWereAsFollowsRelatedToValuationOfThisDerivativeDetailsAbstract' xlink:to='fil_ExpectedVolatilityMaximum1' use='optional' order='8.0' preferredLabel='http://www.xbrl.org/2003/role/terseLabel'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_DividendYield1' xlink:label='fil_DividendYield1'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_InputsIntoTheBlackScholesModelWereAsFollowsRelatedToValuationOfThisDerivativeDetailsAbstract' xlink:to='fil_DividendYield1' use='optional' order='9.0' preferredLabel='http://www.xbrl.org/2003/role/terseLabel'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_ExpectedLifeMinimum1' xlink:label='fil_ExpectedLifeMinimum1'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_InputsIntoTheBlackScholesModelWereAsFollowsRelatedToValuationOfThisDerivativeDetailsAbstract' xlink:to='fil_ExpectedLifeMinimum1' use='optional' order='10.0' preferredLabel='http://www.xbrl.org/2003/role/terseLabel'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_ExpectedLifeMaximum1' xlink:label='fil_ExpectedLifeMaximum1'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_InputsIntoTheBlackScholesModelWereAsFollowsRelatedToValuationOfThisDerivativeDetailsAbstract' xlink:to='fil_ExpectedLifeMaximum1' use='optional' order='11.0' preferredLabel='http://www.xbrl.org/2003/role/terseLabel'/>
+	</link:presentationLink>
+	<link:roleRef roleURI="http://www.aptsystems.com/20170131/role/idr_NotesPayableDetails" xlink:type="simple" xlink:href="apts-20170131.xsd#idr_NotesPayableDetails"/>
+	<link:presentationLink xlink:type="extended" xlink:role="http://www.aptsystems.com/20170131/role/idr_NotesPayableDetails">
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_NotesPayableDetailsAbstract' xlink:label='fil_NotesPayableDetailsAbstract'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_CompanyReceivedByWayOfUnsecuredShortTermLoans' xlink:label='fil_CompanyReceivedByWayOfUnsecuredShortTermLoans'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_NotesPayableDetailsAbstract' xlink:to='fil_CompanyReceivedByWayOfUnsecuredShortTermLoans' use='optional' order='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_InterestForShortTermLoan1' xlink:label='fil_InterestForShortTermLoan1'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_NotesPayableDetailsAbstract' xlink:to='fil_InterestForShortTermLoan1' use='optional' order='2.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_InterimRenewalPayment' xlink:label='fil_InterimRenewalPayment'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_NotesPayableDetailsAbstract' xlink:to='fil_InterimRenewalPayment' use='optional' order='3.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_AsPerStockTransferAgreementAmountsOwedToTheCompanySPreviousStockTransferAgentAmountPaidByPacificStockTransfer' xlink:label='fil_AsPerStockTransferAgreementAmountsOwedToTheCompanySPreviousStockTransferAgentAmountPaidByPacificStockTransfer'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_NotesPayableDetailsAbstract' xlink:to='fil_AsPerStockTransferAgreementAmountsOwedToTheCompanySPreviousStockTransferAgentAmountPaidByPacificStockTransfer' use='optional' order='4.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_RepaidByTheCompanyToPacificTransfer' xlink:label='fil_RepaidByTheCompanyToPacificTransfer'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_NotesPayableDetailsAbstract' xlink:to='fil_RepaidByTheCompanyToPacificTransfer' use='optional' order='5.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_InstallmentAmountPerMonths' xlink:label='fil_InstallmentAmountPerMonths'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_NotesPayableDetailsAbstract' xlink:to='fil_InstallmentAmountPerMonths' use='optional' order='6.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_CompanyRecognisedGainOfSettlementAmount' xlink:label='fil_CompanyRecognisedGainOfSettlementAmount'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_NotesPayableDetailsAbstract' xlink:to='fil_CompanyRecognisedGainOfSettlementAmount' use='optional' order='7.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_SettlementOfBalanceAmount' xlink:label='fil_SettlementOfBalanceAmount'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_NotesPayableDetailsAbstract' xlink:to='fil_SettlementOfBalanceAmount' use='optional' order='8.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_BalanceOfAccountsPayableByALoanAmount' xlink:label='fil_BalanceOfAccountsPayableByALoanAmount'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_NotesPayableDetailsAbstract' xlink:to='fil_BalanceOfAccountsPayableByALoanAmount' use='optional' order='9.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_InterestPerAnnumAccruesOnTheUnpaidBalance1' xlink:label='fil_InterestPerAnnumAccruesOnTheUnpaidBalance1'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_NotesPayableDetailsAbstract' xlink:to='fil_InterestPerAnnumAccruesOnTheUnpaidBalance1' use='optional' order='10.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_ShortTermNonRelatedParty' xlink:label='fil_ShortTermNonRelatedParty'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_NotesPayableDetailsAbstract' xlink:to='fil_ShortTermNonRelatedParty' use='optional' order='11.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_InterestAccruingAt1' xlink:label='fil_InterestAccruingAt1'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_NotesPayableDetailsAbstract' xlink:to='fil_InterestAccruingAt1' use='optional' order='12.0' preferredLabel='http://www.xbrl.org/2003/role/terseLabel'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_BorrowedFromAnAccreditedInvestorBeingANonConvertibleNote' xlink:label='fil_BorrowedFromAnAccreditedInvestorBeingANonConvertibleNote'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_NotesPayableDetailsAbstract' xlink:to='fil_BorrowedFromAnAccreditedInvestorBeingANonConvertibleNote' use='optional' order='13.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_NonConvertibleNoteAtInterest' xlink:label='fil_NonConvertibleNoteAtInterest'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_NotesPayableDetailsAbstract' xlink:to='fil_NonConvertibleNoteAtInterest' use='optional' order='14.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_ShortTermConvertibleLoanFromANonRelatedPartyToAssistWithCashFlow' xlink:label='fil_ShortTermConvertibleLoanFromANonRelatedPartyToAssistWithCashFlow'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_NotesPayableDetailsAbstract' xlink:to='fil_ShortTermConvertibleLoanFromANonRelatedPartyToAssistWithCashFlow' use='optional' order='15.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_CompanyAcceptedABridgeLoanFromTheNonRelatedParty' xlink:label='fil_CompanyAcceptedABridgeLoanFromTheNonRelatedParty'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_NotesPayableDetailsAbstract' xlink:to='fil_CompanyAcceptedABridgeLoanFromTheNonRelatedParty' use='optional' order='16.0'/>
+	</link:presentationLink>
+	<link:roleRef roleURI="http://www.aptsystems.com/20170131/role/idr_FAIRVALUEMEASUREMENTSDetails" xlink:type="simple" xlink:href="apts-20170131.xsd#idr_FAIRVALUEMEASUREMENTSDetails"/>
+	<link:presentationLink xlink:type="extended" xlink:role="http://www.aptsystems.com/20170131/role/idr_FAIRVALUEMEASUREMENTSDetails">
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_FairValueMeasurementsDetailsAbstract' xlink:label='fil_FairValueMeasurementsDetailsAbstract'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_TotalCarryingValueAbstract' xlink:label='fil_TotalCarryingValueAbstract'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_FairValueMeasurementsDetailsAbstract' xlink:to='fil_TotalCarryingValueAbstract' use='optional' order='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_ForeignCurrencyInvestments' xlink:label='fil_ForeignCurrencyInvestments'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_FairValueMeasurementsDetailsAbstract' xlink:to='fil_ForeignCurrencyInvestments' use='optional' order='2.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_DerivativeLiabilities1' xlink:label='fil_DerivativeLiabilities1'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_FairValueMeasurementsDetailsAbstract' xlink:to='fil_DerivativeLiabilities1' use='optional' order='3.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_QuotedPricesInActiveMarketsLevel1Abstract' xlink:label='fil_QuotedPricesInActiveMarketsLevel1Abstract'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_FairValueMeasurementsDetailsAbstract' xlink:to='fil_QuotedPricesInActiveMarketsLevel1Abstract' use='optional' order='4.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_ForeignCurrencyInvestmentsLevel1' xlink:label='fil_ForeignCurrencyInvestmentsLevel1'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_FairValueMeasurementsDetailsAbstract' xlink:to='fil_ForeignCurrencyInvestmentsLevel1' use='optional' order='5.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_DerivativeLiabilitiesLevel1' xlink:label='fil_DerivativeLiabilitiesLevel1'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_FairValueMeasurementsDetailsAbstract' xlink:to='fil_DerivativeLiabilitiesLevel1' use='optional' order='6.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_SignificantOtherObservableInputsLevel2Abstract' xlink:label='fil_SignificantOtherObservableInputsLevel2Abstract'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_FairValueMeasurementsDetailsAbstract' xlink:to='fil_SignificantOtherObservableInputsLevel2Abstract' use='optional' order='7.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_ForeignCurrencyInvestmentsLevel2' xlink:label='fil_ForeignCurrencyInvestmentsLevel2'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_FairValueMeasurementsDetailsAbstract' xlink:to='fil_ForeignCurrencyInvestmentsLevel2' use='optional' order='8.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_DerivativeLiabilitiesLevel2' xlink:label='fil_DerivativeLiabilitiesLevel2'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_FairValueMeasurementsDetailsAbstract' xlink:to='fil_DerivativeLiabilitiesLevel2' use='optional' order='9.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_SignificantUnobservableInputsLevel3Abstract' xlink:label='fil_SignificantUnobservableInputsLevel3Abstract'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_FairValueMeasurementsDetailsAbstract' xlink:to='fil_SignificantUnobservableInputsLevel3Abstract' use='optional' order='10.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_ForeignCurrencyInvestmentsLevel3' xlink:label='fil_ForeignCurrencyInvestmentsLevel3'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_FairValueMeasurementsDetailsAbstract' xlink:to='fil_ForeignCurrencyInvestmentsLevel3' use='optional' order='11.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_DerivativeLiabilitiesLevel3' xlink:label='fil_DerivativeLiabilitiesLevel3'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_FairValueMeasurementsDetailsAbstract' xlink:to='fil_DerivativeLiabilitiesLevel3' use='optional' order='12.0'/>
+	</link:presentationLink>
+	<link:roleRef roleURI="http://www.aptsystems.com/20170131/role/idr_ChangesInLevel3LiabilitiesMeasuredAtFairValue" xlink:type="simple" xlink:href="apts-20170131.xsd#idr_ChangesInLevel3LiabilitiesMeasuredAtFairValue"/>
+	<link:presentationLink xlink:type="extended" xlink:role="http://www.aptsystems.com/20170131/role/idr_ChangesInLevel3LiabilitiesMeasuredAtFairValue">
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_ChangesInLevel3LiabilitiesMeasuredAtFairValueAbstract' xlink:label='fil_ChangesInLevel3LiabilitiesMeasuredAtFairValueAbstract'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_ConvertibleNotesBalanceFebruary12016Level3' xlink:label='fil_ConvertibleNotesBalanceFebruary12016Level3'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_ChangesInLevel3LiabilitiesMeasuredAtFairValueAbstract' xlink:to='fil_ConvertibleNotesBalanceFebruary12016Level3' use='optional' order='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_AdditionOfConvertibleNotesLevel3' xlink:label='fil_AdditionOfConvertibleNotesLevel3'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_ChangesInLevel3LiabilitiesMeasuredAtFairValueAbstract' xlink:to='fil_AdditionOfConvertibleNotesLevel3' use='optional' order='2.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_ConversionOfNotesIntoCommonStockLevel3' xlink:label='fil_ConversionOfNotesIntoCommonStockLevel3'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_ChangesInLevel3LiabilitiesMeasuredAtFairValueAbstract' xlink:to='fil_ConversionOfNotesIntoCommonStockLevel3' use='optional' order='3.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_CashPaidSettlementOfNoteLevel3' xlink:label='fil_CashPaidSettlementOfNoteLevel3'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_ChangesInLevel3LiabilitiesMeasuredAtFairValueAbstract' xlink:to='fil_CashPaidSettlementOfNoteLevel3' use='optional' order='4.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_GainOnExtinguishmentOfDebtLevel3' xlink:label='fil_GainOnExtinguishmentOfDebtLevel3'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_ChangesInLevel3LiabilitiesMeasuredAtFairValueAbstract' xlink:to='fil_GainOnExtinguishmentOfDebtLevel3' use='optional' order='5.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_ChangeInFairValueOfConvertibleNotesIncludingOidDiscountLevel3' xlink:label='fil_ChangeInFairValueOfConvertibleNotesIncludingOidDiscountLevel3'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_ChangesInLevel3LiabilitiesMeasuredAtFairValueAbstract' xlink:to='fil_ChangeInFairValueOfConvertibleNotesIncludingOidDiscountLevel3' use='optional' order='6.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_ConvertibleNotesBalanceJanuary312017Level3' xlink:label='fil_ConvertibleNotesBalanceJanuary312017Level3'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_ChangesInLevel3LiabilitiesMeasuredAtFairValueAbstract' xlink:to='fil_ConvertibleNotesBalanceJanuary312017Level3' use='optional' order='7.0'/>
+	</link:presentationLink>
+	<link:roleRef roleURI="http://www.aptsystems.com/20170131/role/idr_COMMITMENTSANDCONTINGENCIESDetails" xlink:type="simple" xlink:href="apts-20170131.xsd#idr_COMMITMENTSANDCONTINGENCIESDetails"/>
+	<link:presentationLink xlink:type="extended" xlink:role="http://www.aptsystems.com/20170131/role/idr_COMMITMENTSANDCONTINGENCIESDetails">
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_CommitmentsAndContingenciesDetailsAbstract' xlink:label='fil_CommitmentsAndContingenciesDetailsAbstract'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_AgreementRepresentedACashPayment' xlink:label='fil_AgreementRepresentedACashPayment'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_CommitmentsAndContingenciesDetailsAbstract' xlink:to='fil_AgreementRepresentedACashPayment' use='optional' order='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_IssuanceOfRestrictedCommonSharesAtTheCompletionOfTheAgreement' xlink:label='fil_IssuanceOfRestrictedCommonSharesAtTheCompletionOfTheAgreement'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_CommitmentsAndContingenciesDetailsAbstract' xlink:to='fil_IssuanceOfRestrictedCommonSharesAtTheCompletionOfTheAgreement' use='optional' order='2.0'/>
+	</link:presentationLink>
+	<link:roleRef roleURI="http://www.aptsystems.com/20170131/role/idr_CAPITALSTOCKTRANSACTIONSDetails" xlink:type="simple" xlink:href="apts-20170131.xsd#idr_CAPITALSTOCKTRANSACTIONSDetails"/>
+	<link:presentationLink xlink:type="extended" xlink:role="http://www.aptsystems.com/20170131/role/idr_CAPITALSTOCKTRANSACTIONSDetails">
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_CapitalStockTransactions1Abstract' xlink:label='fil_CapitalStockTransactions1Abstract'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_IssuedSharesOfPreferredStock' xlink:label='fil_IssuedSharesOfPreferredStock'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_CapitalStockTransactions1Abstract' xlink:to='fil_IssuedSharesOfPreferredStock' use='optional' order='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_SharesOfPreferredStockParValue' xlink:label='fil_SharesOfPreferredStockParValue'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_CapitalStockTransactions1Abstract' xlink:to='fil_SharesOfPreferredStockParValue' use='optional' order='2.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_IssuedSharesOfCommonStock' xlink:label='fil_IssuedSharesOfCommonStock'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_CapitalStockTransactions1Abstract' xlink:to='fil_IssuedSharesOfCommonStock' use='optional' order='3.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_SharesOfCommonStockParValue' xlink:label='fil_SharesOfCommonStockParValue'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_CapitalStockTransactions1Abstract' xlink:to='fil_SharesOfCommonStockParValue' use='optional' order='4.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_CompanyIssuedSharesOfItsCommonStockToSettleALiability' xlink:label='fil_CompanyIssuedSharesOfItsCommonStockToSettleALiability'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_CapitalStockTransactions1Abstract' xlink:to='fil_CompanyIssuedSharesOfItsCommonStockToSettleALiability' use='optional' order='5.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_SharesOfCommonStockWereIssuedToManagement' xlink:label='fil_SharesOfCommonStockWereIssuedToManagement'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_CapitalStockTransactions1Abstract' xlink:to='fil_SharesOfCommonStockWereIssuedToManagement' use='optional' order='6.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_SharesOfCommonStockWereIssuedToManagementPerShare' xlink:label='fil_SharesOfCommonStockWereIssuedToManagementPerShare'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_CapitalStockTransactions1Abstract' xlink:to='fil_SharesOfCommonStockWereIssuedToManagementPerShare' use='optional' order='7.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_SharesOfCommonStockWereIssuedToJeffreyJolliffe' xlink:label='fil_SharesOfCommonStockWereIssuedToJeffreyJolliffe'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_CapitalStockTransactions1Abstract' xlink:to='fil_SharesOfCommonStockWereIssuedToJeffreyJolliffe' use='optional' order='8.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_SharesOfCommonStockWereIssuedToCarlHusseyTreasurer' xlink:label='fil_SharesOfCommonStockWereIssuedToCarlHusseyTreasurer'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_CapitalStockTransactions1Abstract' xlink:to='fil_SharesOfCommonStockWereIssuedToCarlHusseyTreasurer' use='optional' order='9.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_SharesOfCommonStockWereIssuedToJosephGagnonSecretary' xlink:label='fil_SharesOfCommonStockWereIssuedToJosephGagnonSecretary'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_CapitalStockTransactions1Abstract' xlink:to='fil_SharesOfCommonStockWereIssuedToJosephGagnonSecretary' use='optional' order='10.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_SharesOfCommonStockWereIssuedToGlendaDowiePresidentAmpCeo' xlink:label='fil_SharesOfCommonStockWereIssuedToGlendaDowiePresidentAmpCeo'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_CapitalStockTransactions1Abstract' xlink:to='fil_SharesOfCommonStockWereIssuedToGlendaDowiePresidentAmpCeo' use='optional' order='11.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_AllSharesAreRestrictedSectionShares' xlink:label='fil_AllSharesAreRestrictedSectionShares'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_CapitalStockTransactions1Abstract' xlink:to='fil_AllSharesAreRestrictedSectionShares' use='optional' order='12.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_AddedInStockholdersEquity' xlink:label='fil_AddedInStockholdersEquity'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_CapitalStockTransactions1Abstract' xlink:to='fil_AddedInStockholdersEquity' use='optional' order='13.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_CompanyIssuedSharesOfItsCommonStockToAnUnrelatedThirdParty' xlink:label='fil_CompanyIssuedSharesOfItsCommonStockToAnUnrelatedThirdParty'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_CapitalStockTransactions1Abstract' xlink:to='fil_CompanyIssuedSharesOfItsCommonStockToAnUnrelatedThirdParty' use='optional' order='14.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_CompanyIssuedSharesOfItsCommonStockToAnUnrelatedThirdPartyParValue' xlink:label='fil_CompanyIssuedSharesOfItsCommonStockToAnUnrelatedThirdPartyParValue'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_CapitalStockTransactions1Abstract' xlink:to='fil_CompanyIssuedSharesOfItsCommonStockToAnUnrelatedThirdPartyParValue' use='optional' order='15.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_CompanyIssuedSharesOfItsCommonStockToAnUnrelatedThirdPartyInSatisfactionOfNotesPayable' xlink:label='fil_CompanyIssuedSharesOfItsCommonStockToAnUnrelatedThirdPartyInSatisfactionOfNotesPayable'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_CapitalStockTransactions1Abstract' xlink:to='fil_CompanyIssuedSharesOfItsCommonStockToAnUnrelatedThirdPartyInSatisfactionOfNotesPayable' use='optional' order='16.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_CompanyIssuedSharesOfItsCommonStockToAnUnrelatedThirdParty1' xlink:label='fil_CompanyIssuedSharesOfItsCommonStockToAnUnrelatedThirdParty1'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_CapitalStockTransactions1Abstract' xlink:to='fil_CompanyIssuedSharesOfItsCommonStockToAnUnrelatedThirdParty1' use='optional' order='17.0' preferredLabel='http://www.xbrl.org/2003/role/terseLabel'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_CompanyIssuedSharesOfItsCommonStockToAnUnrelatedThirdPartyFairValuePerShare' xlink:label='fil_CompanyIssuedSharesOfItsCommonStockToAnUnrelatedThirdPartyFairValuePerShare'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_CapitalStockTransactions1Abstract' xlink:to='fil_CompanyIssuedSharesOfItsCommonStockToAnUnrelatedThirdPartyFairValuePerShare' use='optional' order='18.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_ShareholderDeficitInExcess' xlink:label='fil_ShareholderDeficitInExcess'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_CapitalStockTransactions1Abstract' xlink:to='fil_ShareholderDeficitInExcess' use='optional' order='19.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_DebtWasSoldToAnUnrelatedThirdPartySharesOfItsCommonStock' xlink:label='fil_DebtWasSoldToAnUnrelatedThirdPartySharesOfItsCommonStock'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_CapitalStockTransactions1Abstract' xlink:to='fil_DebtWasSoldToAnUnrelatedThirdPartySharesOfItsCommonStock' use='optional' order='20.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_DebtWasSoldToAnUnrelatedThirdPartySharesOfItsCommonStockAtAFairParValuePerShare' xlink:label='fil_DebtWasSoldToAnUnrelatedThirdPartySharesOfItsCommonStockAtAFairParValuePerShare'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_CapitalStockTransactions1Abstract' xlink:to='fil_DebtWasSoldToAnUnrelatedThirdPartySharesOfItsCommonStockAtAFairParValuePerShare' use='optional' order='21.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_CompanyIssuedSharesOfItsCommonStock' xlink:label='fil_CompanyIssuedSharesOfItsCommonStock'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_CapitalStockTransactions1Abstract' xlink:to='fil_CompanyIssuedSharesOfItsCommonStock' use='optional' order='22.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_CompanyIssuedSharesOfItsCommonStockAtAFairValue' xlink:label='fil_CompanyIssuedSharesOfItsCommonStockAtAFairValue'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_CapitalStockTransactions1Abstract' xlink:to='fil_CompanyIssuedSharesOfItsCommonStockAtAFairValue' use='optional' order='23.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_DirectorsApprovedSharesOfTheCompanySCommonStock' xlink:label='fil_DirectorsApprovedSharesOfTheCompanySCommonStock'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_CapitalStockTransactions1Abstract' xlink:to='fil_DirectorsApprovedSharesOfTheCompanySCommonStock' use='optional' order='24.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_CompanyIssuedSharesOfItsCommonStockForServicesRenderedByUnrelatedThirdParties' xlink:label='fil_CompanyIssuedSharesOfItsCommonStockForServicesRenderedByUnrelatedThirdParties'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_CapitalStockTransactions1Abstract' xlink:to='fil_CompanyIssuedSharesOfItsCommonStockForServicesRenderedByUnrelatedThirdParties' use='optional' order='25.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_PaymentsToInvoicesTotaling' xlink:label='fil_PaymentsToInvoicesTotaling'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_CapitalStockTransactions1Abstract' xlink:to='fil_PaymentsToInvoicesTotaling' use='optional' order='26.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_DirectorsApprovedOfTheCompanySShares' xlink:label='fil_DirectorsApprovedOfTheCompanySShares'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_CapitalStockTransactions1Abstract' xlink:to='fil_DirectorsApprovedOfTheCompanySShares' use='optional' order='27.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_CompanyIssuedSharesOfItRestrictedCommonStock' xlink:label='fil_CompanyIssuedSharesOfItRestrictedCommonStock'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_CapitalStockTransactions1Abstract' xlink:to='fil_CompanyIssuedSharesOfItRestrictedCommonStock' use='optional' order='28.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_CompanyIssuedSharesOfItRestrictedCommonStockAtAFairValue' xlink:label='fil_CompanyIssuedSharesOfItRestrictedCommonStockAtAFairValue'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_CapitalStockTransactions1Abstract' xlink:to='fil_CompanyIssuedSharesOfItRestrictedCommonStockAtAFairValue' use='optional' order='29.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_ConsultantReturnedACertificateForCommonShares' xlink:label='fil_ConsultantReturnedACertificateForCommonShares'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_CapitalStockTransactions1Abstract' xlink:to='fil_ConsultantReturnedACertificateForCommonShares' use='optional' order='30.0'/>
+	</link:presentationLink>
+	<link:roleRef roleURI="http://www.aptsystems.com/20170131/role/idr_StockOptionPlanDetails" xlink:type="simple" xlink:href="apts-20170131.xsd#idr_StockOptionPlanDetails"/>
+	<link:presentationLink xlink:type="extended" xlink:role="http://www.aptsystems.com/20170131/role/idr_StockOptionPlanDetails">
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_StockOptionPlanAbstract' xlink:label='fil_StockOptionPlanAbstract'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_ReservingSharesForFutureIssuances1' xlink:label='fil_ReservingSharesForFutureIssuances1'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_StockOptionPlanAbstract' xlink:to='fil_ReservingSharesForFutureIssuances1' use='optional' order='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_IssuedAsIncentiveStockOptions1' xlink:label='fil_IssuedAsIncentiveStockOptions1'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_StockOptionPlanAbstract' xlink:to='fil_IssuedAsIncentiveStockOptions1' use='optional' order='2.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_OptionsHaveBeenIssuedUnderThisPlan1' xlink:label='fil_OptionsHaveBeenIssuedUnderThisPlan1'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_StockOptionPlanAbstract' xlink:to='fil_OptionsHaveBeenIssuedUnderThisPlan1' use='optional' order='3.0'/>
+	</link:presentationLink>
+	<link:roleRef roleURI="http://www.aptsystems.com/20170131/role/idr_FederalIncomeTaxConsistsOfTheFollowingForThePeriodsEndingDetails" xlink:type="simple" xlink:href="apts-20170131.xsd#idr_FederalIncomeTaxConsistsOfTheFollowingForThePeriodsEndingDetails"/>
+	<link:presentationLink xlink:type="extended" xlink:role="http://www.aptsystems.com/20170131/role/idr_FederalIncomeTaxConsistsOfTheFollowingForThePeriodsEndingDetails">
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_FederalIncomeTaxBenefitAttributedToAbstract' xlink:label='fil_FederalIncomeTaxBenefitAttributedToAbstract'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_NetOperatingLoss' xlink:label='fil_NetOperatingLoss'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_FederalIncomeTaxBenefitAttributedToAbstract' xlink:to='fil_NetOperatingLoss' use='optional' order='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_ValuationAllowance1' xlink:label='fil_ValuationAllowance1'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_FederalIncomeTaxBenefitAttributedToAbstract' xlink:to='fil_ValuationAllowance1' use='optional' order='2.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_NetBenefit' xlink:label='fil_NetBenefit'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_FederalIncomeTaxBenefitAttributedToAbstract' xlink:to='fil_NetBenefit' use='optional' order='3.0'/>
+	</link:presentationLink>
+	<link:roleRef roleURI="http://www.aptsystems.com/20170131/role/idr_SignificantItemsOfNetDeferredTaxAmountIsAsFollowsDetails" xlink:type="simple" xlink:href="apts-20170131.xsd#idr_SignificantItemsOfNetDeferredTaxAmountIsAsFollowsDetails"/>
+	<link:presentationLink xlink:type="extended" xlink:role="http://www.aptsystems.com/20170131/role/idr_SignificantItemsOfNetDeferredTaxAmountIsAsFollowsDetails">
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_DeferredTaxAttributedAbstract' xlink:label='fil_DeferredTaxAttributedAbstract'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_OperatingLossCarryforwards' xlink:label='us-gaap_OperatingLossCarryforwards'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_DeferredTaxAttributedAbstract' xlink:to='us-gaap_OperatingLossCarryforwards' use='optional' order='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_LessChangeInValuationAllowance' xlink:label='fil_LessChangeInValuationAllowance'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_DeferredTaxAttributedAbstract' xlink:to='fil_LessChangeInValuationAllowance' use='optional' order='2.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_DeferredTaxAssetsNet' xlink:label='us-gaap_DeferredTaxAssetsNet'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_DeferredTaxAttributedAbstract' xlink:to='us-gaap_DeferredTaxAssetsNet' use='optional' order='3.0'/>
+	</link:presentationLink>
+	<link:roleRef roleURI="http://www.aptsystems.com/20170131/role/idr_NetOperatingLossCarryForwardsDetails" xlink:type="simple" xlink:href="apts-20170131.xsd#idr_NetOperatingLossCarryForwardsDetails"/>
+	<link:presentationLink xlink:type="extended" xlink:role="http://www.aptsystems.com/20170131/role/idr_NetOperatingLossCarryForwardsDetails">
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_NetOperatingLossCarryForwardsDetailsAbstract' xlink:label='fil_NetOperatingLossCarryForwardsDetailsAbstract'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_NetOperatingLossCarryforwards' xlink:label='fil_NetOperatingLossCarryforwards'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_NetOperatingLossCarryForwardsDetailsAbstract' xlink:to='fil_NetOperatingLossCarryforwards' use='optional' order='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_CompanyHadAnUnusedNetOperatingLossCarryForwards' xlink:label='fil_CompanyHadAnUnusedNetOperatingLossCarryForwards'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_NetOperatingLossCarryForwardsDetailsAbstract' xlink:to='fil_CompanyHadAnUnusedNetOperatingLossCarryForwards' use='optional' order='2.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_DeferredTaxAssetsGross' xlink:label='us-gaap_DeferredTaxAssetsGross'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_NetOperatingLossCarryForwardsDetailsAbstract' xlink:to='us-gaap_DeferredTaxAssetsGross' use='optional' order='3.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_ValuationAllowance' xlink:label='fil_ValuationAllowance'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_NetOperatingLossCarryForwardsDetailsAbstract' xlink:to='fil_ValuationAllowance' use='optional' order='4.0' preferredLabel='http://www.xbrl.org/2003/role/terseLabel'/>
+	</link:presentationLink>
+	<link:roleRef roleURI="http://www.aptsystems.com/20170131/role/idr_SUBSEQUENTEVENTSDetails" xlink:type="simple" xlink:href="apts-20170131.xsd#idr_SUBSEQUENTEVENTSDetails"/>
+	<link:presentationLink xlink:type="extended" xlink:role="http://www.aptsystems.com/20170131/role/idr_SUBSEQUENTEVENTSDetails">
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_SubsequentEventsDetailsAbstract' xlink:label='fil_SubsequentEventsDetailsAbstract'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_CompanyRestructuredCommonSharesByIncreasingAuthorizedSharesFrom300000000To' xlink:label='fil_CompanyRestructuredCommonSharesByIncreasingAuthorizedSharesFrom300000000To'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_SubsequentEventsDetailsAbstract' xlink:to='fil_CompanyRestructuredCommonSharesByIncreasingAuthorizedSharesFrom300000000To' use='optional' order='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_CompanyRestructuredCommonSharesWithAParValue' xlink:label='fil_CompanyRestructuredCommonSharesWithAParValue'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_SubsequentEventsDetailsAbstract' xlink:to='fil_CompanyRestructuredCommonSharesWithAParValue' use='optional' order='2.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_PreferredSeriesASuperVotingSharesWithAParValue' xlink:label='fil_PreferredSeriesASuperVotingSharesWithAParValue'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_SubsequentEventsDetailsAbstract' xlink:to='fil_PreferredSeriesASuperVotingSharesWithAParValue' use='optional' order='3.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_CompanyAddedSeriesBPreferredSharesThatAreValuedAt' xlink:label='fil_CompanyAddedSeriesBPreferredSharesThatAreValuedAt'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_SubsequentEventsDetailsAbstract' xlink:to='fil_CompanyAddedSeriesBPreferredSharesThatAreValuedAt' use='optional' order='4.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_SeriesBPreferredSharesWithInterestPayableAnnually' xlink:label='fil_SeriesBPreferredSharesWithInterestPayableAnnually'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_SubsequentEventsDetailsAbstract' xlink:to='fil_SeriesBPreferredSharesWithInterestPayableAnnually' use='optional' order='5.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_CompanyRaisedInAPrivatePlacementWithAccreditedInvestors' xlink:label='fil_CompanyRaisedInAPrivatePlacementWithAccreditedInvestors'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_SubsequentEventsDetailsAbstract' xlink:to='fil_CompanyRaisedInAPrivatePlacementWithAccreditedInvestors' use='optional' order='6.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_CompanyRaisedInAPrivatePlacementWithACombinationOfRestrictedCommonShares' xlink:label='fil_CompanyRaisedInAPrivatePlacementWithACombinationOfRestrictedCommonShares'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_SubsequentEventsDetailsAbstract' xlink:to='fil_CompanyRaisedInAPrivatePlacementWithACombinationOfRestrictedCommonShares' use='optional' order='7.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_PreferredSeriesBSharesWereIssued' xlink:label='fil_PreferredSeriesBSharesWereIssued'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_SubsequentEventsDetailsAbstract' xlink:to='fil_PreferredSeriesBSharesWereIssued' use='optional' order='8.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_CompanyOptedToPayConsultantSInvoiceByIssuingCommonShares' xlink:label='fil_CompanyOptedToPayConsultantSInvoiceByIssuingCommonShares'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_SubsequentEventsDetailsAbstract' xlink:to='fil_CompanyOptedToPayConsultantSInvoiceByIssuingCommonShares' use='optional' order='9.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_CompanyConvertedNotesPayable' xlink:label='fil_CompanyConvertedNotesPayable'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_SubsequentEventsDetailsAbstract' xlink:to='fil_CompanyConvertedNotesPayable' use='optional' order='10.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_CompanyConvertedNotesPayableWithTheIssuanceOfCommonShares' xlink:label='fil_CompanyConvertedNotesPayableWithTheIssuanceOfCommonShares'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_SubsequentEventsDetailsAbstract' xlink:to='fil_CompanyConvertedNotesPayableWithTheIssuanceOfCommonShares' use='optional' order='11.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_CompanyReachedAnAgreementWithTheLenderOfANote' xlink:label='fil_CompanyReachedAnAgreementWithTheLenderOfANote'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_SubsequentEventsDetailsAbstract' xlink:to='fil_CompanyReachedAnAgreementWithTheLenderOfANote' use='optional' order='12.0'/>
+		<link:loc xlink:type='locator' xlink:href='apts-20170131.xsd#fil_CompanyEnteredIntoDiscussionsAndSignedAgreementsWithAnAccreditedInvestorForALoan' xlink:label='fil_CompanyEnteredIntoDiscussionsAndSignedAgreementsWithAnAccreditedInvestorForALoan'/>
+		<link:presentationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/parent-child' xlink:from='fil_SubsequentEventsDetailsAbstract' xlink:to='fil_CompanyEnteredIntoDiscussionsAndSignedAgreementsWithAnAccreditedInvestorForALoan' use='optional' order='13.0'/>
+	</link:presentationLink>
+</link:linkbase>

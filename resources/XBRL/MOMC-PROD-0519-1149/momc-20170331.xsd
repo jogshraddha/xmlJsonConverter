@@ -1,0 +1,156 @@
+<?xml version='1.0' encoding='iso-8859-1'?>
+<!-- Vistalytics - iFile Suite version 6.233 -->
+<schema xmlns='http://www.w3.org/2001/XMLSchema' xmlns:us-gaap='http://fasb.org/us-gaap/2016-01-31' xmlns:fil='http://www.momsonline.com/20170331' xmlns:dei='http://xbrl.sec.gov/dei/2014-01-31' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:xbrldt='http://xbrl.org/2005/xbrldt' targetNamespace='http://www.momsonline.com/20170331' xmlns:num='http://www.xbrl.org/dtr/type/numeric' xmlns:link='http://www.xbrl.org/2003/linkbase' xmlns:xbrli='http://www.xbrl.org/2003/instance' elementFormDefault='qualified' attributeFormDefault='unqualified'>
+	<annotation>
+		<appinfo>
+			<link:linkbaseRef xlink:type="simple" xlink:href="momc-20170331_pre.xml" xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+			<link:linkbaseRef xlink:type="simple" xlink:href="momc-20170331_def.xml" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+			<link:linkbaseRef xlink:type="simple" xlink:href="momc-20170331_lab.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+			<link:linkbaseRef xlink:type="simple" xlink:href="momc-20170331_cal.xml" xlink:role="http://www.xbrl.org/2003/role/calculationLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+			<link:roleType roleURI="http://www.momsonline.com/20170331/role/idr_STATEMENTSOFOPERATIONSUNAUDITED" id="idr_STATEMENTSOFOPERATIONSUNAUDITED">
+				<link:definition>000040 - Statement - STATEMENTS OF OPERATIONS (UNAUDITED)</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.momsonline.com/20170331/role/idr_DisclosureWEBSITEANDINTANGIBLEASSETS" id="idr_DisclosureWEBSITEANDINTANGIBLEASSETS">
+				<link:definition>000090 - Disclosure - WEBSITE AND INTANGIBLE ASSETS</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.momsonline.com/20170331/role/idr_WEBSITEANDINTANGIBLEASSETSDetails" id="idr_WEBSITEANDINTANGIBLEASSETSDetails">
+				<link:definition>000130 - Statement - WEBSITE AND INTANGIBLE ASSETS (Details)</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.momsonline.com/20170331/role/idr_BALANCESHEETSUNAUDITED" id="idr_BALANCESHEETSUNAUDITED">
+				<link:definition>000020 - Statement - BALANCE SHEETS (UNAUDITED)</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.momsonline.com/20170331/role/idr_GOINGCONCERNDetails" id="idr_GOINGCONCERNDetails">
+				<link:definition>000110 - Statement - GOING CONCERN (Details)</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.momsonline.com/20170331/role/idr_DisclosureRELATEDPARTYTRANSACTIONSANDRELATIONSHIPS" id="idr_DisclosureRELATEDPARTYTRANSACTIONSANDRELATIONSHIPS">
+				<link:definition>000080 - Disclosure - RELATED PARTY TRANSACTIONS AND RELATIONSHIPS</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.momsonline.com/20170331/role/idr_EQUITYTRANSACTIONSDetails" id="idr_EQUITYTRANSACTIONSDetails">
+				<link:definition>000150 - Statement - EQUITY TRANSACTIONS (Details)</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.momsonline.com/20170331/role/idr_DocumentDocumentAndEntityInformation" id="idr_DocumentDocumentAndEntityInformation">
+				<link:definition>000010 - Document - Document and Entity Information</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.momsonline.com/20170331/role/idr_DisclosureBASISOFPRESENTATION" id="idr_DisclosureBASISOFPRESENTATION">
+				<link:definition>000060 - Disclosure - BASIS OF PRESENTATION</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.momsonline.com/20170331/role/idr_STATEMENTSOFCASHFLOWSUNAUDITED" id="idr_STATEMENTSOFCASHFLOWSUNAUDITED">
+				<link:definition>000050 - Statement - STATEMENTS OF CASH FLOWS (UNAUDITED)</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.momsonline.com/20170331/role/idr_AMORTIZATIONDetails" id="idr_AMORTIZATIONDetails">
+				<link:definition>000140 - Statement - AMORTIZATION (Details)</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.momsonline.com/20170331/role/idr_RELATEDPARTYTRANSACTIONSANDRELATIONSHIPSDetails" id="idr_RELATEDPARTYTRANSACTIONSANDRELATIONSHIPSDetails">
+				<link:definition>000120 - Statement - RELATED PARTY TRANSACTIONS AND RELATIONSHIPS (Details)</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.momsonline.com/20170331/role/idr_DisclosureEQUITY" id="idr_DisclosureEQUITY">
+				<link:definition>000100 - Disclosure - EQUITY</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.momsonline.com/20170331/role/idr_BALANCESHEETSPARENTHETICALS" id="idr_BALANCESHEETSPARENTHETICALS">
+				<link:definition>000030 - Statement - BALANCE SHEETS PARENTHETICALS</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.momsonline.com/20170331/role/idr_DisclosureGOINGCONCERNANDCONTINGENCIES" id="idr_DisclosureGOINGCONCERNANDCONTINGENCIES">
+				<link:definition>000070 - Disclosure - GOING CONCERN AND CONTINGENCIES</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+		</appinfo>
+	</annotation>
+	<import schemaLocation='http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd' namespace='http://www.xbrl.org/2003/instance'/>
+	<import schemaLocation='http://www.xbrl.org/dtr/type/numeric-2009-12-16.xsd' namespace='http://www.xbrl.org/dtr/type/numeric'/>
+	<import schemaLocation='http://www.xbrl.org/dtr/type/nonNumeric-2009-12-16.xsd' namespace='http://www.xbrl.org/dtr/type/non-numeric'/>
+	<import schemaLocation='http://www.xbrl.org/2005/xbrldt-2005.xsd' namespace='http://xbrl.org/2005/xbrldt'/>
+	<import namespace='http://fasb.org/us-gaap/2016-01-31' schemaLocation='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd' />
+	<import namespace='http://xbrl.sec.gov/dei/2014-01-31' schemaLocation='http://xbrl.sec.gov/dei/2014/dei-2014-01-31.xsd' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_DocumentAndEntityInformationAbstract' name='DocumentAndEntityInformationAbstract' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='credit' id='fil_DueToParent' name='DueToParent' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' xbrli:balance='debit' id='fil_PlatformLease' name='PlatformLease' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' xbrli:balance='debit' id='fil_WebsiteMaintenance' name='WebsiteMaintenance' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' xbrli:balance='debit' id='fil_DeferredStockCompensation2' name='DeferredStockCompensation2' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' xbrli:balance='debit' id='fil_ExpensesPaidByRelatedParty2' name='ExpensesPaidByRelatedParty2' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' xbrli:balance='debit' id='fil_ExpensesPaidBackToRelatedParty1' name='ExpensesPaidBackToRelatedParty1' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_CashPaidDuringTheYearForAbstract' name='CashPaidDuringTheYearForAbstract' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_OrganizationConsolidationAndPresentationOfFinancialStatementsAbstract1' name='OrganizationConsolidationAndPresentationOfFinancialStatementsAbstract1' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_RelatedPartyDisclosuresAbstract' name='RelatedPartyDisclosuresAbstract' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_IntangibleAssetsGoodwillAndOtherAbstract' name='IntangibleAssetsGoodwillAndOtherAbstract' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_EquityAbstract1' name='EquityAbstract1' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='credit' id='fil_CapitalizedWebsiteDevelopmentCosts' name='CapitalizedWebsiteDevelopmentCosts' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='credit' id='fil_CapitalizedAdditionalWebsiteDevelopmentCosts' name='CapitalizedAdditionalWebsiteDevelopmentCosts' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_GoingConcernDetailsAbstract' name='GoingConcernDetailsAbstract' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='credit' id='fil_WorkingCapitalDeficit' name='WorkingCapitalDeficit' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_RepaymentOfInvestmentFromSisterCorpDetailsAbstract' name='RepaymentOfInvestmentFromSisterCorpDetailsAbstract' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='credit' id='fil_AmountOfConsiderationContingentlyDueFromTheCompany' name='AmountOfConsiderationContingentlyDueFromTheCompany' />
+	<element nillable='true' type='num:perShareItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' id='fil_ContingentLiabilityAmountCanBeSatisfiedInCashMinimum' name='ContingentLiabilityAmountCanBeSatisfiedInCashMinimum' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_RelatedPartyTransactionsAndRelationshipsDetailsAbstract' name='RelatedPartyTransactionsAndRelationshipsDetailsAbstract' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' xbrli:balance='debit' id='fil_IlmiPaidCertainNetExpenses' name='IlmiPaidCertainNetExpenses' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' xbrli:balance='debit' id='fil_SocialQuotientIncTheCompanySAffiliateSisterCorpPaidOfExpenses' name='SocialQuotientIncTheCompanySAffiliateSisterCorpPaidOfExpenses' />
+	<element nillable='true' type='xbrli:sharesItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' id='fil_ImliAgreedToTransferFromItsOwnHoldingsOfTheCompanySCommonStockSharesToACompanyShareholder' name='ImliAgreedToTransferFromItsOwnHoldingsOfTheCompanySCommonStockSharesToACompanyShareholder' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' xbrli:balance='debit' id='fil_MonthlyLeasePayment' name='MonthlyLeasePayment' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' xbrli:balance='debit' id='fil_AccruedPlatformLeaseExpense' name='AccruedPlatformLeaseExpense' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' xbrli:balance='debit' id='fil_AccruedMergerAmpAcquisitionAndProjectManagementServices' name='AccruedMergerAmpAcquisitionAndProjectManagementServices' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='credit' id='fil_DueToWbCapital' name='DueToWbCapital' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' xbrli:balance='debit' id='fil_CompanyPaidMrLybbert' name='CompanyPaidMrLybbert' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='credit' id='fil_OwedToMrLybbert' name='OwedToMrLybbert' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_WebsiteAndIntangibleAssetsDetailsAbstract' name='WebsiteAndIntangibleAssetsDetailsAbstract' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_AmortizationDetailsAbstract' name='AmortizationDetailsAbstract' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' xbrli:balance='debit' id='fil_AmortizationCapitalizedWebsiteCostsOnJanuary12015' name='AmortizationCapitalizedWebsiteCostsOnJanuary12015' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_CommonStockAbstract' name='CommonStockAbstract' />
+	<element nillable='true' type='xbrli:sharesItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' id='fil_AuthorizedSharesOfCommonStock' name='AuthorizedSharesOfCommonStock' />
+	<element nillable='true' type='num:perShareItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' id='fil_CommonStockParValue' name='CommonStockParValue' />
+	<element nillable='true' type='xbrli:sharesItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' id='fil_CommonStockSharesOutstanding1' name='CommonStockSharesOutstanding1' />
+	<element nillable='true' type='xbrli:sharesItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' id='fil_StockCompensationAgreementCallingForThePaymentOfShares' name='StockCompensationAgreementCallingForThePaymentOfShares' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='credit' id='fil_RecognizedDeferredStockCompensation' name='RecognizedDeferredStockCompensation' />
+	<element nillable='true' type='xbrli:sharesItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' id='fil_IssuedRestrictedSharesToAThirdPartyContractorForServices' name='IssuedRestrictedSharesToAThirdPartyContractorForServices' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_BasisOfPresentationAbstract' name='BasisOfPresentationAbstract' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' xbrli:balance='debit' id='fil_AccruedForLybbertSServices' name='AccruedForLybbertSServices' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' xbrli:balance='debit' id='fil_DeferredStockCompensationDuringThePeriod' name='DeferredStockCompensationDuringThePeriod' />
+	<element nillable='true' type='xbrli:sharesItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' id='fil_TwoYearStockCompensationAgreementCallingForThePaymentOfShares' name='TwoYearStockCompensationAgreementCallingForThePaymentOfShares' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='credit' id='fil_DeferredStockCompensationToRecognizeOneQuarterOfATwoYearStockCompensationAgreementCallingForThePayment' name='DeferredStockCompensationToRecognizeOneQuarterOfATwoYearStockCompensationAgreementCallingForThePayment' />
+	<element nillable='true' type='xbrli:sharesItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' id='fil_DeferredStockCompensationAgreementCallingForThePaymentShares' name='DeferredStockCompensationAgreementCallingForThePaymentShares' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='credit' id='fil_ProfessionalFeesExpense' name='ProfessionalFeesExpense' />
+	<element nillable='true' type='xbrli:sharesItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' id='fil_SharesWillBeIssuedOverATwoYearPeriodUponCompletionOfCertainMilestones' name='SharesWillBeIssuedOverATwoYearPeriodUponCompletionOfCertainMilestones' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' xbrli:balance='debit' id='fil_AmortizationExpense' name='AmortizationExpense' />
+</schema>

@@ -1,0 +1,171 @@
+<?xml version='1.0' encoding='iso-8859-1'?>
+<!-- Vistalytics - iFile Suite version 6.233 -->
+<schema xmlns:nonnum='http://www.xbrl.org/dtr/type/non-numeric' xmlns='http://www.w3.org/2001/XMLSchema' xmlns:us-gaap='http://fasb.org/us-gaap/2016-01-31' xmlns:xbrldt='http://xbrl.org/2005/xbrldt' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:dei='http://xbrl.sec.gov/dei/2014-01-31' xmlns:fil='http://www.innocomtechnology.com/20170331' targetNamespace='http://www.innocomtechnology.com/20170331' xmlns:num='http://www.xbrl.org/dtr/type/numeric' xmlns:link='http://www.xbrl.org/2003/linkbase' attributeFormDefault='unqualified' xmlns:xbrli='http://www.xbrl.org/2003/instance' elementFormDefault='qualified'>
+	<annotation>
+		<appinfo>
+			<link:linkbaseRef xlink:type="simple" xlink:href="incm-20170331_pre.xml" xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+			<link:linkbaseRef xlink:type="simple" xlink:href="incm-20170331_def.xml" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+			<link:linkbaseRef xlink:type="simple" xlink:href="incm-20170331_lab.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+			<link:linkbaseRef xlink:type="simple" xlink:href="incm-20170331_cal.xml" xlink:role="http://www.xbrl.org/2003/role/calculationLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+			<link:roleType roleURI="http://www.innocomtechnology.com/20170331/role/idr_GoingConcernUncertaintiesDetails" id="idr_GoingConcernUncertaintiesDetails">
+				<link:definition>000170 - Statement - Going Concern Uncertainties (Details)</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.innocomtechnology.com/20170331/role/idr_CONDENSEDCONSOLIDATEDBALANCESHEETSPARENTHETICALS" id="idr_CONDENSEDCONSOLIDATEDBALANCESHEETSPARENTHETICALS">
+				<link:definition>000030 - Statement - CONDENSED CONSOLIDATED BALANCE SHEETS PARENTHETICALS</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.innocomtechnology.com/20170331/role/idr_CONDENSEDCONSOLIDATEDBALANCESHEETS" id="idr_CONDENSEDCONSOLIDATEDBALANCESHEETS">
+				<link:definition>000020 - Statement - CONDENSED CONSOLIDATED BALANCE SHEETS</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.innocomtechnology.com/20170331/role/idr_DisclosureINCOMETAXES" id="idr_DisclosureINCOMETAXES">
+				<link:definition>000120 - Disclosure - INCOME TAXES</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.innocomtechnology.com/20170331/role/idr_CONDENSEDCONSOLIDATEDSTATEMENTSOFCASHFLOWSUnaudited" id="idr_CONDENSEDCONSOLIDATEDSTATEMENTSOFCASHFLOWSUnaudited">
+				<link:definition>000050 - Statement - CONDENSED CONSOLIDATED STATEMENTS OF CASH FLOWS (Unaudited)</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.innocomtechnology.com/20170331/role/idr_CONDENSEDCONSOLIDATEDSTATEMENTSOFOPERATIONSANDCOMPREHENSIVEINCOMEUnaudited" id="idr_CONDENSEDCONSOLIDATEDSTATEMENTSOFOPERATIONSANDCOMPREHENSIVEINCOMEUnaudited">
+				<link:definition>000040 - Statement - CONDENSED CONSOLIDATED STATEMENTS OF OPERATIONS AND COMPREHENSIVE INCOME (Unaudited)</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.innocomtechnology.com/20170331/role/idr_CONSOLIDATEDSTATEMENTSOFCASHFLOWS" id="idr_CONSOLIDATEDSTATEMENTSOFCASHFLOWS">
+				<link:definition>000050 - Statement - CONSOLIDATED STATEMENTS OF CASH FLOWS</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.innocomtechnology.com/20170331/role/idr_DisclosureAccountingPoliciesPolicies" id="idr_DisclosureAccountingPoliciesPolicies">
+				<link:definition>000150 - Disclosure - Accounting Policies (Policies)</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.innocomtechnology.com/20170331/role/idr_DisclosureGOINGCONCERNUNCERTAINTIES" id="idr_DisclosureGOINGCONCERNUNCERTAINTIES">
+				<link:definition>000090 - Disclosure - GOING CONCERN UNCERTAINTIES</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.innocomtechnology.com/20170331/role/idr_CONDENSEDCONSOLIDATEDSTATEMENTOFSTOCKHOLDERSEQUITY" id="idr_CONDENSEDCONSOLIDATEDSTATEMENTOFSTOCKHOLDERSEQUITY">
+				<link:definition>000060 - Statement - CONDENSED CONSOLIDATED STATEMENT OF STOCKHOLDERS&apos; EQUITY</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.innocomtechnology.com/20170331/role/idr_DisclosureORGANIZATIONANDBUSINESSBACKGROUND" id="idr_DisclosureORGANIZATIONANDBUSINESSBACKGROUND">
+				<link:definition>000080 - Disclosure - ORGANIZATION AND BUSINESS BACKGROUND</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.innocomtechnology.com/20170331/role/idr_DisclosureSUMMARYOFSIGNIFICANTACCOUNTINGPOLICIES" id="idr_DisclosureSUMMARYOFSIGNIFICANTACCOUNTINGPOLICIES">
+				<link:definition>000100 - Disclosure - SUMMARY OF SIGNIFICANT ACCOUNTING POLICIES</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.innocomtechnology.com/20170331/role/idr_CONSOLIDATEDSTATEMENTSOFOPERATIONSANDCOMPREHENSIVELOSS" id="idr_CONSOLIDATEDSTATEMENTSOFOPERATIONSANDCOMPREHENSIVELOSS">
+				<link:definition>000040 - Statement - CONSOLIDATED STATEMENTS OF OPERATIONS AND COMPREHENSIVE LOSS</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.innocomtechnology.com/20170331/role/idr_CONSOLIDATEDBALANCESHEETS" id="idr_CONSOLIDATEDBALANCESHEETS">
+				<link:definition>000020 - Statement - CONSOLIDATED BALANCE SHEETS</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.innocomtechnology.com/20170331/role/idr_DisclosureSUBSEQUENTEVENTS" id="idr_DisclosureSUBSEQUENTEVENTS">
+				<link:definition>000140 - Disclosure - SUBSEQUENT EVENTS</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.innocomtechnology.com/20170331/role/idr_DocumentDocumentAndEntityInformation" id="idr_DocumentDocumentAndEntityInformation">
+				<link:definition>000010 - Document - Document and Entity Information</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.innocomtechnology.com/20170331/role/idr_DisclosureBASISOFPRESENTATION" id="idr_DisclosureBASISOFPRESENTATION">
+				<link:definition>000070 - Disclosure - BASIS OF PRESENTATION</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.innocomtechnology.com/20170331/role/idr_DisclosureTranslationOfAmountsFromReportingCurrenciesHasBeenMadeAtTheFollowingExchangeRatesTables" id="idr_DisclosureTranslationOfAmountsFromReportingCurrenciesHasBeenMadeAtTheFollowingExchangeRatesTables">
+				<link:definition>000160 - Disclosure - Translation of amounts from reporting currencies has been made at the following exchange rates (Tables)</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.innocomtechnology.com/20170331/role/idr_DisclosureCOMMITMENTSANDCONTINGENCIES" id="idr_DisclosureCOMMITMENTSANDCONTINGENCIES">
+				<link:definition>000130 - Disclosure - COMMITMENTS AND CONTINGENCIES</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.innocomtechnology.com/20170331/role/idr_DisclosureAMOUNTDUETOARELATEDPARTY" id="idr_DisclosureAMOUNTDUETOARELATEDPARTY">
+				<link:definition>000110 - Disclosure - AMOUNT DUE TO A RELATED PARTY</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.innocomtechnology.com/20170331/role/idr_ForeignCurrenciesTranslationExchangeRatesDetails" id="idr_ForeignCurrenciesTranslationExchangeRatesDetails">
+				<link:definition>000180 - Statement - Foreign Currencies Translation Exchange Rates (Details)</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+		</appinfo>
+	</annotation>
+	<import schemaLocation='http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd' namespace='http://www.xbrl.org/2003/instance'/>
+	<import schemaLocation='http://www.xbrl.org/dtr/type/numeric-2009-12-16.xsd' namespace='http://www.xbrl.org/dtr/type/numeric'/>
+	<import schemaLocation='http://www.xbrl.org/dtr/type/nonNumeric-2009-12-16.xsd' namespace='http://www.xbrl.org/dtr/type/non-numeric'/>
+	<import schemaLocation='http://www.xbrl.org/2005/xbrldt-2005.xsd' namespace='http://xbrl.org/2005/xbrldt'/>
+	<import namespace='http://fasb.org/us-gaap/2016-01-31' schemaLocation='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd' />
+	<import namespace='http://xbrl.sec.gov/dei/2014-01-31' schemaLocation='http://xbrl.sec.gov/dei/2014/dei-2014-01-31.xsd' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_DocumentAndEntityInformationAbstract' name='DocumentAndEntityInformationAbstract' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_GOINGCONCERNUNCERTAINTIESAbstract' name='GOINGCONCERNUNCERTAINTIESAbstract' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_SUMMARYOFSIGNIFICANTACCOUNTINGPOLICIESAbstract' name='SUMMARYOFSIGNIFICANTACCOUNTINGPOLICIESAbstract' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_IncomeTaxesAbstract' name='IncomeTaxesAbstract' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_CommitmentAndContingenciesAbstract' name='CommitmentAndContingenciesAbstract' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_SUBSEQUENTEVENTSAbstract' name='SUBSEQUENTEVENTSAbstract' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_OrganizationAndBusinessBackgroundAbstract' name='OrganizationAndBusinessBackgroundAbstract' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_ForeignCurrenciesTranslationExchangeRatesAbstract' name='ForeignCurrenciesTranslationExchangeRatesAbstract' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_AccountingPoliciesAbstract1' name='AccountingPoliciesAbstract1' />
+	<element nillable='true' type='nonnum:textBlockItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_RelatedPartiesPolicyTextBlock' name='RelatedPartiesPolicyTextBlock' />
+	<element nillable='true' type='nonnum:textBlockItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_AmountDueToARelatedPartyDisclosureTextBlock' name='AmountDueToARelatedPartyDisclosureTextBlock' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_AmountDueToARelatedPartyAbstract' name='AmountDueToARelatedPartyAbstract' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_GoingConcernUncertaintiesDetailsAbstract' name='GoingConcernUncertaintiesDetailsAbstract' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_ChangesInStockholdersEquityAbstract' name='ChangesInStockholdersEquityAbstract' />
+	<element nillable='true' type='xbrli:sharesItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' id='fil_Balance' name='Balance' />
+	<element nillable='true' type='nonnum:textBlockItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_ShellCompanyTextBlock' name='ShellCompanyTextBlock' />
+	<element nillable='true' type='nonnum:textBlockItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_TranslationOfAmountsFromReportingCurrenciesHasBeenMadeAtTheFollowingExchangeRatesTextBlock' name='TranslationOfAmountsFromReportingCurrenciesHasBeenMadeAtTheFollowingExchangeRatesTextBlock' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_TranslationOfAmountsFromReportingCurrenciesHasBeenMadeAtTheFollowingExchangeRatesAbstract' name='TranslationOfAmountsFromReportingCurrenciesHasBeenMadeAtTheFollowingExchangeRatesAbstract' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_OrganizationConsolidationAndPresentationOfFinancialStatementsAbstract1' name='OrganizationConsolidationAndPresentationOfFinancialStatementsAbstract1' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_CompanyHasAnAccumulatedDeficit' name='CompanyHasAnAccumulatedDeficit' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_CompanyHasExperiencedAContinuousLoss' name='CompanyHasExperiencedAContinuousLoss' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_PeriodEndRmbUs1ExchangeRate' name='PeriodEndRmbUs1ExchangeRate' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_AveragePeriodRmbUs1ExchangeRate' name='AveragePeriodRmbUs1ExchangeRate' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_PeriodEndHkUs1ExchangeRate' name='PeriodEndHkUs1ExchangeRate' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_AveragePeriodHkUs1ExchangeRate' name='AveragePeriodHkUs1ExchangeRate' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' xbrli:balance='debit' id='fil_NetLossForThePeriod' name='NetLossForThePeriod' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' xbrli:balance='debit' id='fil_ForeignCurrencyTranslationAdjustment' name='ForeignCurrencyTranslationAdjustment' />
+</schema>

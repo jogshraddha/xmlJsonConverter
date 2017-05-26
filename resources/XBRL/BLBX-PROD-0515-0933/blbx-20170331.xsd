@@ -1,0 +1,184 @@
+<?xml version='1.0' encoding='iso-8859-1'?>
+<!-- Vistalytics - iFile Suite version 6.233 -->
+<schema xmlns:nonnum='http://www.xbrl.org/dtr/type/non-numeric' xmlns='http://www.w3.org/2001/XMLSchema' xmlns:us-gaap='http://fasb.org/us-gaap/2016-01-31' xmlns:xbrldt='http://xbrl.org/2005/xbrldt' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:dei='http://xbrl.sec.gov/dei/2014-01-31' xmlns:fil='http://www.blackboxstocks.com/20170331' targetNamespace='http://www.blackboxstocks.com/20170331' xmlns:num='http://www.xbrl.org/dtr/type/numeric' xmlns:link='http://www.xbrl.org/2003/linkbase' attributeFormDefault='unqualified' elementFormDefault='qualified' xmlns:xbrli='http://www.xbrl.org/2003/instance'>
+	<annotation>
+		<appinfo>
+			<link:linkbaseRef xlink:type="simple" xlink:href="blbx-20170331_pre.xml" xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+			<link:linkbaseRef xlink:type="simple" xlink:href="blbx-20170331_def.xml" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+			<link:linkbaseRef xlink:type="simple" xlink:href="blbx-20170331_lab.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+			<link:linkbaseRef xlink:type="simple" xlink:href="blbx-20170331_cal.xml" xlink:role="http://www.xbrl.org/2003/role/calculationLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+			<link:roleType roleURI="http://www.blackboxstocks.com/20170331/role/idr_COMMITMENTSANDCONTINGENCIESDETAILS" id="idr_COMMITMENTSANDCONTINGENCIESDETAILS">
+				<link:definition>000200 - Statement - COMMITMENTS AND CONTINGENCIES (DETAILS)</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.blackboxstocks.com/20170331/role/idr_CAPITALSTOCKTRANSACTIONNARRATIVEDetails" id="idr_CAPITALSTOCKTRANSACTIONNARRATIVEDetails">
+				<link:definition>000155 - Statement - CAPITAL STOCK TRANSACTION NARRATIVE (Details)</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.blackboxstocks.com/20170331/role/idr_DisclosureAccountingPoliciesPolicies" id="idr_DisclosureAccountingPoliciesPolicies">
+				<link:definition>000120 - Disclosure - Accounting Policies (Policies)</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.blackboxstocks.com/20170331/role/idr_ConsolidatedBalanceSheetsParentheticals" id="idr_ConsolidatedBalanceSheetsParentheticals">
+				<link:definition>000030 - Statement - Consolidated Balance Sheets Parentheticals</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.blackboxstocks.com/20170331/role/idr_CAPITALSTOCKTRANSACTIONDetails" id="idr_CAPITALSTOCKTRANSACTIONDetails">
+				<link:definition>000150 - Statement - CAPITAL STOCK TRANSACTION (Details)</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.blackboxstocks.com/20170331/role/idr_ConsolidatedBalanceSheetsUnaudited" id="idr_ConsolidatedBalanceSheetsUnaudited">
+				<link:definition>000020 - Statement - Consolidated Balance Sheets (unaudited)</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.blackboxstocks.com/20170331/role/idr_DisclosureSUMMARYOFSIGNIFICANTACCOUNTINGPOLICIES" id="idr_DisclosureSUMMARYOFSIGNIFICANTACCOUNTINGPOLICIES">
+				<link:definition>000070 - Disclosure - SUMMARY OF SIGNIFICANT ACCOUNTING POLICIES</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.blackboxstocks.com/20170331/role/idr_ConsolidatedStatementsOfOperationsUnaudited" id="idr_ConsolidatedStatementsOfOperationsUnaudited">
+				<link:definition>000040 - Statement - Consolidated Statements of Operations (unaudited)</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.blackboxstocks.com/20170331/role/idr_DocumentDocumentAndEntityInformation" id="idr_DocumentDocumentAndEntityInformation">
+				<link:definition>000010 - Document - Document and Entity Information</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.blackboxstocks.com/20170331/role/idr_EARNINGSORLOSSPERSHAREDETAILS" id="idr_EARNINGSORLOSSPERSHAREDETAILS">
+				<link:definition>000140 - Statement - EARNINGS OR (LOSS) PER SHARE (DETAILS)</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.blackboxstocks.com/20170331/role/idr_DisclosureSTOCKHOLDERSEQUITY" id="idr_DisclosureSTOCKHOLDERSEQUITY">
+				<link:definition>000080 - Disclosure - STOCKHOLDERS&apos; EQUITY</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.blackboxstocks.com/20170331/role/idr_RELATEDPARTYTRANSACTIONDetails" id="idr_RELATEDPARTYTRANSACTIONDetails">
+				<link:definition>000160 - Statement - RELATED PARTY TRANSACTION (Details)</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.blackboxstocks.com/20170331/role/idr_DisclosureCOMMITMENTSANDCONTINGENCIES" id="idr_DisclosureCOMMITMENTSANDCONTINGENCIES">
+				<link:definition>000110 - Disclosure - COMMITMENTS AND CONTINGENCIES</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.blackboxstocks.com/20170331/role/idr_DisclosureRELATEDPARTYTRANSACTIONS" id="idr_DisclosureRELATEDPARTYTRANSACTIONS">
+				<link:definition>000100 - Disclosure - RELATED PARTY TRANSACTIONS</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.blackboxstocks.com/20170331/role/idr_DisclosureSTOCKOPTIONSANDWARRANTS" id="idr_DisclosureSTOCKOPTIONSANDWARRANTS">
+				<link:definition>000090 - Disclosure - STOCK OPTIONS AND WARRANTS</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.blackboxstocks.com/20170331/role/idr_DisclosureORGANIZATION" id="idr_DisclosureORGANIZATION">
+				<link:definition>000060 - Disclosure - ORGANIZATION</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.blackboxstocks.com/20170331/role/idr_ConsolidatedStatementsOfCashFlowsUnaudited" id="idr_ConsolidatedStatementsOfCashFlowsUnaudited">
+				<link:definition>000050 - Statement - Consolidated Statements of Cash Flows (unaudited)</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.blackboxstocks.com/20170331/role/idr_ORGANIZATIONDetails" id="idr_ORGANIZATIONDetails">
+				<link:definition>000130 - Statement - ORGANIZATION (Details)</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+		</appinfo>
+	</annotation>
+	<import schemaLocation='http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd' namespace='http://www.xbrl.org/2003/instance'/>
+	<import schemaLocation='http://www.xbrl.org/dtr/type/numeric-2009-12-16.xsd' namespace='http://www.xbrl.org/dtr/type/numeric'/>
+	<import schemaLocation='http://www.xbrl.org/dtr/type/nonNumeric-2009-12-16.xsd' namespace='http://www.xbrl.org/dtr/type/non-numeric'/>
+	<import schemaLocation='http://www.xbrl.org/2005/xbrldt-2005.xsd' namespace='http://xbrl.org/2005/xbrldt'/>
+	<import namespace='http://fasb.org/us-gaap/2016-01-31' schemaLocation='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd' />
+	<import namespace='http://xbrl.sec.gov/dei/2014-01-31' schemaLocation='http://xbrl.sec.gov/dei/2014/dei-2014-01-31.xsd' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_DocumentAndEntityInformationAbstract' name='DocumentAndEntityInformationAbstract' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_PropertyAbstract' name='PropertyAbstract' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_TotalProperty' name='TotalProperty' />
+	<element nillable='true' type='xbrli:sharesItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' id='fil_ConvertiblePreferredStockSeriesASharesAuthorized' name='ConvertiblePreferredStockSeriesASharesAuthorized' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' xbrli:balance='debit' id='fil_CostOfOperations' name='CostOfOperations' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' xbrli:balance='debit' id='fil_PrepaidExpensesRelatedParties' name='PrepaidExpensesRelatedParties' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' xbrli:balance='credit' id='fil_PurchasesOfFixedAssets' name='PurchasesOfFixedAssets' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_AccountingPoliciesAbstract1' name='AccountingPoliciesAbstract1' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_CommitmentAndContingenciesAbstract' name='CommitmentAndContingenciesAbstract' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_GuaranteesAbstract1' name='GuaranteesAbstract1' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_EquityAbstract1' name='EquityAbstract1' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_RelatedPartyDisclosuresAbstract' name='RelatedPartyDisclosuresAbstract' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_OrganizationAbstract' name='OrganizationAbstract' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_EarningsOrLossPerShareDetailsAbstract' name='EarningsOrLossPerShareDetailsAbstract' />
+	<element nillable='true' type='xbrli:sharesItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' id='fil_PotentialDilutionCommonShares' name='PotentialDilutionCommonShares' />
+	<element nillable='true' type='xbrli:sharesItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' id='fil_CompanyHadAuthorizedSharesOfPreferredStock' name='CompanyHadAuthorizedSharesOfPreferredStock' />
+	<element nillable='true' type='num:perShareItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' id='fil_CompanyHadAuthorizedSharesOfPreferredStockAtParValue' name='CompanyHadAuthorizedSharesOfPreferredStockAtParValue' />
+	<element nillable='true' type='xbrli:sharesItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' id='fil_SeriesAConvertiblePreferredStock' name='SeriesAConvertiblePreferredStock' />
+	<element nillable='true' type='num:perShareItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' id='fil_SeriesAConvertiblePreferredStockParValue' name='SeriesAConvertiblePreferredStockParValue' />
+	<element nillable='true' type='xbrli:sharesItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' id='fil_AuthorizedSharesOfCommonStock' name='AuthorizedSharesOfCommonStock' />
+	<element nillable='true' type='num:perShareItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' id='fil_AuthorizedSharesOfCommonStockParValue' name='AuthorizedSharesOfCommonStockParValue' />
+	<element nillable='true' type='xbrli:sharesItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' id='fil_CommonSharesIssuedForProprietaryAssetsContributedByPresident' name='CommonSharesIssuedForProprietaryAssetsContributedByPresident' />
+	<element nillable='true' type='xbrli:sharesItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' id='fil_CompanyPursuantToWhichMrKeplerCancelledAndForfeitedSharesOfCompanyCommonStock1' name='CompanyPursuantToWhichMrKeplerCancelledAndForfeitedSharesOfCompanyCommonStock1' />
+	<element nillable='true' type='xbrli:sharesItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' id='fil_CompanyOfferedAndSoldNewlyIssuedSharesOfCompanyCommonStock1' name='CompanyOfferedAndSoldNewlyIssuedSharesOfCompanyCommonStock1' />
+	<element nillable='true' type='xbrli:sharesItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' id='fil_CompanyOfferedNewlyIssuedSharesOfSeriesAConvertiblePreferredStock1' name='CompanyOfferedNewlyIssuedSharesOfSeriesAConvertiblePreferredStock1' />
+	<element nillable='true' type='num:percentItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' id='fil_IssuedAndOutstandingSharesOfCompanyCommonStock1' name='IssuedAndOutstandingSharesOfCompanyCommonStock1' />
+	<element nillable='true' type='num:percentItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' id='fil_IssuedAndOutstandingSharesOfCompanyPreferredStock1' name='IssuedAndOutstandingSharesOfCompanyPreferredStock1' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_RelatedPartyTransactionDetailsAbstract' name='RelatedPartyTransactionDetailsAbstract' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_CommitmentsAndContingenciesDetailsAbstract' name='CommitmentsAndContingenciesDetailsAbstract' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' xbrli:balance='debit' id='fil_OfficeRentalExpense' name='OfficeRentalExpense' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_AdvancesRelatedParty' name='AdvancesRelatedParty' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_ComputerAndRelatedEquipmentNetOfDepreciation' name='ComputerAndRelatedEquipmentNetOfDepreciation' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='credit' id='fil_UnearnedSubscriptions' name='UnearnedSubscriptions' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_SeriesAConvertiblePreferredStock1' name='SeriesAConvertiblePreferredStock1' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit' id='fil_ComputerAndRelatedEquipmentNetOfDepreciation1' name='ComputerAndRelatedEquipmentNetOfDepreciation1' />
+	<element nillable='true' type='xbrli:sharesItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' id='fil_SeriesAConvertiblePreferredStockIssued' name='SeriesAConvertiblePreferredStockIssued' />
+	<element nillable='true' type='xbrli:sharesItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' id='fil_SeriesAConvertiblePreferredStockOutstanding' name='SeriesAConvertiblePreferredStockOutstanding' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' xbrli:balance='debit' id='fil_DepreciationExpense' name='DepreciationExpense' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' xbrli:balance='credit' id='fil_UnearnedSubscriptions1' name='UnearnedSubscriptions1' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' xbrli:balance='debit' id='fil_CancellationOfCommonShares' name='CancellationOfCommonShares' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_SupplementalDisclosureNonCashInvestingAndFinancingActivitiesAbstract' name='SupplementalDisclosureNonCashInvestingAndFinancingActivitiesAbstract' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' xbrli:balance='debit' id='fil_CashAdvancesFromShareholder' name='CashAdvancesFromShareholder' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' xbrli:balance='debit' id='fil_CashRepaymentsToShareholder' name='CashRepaymentsToShareholder' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' xbrli:balance='debit' id='fil_ChiefFinancialOfficerAndSecretaryOfTheCompanyWasAdvanced' name='ChiefFinancialOfficerAndSecretaryOfTheCompanyWasAdvanced' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' xbrli:balance='debit' id='fil_KarmaWasPaidForServices' name='KarmaWasPaidForServices' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' xbrli:balance='debit' id='fil_RefundedOfThesePrepaymentsLeavingAPrepaidBalance' name='RefundedOfThesePrepaymentsLeavingAPrepaidBalance' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_CapitalStockTransactionDetails1Abstract' name='CapitalStockTransactionDetails1Abstract' />
+	<element nillable='true' type='num:perShareItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' id='fil_SeriesAConvertiblePreferredStockParValue1' name='SeriesAConvertiblePreferredStockParValue1' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_SummaryOfSignificantAccountingPoliciesAbstract' name='SummaryOfSignificantAccountingPoliciesAbstract' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_OrganizationDetailsAbstract' name='OrganizationDetailsAbstract' />
+	<element nillable='true' type='num:percentItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' id='fil_IssuedAndOutstandingCapitalStockOfTheCompany' name='IssuedAndOutstandingCapitalStockOfTheCompany' />
+	<element abstract='true' nillable='true' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_CapitalStockTransactionNarrativeDetailsAbstract' name='CapitalStockTransactionNarrativeDetailsAbstract' />
+	<element nillable='true' type='xbrli:sharesItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_IssuedATotalSharesOfCommonStock' name='IssuedATotalSharesOfCommonStock' />
+	<element nillable='true' type='num:perShareItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_IssuedATotalSharesOfCommonStockAtACashPricePerShare' name='IssuedATotalSharesOfCommonStockAtACashPricePerShare' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' xbrli:balance='debit' id='fil_IssuedATotalSharesOfCommonStockForATotal' name='IssuedATotalSharesOfCommonStockForATotal' />
+	<element nillable='true' type='xbrli:sharesItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' id='fil_InvestorToRescindThePurchaseSharesOfCommonStock' name='InvestorToRescindThePurchaseSharesOfCommonStock' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' xbrli:balance='debit' id='fil_ChiefFinancialOfficerAndSecretaryOfTheCompanyAndRepaid' name='ChiefFinancialOfficerAndSecretaryOfTheCompanyAndRepaid' />
+	<element nillable='true' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration' xbrli:balance='debit' id='fil_RemainingAdvanceIsUnsecuredAndBearsNoInterest' name='RemainingAdvanceIsUnsecuredAndBearsNoInterest' />
+</schema>

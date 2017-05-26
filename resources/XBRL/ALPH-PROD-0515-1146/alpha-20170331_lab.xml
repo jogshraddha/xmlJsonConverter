@@ -1,0 +1,517 @@
+<?xml version='1.0' encoding='iso-8859-1'?>
+<!-- Vistalytics - iFile Suite version 6.233 -->
+<link:linkbase xmlns="http://www.xbrl.org/2003/linkbase"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd"
+		xmlns:fil="http://www.alphaenergyinc.com/20170331"
+		xmlns:link="http://www.xbrl.org/2003/linkbase"
+		xmlns:xlink="http://www.w3.org/1999/xlink"
+		xmlns:xbrldt="http://xbrl.org/2005/xbrldt"
+		xmlns:xbrli="http://www.xbrl.org/2003/instance">
+	<roleRef xlink:type="simple" xlink:href="http://www.xbrl.org/lrr/role/negated-2009-12-16.xsd#negatedLabel" roleURI="http://www.xbrl.org/2009/role/negatedLabel"/>
+	<roleRef xlink:type="simple" xlink:href="http://www.xbrl.org/lrr/role/negated-2009-12-16.xsd#negatedPeriodEndLabel" roleURI="http://www.xbrl.org/2009/role/negatedPeriodEndLabel"/>
+	<roleRef xlink:type="simple" xlink:href="http://www.xbrl.org/lrr/role/negated-2009-12-16.xsd#negatedPeriodStartLabel" roleURI="http://www.xbrl.org/2009/role/negatedPeriodStartLabel"/>
+	<roleRef xlink:type="simple" xlink:href="http://www.xbrl.org/lrr/role/negated-2009-12-16.xsd#negatedTerseLabel" roleURI="http://www.xbrl.org/2009/role/negatedTerseLabel"/>
+	<roleRef xlink:type="simple" xlink:href="http://www.xbrl.org/lrr/role/negated-2009-12-16.xsd#negatedTotalLabel" roleURI="http://www.xbrl.org/2009/role/negatedTotalLabel"/>
+	<link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+		<link:loc xlink:type='locator' xlink:href='alpha-20170331.xsd#fil_TheNoteBearsSimpleInterestAtARate' xlink:label='fil_TheNoteBearsSimpleInterestAtARate'/>
+		<link:label xlink:type='resource' xlink:label='lab_fil_TheNoteBearsSimpleInterestAtARate' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>The note bears simple interest at a rate</link:label>
+		<link:label xlink:type='resource' xlink:label='lab_fil_TheNoteBearsSimpleInterestAtARate' xlink:role='http://www.xbrl.org/2003/role/documentation' xml:lang='en-US'>CompanyExecutedAPromissoryNote1</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='fil_TheNoteBearsSimpleInterestAtARate' xlink:to='lab_fil_TheNoteBearsSimpleInterestAtARate'/>
+		<link:loc xlink:type='locator' xlink:href='alpha-20170331.xsd#fil_WeightedAverageRemainingContractualLifeOfOptionsOutstanding' xlink:label='fil_WeightedAverageRemainingContractualLifeOfOptionsOutstanding'/>
+		<link:label xlink:type='resource' xlink:label='lab_fil_WeightedAverageRemainingContractualLifeOfOptionsOutstanding' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>Weighted Average remaining contractual life of options outstanding</link:label>
+		<link:label xlink:type='resource' xlink:label='lab_fil_WeightedAverageRemainingContractualLifeOfOptionsOutstanding' xlink:role='http://www.xbrl.org/2003/role/documentation' xml:lang='en-US'>Expired1</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='fil_WeightedAverageRemainingContractualLifeOfOptionsOutstanding' xlink:to='lab_fil_WeightedAverageRemainingContractualLifeOfOptionsOutstanding'/>
+		<link:loc xlink:type='locator' xlink:href='alpha-20170331.xsd#fil_Granted' xlink:label='fil_Granted'/>
+		<link:label xlink:type='resource' xlink:label='lab_fil_Granted' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>Granted</link:label>
+		<link:label xlink:type='resource' xlink:label='lab_fil_Granted' xlink:role='http://www.xbrl.org/2003/role/documentation' xml:lang='en-US'>Outstanding</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='fil_Granted' xlink:to='lab_fil_Granted'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_IncreaseDecreaseInOtherOperatingAssetsAndLiabilitiesNetAbstract' xlink:label='us-gaap_IncreaseDecreaseInOtherOperatingAssetsAndLiabilitiesNetAbstract'/>
+		<link:label xlink:type='resource' xlink:label='lab_us-gaap_IncreaseDecreaseInOtherOperatingAssetsAndLiabilitiesNetAbstract' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>Changes in operating assets and liabilities:</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='us-gaap_IncreaseDecreaseInOtherOperatingAssetsAndLiabilitiesNetAbstract' xlink:to='lab_us-gaap_IncreaseDecreaseInOtherOperatingAssetsAndLiabilitiesNetAbstract'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_PreferredStockSharesOutstanding' xlink:label='us-gaap_PreferredStockSharesOutstanding'/>
+		<link:label xlink:type='resource' xlink:label='lab_us-gaap_PreferredStockSharesOutstanding' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>Preferred Stock, shares outstanding</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='us-gaap_PreferredStockSharesOutstanding' xlink:to='lab_us-gaap_PreferredStockSharesOutstanding'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_OilAndGasPropertyFullCostMethodNet' xlink:label='us-gaap_OilAndGasPropertyFullCostMethodNet'/>
+		<link:label xlink:type='resource' xlink:label='lab_us-gaap_OilAndGasPropertyFullCostMethodNet' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>Oil and gas lease, unproved, full cost</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='us-gaap_OilAndGasPropertyFullCostMethodNet' xlink:to='lab_us-gaap_OilAndGasPropertyFullCostMethodNet'/>
+		<link:loc xlink:type='locator' xlink:href='alpha-20170331.xsd#fil_Expired1' xlink:label='fil_Expired1'/>
+		<link:label xlink:type='resource' xlink:label='lab_fil_Expired1' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>Expired,</link:label>
+		<link:label xlink:type='resource' xlink:label='lab_fil_Expired1' xlink:role='http://www.xbrl.org/2003/role/documentation' xml:lang='en-US'>Forfeited1</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='fil_Expired1' xlink:to='lab_fil_Expired1'/>
+		<link:loc xlink:type='locator' xlink:href='alpha-20170331.xsd#fil_WeightedAverageExercisePricePerShareAbstract' xlink:label='fil_WeightedAverageExercisePricePerShareAbstract'/>
+		<link:label xlink:type='resource' xlink:label='lab_fil_WeightedAverageExercisePricePerShareAbstract' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>Weighted Average Exercise price per share</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='fil_WeightedAverageExercisePricePerShareAbstract' xlink:to='lab_fil_WeightedAverageExercisePricePerShareAbstract'/>
+		<link:loc xlink:type='locator' xlink:href='alpha-20170331.xsd#fil_TheAdvancesAreUnsecuredNonInterestBearingAndDueOnDemand' xlink:label='fil_TheAdvancesAreUnsecuredNonInterestBearingAndDueOnDemand'/>
+		<link:label xlink:type='resource' xlink:label='lab_fil_TheAdvancesAreUnsecuredNonInterestBearingAndDueOnDemand' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>The advances are unsecured, non-interest bearing and due on demand.</link:label>
+		<link:label xlink:type='resource' xlink:label='lab_fil_TheAdvancesAreUnsecuredNonInterestBearingAndDueOnDemand' xlink:role='http://www.xbrl.org/2003/role/documentation' xml:lang='en-US'>Company made advances to related parties</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='fil_TheAdvancesAreUnsecuredNonInterestBearingAndDueOnDemand' xlink:to='lab_fil_TheAdvancesAreUnsecuredNonInterestBearingAndDueOnDemand'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_RelatedPartyTransactionsDisclosureTextBlock' xlink:label='us-gaap_RelatedPartyTransactionsDisclosureTextBlock'/>
+		<link:label xlink:type='resource' xlink:label='lab_us-gaap_RelatedPartyTransactionsDisclosureTextBlock' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>RELATED PARTY TRANSATIONS</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='us-gaap_RelatedPartyTransactionsDisclosureTextBlock' xlink:to='lab_us-gaap_RelatedPartyTransactionsDisclosureTextBlock'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_GeneralAndAdministrativeExpense' xlink:label='us-gaap_GeneralAndAdministrativeExpense'/>
+		<link:label xlink:type='resource' xlink:label='lab_us-gaap_GeneralAndAdministrativeExpense' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>General and administrative</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='us-gaap_GeneralAndAdministrativeExpense' xlink:to='lab_us-gaap_GeneralAndAdministrativeExpense'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_LeaseOperatingExpense' xlink:label='us-gaap_LeaseOperatingExpense'/>
+		<link:label xlink:type='resource' xlink:label='lab_us-gaap_LeaseOperatingExpense' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>Lease operating expenses</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='us-gaap_LeaseOperatingExpense' xlink:to='lab_us-gaap_LeaseOperatingExpense'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_LiabilitiesCurrent' xlink:label='us-gaap_LiabilitiesCurrent'/>
+		<link:label xlink:type='resource' xlink:label='lab_us-gaap_LiabilitiesCurrent' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>Total current liabilities</link:label>
+		<link:label xlink:type='resource' xlink:label='lab_us-gaap_LiabilitiesCurrent' xlink:role='http://www.xbrl.org/2003/role/totalLabel' xml:lang='en-US'>Total current liabilities</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='us-gaap_LiabilitiesCurrent' xlink:to='lab_us-gaap_LiabilitiesCurrent'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_InterestPayableCurrentAndNoncurrent' xlink:label='us-gaap_InterestPayableCurrentAndNoncurrent'/>
+		<link:label xlink:type='resource' xlink:label='lab_us-gaap_InterestPayableCurrentAndNoncurrent' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>Interest payable</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='us-gaap_InterestPayableCurrentAndNoncurrent' xlink:to='lab_us-gaap_InterestPayableCurrentAndNoncurrent'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_DueFromRelatedPartiesCurrent' xlink:label='us-gaap_DueFromRelatedPartiesCurrent'/>
+		<link:label xlink:type='resource' xlink:label='lab_us-gaap_DueFromRelatedPartiesCurrent' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>Loan to related party</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='us-gaap_DueFromRelatedPartiesCurrent' xlink:to='lab_us-gaap_DueFromRelatedPartiesCurrent'/>
+		<link:loc xlink:type='locator' xlink:href='alpha-20170331.xsd#fil_SummaryOfStockWarrantyActivityDetailsAbstract' xlink:label='fil_SummaryOfStockWarrantyActivityDetailsAbstract'/>
+		<link:label xlink:type='resource' xlink:label='lab_fil_SummaryOfStockWarrantyActivityDetailsAbstract' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>Summary of Stock warranty activity Details</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='fil_SummaryOfStockWarrantyActivityDetailsAbstract' xlink:to='lab_fil_SummaryOfStockWarrantyActivityDetailsAbstract'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_DebtDisclosureTextBlock' xlink:label='us-gaap_DebtDisclosureTextBlock'/>
+		<link:label xlink:type='resource' xlink:label='lab_us-gaap_DebtDisclosureTextBlock' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>Debt Disclosure</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='us-gaap_DebtDisclosureTextBlock' xlink:to='lab_us-gaap_DebtDisclosureTextBlock'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_AdditionalPaidInCapitalMember' xlink:label='us-gaap_AdditionalPaidInCapitalMember'/>
+		<link:label xlink:type='resource' xlink:label='lab_us-gaap_AdditionalPaidInCapitalMember' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>Additional Paid in Capital {1}</link:label>
+		<link:label xlink:type='resource' xlink:label='lab_us-gaap_AdditionalPaidInCapitalMember' xlink:role='http://www.xbrl.org/2003/role/terseLabel' xml:lang='en-US'>Additional Paid in Capital</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='us-gaap_AdditionalPaidInCapitalMember' xlink:to='lab_us-gaap_AdditionalPaidInCapitalMember'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_PreferredStockSharesAuthorized' xlink:label='us-gaap_PreferredStockSharesAuthorized'/>
+		<link:label xlink:type='resource' xlink:label='lab_us-gaap_PreferredStockSharesAuthorized' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>Preferred Stock, shares authorized</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='us-gaap_PreferredStockSharesAuthorized' xlink:to='lab_us-gaap_PreferredStockSharesAuthorized'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_NotesPayableCurrent' xlink:label='us-gaap_NotesPayableCurrent'/>
+		<link:label xlink:type='resource' xlink:label='lab_us-gaap_NotesPayableCurrent' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>Note payable, current</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='us-gaap_NotesPayableCurrent' xlink:to='lab_us-gaap_NotesPayableCurrent'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_Assets' xlink:label='us-gaap_Assets'/>
+		<link:label xlink:type='resource' xlink:label='lab_us-gaap_Assets' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>Total assets</link:label>
+		<link:label xlink:type='resource' xlink:label='lab_us-gaap_Assets' xlink:role='http://www.xbrl.org/2003/role/totalLabel' xml:lang='en-US'>Total assets</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='us-gaap_Assets' xlink:to='lab_us-gaap_Assets'/>
+		<link:loc xlink:type='locator' xlink:href='alpha-20170331.xsd#fil_Forfeited' xlink:label='fil_Forfeited'/>
+		<link:label xlink:type='resource' xlink:label='lab_fil_Forfeited' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>Forfeited</link:label>
+		<link:label xlink:type='resource' xlink:label='lab_fil_Forfeited' xlink:role='http://www.xbrl.org/2003/role/documentation' xml:lang='en-US'>Exercised</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='fil_Forfeited' xlink:to='lab_fil_Forfeited'/>
+		<link:loc xlink:type='locator' xlink:href='alpha-20170331.xsd#fil_DueToRelatedParties' xlink:label='fil_DueToRelatedParties'/>
+		<link:label xlink:type='resource' xlink:label='lab_fil_DueToRelatedParties' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>Due to related parties</link:label>
+		<link:label xlink:type='resource' xlink:label='lab_fil_DueToRelatedParties' xlink:role='http://www.xbrl.org/2003/role/documentation' xml:lang='en-US'>For an unclassified balance sheet, amounts due from related parties including affiliates, employees, joint ventures, officers and stockholders, immediate families thereof, and pension funds.</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='fil_DueToRelatedParties' xlink:to='lab_fil_DueToRelatedParties'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_StatementTable' xlink:label='us-gaap_StatementTable'/>
+		<link:label xlink:type='resource' xlink:label='lab_us-gaap_StatementTable' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>Statement [Table]</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='us-gaap_StatementTable' xlink:to='lab_us-gaap_StatementTable'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_CommonStockSharesOutstanding' xlink:label='us-gaap_CommonStockSharesOutstanding'/>
+		<link:label xlink:type='resource' xlink:label='lab_us-gaap_CommonStockSharesOutstanding' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>Common Stock, shares outstanding</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='us-gaap_CommonStockSharesOutstanding' xlink:to='lab_us-gaap_CommonStockSharesOutstanding'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.sec.gov/dei/2014/dei-2014-01-31.xsd#dei_EntityCommonStockSharesOutstanding' xlink:label='dei_EntityCommonStockSharesOutstanding'/>
+		<link:label xlink:type='resource' xlink:label='lab_dei_EntityCommonStockSharesOutstanding' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>Entity Common Stock, Shares Outstanding</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='dei_EntityCommonStockSharesOutstanding' xlink:to='lab_dei_EntityCommonStockSharesOutstanding'/>
+		<link:loc xlink:type='locator' xlink:href='alpha-20170331.xsd#fil_RelatedPartyTransactionsDetailsAbstract' xlink:label='fil_RelatedPartyTransactionsDetailsAbstract'/>
+		<link:label xlink:type='resource' xlink:label='lab_fil_RelatedPartyTransactionsDetailsAbstract' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>RELATED PARTY TRANSACTIONS DETAILS</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='fil_RelatedPartyTransactionsDetailsAbstract' xlink:to='lab_fil_RelatedPartyTransactionsDetailsAbstract'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_BasisOfAccounting' xlink:label='us-gaap_BasisOfAccounting'/>
+		<link:label xlink:type='resource' xlink:label='lab_us-gaap_BasisOfAccounting' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>BASIS OF PRESENTATION {1}</link:label>
+		<link:label xlink:type='resource' xlink:label='lab_us-gaap_BasisOfAccounting' xlink:role='http://www.xbrl.org/2003/role/terseLabel' xml:lang='en-US'>BASIS OF PRESENTATION</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='us-gaap_BasisOfAccounting' xlink:to='lab_us-gaap_BasisOfAccounting'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_SupplementalCashFlowElementsAbstract' xlink:label='us-gaap_SupplementalCashFlowElementsAbstract'/>
+		<link:label xlink:type='resource' xlink:label='lab_us-gaap_SupplementalCashFlowElementsAbstract' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>Supplemental cash flow information</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='us-gaap_SupplementalCashFlowElementsAbstract' xlink:to='lab_us-gaap_SupplementalCashFlowElementsAbstract'/>
+		<link:loc xlink:type='locator' xlink:href='alpha-20170331.xsd#fil_Balance1' xlink:label='fil_Balance1'/>
+		<link:label xlink:type='resource' xlink:label='lab_fil_Balance1' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>Balance.</link:label>
+		<link:label xlink:type='resource' xlink:label='lab_fil_Balance1' xlink:role='http://www.xbrl.org/2003/role/periodStartLabel' xml:lang='en-US'>Balance.</link:label>
+		<link:label xlink:type='resource' xlink:label='lab_fil_Balance1' xlink:role='http://www.xbrl.org/2003/role/periodEndLabel' xml:lang='en-US'>Balance.</link:label>
+		<link:label xlink:type='resource' xlink:label='lab_fil_Balance1' xlink:role='http://www.xbrl.org/2003/role/documentation' xml:lang='en-US'>Number of shares issued which are neither cancelled nor held in the treasury.</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='fil_Balance1' xlink:to='lab_fil_Balance1'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_OtherNonoperatingIncomeExpense' xlink:label='us-gaap_OtherNonoperatingIncomeExpense'/>
+		<link:label xlink:type='resource' xlink:label='lab_us-gaap_OtherNonoperatingIncomeExpense' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>Total other expense</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='us-gaap_OtherNonoperatingIncomeExpense' xlink:to='lab_us-gaap_OtherNonoperatingIncomeExpense'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_InterestExpense' xlink:label='us-gaap_InterestExpense'/>
+		<link:label xlink:type='resource' xlink:label='lab_us-gaap_InterestExpense' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>Interest expense</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='us-gaap_InterestExpense' xlink:to='lab_us-gaap_InterestExpense'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_CommonStockSharesIssued' xlink:label='us-gaap_CommonStockSharesIssued'/>
+		<link:label xlink:type='resource' xlink:label='lab_us-gaap_CommonStockSharesIssued' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>Common Stock, shares issued</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='us-gaap_CommonStockSharesIssued' xlink:to='lab_us-gaap_CommonStockSharesIssued'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.sec.gov/dei/2014/dei-2014-01-31.xsd#dei_DocumentFiscalPeriodFocus' xlink:label='dei_DocumentFiscalPeriodFocus'/>
+		<link:label xlink:type='resource' xlink:label='lab_dei_DocumentFiscalPeriodFocus' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>Document Fiscal Period Focus</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='dei_DocumentFiscalPeriodFocus' xlink:to='lab_dei_DocumentFiscalPeriodFocus'/>
+		<link:loc xlink:type='locator' xlink:href='alpha-20170331.xsd#fil_PromissoryNotePrincipalDue' xlink:label='fil_PromissoryNotePrincipalDue'/>
+		<link:label xlink:type='resource' xlink:label='lab_fil_PromissoryNotePrincipalDue' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>Promissory note principal due</link:label>
+		<link:label xlink:type='resource' xlink:label='lab_fil_PromissoryNotePrincipalDue' xlink:role='http://www.xbrl.org/2003/role/documentation' xml:lang='en-US'>The note bears simple interest at a rate</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='fil_PromissoryNotePrincipalDue' xlink:to='lab_fil_PromissoryNotePrincipalDue'/>
+		<link:loc xlink:type='locator' xlink:href='alpha-20170331.xsd#fil_CompanyExecutedAPromissoryNote1' xlink:label='fil_CompanyExecutedAPromissoryNote1'/>
+		<link:label xlink:type='resource' xlink:label='lab_fil_CompanyExecutedAPromissoryNote1' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>Company executed a promissory note</link:label>
+		<link:label xlink:type='resource' xlink:label='lab_fil_CompanyExecutedAPromissoryNote1' xlink:role='http://www.xbrl.org/2003/role/documentation' xml:lang='en-US'>CompanyExecutedAPromissoryNote1</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='fil_CompanyExecutedAPromissoryNote1' xlink:to='lab_fil_CompanyExecutedAPromissoryNote1'/>
+		<link:loc xlink:type='locator' xlink:href='alpha-20170331.xsd#fil_Forfeited1' xlink:label='fil_Forfeited1'/>
+		<link:label xlink:type='resource' xlink:label='lab_fil_Forfeited1' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>Forfeited ,</link:label>
+		<link:label xlink:type='resource' xlink:label='lab_fil_Forfeited1' xlink:role='http://www.xbrl.org/2003/role/documentation' xml:lang='en-US'>Exercised1</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='fil_Forfeited1' xlink:to='lab_fil_Forfeited1'/>
+		<link:loc xlink:type='locator' xlink:href='alpha-20170331.xsd#fil_OrganizationConsolidationAndPresentationOfFinancialStatementsAbstract1' xlink:label='fil_OrganizationConsolidationAndPresentationOfFinancialStatementsAbstract1'/>
+		<link:label xlink:type='resource' xlink:label='lab_fil_OrganizationConsolidationAndPresentationOfFinancialStatementsAbstract1' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>BASIS OF PRESENTATION</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='fil_OrganizationConsolidationAndPresentationOfFinancialStatementsAbstract1' xlink:to='lab_fil_OrganizationConsolidationAndPresentationOfFinancialStatementsAbstract1'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_SupplementalCashFlowInformationAbstract' xlink:label='us-gaap_SupplementalCashFlowInformationAbstract'/>
+		<link:label xlink:type='resource' xlink:label='lab_us-gaap_SupplementalCashFlowInformationAbstract' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>Supplemental disclosure of non-cash financing activities</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='us-gaap_SupplementalCashFlowInformationAbstract' xlink:to='lab_us-gaap_SupplementalCashFlowInformationAbstract'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_IncomeTaxesPaidNet' xlink:label='us-gaap_IncomeTaxesPaidNet'/>
+		<link:label xlink:type='resource' xlink:label='lab_us-gaap_IncomeTaxesPaidNet' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>Cash paid for income taxes</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='us-gaap_IncomeTaxesPaidNet' xlink:to='lab_us-gaap_IncomeTaxesPaidNet'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_NetCashProvidedByUsedInInvestingActivities' xlink:label='us-gaap_NetCashProvidedByUsedInInvestingActivities'/>
+		<link:label xlink:type='resource' xlink:label='lab_us-gaap_NetCashProvidedByUsedInInvestingActivities' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>Net cash used in investing activities</link:label>
+		<link:label xlink:type='resource' xlink:label='lab_us-gaap_NetCashProvidedByUsedInInvestingActivities' xlink:role='http://www.xbrl.org/2003/role/totalLabel' xml:lang='en-US'>Net cash used in investing activities</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='us-gaap_NetCashProvidedByUsedInInvestingActivities' xlink:to='lab_us-gaap_NetCashProvidedByUsedInInvestingActivities'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_NetCashProvidedByUsedInOperatingActivities' xlink:label='us-gaap_NetCashProvidedByUsedInOperatingActivities'/>
+		<link:label xlink:type='resource' xlink:label='lab_us-gaap_NetCashProvidedByUsedInOperatingActivities' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>Net cash used in operating activities</link:label>
+		<link:label xlink:type='resource' xlink:label='lab_us-gaap_NetCashProvidedByUsedInOperatingActivities' xlink:role='http://www.xbrl.org/2003/role/totalLabel' xml:lang='en-US'>Net cash used in operating activities</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='us-gaap_NetCashProvidedByUsedInOperatingActivities' xlink:to='lab_us-gaap_NetCashProvidedByUsedInOperatingActivities'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_Revenues' xlink:label='us-gaap_Revenues'/>
+		<link:label xlink:type='resource' xlink:label='lab_us-gaap_Revenues' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>Revenues</link:label>
+		<link:label xlink:type='resource' xlink:label='lab_us-gaap_Revenues' xlink:role='http://www.xbrl.org/2003/role/totalLabel' xml:lang='en-US'>Revenues</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='us-gaap_Revenues' xlink:to='lab_us-gaap_Revenues'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_NotesPayableRelatedPartiesClassifiedCurrent' xlink:label='us-gaap_NotesPayableRelatedPartiesClassifiedCurrent'/>
+		<link:label xlink:type='resource' xlink:label='lab_us-gaap_NotesPayableRelatedPartiesClassifiedCurrent' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>Notes payable, related party</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='us-gaap_NotesPayableRelatedPartiesClassifiedCurrent' xlink:to='lab_us-gaap_NotesPayableRelatedPartiesClassifiedCurrent'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_AccountsPayableCurrent' xlink:label='us-gaap_AccountsPayableCurrent'/>
+		<link:label xlink:type='resource' xlink:label='lab_us-gaap_AccountsPayableCurrent' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>Accounts payable</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='us-gaap_AccountsPayableCurrent' xlink:to='lab_us-gaap_AccountsPayableCurrent'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.sec.gov/dei/2014/dei-2014-01-31.xsd#dei_EntityCurrentReportingStatus' xlink:label='dei_EntityCurrentReportingStatus'/>
+		<link:label xlink:type='resource' xlink:label='lab_dei_EntityCurrentReportingStatus' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>Entity Current Reporting Status</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='dei_EntityCurrentReportingStatus' xlink:to='lab_dei_EntityCurrentReportingStatus'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.sec.gov/dei/2014/dei-2014-01-31.xsd#dei_TradingSymbol' xlink:label='dei_TradingSymbol'/>
+		<link:label xlink:type='resource' xlink:label='lab_dei_TradingSymbol' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>Trading Symbol</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='dei_TradingSymbol' xlink:to='lab_dei_TradingSymbol'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.sec.gov/dei/2014/dei-2014-01-31.xsd#dei_DocumentPeriodEndDate' xlink:label='dei_DocumentPeriodEndDate'/>
+		<link:label xlink:type='resource' xlink:label='lab_dei_DocumentPeriodEndDate' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>Document Period End Date</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='dei_DocumentPeriodEndDate' xlink:to='lab_dei_DocumentPeriodEndDate'/>
+		<link:loc xlink:type='locator' xlink:href='alpha-20170331.xsd#fil_SharesAbstract' xlink:label='fil_SharesAbstract'/>
+		<link:label xlink:type='resource' xlink:label='lab_fil_SharesAbstract' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>Shares</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='fil_SharesAbstract' xlink:to='lab_fil_SharesAbstract'/>
+		<link:loc xlink:type='locator' xlink:href='alpha-20170331.xsd#fil_CompanyMadeAdvancesToRelatedParties' xlink:label='fil_CompanyMadeAdvancesToRelatedParties'/>
+		<link:label xlink:type='resource' xlink:label='lab_fil_CompanyMadeAdvancesToRelatedParties' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>Company made advances to related parties</link:label>
+		<link:label xlink:type='resource' xlink:label='lab_fil_CompanyMadeAdvancesToRelatedParties' xlink:role='http://www.xbrl.org/2003/role/documentation' xml:lang='en-US'>A significant shareholder made payments for expenses</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='fil_CompanyMadeAdvancesToRelatedParties' xlink:to='lab_fil_CompanyMadeAdvancesToRelatedParties'/>
+		<link:loc xlink:type='locator' xlink:href='alpha-20170331.xsd#fil_RelatedPartyDisclosuresAbstract' xlink:label='fil_RelatedPartyDisclosuresAbstract'/>
+		<link:label xlink:type='resource' xlink:label='lab_fil_RelatedPartyDisclosuresAbstract' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>RELATED PARTY TRANSATIONS:</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='fil_RelatedPartyDisclosuresAbstract' xlink:to='lab_fil_RelatedPartyDisclosuresAbstract'/>
+		<link:loc xlink:type='locator' xlink:href='alpha-20170331.xsd#fil_GoingConcernAbstract' xlink:label='fil_GoingConcernAbstract'/>
+		<link:label xlink:type='resource' xlink:label='lab_fil_GoingConcernAbstract' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>GOING CONCERN</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='fil_GoingConcernAbstract' xlink:to='lab_fil_GoingConcernAbstract'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_InterestPaid' xlink:label='us-gaap_InterestPaid'/>
+		<link:label xlink:type='resource' xlink:label='lab_us-gaap_InterestPaid' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>Cash paid for interest</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='us-gaap_InterestPaid' xlink:to='lab_us-gaap_InterestPaid'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_ProceedsFromRelatedPartyDebt' xlink:label='us-gaap_ProceedsFromRelatedPartyDebt'/>
+		<link:label xlink:type='resource' xlink:label='lab_us-gaap_ProceedsFromRelatedPartyDebt' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>Proceeds from related party loans</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='us-gaap_ProceedsFromRelatedPartyDebt' xlink:to='lab_us-gaap_ProceedsFromRelatedPartyDebt'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_WeightedAverageNumberOfShareOutstandingBasicAndDiluted' xlink:label='us-gaap_WeightedAverageNumberOfShareOutstandingBasicAndDiluted'/>
+		<link:label xlink:type='resource' xlink:label='lab_us-gaap_WeightedAverageNumberOfShareOutstandingBasicAndDiluted' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>Weighted average common shares outstanding, Basic and Diluted</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='us-gaap_WeightedAverageNumberOfShareOutstandingBasicAndDiluted' xlink:to='lab_us-gaap_WeightedAverageNumberOfShareOutstandingBasicAndDiluted'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_OtherExpensesAbstract' xlink:label='us-gaap_OtherExpensesAbstract'/>
+		<link:label xlink:type='resource' xlink:label='lab_us-gaap_OtherExpensesAbstract' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>Other expense</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='us-gaap_OtherExpensesAbstract' xlink:to='lab_us-gaap_OtherExpensesAbstract'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_PreferredStockParOrStatedValuePerShare' xlink:label='us-gaap_PreferredStockParOrStatedValuePerShare'/>
+		<link:label xlink:type='resource' xlink:label='lab_us-gaap_PreferredStockParOrStatedValuePerShare' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>Preferred Stock, par value</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='us-gaap_PreferredStockParOrStatedValuePerShare' xlink:to='lab_us-gaap_PreferredStockParOrStatedValuePerShare'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_AssetsCurrentAbstract' xlink:label='us-gaap_AssetsCurrentAbstract'/>
+		<link:label xlink:type='resource' xlink:label='lab_us-gaap_AssetsCurrentAbstract' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>Current assets</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='us-gaap_AssetsCurrentAbstract' xlink:to='lab_us-gaap_AssetsCurrentAbstract'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.sec.gov/dei/2014/dei-2014-01-31.xsd#dei_EntityWellKnownSeasonedIssuer' xlink:label='dei_EntityWellKnownSeasonedIssuer'/>
+		<link:label xlink:type='resource' xlink:label='lab_dei_EntityWellKnownSeasonedIssuer' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>Entity Well-known Seasoned Issuer</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='dei_EntityWellKnownSeasonedIssuer' xlink:to='lab_dei_EntityWellKnownSeasonedIssuer'/>
+		<link:loc xlink:type='locator' xlink:href='alpha-20170331.xsd#fil_NotesPayableDetailsAbstract' xlink:label='fil_NotesPayableDetailsAbstract'/>
+		<link:label xlink:type='resource' xlink:label='lab_fil_NotesPayableDetailsAbstract' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>notes Payable Details</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='fil_NotesPayableDetailsAbstract' xlink:to='lab_fil_NotesPayableDetailsAbstract'/>
+		<link:loc xlink:type='locator' xlink:href='alpha-20170331.xsd#fil_Outstanding1' xlink:label='fil_Outstanding1'/>
+		<link:label xlink:type='resource' xlink:label='lab_fil_Outstanding1' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>Outstanding,</link:label>
+		<link:label xlink:type='resource' xlink:label='lab_fil_Outstanding1' xlink:role='http://www.xbrl.org/2003/role/documentation' xml:lang='en-US'>Outstanding1</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='fil_Outstanding1' xlink:to='lab_fil_Outstanding1'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_NetCashProvidedByUsedInInvestingActivitiesAbstract' xlink:label='us-gaap_NetCashProvidedByUsedInInvestingActivitiesAbstract'/>
+		<link:label xlink:type='resource' xlink:label='lab_us-gaap_NetCashProvidedByUsedInInvestingActivitiesAbstract' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>Cash flows from investing activities</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='us-gaap_NetCashProvidedByUsedInInvestingActivitiesAbstract' xlink:to='lab_us-gaap_NetCashProvidedByUsedInInvestingActivitiesAbstract'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_ProfitLoss' xlink:label='us-gaap_ProfitLoss'/>
+		<link:label xlink:type='resource' xlink:label='lab_us-gaap_ProfitLoss' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>Net loss {1}</link:label>
+		<link:label xlink:type='resource' xlink:label='lab_us-gaap_ProfitLoss' xlink:role='http://www.xbrl.org/2003/role/terseLabel' xml:lang='en-US'>Net loss</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='us-gaap_ProfitLoss' xlink:to='lab_us-gaap_ProfitLoss'/>
+		<link:loc xlink:type='locator' xlink:href='alpha-20170331.xsd#fil_CommonStockIssuedForOilAndGasLease2' xlink:label='fil_CommonStockIssuedForOilAndGasLease2'/>
+		<link:label xlink:type='resource' xlink:label='lab_fil_CommonStockIssuedForOilAndGasLease2' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>Common stock issued for oil and gas lease.</link:label>
+		<link:label xlink:type='resource' xlink:label='lab_fil_CommonStockIssuedForOilAndGasLease2' xlink:role='http://www.xbrl.org/2003/role/documentation' xml:lang='en-US'>NetLoss3</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='fil_CommonStockIssuedForOilAndGasLease2' xlink:to='lab_fil_CommonStockIssuedForOilAndGasLease2'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_EquityComponentDomain' xlink:label='us-gaap_EquityComponentDomain'/>
+		<link:label xlink:type='resource' xlink:label='lab_us-gaap_EquityComponentDomain' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>Equity Component</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='us-gaap_EquityComponentDomain' xlink:to='lab_us-gaap_EquityComponentDomain'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_CommonStockMember' xlink:label='us-gaap_CommonStockMember'/>
+		<link:label xlink:type='resource' xlink:label='lab_us-gaap_CommonStockMember' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>Common Stock Shares</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='us-gaap_CommonStockMember' xlink:to='lab_us-gaap_CommonStockMember'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_EarningsPerShareBasicAndDiluted' xlink:label='us-gaap_EarningsPerShareBasicAndDiluted'/>
+		<link:label xlink:type='resource' xlink:label='lab_us-gaap_EarningsPerShareBasicAndDiluted' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>Net loss per common share, Basic and Diluted</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='us-gaap_EarningsPerShareBasicAndDiluted' xlink:to='lab_us-gaap_EarningsPerShareBasicAndDiluted'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_Cash' xlink:label='us-gaap_Cash'/>
+		<link:label xlink:type='resource' xlink:label='lab_us-gaap_Cash' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>Cash</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='us-gaap_Cash' xlink:to='lab_us-gaap_Cash'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.sec.gov/dei/2014/dei-2014-01-31.xsd#dei_EntityFilerCategory' xlink:label='dei_EntityFilerCategory'/>
+		<link:label xlink:type='resource' xlink:label='lab_dei_EntityFilerCategory' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>Entity Filer Category</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='dei_EntityFilerCategory' xlink:to='lab_dei_EntityFilerCategory'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.sec.gov/dei/2014/dei-2014-01-31.xsd#dei_DocumentType' xlink:label='dei_DocumentType'/>
+		<link:label xlink:type='resource' xlink:label='lab_dei_DocumentType' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>Document Type</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='dei_DocumentType' xlink:to='lab_dei_DocumentType'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_IncomeTaxExpenseBenefit' xlink:label='us-gaap_IncomeTaxExpenseBenefit'/>
+		<link:label xlink:type='resource' xlink:label='lab_us-gaap_IncomeTaxExpenseBenefit' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>Provision for income taxes</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='us-gaap_IncomeTaxExpenseBenefit' xlink:to='lab_us-gaap_IncomeTaxExpenseBenefit'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_PreferredStockSharesIssued' xlink:label='us-gaap_PreferredStockSharesIssued'/>
+		<link:label xlink:type='resource' xlink:label='lab_us-gaap_PreferredStockSharesIssued' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>Preferred Stock, shares issued</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='us-gaap_PreferredStockSharesIssued' xlink:to='lab_us-gaap_PreferredStockSharesIssued'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_AssetRetirementObligation' xlink:label='us-gaap_AssetRetirementObligation'/>
+		<link:label xlink:type='resource' xlink:label='lab_us-gaap_AssetRetirementObligation' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>Asset retirement obligation</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='us-gaap_AssetRetirementObligation' xlink:to='lab_us-gaap_AssetRetirementObligation'/>
+		<link:loc xlink:type='locator' xlink:href='alpha-20170331.xsd#fil_ASignificantShareholderMadePaymentsForExpenses' xlink:label='fil_ASignificantShareholderMadePaymentsForExpenses'/>
+		<link:label xlink:type='resource' xlink:label='lab_fil_ASignificantShareholderMadePaymentsForExpenses' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>A significant shareholder made payments for expenses</link:label>
+		<link:label xlink:type='resource' xlink:label='lab_fil_ASignificantShareholderMadePaymentsForExpenses' xlink:role='http://www.xbrl.org/2003/role/documentation' xml:lang='en-US'>Company made repayments on related party loans payable</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='fil_ASignificantShareholderMadePaymentsForExpenses' xlink:to='lab_fil_ASignificantShareholderMadePaymentsForExpenses'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_IncreaseDecreaseInNotesPayableRelatedParties' xlink:label='us-gaap_IncreaseDecreaseInNotesPayableRelatedParties'/>
+		<link:label xlink:type='resource' xlink:label='lab_us-gaap_IncreaseDecreaseInNotesPayableRelatedParties' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>Loan to related parties</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='us-gaap_IncreaseDecreaseInNotesPayableRelatedParties' xlink:to='lab_us-gaap_IncreaseDecreaseInNotesPayableRelatedParties'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_AccretionExpense' xlink:label='us-gaap_AccretionExpense'/>
+		<link:label xlink:type='resource' xlink:label='lab_us-gaap_AccretionExpense' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>Accretion Expense</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='us-gaap_AccretionExpense' xlink:to='lab_us-gaap_AccretionExpense'/>
+		<link:loc xlink:type='locator' xlink:href='alpha-20170331.xsd#fil_NetLoss4' xlink:label='fil_NetLoss4'/>
+		<link:label xlink:type='resource' xlink:label='lab_fil_NetLoss4' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>Net loss:</link:label>
+		<link:label xlink:type='resource' xlink:label='lab_fil_NetLoss4' xlink:role='http://www.xbrl.org/2003/role/documentation' xml:lang='en-US'>NetLoss4</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='fil_NetLoss4' xlink:to='lab_fil_NetLoss4'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_CapitalUnitsMember' xlink:label='us-gaap_CapitalUnitsMember'/>
+		<link:label xlink:type='resource' xlink:label='lab_us-gaap_CapitalUnitsMember' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>Common Stock Amount</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='us-gaap_CapitalUnitsMember' xlink:to='lab_us-gaap_CapitalUnitsMember'/>
+		<link:loc xlink:type='locator' xlink:href='alpha-20170331.xsd#fil_ChangesInStockholdersEquityAbstract' xlink:label='fil_ChangesInStockholdersEquityAbstract'/>
+		<link:label xlink:type='resource' xlink:label='lab_fil_ChangesInStockholdersEquityAbstract' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>CHANGES IN STOCKHOLDERS&apos; EQUITY</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='fil_ChangesInStockholdersEquityAbstract' xlink:to='lab_fil_ChangesInStockholdersEquityAbstract'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_GrossProfit' xlink:label='us-gaap_GrossProfit'/>
+		<link:label xlink:type='resource' xlink:label='lab_us-gaap_GrossProfit' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>Gross margin</link:label>
+		<link:label xlink:type='resource' xlink:label='lab_us-gaap_GrossProfit' xlink:role='http://www.xbrl.org/2003/role/totalLabel' xml:lang='en-US'>Gross margin</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='us-gaap_GrossProfit' xlink:to='lab_us-gaap_GrossProfit'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_StockholdersEquityAbstract' xlink:label='us-gaap_StockholdersEquityAbstract'/>
+		<link:label xlink:type='resource' xlink:label='lab_us-gaap_StockholdersEquityAbstract' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>Stockholders&apos; deficit</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='us-gaap_StockholdersEquityAbstract' xlink:to='lab_us-gaap_StockholdersEquityAbstract'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_LiabilitiesAndStockholdersEquityAbstract' xlink:label='us-gaap_LiabilitiesAndStockholdersEquityAbstract'/>
+		<link:label xlink:type='resource' xlink:label='lab_us-gaap_LiabilitiesAndStockholdersEquityAbstract' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>LIABILITIES AND STOCKHOLDER&apos;S DEFICIT</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='us-gaap_LiabilitiesAndStockholdersEquityAbstract' xlink:to='lab_us-gaap_LiabilitiesAndStockholdersEquityAbstract'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_PrepaidExpenseAndOtherAssetsCurrent' xlink:label='us-gaap_PrepaidExpenseAndOtherAssetsCurrent'/>
+		<link:label xlink:type='resource' xlink:label='lab_us-gaap_PrepaidExpenseAndOtherAssetsCurrent' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>Prepaid expenses and other current assets</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='us-gaap_PrepaidExpenseAndOtherAssetsCurrent' xlink:to='lab_us-gaap_PrepaidExpenseAndOtherAssetsCurrent'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.sec.gov/dei/2014/dei-2014-01-31.xsd#dei_EntityPublicFloat' xlink:label='dei_EntityPublicFloat'/>
+		<link:label xlink:type='resource' xlink:label='lab_dei_EntityPublicFloat' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>Entity Public Float</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='dei_EntityPublicFloat' xlink:to='lab_dei_EntityPublicFloat'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.sec.gov/dei/2014/dei-2014-01-31.xsd#dei_CurrentFiscalYearEndDate' xlink:label='dei_CurrentFiscalYearEndDate'/>
+		<link:label xlink:type='resource' xlink:label='lab_dei_CurrentFiscalYearEndDate' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>Current Fiscal Year End Date</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='dei_CurrentFiscalYearEndDate' xlink:to='lab_dei_CurrentFiscalYearEndDate'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_IncreaseDecreaseInPrepaidExpensesOther' xlink:label='us-gaap_IncreaseDecreaseInPrepaidExpensesOther'/>
+		<link:label xlink:type='resource' xlink:label='lab_us-gaap_IncreaseDecreaseInPrepaidExpensesOther' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>Prepaid expenses and other current assets {1}</link:label>
+		<link:label xlink:type='resource' xlink:label='lab_us-gaap_IncreaseDecreaseInPrepaidExpensesOther' xlink:role='http://www.xbrl.org/2003/role/terseLabel' xml:lang='en-US'>Prepaid expenses and other current assets</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='us-gaap_IncreaseDecreaseInPrepaidExpensesOther' xlink:to='lab_us-gaap_IncreaseDecreaseInPrepaidExpensesOther'/>
+		<link:loc xlink:type='locator' xlink:href='alpha-20170331.xsd#fil_CommonStockIssuedForOilAndGasLease1' xlink:label='fil_CommonStockIssuedForOilAndGasLease1'/>
+		<link:label xlink:type='resource' xlink:label='lab_fil_CommonStockIssuedForOilAndGasLease1' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>Common stock issued for oil and gas lease</link:label>
+		<link:label xlink:type='resource' xlink:label='lab_fil_CommonStockIssuedForOilAndGasLease1' xlink:role='http://www.xbrl.org/2003/role/documentation' xml:lang='en-US'>CommonStockIssuedForOilAndGasLease1</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='fil_CommonStockIssuedForOilAndGasLease1' xlink:to='lab_fil_CommonStockIssuedForOilAndGasLease1'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_StatementEquityComponentsAxis' xlink:label='us-gaap_StatementEquityComponentsAxis'/>
+		<link:label xlink:type='resource' xlink:label='lab_us-gaap_StatementEquityComponentsAxis' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>Equity Components [Axis]</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='us-gaap_StatementEquityComponentsAxis' xlink:to='lab_us-gaap_StatementEquityComponentsAxis'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_NetIncomeLoss' xlink:label='us-gaap_NetIncomeLoss'/>
+		<link:label xlink:type='resource' xlink:label='lab_us-gaap_NetIncomeLoss' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>Net loss</link:label>
+		<link:label xlink:type='resource' xlink:label='lab_us-gaap_NetIncomeLoss' xlink:role='http://www.xbrl.org/2003/role/totalLabel' xml:lang='en-US'>Net loss</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='us-gaap_NetIncomeLoss' xlink:to='lab_us-gaap_NetIncomeLoss'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_ProfessionalFees' xlink:label='us-gaap_ProfessionalFees'/>
+		<link:label xlink:type='resource' xlink:label='lab_us-gaap_ProfessionalFees' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>Professional services</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='us-gaap_ProfessionalFees' xlink:to='lab_us-gaap_ProfessionalFees'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_LiabilitiesAndStockholdersEquity' xlink:label='us-gaap_LiabilitiesAndStockholdersEquity'/>
+		<link:label xlink:type='resource' xlink:label='lab_us-gaap_LiabilitiesAndStockholdersEquity' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>Total liabilities and stockholders&apos; deficit</link:label>
+		<link:label xlink:type='resource' xlink:label='lab_us-gaap_LiabilitiesAndStockholdersEquity' xlink:role='http://www.xbrl.org/2003/role/totalLabel' xml:lang='en-US'>Total liabilities and stockholders&apos; deficit</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='us-gaap_LiabilitiesAndStockholdersEquity' xlink:to='lab_us-gaap_LiabilitiesAndStockholdersEquity'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_LiabilitiesCurrentAbstract' xlink:label='us-gaap_LiabilitiesCurrentAbstract'/>
+		<link:label xlink:type='resource' xlink:label='lab_us-gaap_LiabilitiesCurrentAbstract' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>Current liabilities</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='us-gaap_LiabilitiesCurrentAbstract' xlink:to='lab_us-gaap_LiabilitiesCurrentAbstract'/>
+		<link:loc xlink:type='locator' xlink:href='alpha-20170331.xsd#fil_TheExercisePriceOfTheseOptionWas0125AndIntrinsicValue' xlink:label='fil_TheExercisePriceOfTheseOptionWas0125AndIntrinsicValue'/>
+		<link:label xlink:type='resource' xlink:label='lab_fil_TheExercisePriceOfTheseOptionWas0125AndIntrinsicValue' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>The exercise price of these option was 0.125 and Intrinsic value</link:label>
+		<link:label xlink:type='resource' xlink:label='lab_fil_TheExercisePriceOfTheseOptionWas0125AndIntrinsicValue' xlink:role='http://www.xbrl.org/2003/role/documentation' xml:lang='en-US'>Weighted Average remaining contractual life of options outstanding</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='fil_TheExercisePriceOfTheseOptionWas0125AndIntrinsicValue' xlink:to='lab_fil_TheExercisePriceOfTheseOptionWas0125AndIntrinsicValue'/>
+		<link:loc xlink:type='locator' xlink:href='alpha-20170331.xsd#fil_Expired' xlink:label='fil_Expired'/>
+		<link:label xlink:type='resource' xlink:label='lab_fil_Expired' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>Expired</link:label>
+		<link:label xlink:type='resource' xlink:label='lab_fil_Expired' xlink:role='http://www.xbrl.org/2003/role/documentation' xml:lang='en-US'>Forfeited</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='fil_Expired' xlink:to='lab_fil_Expired'/>
+		<link:loc xlink:type='locator' xlink:href='alpha-20170331.xsd#fil_DueToRelatedPartiesDetailsAbstract' xlink:label='fil_DueToRelatedPartiesDetailsAbstract'/>
+		<link:label xlink:type='resource' xlink:label='lab_fil_DueToRelatedPartiesDetailsAbstract' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>DUE TO RELATED PARTIES DETAILS</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='fil_DueToRelatedPartiesDetailsAbstract' xlink:to='lab_fil_DueToRelatedPartiesDetailsAbstract'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_ScheduleOfShareBasedCompensationActivityTableTextBlock' xlink:label='us-gaap_ScheduleOfShareBasedCompensationActivityTableTextBlock'/>
+		<link:label xlink:type='resource' xlink:label='lab_us-gaap_ScheduleOfShareBasedCompensationActivityTableTextBlock' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>Schedule of summarizes all stock warrant activity</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='us-gaap_ScheduleOfShareBasedCompensationActivityTableTextBlock' xlink:to='lab_us-gaap_ScheduleOfShareBasedCompensationActivityTableTextBlock'/>
+		<link:loc xlink:type='locator' xlink:href='alpha-20170331.xsd#fil_CompensationRelatedCostsShareBasedPaymentsAbstract' xlink:label='fil_CompensationRelatedCostsShareBasedPaymentsAbstract'/>
+		<link:label xlink:type='resource' xlink:label='lab_fil_CompensationRelatedCostsShareBasedPaymentsAbstract' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>Schedule of Stock Warrants</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='fil_CompensationRelatedCostsShareBasedPaymentsAbstract' xlink:to='lab_fil_CompensationRelatedCostsShareBasedPaymentsAbstract'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_CashAndCashEquivalentsAtCarryingValue' xlink:label='us-gaap_CashAndCashEquivalentsAtCarryingValue'/>
+		<link:label xlink:type='resource' xlink:label='lab_us-gaap_CashAndCashEquivalentsAtCarryingValue' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>Cash, beginning of period</link:label>
+		<link:label xlink:type='resource' xlink:label='lab_us-gaap_CashAndCashEquivalentsAtCarryingValue' xlink:role='http://www.xbrl.org/2003/role/periodStartLabel' xml:lang='en-US'>Cash, beginning of period</link:label>
+		<link:label xlink:type='resource' xlink:label='lab_us-gaap_CashAndCashEquivalentsAtCarryingValue' xlink:role='http://www.xbrl.org/2003/role/periodEndLabel' xml:lang='en-US'>Cash, end of period</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='us-gaap_CashAndCashEquivalentsAtCarryingValue' xlink:to='lab_us-gaap_CashAndCashEquivalentsAtCarryingValue'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_RepaymentsOfRelatedPartyDebt' xlink:label='us-gaap_RepaymentsOfRelatedPartyDebt'/>
+		<link:label xlink:type='resource' xlink:label='lab_us-gaap_RepaymentsOfRelatedPartyDebt' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>Repayments of related parties loans</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='us-gaap_RepaymentsOfRelatedPartyDebt' xlink:to='lab_us-gaap_RepaymentsOfRelatedPartyDebt'/>
+		<link:loc xlink:type='locator' xlink:href='alpha-20170331.xsd#fil_NetLoss3' xlink:label='fil_NetLoss3'/>
+		<link:label xlink:type='resource' xlink:label='lab_fil_NetLoss3' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>Net loss.</link:label>
+		<link:label xlink:type='resource' xlink:label='lab_fil_NetLoss3' xlink:role='http://www.xbrl.org/2003/role/documentation' xml:lang='en-US'>CommonStockIssuedForOilAndGasLease1</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='fil_NetLoss3' xlink:to='lab_fil_NetLoss3'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_StockTransactionsParentheticalDisclosuresAbstract' xlink:label='us-gaap_StockTransactionsParentheticalDisclosuresAbstract'/>
+		<link:label xlink:type='resource' xlink:label='lab_us-gaap_StockTransactionsParentheticalDisclosuresAbstract' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>Parentheticals</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='us-gaap_StockTransactionsParentheticalDisclosuresAbstract' xlink:to='lab_us-gaap_StockTransactionsParentheticalDisclosuresAbstract'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_StockholdersEquity' xlink:label='us-gaap_StockholdersEquity'/>
+		<link:label xlink:type='resource' xlink:label='lab_us-gaap_StockholdersEquity' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>Total stockholders&apos; deficit</link:label>
+		<link:label xlink:type='resource' xlink:label='lab_us-gaap_StockholdersEquity' xlink:role='http://www.xbrl.org/2003/role/totalLabel' xml:lang='en-US'>Total stockholders&apos; deficit</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='us-gaap_StockholdersEquity' xlink:to='lab_us-gaap_StockholdersEquity'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_CommonStockValue' xlink:label='us-gaap_CommonStockValue'/>
+		<link:label xlink:type='resource' xlink:label='lab_us-gaap_CommonStockValue' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>Common stock, $0.0001 par value; 65,000,000 shares authorized; 17,016,428 issued and outstanding at March 31, 2017 and December 31, 2016, respectively</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='us-gaap_CommonStockValue' xlink:to='lab_us-gaap_CommonStockValue'/>
+		<link:loc xlink:type='locator' xlink:href='alpha-20170331.xsd#fil_Exercised1' xlink:label='fil_Exercised1'/>
+		<link:label xlink:type='resource' xlink:label='lab_fil_Exercised1' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>Exercised ,</link:label>
+		<link:label xlink:type='resource' xlink:label='lab_fil_Exercised1' xlink:role='http://www.xbrl.org/2003/role/documentation' xml:lang='en-US'>Granted1</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='fil_Exercised1' xlink:to='lab_fil_Exercised1'/>
+		<link:loc xlink:type='locator' xlink:href='alpha-20170331.xsd#fil_Exercised' xlink:label='fil_Exercised'/>
+		<link:label xlink:type='resource' xlink:label='lab_fil_Exercised' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>Exercised</link:label>
+		<link:label xlink:type='resource' xlink:label='lab_fil_Exercised' xlink:role='http://www.xbrl.org/2003/role/documentation' xml:lang='en-US'>Exercised</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='fil_Exercised' xlink:to='lab_fil_Exercised'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_IncreaseDecreaseInInterestPayableNet' xlink:label='us-gaap_IncreaseDecreaseInInterestPayableNet'/>
+		<link:label xlink:type='resource' xlink:label='lab_us-gaap_IncreaseDecreaseInInterestPayableNet' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>Interest payable {1}</link:label>
+		<link:label xlink:type='resource' xlink:label='lab_us-gaap_IncreaseDecreaseInInterestPayableNet' xlink:role='http://www.xbrl.org/2003/role/terseLabel' xml:lang='en-US'>Interest payable</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='us-gaap_IncreaseDecreaseInInterestPayableNet' xlink:to='lab_us-gaap_IncreaseDecreaseInInterestPayableNet'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_StatementLineItems' xlink:label='us-gaap_StatementLineItems'/>
+		<link:label xlink:type='resource' xlink:label='lab_us-gaap_StatementLineItems' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>Statement [Line Items]</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='us-gaap_StatementLineItems' xlink:to='lab_us-gaap_StatementLineItems'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.sec.gov/dei/2014/dei-2014-01-31.xsd#dei_EntityCentralIndexKey' xlink:label='dei_EntityCentralIndexKey'/>
+		<link:label xlink:type='resource' xlink:label='lab_dei_EntityCentralIndexKey' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>Entity Central Index Key</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='dei_EntityCentralIndexKey' xlink:to='lab_dei_EntityCentralIndexKey'/>
+		<link:loc xlink:type='locator' xlink:href='alpha-20170331.xsd#fil_DocumentAndEntityInformationAbstract' xlink:label='fil_DocumentAndEntityInformationAbstract'/>
+		<link:label xlink:type='resource' xlink:label='lab_fil_DocumentAndEntityInformationAbstract' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>Document and Entity Information:</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='fil_DocumentAndEntityInformationAbstract' xlink:to='lab_fil_DocumentAndEntityInformationAbstract'/>
+		<link:loc xlink:type='locator' xlink:href='alpha-20170331.xsd#fil_CompanyMadeRepaymentsOnRelatedPartyLoansPayable' xlink:label='fil_CompanyMadeRepaymentsOnRelatedPartyLoansPayable'/>
+		<link:label xlink:type='resource' xlink:label='lab_fil_CompanyMadeRepaymentsOnRelatedPartyLoansPayable' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>Company made repayments on related party loans payable</link:label>
+		<link:label xlink:type='resource' xlink:label='lab_fil_CompanyMadeRepaymentsOnRelatedPartyLoansPayable' xlink:role='http://www.xbrl.org/2003/role/documentation' xml:lang='en-US'>Outstanding1</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='fil_CompanyMadeRepaymentsOnRelatedPartyLoansPayable' xlink:to='lab_fil_CompanyMadeRepaymentsOnRelatedPartyLoansPayable'/>
+		<link:loc xlink:type='locator' xlink:href='alpha-20170331.xsd#fil_DebtAbstract' xlink:label='fil_DebtAbstract'/>
+		<link:label xlink:type='resource' xlink:label='lab_fil_DebtAbstract' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>Debt:</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='fil_DebtAbstract' xlink:to='lab_fil_DebtAbstract'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_SubstantialDoubtAboutGoingConcernTextBlock' xlink:label='us-gaap_SubstantialDoubtAboutGoingConcernTextBlock'/>
+		<link:label xlink:type='resource' xlink:label='lab_us-gaap_SubstantialDoubtAboutGoingConcernTextBlock' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>GOING CONCERN {1}</link:label>
+		<link:label xlink:type='resource' xlink:label='lab_us-gaap_SubstantialDoubtAboutGoingConcernTextBlock' xlink:role='http://www.xbrl.org/2003/role/terseLabel' xml:lang='en-US'>GOING CONCERN</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='us-gaap_SubstantialDoubtAboutGoingConcernTextBlock' xlink:to='lab_us-gaap_SubstantialDoubtAboutGoingConcernTextBlock'/>
+		<link:loc xlink:type='locator' xlink:href='alpha-20170331.xsd#fil_PaymentOfExpensesByRelatedPartyOnBehalfOfTheCompany' xlink:label='fil_PaymentOfExpensesByRelatedPartyOnBehalfOfTheCompany'/>
+		<link:label xlink:type='resource' xlink:label='lab_fil_PaymentOfExpensesByRelatedPartyOnBehalfOfTheCompany' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>Payment of expenses by related party on behalf of the Company</link:label>
+		<link:label xlink:type='resource' xlink:label='lab_fil_PaymentOfExpensesByRelatedPartyOnBehalfOfTheCompany' xlink:role='http://www.xbrl.org/2003/role/documentation' xml:lang='en-US'>Payment of expenses by related party on behalf of the Company</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='fil_PaymentOfExpensesByRelatedPartyOnBehalfOfTheCompany' xlink:to='lab_fil_PaymentOfExpensesByRelatedPartyOnBehalfOfTheCompany'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_NetCashProvidedByUsedInOperatingActivitiesAbstract' xlink:label='us-gaap_NetCashProvidedByUsedInOperatingActivitiesAbstract'/>
+		<link:label xlink:type='resource' xlink:label='lab_us-gaap_NetCashProvidedByUsedInOperatingActivitiesAbstract' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>Cash flows from operating activities</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='us-gaap_NetCashProvidedByUsedInOperatingActivitiesAbstract' xlink:to='lab_us-gaap_NetCashProvidedByUsedInOperatingActivitiesAbstract'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_SharesOutstanding' xlink:label='us-gaap_SharesOutstanding'/>
+		<link:label xlink:type='resource' xlink:label='lab_us-gaap_SharesOutstanding' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>Balance,</link:label>
+		<link:label xlink:type='resource' xlink:label='lab_us-gaap_SharesOutstanding' xlink:role='http://www.xbrl.org/2003/role/periodStartLabel' xml:lang='en-US'>Balance,</link:label>
+		<link:label xlink:type='resource' xlink:label='lab_us-gaap_SharesOutstanding' xlink:role='http://www.xbrl.org/2003/role/periodEndLabel' xml:lang='en-US'>Balance,</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='us-gaap_SharesOutstanding' xlink:to='lab_us-gaap_SharesOutstanding'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_PreferredStockMember' xlink:label='us-gaap_PreferredStockMember'/>
+		<link:label xlink:type='resource' xlink:label='lab_us-gaap_PreferredStockMember' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>Preferred Stock Shares</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='us-gaap_PreferredStockMember' xlink:to='lab_us-gaap_PreferredStockMember'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_IncomeLossFromContinuingOperations' xlink:label='us-gaap_IncomeLossFromContinuingOperations'/>
+		<link:label xlink:type='resource' xlink:label='lab_us-gaap_IncomeLossFromContinuingOperations' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>Loss from operations</link:label>
+		<link:label xlink:type='resource' xlink:label='lab_us-gaap_IncomeLossFromContinuingOperations' xlink:role='http://www.xbrl.org/2003/role/totalLabel' xml:lang='en-US'>Loss from operations</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='us-gaap_IncomeLossFromContinuingOperations' xlink:to='lab_us-gaap_IncomeLossFromContinuingOperations'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_OperatingExpensesAbstract' xlink:label='us-gaap_OperatingExpensesAbstract'/>
+		<link:label xlink:type='resource' xlink:label='lab_us-gaap_OperatingExpensesAbstract' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>Operating expenses</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='us-gaap_OperatingExpensesAbstract' xlink:to='lab_us-gaap_OperatingExpensesAbstract'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_RevenuesAbstract' xlink:label='us-gaap_RevenuesAbstract'/>
+		<link:label xlink:type='resource' xlink:label='lab_us-gaap_RevenuesAbstract' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>Revenue</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='us-gaap_RevenuesAbstract' xlink:to='lab_us-gaap_RevenuesAbstract'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_CommonStockSharesAuthorized' xlink:label='us-gaap_CommonStockSharesAuthorized'/>
+		<link:label xlink:type='resource' xlink:label='lab_us-gaap_CommonStockSharesAuthorized' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>Common Stock, shares authorized</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='us-gaap_CommonStockSharesAuthorized' xlink:to='lab_us-gaap_CommonStockSharesAuthorized'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_PreferredStockValue' xlink:label='us-gaap_PreferredStockValue'/>
+		<link:label xlink:type='resource' xlink:label='lab_us-gaap_PreferredStockValue' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>Preferred stock, $0.0001 par value; 10,000,000 shares authorized; none issued or outstanding</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='us-gaap_PreferredStockValue' xlink:to='lab_us-gaap_PreferredStockValue'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_NetCashProvidedByUsedInFinancingActivities' xlink:label='us-gaap_NetCashProvidedByUsedInFinancingActivities'/>
+		<link:label xlink:type='resource' xlink:label='lab_us-gaap_NetCashProvidedByUsedInFinancingActivities' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>Net cash provided by financing activities</link:label>
+		<link:label xlink:type='resource' xlink:label='lab_us-gaap_NetCashProvidedByUsedInFinancingActivities' xlink:role='http://www.xbrl.org/2003/role/totalLabel' xml:lang='en-US'>Net cash provided by financing activities</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='us-gaap_NetCashProvidedByUsedInFinancingActivities' xlink:to='lab_us-gaap_NetCashProvidedByUsedInFinancingActivities'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_IncreaseDecreaseInAccountsPayable' xlink:label='us-gaap_IncreaseDecreaseInAccountsPayable'/>
+		<link:label xlink:type='resource' xlink:label='lab_us-gaap_IncreaseDecreaseInAccountsPayable' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>Accounts payable {1}</link:label>
+		<link:label xlink:type='resource' xlink:label='lab_us-gaap_IncreaseDecreaseInAccountsPayable' xlink:role='http://www.xbrl.org/2003/role/terseLabel' xml:lang='en-US'>Accounts payable</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='us-gaap_IncreaseDecreaseInAccountsPayable' xlink:to='lab_us-gaap_IncreaseDecreaseInAccountsPayable'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_Liabilities' xlink:label='us-gaap_Liabilities'/>
+		<link:label xlink:type='resource' xlink:label='lab_us-gaap_Liabilities' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>Total liabilities</link:label>
+		<link:label xlink:type='resource' xlink:label='lab_us-gaap_Liabilities' xlink:role='http://www.xbrl.org/2003/role/totalLabel' xml:lang='en-US'>Total liabilities</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='us-gaap_Liabilities' xlink:to='lab_us-gaap_Liabilities'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_AssetsCurrent' xlink:label='us-gaap_AssetsCurrent'/>
+		<link:label xlink:type='resource' xlink:label='lab_us-gaap_AssetsCurrent' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>Total current assets</link:label>
+		<link:label xlink:type='resource' xlink:label='lab_us-gaap_AssetsCurrent' xlink:role='http://www.xbrl.org/2003/role/totalLabel' xml:lang='en-US'>Total current assets</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='us-gaap_AssetsCurrent' xlink:to='lab_us-gaap_AssetsCurrent'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_AssetsAbstract' xlink:label='us-gaap_AssetsAbstract'/>
+		<link:label xlink:type='resource' xlink:label='lab_us-gaap_AssetsAbstract' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>ASSETS</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='us-gaap_AssetsAbstract' xlink:to='lab_us-gaap_AssetsAbstract'/>
+		<link:loc xlink:type='locator' xlink:href='alpha-20170331.xsd#fil_AccuredInterestOnPromissoryNote' xlink:label='fil_AccuredInterestOnPromissoryNote'/>
+		<link:label xlink:type='resource' xlink:label='lab_fil_AccuredInterestOnPromissoryNote' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>Accured interest on promissory note</link:label>
+		<link:label xlink:type='resource' xlink:label='lab_fil_AccuredInterestOnPromissoryNote' xlink:role='http://www.xbrl.org/2003/role/documentation' xml:lang='en-US'>Promissory note principal due</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='fil_AccuredInterestOnPromissoryNote' xlink:to='lab_fil_AccuredInterestOnPromissoryNote'/>
+		<link:loc xlink:type='locator' xlink:href='alpha-20170331.xsd#fil_Outstanding' xlink:label='fil_Outstanding'/>
+		<link:label xlink:type='resource' xlink:label='lab_fil_Outstanding' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>Outstanding</link:label>
+		<link:label xlink:type='resource' xlink:label='lab_fil_Outstanding' xlink:role='http://www.xbrl.org/2003/role/documentation' xml:lang='en-US'>Outstanding</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='fil_Outstanding' xlink:to='lab_fil_Outstanding'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_ProductWarrantyDisclosureTextBlock' xlink:label='us-gaap_ProductWarrantyDisclosureTextBlock'/>
+		<link:label xlink:type='resource' xlink:label='lab_us-gaap_ProductWarrantyDisclosureTextBlock' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>COMMON STOCK WARRANTS {1}</link:label>
+		<link:label xlink:type='resource' xlink:label='lab_us-gaap_ProductWarrantyDisclosureTextBlock' xlink:role='http://www.xbrl.org/2003/role/terseLabel' xml:lang='en-US'>COMMON STOCK WARRANTS</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='us-gaap_ProductWarrantyDisclosureTextBlock' xlink:to='lab_us-gaap_ProductWarrantyDisclosureTextBlock'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_ProceedsFromNotesPayable' xlink:label='us-gaap_ProceedsFromNotesPayable'/>
+		<link:label xlink:type='resource' xlink:label='lab_us-gaap_ProceedsFromNotesPayable' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>Proceeds from notes payable</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='us-gaap_ProceedsFromNotesPayable' xlink:to='lab_us-gaap_ProceedsFromNotesPayable'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_OperatingExpenses' xlink:label='us-gaap_OperatingExpenses'/>
+		<link:label xlink:type='resource' xlink:label='lab_us-gaap_OperatingExpenses' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>Total operating expenses</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='us-gaap_OperatingExpenses' xlink:to='lab_us-gaap_OperatingExpenses'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_RetainedEarningsAccumulatedDeficit' xlink:label='us-gaap_RetainedEarningsAccumulatedDeficit'/>
+		<link:label xlink:type='resource' xlink:label='lab_us-gaap_RetainedEarningsAccumulatedDeficit' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>Accumulated deficit</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='us-gaap_RetainedEarningsAccumulatedDeficit' xlink:to='lab_us-gaap_RetainedEarningsAccumulatedDeficit'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_AdditionalPaidInCapital' xlink:label='us-gaap_AdditionalPaidInCapital'/>
+		<link:label xlink:type='resource' xlink:label='lab_us-gaap_AdditionalPaidInCapital' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>Additional paid in capital</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='us-gaap_AdditionalPaidInCapital' xlink:to='lab_us-gaap_AdditionalPaidInCapital'/>
+		<link:loc xlink:type='locator' xlink:href='alpha-20170331.xsd#fil_Granted1' xlink:label='fil_Granted1'/>
+		<link:label xlink:type='resource' xlink:label='lab_fil_Granted1' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>Granted ,</link:label>
+		<link:label xlink:type='resource' xlink:label='lab_fil_Granted1' xlink:role='http://www.xbrl.org/2003/role/documentation' xml:lang='en-US'>Outstanding1</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='fil_Granted1' xlink:to='lab_fil_Granted1'/>
+		<link:loc xlink:type='locator' xlink:href='alpha-20170331.xsd#fil_GuaranteesAbstract1' xlink:label='fil_GuaranteesAbstract1'/>
+		<link:label xlink:type='resource' xlink:label='lab_fil_GuaranteesAbstract1' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>COMMON STOCK WARRANTS</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='fil_GuaranteesAbstract1' xlink:to='lab_fil_GuaranteesAbstract1'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_CashAndCashEquivalentsPeriodIncreaseDecrease' xlink:label='us-gaap_CashAndCashEquivalentsPeriodIncreaseDecrease'/>
+		<link:label xlink:type='resource' xlink:label='lab_us-gaap_CashAndCashEquivalentsPeriodIncreaseDecrease' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>Net change in cash</link:label>
+		<link:label xlink:type='resource' xlink:label='lab_us-gaap_CashAndCashEquivalentsPeriodIncreaseDecrease' xlink:role='http://www.xbrl.org/2003/role/totalLabel' xml:lang='en-US'>Net change in cash</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='us-gaap_CashAndCashEquivalentsPeriodIncreaseDecrease' xlink:to='lab_us-gaap_CashAndCashEquivalentsPeriodIncreaseDecrease'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_NetCashProvidedByUsedInFinancingActivitiesAbstract' xlink:label='us-gaap_NetCashProvidedByUsedInFinancingActivitiesAbstract'/>
+		<link:label xlink:type='resource' xlink:label='lab_us-gaap_NetCashProvidedByUsedInFinancingActivitiesAbstract' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>Cash flows from financing activities</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='us-gaap_NetCashProvidedByUsedInFinancingActivitiesAbstract' xlink:to='lab_us-gaap_NetCashProvidedByUsedInFinancingActivitiesAbstract'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_AdjustmentsToReconcileNetIncomeLossToCashProvidedByUsedInOperatingActivitiesAbstract' xlink:label='us-gaap_AdjustmentsToReconcileNetIncomeLossToCashProvidedByUsedInOperatingActivitiesAbstract'/>
+		<link:label xlink:type='resource' xlink:label='lab_us-gaap_AdjustmentsToReconcileNetIncomeLossToCashProvidedByUsedInOperatingActivitiesAbstract' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>Adjustments to reconcile net loss to net cash used in operating activities:</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='us-gaap_AdjustmentsToReconcileNetIncomeLossToCashProvidedByUsedInOperatingActivitiesAbstract' xlink:to='lab_us-gaap_AdjustmentsToReconcileNetIncomeLossToCashProvidedByUsedInOperatingActivitiesAbstract'/>
+		<link:loc xlink:type='locator' xlink:href='alpha-20170331.xsd#fil_Balance' xlink:label='fil_Balance'/>
+		<link:label xlink:type='resource' xlink:label='lab_fil_Balance' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>Balance ;</link:label>
+		<link:label xlink:type='resource' xlink:label='lab_fil_Balance' xlink:role='http://www.xbrl.org/2003/role/periodStartLabel' xml:lang='en-US'>Balance ;</link:label>
+		<link:label xlink:type='resource' xlink:label='lab_fil_Balance' xlink:role='http://www.xbrl.org/2003/role/periodEndLabel' xml:lang='en-US'>Balance ;</link:label>
+		<link:label xlink:type='resource' xlink:label='lab_fil_Balance' xlink:role='http://www.xbrl.org/2003/role/documentation' xml:lang='en-US'>Number of shares issued which are neither cancelled nor held in the treasury.</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='fil_Balance' xlink:to='lab_fil_Balance'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_RetainedEarningsMember' xlink:label='us-gaap_RetainedEarningsMember'/>
+		<link:label xlink:type='resource' xlink:label='lab_us-gaap_RetainedEarningsMember' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>Accumulated Deficit</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='us-gaap_RetainedEarningsMember' xlink:to='lab_us-gaap_RetainedEarningsMember'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_MemberUnitsMember' xlink:label='us-gaap_MemberUnitsMember'/>
+		<link:label xlink:type='resource' xlink:label='lab_us-gaap_MemberUnitsMember' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>Preferred Stock Amount</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='us-gaap_MemberUnitsMember' xlink:to='lab_us-gaap_MemberUnitsMember'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_CommonStockParOrStatedValuePerShare' xlink:label='us-gaap_CommonStockParOrStatedValuePerShare'/>
+		<link:label xlink:type='resource' xlink:label='lab_us-gaap_CommonStockParOrStatedValuePerShare' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>Common Stock, par value</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='us-gaap_CommonStockParOrStatedValuePerShare' xlink:to='lab_us-gaap_CommonStockParOrStatedValuePerShare'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2016/elts/us-gaap-2016-01-31.xsd#us-gaap_OilAndGasSalesPayableCurrentAndNoncurrent' xlink:label='us-gaap_OilAndGasSalesPayableCurrentAndNoncurrent'/>
+		<link:label xlink:type='resource' xlink:label='lab_us-gaap_OilAndGasSalesPayableCurrentAndNoncurrent' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>Oil and gas lease, proved, full cost</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='us-gaap_OilAndGasSalesPayableCurrentAndNoncurrent' xlink:to='lab_us-gaap_OilAndGasSalesPayableCurrentAndNoncurrent'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.sec.gov/dei/2014/dei-2014-01-31.xsd#dei_DocumentFiscalYearFocus' xlink:label='dei_DocumentFiscalYearFocus'/>
+		<link:label xlink:type='resource' xlink:label='lab_dei_DocumentFiscalYearFocus' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>Document Fiscal Year Focus</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='dei_DocumentFiscalYearFocus' xlink:to='lab_dei_DocumentFiscalYearFocus'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.sec.gov/dei/2014/dei-2014-01-31.xsd#dei_EntityVoluntaryFilers' xlink:label='dei_EntityVoluntaryFilers'/>
+		<link:label xlink:type='resource' xlink:label='lab_dei_EntityVoluntaryFilers' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>Entity Voluntary Filers</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='dei_EntityVoluntaryFilers' xlink:to='lab_dei_EntityVoluntaryFilers'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.sec.gov/dei/2014/dei-2014-01-31.xsd#dei_AmendmentFlag' xlink:label='dei_AmendmentFlag'/>
+		<link:label xlink:type='resource' xlink:label='lab_dei_AmendmentFlag' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>Amendment Flag</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='dei_AmendmentFlag' xlink:to='lab_dei_AmendmentFlag'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.sec.gov/dei/2014/dei-2014-01-31.xsd#dei_EntityRegistrantName' xlink:label='dei_EntityRegistrantName'/>
+		<link:label xlink:type='resource' xlink:label='lab_dei_EntityRegistrantName' xlink:role='http://www.xbrl.org/2003/role/label' xml:lang='en-US'>Entity Registrant Name</link:label>
+		<link:labelArc order='1.0' xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='dei_EntityRegistrantName' xlink:to='lab_dei_EntityRegistrantName'/>
+	</link:labelLink>
+</link:linkbase>
